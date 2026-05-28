@@ -37,14 +37,6 @@ export const useKnockoutStore = defineStore('knockout', () => {
     }
   }
 
-  function updateKnockoutReferee(matchId: string, referee: string | null) {
-    const match = knockoutMatches.value.find(m => m.id === matchId)
-    if (match) {
-      match.referee = referee
-      saveKnockout()
-    }
-  }
-
   function getWinner(match: KnockoutMatch): string | null {
     if (match.homeScore === null || match.awayScore === null || !match.homeTeam || !match.awayTeam) return null
     if (match.homeScore > match.awayScore) return match.homeTeam
@@ -153,7 +145,6 @@ export const useKnockoutStore = defineStore('knockout', () => {
   return {
     knockoutMatches,
     updateKnockoutScore,
-    updateKnockoutReferee,
     getWinner,
     getLoser,
     populateFromGroups,

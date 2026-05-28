@@ -32,14 +32,6 @@ export const useMatchStore = defineStore('matches', () => {
     }
   }
 
-  function updateReferee(matchId: number, referee: string | null) {
-    const match = matches.value.find(m => m.id === matchId)
-    if (match) {
-      match.referee = referee
-      saveMatches()
-    }
-  }
-
   function resetAllScores() {
     matches.value = JSON.parse(JSON.stringify(groupMatches))
     localStorage.removeItem('wc2026-matches')
@@ -224,7 +216,6 @@ export const useMatchStore = defineStore('matches', () => {
   return {
     matches,
     updateScore,
-    updateReferee,
     resetAllScores,
     getMatchesByGroup,
     calculateStandings,
