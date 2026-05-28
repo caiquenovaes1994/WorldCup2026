@@ -1,0 +1,144 @@
+import type { GroupMatch } from '../types'
+
+// All times are in Brasília time (UTC-3)
+// ET to BRT: same offset (ET = UTC-4 during summer / EDT = UTC-4, BRT = UTC-3), so ET + 1h = BRT
+// PT to BRT: PT + 4h = BRT (PDT = UTC-7, BRT = UTC-3)
+// Local Mexico (CDT = UTC-5): CDT + 2h = BRT
+
+export const groupMatches: GroupMatch[] = [
+  // ========== GROUP A ==========
+  // Matchday 1
+  { id: 1, group: 'A', homeTeam: 'MEX', awayTeam: 'RSA', date: '2026-06-11', time: '16:00', venueId: 'azteca', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 2, group: 'A', homeTeam: 'KOR', awayTeam: 'CZE', date: '2026-06-12', time: '01:00', venueId: 'akron', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  // Matchday 2
+  { id: 3, group: 'A', homeTeam: 'MEX', awayTeam: 'KOR', date: '2026-06-18', time: '22:00', venueId: 'akron', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  { id: 4, group: 'A', homeTeam: 'CZE', awayTeam: 'RSA', date: '2026-06-18', time: '19:00', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  // Matchday 3
+  { id: 5, group: 'A', homeTeam: 'CZE', awayTeam: 'MEX', date: '2026-06-24', time: '22:00', venueId: 'azteca', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 6, group: 'A', homeTeam: 'RSA', awayTeam: 'KOR', date: '2026-06-24', time: '22:00', venueId: 'bbva', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+
+  // ========== GROUP B ==========
+  // Matchday 1
+  { id: 7, group: 'B', homeTeam: 'CAN', awayTeam: 'BIH', date: '2026-06-12', time: '16:00', venueId: 'bmo', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 8, group: 'B', homeTeam: 'QAT', awayTeam: 'SUI', date: '2026-06-13', time: '16:00', venueId: 'levis', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  // Matchday 2
+  { id: 9, group: 'B', homeTeam: 'SUI', awayTeam: 'BIH', date: '2026-06-18', time: '16:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  { id: 10, group: 'B', homeTeam: 'CAN', awayTeam: 'QAT', date: '2026-06-18', time: '22:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  // Matchday 3
+  { id: 11, group: 'B', homeTeam: 'SUI', awayTeam: 'CAN', date: '2026-06-24', time: '22:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 12, group: 'B', homeTeam: 'BIH', awayTeam: 'QAT', date: '2026-06-24', time: '22:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+
+  // ========== GROUP C ==========
+  // Matchday 1
+  { id: 13, group: 'C', homeTeam: 'BRA', awayTeam: 'MAR', date: '2026-06-13', time: '19:00', venueId: 'metlife', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 14, group: 'C', homeTeam: 'HAI', awayTeam: 'SCO', date: '2026-06-13', time: '22:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  // Matchday 2
+  { id: 15, group: 'C', homeTeam: 'BRA', awayTeam: 'HAI', date: '2026-06-19', time: '19:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  { id: 16, group: 'C', homeTeam: 'SCO', awayTeam: 'MAR', date: '2026-06-19', time: '16:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  // Matchday 3
+  { id: 17, group: 'C', homeTeam: 'SCO', awayTeam: 'BRA', date: '2026-06-24', time: '19:00', venueId: 'hardrock', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 18, group: 'C', homeTeam: 'MAR', awayTeam: 'HAI', date: '2026-06-24', time: '19:00', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+
+  // ========== GROUP D ==========
+  // Matchday 1
+  { id: 19, group: 'D', homeTeam: 'USA', awayTeam: 'PAR', date: '2026-06-12', time: '22:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 20, group: 'D', homeTeam: 'AUS', awayTeam: 'TUR', date: '2026-06-14', time: '01:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  // Matchday 2
+  { id: 21, group: 'D', homeTeam: 'USA', awayTeam: 'AUS', date: '2026-06-19', time: '16:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  { id: 22, group: 'D', homeTeam: 'TUR', awayTeam: 'PAR', date: '2026-06-19', time: '22:00', venueId: 'levis', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  // Matchday 3
+  { id: 23, group: 'D', homeTeam: 'TUR', awayTeam: 'USA', date: '2026-06-25', time: '23:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 24, group: 'D', homeTeam: 'PAR', awayTeam: 'AUS', date: '2026-06-25', time: '23:00', venueId: 'levis', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+
+  // ========== GROUP E ==========
+  // Matchday 1
+  { id: 25, group: 'E', homeTeam: 'GER', awayTeam: 'CUW', date: '2026-06-14', time: '16:00', venueId: 'nrg', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 26, group: 'E', homeTeam: 'CIV', awayTeam: 'ECU', date: '2026-06-14', time: '19:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  // Matchday 2
+  { id: 27, group: 'E', homeTeam: 'GER', awayTeam: 'CIV', date: '2026-06-20', time: '16:00', venueId: 'bmo', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  { id: 28, group: 'E', homeTeam: 'ECU', awayTeam: 'CUW', date: '2026-06-20', time: '19:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  // Matchday 3
+  { id: 29, group: 'E', homeTeam: 'CUW', awayTeam: 'CIV', date: '2026-06-25', time: '19:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 30, group: 'E', homeTeam: 'ECU', awayTeam: 'GER', date: '2026-06-25', time: '19:00', venueId: 'metlife', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+
+  // ========== GROUP F ==========
+  // Matchday 1
+  { id: 31, group: 'F', homeTeam: 'NED', awayTeam: 'JPN', date: '2026-06-14', time: '22:00', venueId: 'att', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 32, group: 'F', homeTeam: 'SWE', awayTeam: 'TUN', date: '2026-06-14', time: '22:00', venueId: 'bbva', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  // Matchday 2
+  { id: 33, group: 'F', homeTeam: 'NED', awayTeam: 'SWE', date: '2026-06-20', time: '22:00', venueId: 'nrg', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  { id: 34, group: 'F', homeTeam: 'TUN', awayTeam: 'JPN', date: '2026-06-20', time: '22:00', venueId: 'att', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  // Matchday 3
+  { id: 35, group: 'F', homeTeam: 'TUN', awayTeam: 'NED', date: '2026-06-25', time: '16:00', venueId: 'geha', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 36, group: 'F', homeTeam: 'JPN', awayTeam: 'SWE', date: '2026-06-25', time: '16:00', venueId: 'att', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+
+  // ========== GROUP G ==========
+  // Matchday 1
+  { id: 37, group: 'G', homeTeam: 'BEL', awayTeam: 'EGY', date: '2026-06-15', time: '16:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 38, group: 'G', homeTeam: 'IRN', awayTeam: 'NZL', date: '2026-06-15', time: '22:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  // Matchday 2
+  { id: 39, group: 'G', homeTeam: 'BEL', awayTeam: 'IRN', date: '2026-06-21', time: '22:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  { id: 40, group: 'G', homeTeam: 'NZL', awayTeam: 'EGY', date: '2026-06-21', time: '19:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  // Matchday 3
+  { id: 41, group: 'G', homeTeam: 'NZL', awayTeam: 'BEL', date: '2026-06-26', time: '22:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 42, group: 'G', homeTeam: 'EGY', awayTeam: 'IRN', date: '2026-06-26', time: '22:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+
+  // ========== GROUP H ==========
+  // Matchday 1
+  { id: 43, group: 'H', homeTeam: 'ESP', awayTeam: 'CPV', date: '2026-06-15', time: '19:00', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 44, group: 'H', homeTeam: 'KSA', awayTeam: 'URU', date: '2026-06-15', time: '19:00', venueId: 'hardrock', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  // Matchday 2
+  { id: 45, group: 'H', homeTeam: 'ESP', awayTeam: 'KSA', date: '2026-06-21', time: '16:00', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  { id: 46, group: 'H', homeTeam: 'URU', awayTeam: 'CPV', date: '2026-06-21', time: '16:00', venueId: 'hardrock', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  // Matchday 3
+  { id: 47, group: 'H', homeTeam: 'URU', awayTeam: 'ESP', date: '2026-06-26', time: '19:00', venueId: 'akron', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 48, group: 'H', homeTeam: 'CPV', awayTeam: 'KSA', date: '2026-06-26', time: '19:00', venueId: 'nrg', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+
+  // ========== GROUP I ==========
+  // Matchday 1
+  { id: 49, group: 'I', homeTeam: 'FRA', awayTeam: 'SEN', date: '2026-06-16', time: '16:00', venueId: 'metlife', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 50, group: 'I', homeTeam: 'IRQ', awayTeam: 'NOR', date: '2026-06-16', time: '19:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  // Matchday 2
+  { id: 51, group: 'I', homeTeam: 'FRA', awayTeam: 'IRQ', date: '2026-06-22', time: '16:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  { id: 52, group: 'I', homeTeam: 'NOR', awayTeam: 'SEN', date: '2026-06-22', time: '19:00', venueId: 'metlife', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  // Matchday 3
+  { id: 53, group: 'I', homeTeam: 'NOR', awayTeam: 'FRA', date: '2026-06-26', time: '16:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 54, group: 'I', homeTeam: 'SEN', awayTeam: 'IRQ', date: '2026-06-26', time: '16:00', venueId: 'bmo', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+
+  // ========== GROUP J ==========
+  // Matchday 1
+  { id: 55, group: 'J', homeTeam: 'ARG', awayTeam: 'ALG', date: '2026-06-16', time: '22:00', venueId: 'geha', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 56, group: 'J', homeTeam: 'AUT', awayTeam: 'JOR', date: '2026-06-16', time: '22:00', venueId: 'levis', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  // Matchday 2
+  { id: 57, group: 'J', homeTeam: 'ARG', awayTeam: 'AUT', date: '2026-06-22', time: '22:00', venueId: 'att', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  { id: 58, group: 'J', homeTeam: 'JOR', awayTeam: 'ALG', date: '2026-06-22', time: '22:00', venueId: 'levis', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  // Matchday 3
+  { id: 59, group: 'J', homeTeam: 'ALG', awayTeam: 'AUT', date: '2026-06-27', time: '19:00', venueId: 'geha', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 60, group: 'J', homeTeam: 'JOR', awayTeam: 'ARG', date: '2026-06-27', time: '19:00', venueId: 'att', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+
+  // ========== GROUP K ==========
+  // Matchday 1
+  { id: 61, group: 'K', homeTeam: 'POR', awayTeam: 'COD', date: '2026-06-17', time: '16:00', venueId: 'nrg', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 62, group: 'K', homeTeam: 'UZB', awayTeam: 'COL', date: '2026-06-17', time: '22:00', venueId: 'azteca', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  // Matchday 2
+  { id: 63, group: 'K', homeTeam: 'POR', awayTeam: 'UZB', date: '2026-06-23', time: '16:00', venueId: 'nrg', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  { id: 64, group: 'K', homeTeam: 'COL', awayTeam: 'COD', date: '2026-06-23', time: '19:00', venueId: 'bbva', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  // Matchday 3
+  { id: 65, group: 'K', homeTeam: 'COL', awayTeam: 'POR', date: '2026-06-27', time: '22:00', venueId: 'hardrock', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 66, group: 'K', homeTeam: 'COD', awayTeam: 'UZB', date: '2026-06-27', time: '22:00', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+
+  // ========== GROUP L ==========
+  // Matchday 1
+  { id: 67, group: 'L', homeTeam: 'ENG', awayTeam: 'CRO', date: '2026-06-17', time: '19:00', venueId: 'att', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 68, group: 'L', homeTeam: 'GHA', awayTeam: 'PAN', date: '2026-06-17', time: '19:00', venueId: 'bmo', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  // Matchday 2
+  { id: 69, group: 'L', homeTeam: 'ENG', awayTeam: 'GHA', date: '2026-06-23', time: '22:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  { id: 70, group: 'L', homeTeam: 'PAN', awayTeam: 'CRO', date: '2026-06-23', time: '22:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: null, matchday: 2 },
+  // Matchday 3
+  { id: 71, group: 'L', homeTeam: 'PAN', awayTeam: 'ENG', date: '2026-06-27', time: '16:00', venueId: 'metlife', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 72, group: 'L', homeTeam: 'CRO', awayTeam: 'GHA', date: '2026-06-27', time: '16:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+]
+
+export function getMatchesByGroup(group: string): GroupMatch[] {
+  return groupMatches.filter(m => m.group === group)
+}
