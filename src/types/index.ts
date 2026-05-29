@@ -11,7 +11,16 @@ export interface Venue {
   id: string
   name: string
   city: string
+  state: string
   country: string
+  capacity: number
+  imageUrl?: string
+}
+
+export interface Referee {
+  name: string
+  country: string
+  confederation: string
 }
 
 export interface GroupMatch {

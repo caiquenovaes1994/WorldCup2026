@@ -77,7 +77,7 @@ const hostFlags = [
         </div>
       </div>
 
-      <h2 class="section-title">
+      <h2 class="section-title" style="justify-content: center; text-align: center;">
         <span class="emoji">🏟️</span>
         Grupos
       </h2>
@@ -99,12 +99,28 @@ const hostFlags = [
         </RouterLink>
       </div>
 
-      <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
-        <RouterLink :to="{ name: 'groups' }" class="btn btn-primary">
-          📋 Ver Fase de Grupos
+      <h2 class="section-title" style="margin-top: 2rem; justify-content: center; text-align: center;">
+        <span class="emoji">🔍</span>
+        Explorar
+      </h2>
+
+      <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+        <RouterLink :to="{ name: 'venues' }" class="overview-card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; width: 250px;">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">🏟️</div>
+          <div class="group-label">Estádios</div>
+          <div style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">Conheça os 16 palcos</div>
         </RouterLink>
-        <RouterLink :to="{ name: 'knockout' }" class="btn btn-outline">
-          🏆 Ver Mata-Mata
+        
+        <RouterLink :to="{ name: 'referees' }" class="overview-card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; width: 250px;">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">🏁</div>
+          <div class="group-label">Árbitros</div>
+          <div style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">Quadro oficial</div>
+        </RouterLink>
+        
+        <RouterLink :to="{ name: 'squads' }" class="overview-card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; width: 250px;">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">👥</div>
+          <div class="group-label">Convocados</div>
+          <div style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">Elencos das seleções</div>
         </RouterLink>
       </div>
     </div>

@@ -19,6 +19,21 @@ const router = createRouter({
       name: 'knockout',
       component: () => import('../views/KnockoutView.vue'),
     },
+    {
+      path: '/estadios',
+      name: 'venues',
+      component: () => import('../views/VenuesView.vue'),
+    },
+    {
+      path: '/arbitros',
+      name: 'referees',
+      component: () => import('../views/RefereesView.vue'),
+    },
+    {
+      path: '/convocados',
+      name: 'squads',
+      component: () => import('../views/SquadsView.vue'),
+    },
   ],
   scrollBehavior(_to, _from, savedPosition) {
     if (savedPosition) return savedPosition
