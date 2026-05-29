@@ -146,14 +146,16 @@ export const useMatchStore = defineStore('matches', () => {
       const standings = allStandings.value[group]
       if (standings.length >= 3) {
         const third = standings[2]
-        thirds.push({
-          teamCode: third.teamCode,
-          group,
-          points: third.points,
-          goalDifference: third.goalDifference,
-          goalsFor: third.goalsFor,
-          qualified: false,
-        })
+        if (third.played > 0) {
+          thirds.push({
+            teamCode: third.teamCode,
+            group,
+            points: third.points,
+            goalDifference: third.goalDifference,
+            goalsFor: third.goalsFor,
+            qualified: false,
+          })
+        }
       }
     })
 

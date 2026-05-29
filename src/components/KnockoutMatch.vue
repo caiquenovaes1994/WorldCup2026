@@ -97,7 +97,7 @@ function getSourceLabel(source: string): string {
 <template>
   <div class="knockout-match">
     <div class="knockout-match-info">
-      {{ dateFormatted }} · {{ match.time }} BRT · {{ venue?.city }}
+      {{ dateFormatted }} · {{ match.time }} · {{ venue?.city }}
     </div>
 
     <!-- Home team -->
@@ -170,7 +170,8 @@ function getSourceLabel(source: string): string {
 
     <!-- Broadcasters -->
     <div class="match-broadcasters" style="margin-top: 6px; padding-top: 6px;">
-      <div class="broadcasters-list" style="justify-content: center;">
+      <div class="broadcasters-list" style="justify-content: center; align-items: center; gap: 4px;">
+        <span class="broadcasters-icon" style="font-size: 10px;">📺</span>
         <img v-for="b in broadcasters" :key="b" :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" style="height: 12px;" />
       </div>
     </div>

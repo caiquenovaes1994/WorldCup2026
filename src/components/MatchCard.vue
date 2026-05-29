@@ -69,7 +69,7 @@ watch(() => props.match.awayScore, (newVal, oldVal) => {
 <template>
   <div class="match-card">
     <div class="match-card-header">
-      <span class="match-date">{{ dateFormatted }} · {{ match.time }} <span class="timezone-badge">🕐 BRT</span></span>
+      <span class="match-date">{{ dateFormatted }} · {{ match.time }}</span>
       <span class="match-venue" :title="venue?.name + ', ' + venue?.city">📍 {{ venue?.city }}</span>
     </div>
     <div class="match-body">
@@ -110,7 +110,7 @@ watch(() => props.match.awayScore, (newVal, oldVal) => {
     
     <!-- Broadcasters -->
     <div class="match-broadcasters">
-      <span class="broadcasters-label">Transmissão:</span>
+      <span class="broadcasters-label">📺 Transmissão:</span>
       <div class="broadcasters-list">
         <img v-for="b in broadcasters" :key="b" :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" />
       </div>

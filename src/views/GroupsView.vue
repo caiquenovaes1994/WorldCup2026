@@ -63,7 +63,6 @@ onMounted(() => {
       <span class="icon">ℹ️</span>
       <div class="text">
         Insira os placares nos campos de cada jogo. A classificação será atualizada automaticamente seguindo os critérios oficiais da FIFA.
-        <strong>Horários em fuso de Brasília (BRT / UTC-3)</strong>.
       </div>
     </div>
 
