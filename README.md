@@ -18,10 +18,11 @@ Uma plataforma interativa premium para acompanhar e simular todos os jogos da **
 ## ✨ Funcionalidades
 
 - **Fase de Grupos Dinâmica**: Simule placares e veja a classificação atualizar em tempo real, seguindo rigorosamente os critérios oficiais de desempate da FIFA.
-- **Seletor de Rodadas (Estilo GE)**: Navegue pelos jogos de cada grupo através das rodadas (1ª, 2ª e 3ª), com estado isolado por chave para uma visão mais limpa.
-- **Mata-Mata Completo**: Chaveamento automático dos 16-avos até a Grande Final, incluindo suporte a disputa de pênaltis e disputa de 3º lugar.
-- **Tabela dos Melhores 3ºs Colocados**: Algoritmo integrado para classificar e alocar dinamicamente as 8 melhores seleções terceiras colocadas.
-- **Informações Oficiais**: Sedes (estádios e cidades), fusos horários convertidos para Horário de Brasília (BRT) e indicação visual das emissoras oficiais (TV Globo, CazéTV, SporTV, SBT, etc).
+- **Mata-Mata Completo e Terceiros Colocados**: Algoritmo integrado que determina as melhores seleções em terceiro lugar e monta o chaveamento automático até a Grande Final.
+- **Painel Premium de Sedes**: Descubra onde a bola vai rolar com galerias em alta resolução dos 16 estádios oficiais na América do Norte, com dados técnicos e localização.
+- **Central de Árbitros**: Explore a lista oficial dos árbitros internacionais divididos por confederação (com logos oficiais), efeitos visuais fluidos e atalho direto para o Transfermarkt de cada um.
+- **Lista de Convocados**: Controle do esquadrão de cada seleção organizado alfabeticamente.
+- **Informações de TV**: Fusos horários convertidos para Horário de Brasília (BRT) e indicação visual das emissoras de televisão.
 - **Persistência de Dados**: Todo o seu progresso da simulação é salvo localmente no navegador (LocalStorage).
 
 ## 🚀 Como Executar
