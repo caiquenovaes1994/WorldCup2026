@@ -4,10 +4,10 @@
   <h1>Simulador Interativo: Copa do Mundo 2026</h1>
 
   <p>
-    <img src="https://img.shields.io/badge/Vue.js-v3.5.34-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js" />
-    <img src="https://img.shields.io/badge/TypeScript-v6.0.2-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Pinia-v3.0.4-FFE56F?style=for-the-badge&logo=vue.js&logoColor=black" alt="Pinia" />
-    <img src="https://img.shields.io/badge/Vite-v8.0.12-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+    <img src="https://img.shields.io/badge/Vue.js-v3.5.34-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue.js" />
+    <img src="https://img.shields.io/badge/TypeScript-v6.0.2-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Pinia-v3.0.4-FFE56F?style=flat&logo=vue.js&logoColor=black" alt="Pinia" />
+    <img src="https://img.shields.io/badge/Vite-v8.0.12-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite" />
   </p>
 </div>
 
@@ -52,10 +52,10 @@ Leia nosso [Código de Conduta](CODE_OF_CONDUCT.md) e o manual de [Segurança](S
   <h3>Desenvolvido por Caique</h3>
   
   <a href="https://github.com/caiqu">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="mailto:contato@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   
   <br/><br/>
