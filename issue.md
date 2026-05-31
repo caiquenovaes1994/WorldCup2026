@@ -38,3 +38,10 @@ Esses dados são cruciais para manter a plataforma atualizada com as informaçõ
 - Atualização da view `SquadsView.vue` para exibir os elencos separados por posição.
 - Implementação de um banner informativo destacando que a lista oficial da FIFA sairá dia 2 de junho.
 - Seleções ainda sem convocação foram sinalizadas com um asterisco (`*`).
+
+**[31/05/2026] - Refinamento de Elencos e Otimização do Sistema**
+
+- Mapeamento e correção massiva de centenas de jogadores sem clube associado (Premier League, Escócia, Itália, EUA, Tunísia, França, Alemanha e outros).
+- Remoção visual dos logos dos clubes em SVG da tela de elencos para aliviar o peso e garantir o desempenho do sistema.
+- Limpeza e exclusão de SVGs pesados da pasta `src/assets/clubs/`.
+- Limpeza estrutural e exclusão de 11 scripts obsoletos e temporários na pasta `scripts/`, isolando a infraestrutura de extração em módulos focados (`parse_squads.js`, `create_md.js` e `known_clubs.json`).
