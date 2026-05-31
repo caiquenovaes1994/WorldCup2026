@@ -21,7 +21,8 @@ Uma plataforma interativa premium para acompanhar e simular todos os jogos da **
 - **Mata-Mata Completo e Terceiros Colocados**: Algoritmo integrado que determina as melhores seleções em terceiro lugar e monta o chaveamento automático até a Grande Final.
 - **Painel Premium de Sedes**: Descubra onde a bola vai rolar com galerias em alta resolução dos 16 estádios oficiais na América do Norte, com dados técnicos e localização.
 - **Central de Árbitros**: Explore a lista oficial dos árbitros internacionais divididos por confederação (com logos oficiais), efeitos visuais fluidos e atalho direto para o Transfermarkt de cada um.
-- **Lista de Convocados**: Controle do esquadrão de cada seleção organizado alfabeticamente.
+- **Lista de Convocados**: Consulte o elenco das seleções separado por posições, com informações dos atuais clubes e atalho inteligente para o perfil de cada atleta no Transfermarkt.
+- **Símbolos do Torneio**: Página dedicada aos Mascotes Oficiais (Maple, Zayu e Clutch) e à Bola Oficial (Adidas Trionda), com design rico em detalhes.
 - **Informações de TV**: Fusos horários convertidos para Horário de Brasília (BRT) e indicação visual das emissoras de televisão.
 - **Persistência de Dados**: Todo o seu progresso da simulação é salvo localmente no navegador (LocalStorage).
 

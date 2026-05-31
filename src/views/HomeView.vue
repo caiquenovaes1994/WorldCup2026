@@ -122,6 +122,12 @@ const hostFlags = [
           <div class="group-label">Convocados</div>
           <div style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">Elencos das seleções</div>
         </RouterLink>
+        
+        <RouterLink :to="{ name: 'tournament-info' }" class="overview-card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; width: 250px;">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">✨</div>
+          <div class="group-label">Sobre o Torneio</div>
+          <div style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">Mascotes e Bola Oficial</div>
+        </RouterLink>
       </div>
     </div>
   </div>

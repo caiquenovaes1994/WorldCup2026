@@ -34,6 +34,11 @@ const router = createRouter({
       name: 'squads',
       component: () => import('../views/SquadsView.vue'),
     },
+    {
+      path: '/sobre-torneio',
+      name: 'tournament-info',
+      component: () => import('../views/TournamentInfoView.vue'),
+    },
   ],
   scrollBehavior(_to, _from, savedPosition) {
     if (savedPosition) return savedPosition
