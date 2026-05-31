@@ -97,7 +97,7 @@ async function parse() {
     if (match) {
       playerName = match[1].trim();
       let clubInfo = match[2].trim();
-      let parts = clubInfo.split(/[-–]/);
+      let parts = clubInfo.split(/\s+[-–]\s+/);
       if (parts.length > 1) {
         club = `${parts[0].trim()} - ${parts[1].trim()}`;
       } else {
@@ -114,17 +114,15 @@ async function parse() {
   for (let i = 0; i < parsedPlayers.length; i += batchSize) {
     const batch = parsedPlayers.slice(i, i + batchSize);
     await Promise.all(batch.map(async (p) => {
-      if (!p.club) {
-        if (knownClubs[p.name]) {
-          p.club = knownClubs[p.name];
+      if (knownClubs[p.name]) {
+        p.club = knownClubs[p.name];
+      } else if (!p.club || p.club === 'Desconhecido') {
+        const fetchedClub = await fetchClubFromWikidata(p.name);
+        if (fetchedClub) {
+          p.club = fetchedClub;
         } else {
-          const fetchedClub = await fetchClubFromWikidata(p.name);
-          if (fetchedClub) {
-            p.club = fetchedClub;
-          } else {
-            p.club = "Desconhecido";
-            missingClubs.push({ name: p.name, team: p.team });
-          }
+          p.club = "Desconhecido";
+          missingClubs.push({ name: p.name, team: p.team });
         }
       }
       

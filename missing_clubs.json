@@ -1,782 +1,10 @@
 [
   {
-    "name": "Khulumani Ndamane",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Ricardo Goss",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Sipho Chaine",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Olwethu Makhanya",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Thabang Matuludi",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Bradley Cross",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Nkosinathi Sibisi",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Thalente Mbatha",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Ime Okon",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Samukele Kabini",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Tshepang Moremi",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Kamogelo Sebelebele",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Mbekezeli Mbokazi",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Teboho Mokoena",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Jayden Adams",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Evidence Makgopa",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Iqraam Rayners",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Themba Zwane",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Lyle Foster",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Relebohile Mofokeng",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Thapelo Maseko",
-    "team": "África do Sul"
-  },
-  {
-    "name": "Nathaniel Brown",
-    "team": "Alemanha"
-  },
-  {
-    "name": "Nadiem Amiri",
-    "team": "Alemanha"
-  },
-  {
-    "name": "Lennart Karl",
-    "team": "Alemanha"
-  },
-  {
-    "name": "Angelo Stiller",
-    "team": "Alemanha"
-  },
-  {
-    "name": "Jamie Leweling",
-    "team": "Alemanha"
-  },
-  {
-    "name": "Nick Woltemade",
-    "team": "Alemanha"
-  },
-  {
-    "name": "Leonardo Balerdi",
-    "team": "Argentina"
-  },
-  {
-    "name": "Valentín Barco",
-    "team": "Argentina"
-  },
-  {
-    "name": "Facundo Medina",
-    "team": "Argentina"
-  },
-  {
-    "name": "José Manuel López",
-    "team": "Argentina"
-  },
-  {
-    "name": "Nicolás Paz",
-    "team": "Argentina"
-  },
-  {
-    "name": "Giuliano Simeone",
-    "team": "Argentina"
-  },
-  {
-    "name": "Thiago Almada",
-    "team": "Argentina"
-  },
-  {
-    "name": "Ryan Mendes, Willy Semedo, Garry Rodrigues, Jovane Cabral, Nuno da Costa, Dailon Livramento, Gilson Benchimol, Hélio Varela",
-    "team": "Cabo Verde"
-  },
-  {
-    "name": "Jamiro Monteiro, Telmo Arcanjo, Yannick Semedo, Laros Duarte, Deroy Duarte, Kevin Pina",
-    "team": "Cabo Verde"
-  },
-  {
-    "name": "Steven Moreira, Wagner Pina, João Paulo Fernandes, SIdny Cabral, Logan Costa, Pico Lopes, Kelvin Pires, Ianique 'Stopira', 'Diney' Borges",
-    "team": "Cabo Verde"
-  },
-  {
-    "name": "Vozinha, Márcio Rosa, CJ dos Santos",
-    "team": "Cabo Verde"
-  },
-  {
-    "name": "Alvaro Montero",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Davinson Sánchez",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Daniel Muñoz",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Willer Ditta",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Camilo Vargas",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Deiver Machado",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Jhon Lucumi",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Yerry Mina",
-    "team": "Colômbia"
-  },
-  {
-    "name": "David Ospina",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Santiago Arias",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Jorge Carrascal",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Kevin Castano",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Jhon Arias",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Johan Mojica",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Jaminton Campaz",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Gustavo Puerta",
-    "team": "Colômbia"
-  },
-  {
-    "name": "James Rodríguez",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Jefferson Lerma",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Richard Ríos",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Juan Fernando Quintero",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Yahia Fofana",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Juan Portilla",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Carlos Gómez",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Luis Díaz",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Juan Camilo Hernández",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Emmanuel Agbadou",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Alban Lafont",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Mohamed Kone",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Jhon Córdoba",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Luis Suárez",
-    "team": "Colômbia"
-  },
-  {
-    "name": "Christ Inao Oulai",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Guela Doue",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Clement Akpa",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Wilfried Singo",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Seko Fofana",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Evan Ndicka",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Ghislain Konan",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Ousmane Diomande",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Odilon Kossounou",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Parfait Guiagon",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Yan Diomande",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Ange-Yoan Bonny",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Oumar Diakite",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Jean Michael Seri",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Amad Diallo",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Ibrahim Sangare",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Simon Adingra",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Evann Guessand",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Franck Kessie",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Nicolas Pepe",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Tyrick Bodack",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Bazoumana Toure",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Joshua Brenet",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Riechedly Bazoer",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Eloy Room",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Deveron Fonville",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Trevor Doornbusch",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Roshon van Eijma",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Elye Wahi",
-    "team": "Costa do Marfim"
-  },
-  {
-    "name": "Sherel Floranus",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Armando Obispo",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Shurandy Sambo",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Jurien Gaari",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Juninho Bacuna",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Leandro Bacuna",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Livano Comenencia",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Ar'jany Martha",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Tyrese Noslin",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Kevin Felida",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Godfried Roemeratoe",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Jearl Margaritha",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Mohamed Alaa",
-    "team": "Egito"
-  },
-  {
-    "name": "Mohamed El Shenawy",
-    "team": "Egito"
-  },
-  {
-    "name": "Tahith Chong",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Jeremy Antonisse",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Sontje Hansen",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Kenji Gorre",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Gervane Kastaneer",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Brandley Kuwas",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Jurgen Locadia",
-    "team": "Curaçau"
-  },
-  {
-    "name": "Mostafa Shobeir",
-    "team": "Egito"
-  },
-  {
-    "name": "Hossam Abdelmagid",
-    "team": "Egito"
-  },
-  {
-    "name": "El Mahdy Soliman",
-    "team": "Egito"
-  },
-  {
-    "name": "Mohamed Abdelmonem",
-    "team": "Egito"
-  },
-  {
-    "name": "Tarek Alaa",
-    "team": "Egito"
-  },
-  {
-    "name": "Ahmed Fatouh",
-    "team": "Egito"
-  },
-  {
-    "name": "Mohamed Hany",
-    "team": "Egito"
-  },
-  {
-    "name": "Karim Hafez",
-    "team": "Egito"
-  },
-  {
-    "name": "Yasser Ibrahim",
-    "team": "Egito"
-  },
-  {
-    "name": "Rami Rabia",
-    "team": "Egito"
-  },
-  {
-    "name": "Mahmoud Hassan \"Trezeguet\"",
-    "team": "Egito"
-  },
-  {
-    "name": "Mostafa Zico",
-    "team": "Egito"
-  },
-  {
-    "name": "Mohannad Lashin",
-    "team": "Egito"
-  },
-  {
-    "name": "Ahmed Sayed \"Zizo\"",
-    "team": "Egito"
-  },
-  {
-    "name": "Mahmoud Saber",
-    "team": "Egito"
-  },
-  {
-    "name": "Emam Ashour",
-    "team": "Egito"
-  },
-  {
-    "name": "Nabil Emad",
-    "team": "Egito"
-  },
-  {
-    "name": "Marwan Attia",
-    "team": "Egito"
-  },
-  {
-    "name": "Haitham Hassan",
-    "team": "Egito"
-  },
-  {
-    "name": "Hamdi Fathi",
-    "team": "Egito"
-  },
-  {
-    "name": "Aqtay Abdullah",
-    "team": "Egito"
-  },
-  {
-    "name": "Ibrahim Adel",
-    "team": "Egito"
-  },
-  {
-    "name": "Hamza Abdulkarim",
-    "team": "Egito"
-  },
-  {
-    "name": "Craig Gordon",
-    "team": "Escócia"
-  },
-  {
-    "name": "Grant Hanley",
-    "team": "Escócia"
-  },
-  {
-    "name": "Angus Gunn",
-    "team": "Escócia"
-  },
-  {
-    "name": "Jack Hendry",
-    "team": "Escócia"
-  },
-  {
-    "name": "Liam Kelly",
-    "team": "Escócia"
-  },
-  {
-    "name": "Aaron Hickey",
-    "team": "Escócia"
-  },
-  {
-    "name": "Dom Hyam",
-    "team": "Escócia"
-  },
-  {
-    "name": "Kieran Tierney",
-    "team": "Escócia"
-  },
-  {
-    "name": "Findlay Curtis",
-    "team": "Escócia"
-  },
-  {
-    "name": "Ryan Christie",
-    "team": "Escócia"
-  },
-  {
-    "name": "Scott McKenna",
-    "team": "Escócia"
-  },
-  {
-    "name": "Nathan Patterson",
-    "team": "Escócia"
-  },
-  {
-    "name": "Anthony Ralston",
-    "team": "Escócia"
-  },
-  {
-    "name": "Andy Robertson",
-    "team": "Escócia"
-  },
-  {
-    "name": "John Souttar",
-    "team": "Escócia"
-  },
-  {
-    "name": "Lewis Ferguson",
-    "team": "Escócia"
-  },
-  {
-    "name": "Ben Gannon-Doak",
-    "team": "Escócia"
-  },
-  {
-    "name": "Lyndon Dykes",
-    "team": "Escócia"
-  },
-  {
-    "name": "Lawrence Shankland",
-    "team": "Escócia"
-  },
-  {
-    "name": "George Hirst",
-    "team": "Escócia"
-  },
-  {
-    "name": "John McGinn",
-    "team": "Escócia"
-  },
-  {
-    "name": "Billy Gilmour",
-    "team": "Escócia"
-  },
-  {
-    "name": "Scott McTominay",
-    "team": "Escócia"
-  },
-  {
-    "name": "Kenny McLean",
-    "team": "Escócia"
-  },
-  {
-    "name": "Che Adams",
-    "team": "Escócia"
-  },
-  {
-    "name": "Ross Stewart",
-    "team": "Escócia"
-  },
-  {
-    "name": "Matt Freese",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Chris Brady",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Matt Turner",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Antonee Robinson",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Miles Robinson",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Joe Scally",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Chris Richards",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Auston Trusty",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Max Arfsten",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Sergino Dest",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Mark McKenzie",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Alex Freeman",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Tim Ream",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Sebastian Berhalter",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Cristian Roldan",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Brenden Aaronson",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Malik Tillman",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Alejandro Zendejas",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Robin Risser",
-    "team": "França"
-  },
-  {
-    "name": "Brice Samba",
-    "team": "França"
-  },
-  {
-    "name": "Lucas Digne",
-    "team": "França"
-  },
-  {
-    "name": "Malo Gusto",
-    "team": "França"
-  },
-  {
-    "name": "Haji Wright",
-    "team": "Estados Unidos"
-  },
-  {
-    "name": "Maxence Lacroix",
-    "team": "França"
-  },
-  {
     "name": "Manu Kone",
     "team": "França"
   },
   {
-    "name": "Maghnes Akliouche",
-    "team": "França"
-  },
-  {
-    "name": "Rayan Cherki",
-    "team": "França"
-  },
-  {
-    "name": "Desire Doue",
+    "name": "Maxence Lacroix",
     "team": "França"
   },
   {
@@ -784,31 +12,11 @@
     "team": "França"
   },
   {
-    "name": "Michael Olise",
+    "name": "Desire Doue",
     "team": "França"
   },
   {
-    "name": "Lawrence Ati-Zigi",
-    "team": "Gana"
-  },
-  {
-    "name": "Jonas Adjetey",
-    "team": "Gana"
-  },
-  {
-    "name": "Abdul Rahman Baba",
-    "team": "Gana"
-  },
-  {
-    "name": "Alexander Djiku",
-    "team": "Gana"
-  },
-  {
-    "name": "Gideon Mensah",
-    "team": "Gana"
-  },
-  {
-    "name": "Abdul Mumin",
+    "name": "Solomon Agbasi",
     "team": "Gana"
   },
   {
@@ -816,7 +24,7 @@
     "team": "Gana"
   },
   {
-    "name": "Solomon Agbasi",
+    "name": "Paul Reverson",
     "team": "Gana"
   },
   {
@@ -824,47 +32,23 @@
     "team": "Gana"
   },
   {
-    "name": "Paul Reverson",
+    "name": "Jonas Adjetey",
     "team": "Gana"
   },
   {
-    "name": "Jerome Opoku",
+    "name": "Lawrence Ati-Zigi",
     "team": "Gana"
   },
   {
-    "name": "Abdul Fatawu",
+    "name": "Alexander Djiku",
     "team": "Gana"
   },
   {
-    "name": "Marvin Senaya",
+    "name": "Abdul Rahman Baba",
     "team": "Gana"
   },
   {
-    "name": "Augustine Boakye",
-    "team": "Gana"
-  },
-  {
-    "name": "Elisha Owusu",
-    "team": "Gana"
-  },
-  {
-    "name": "Thomas Partey",
-    "team": "Gana"
-  },
-  {
-    "name": "Kwasi Sibo",
-    "team": "Gana"
-  },
-  {
-    "name": "Kamaldeen Sulemana",
-    "team": "Gana"
-  },
-  {
-    "name": "Caleb Yirenkyi",
-    "team": "Gana"
-  },
-  {
-    "name": "Kojo Peprah Oppong",
+    "name": "Gideon Mensah",
     "team": "Gana"
   },
   {
@@ -872,11 +56,43 @@
     "team": "Gana"
   },
   {
-    "name": "Christopher Bonsu Baah",
+    "name": "Marvin Senaya",
     "team": "Gana"
   },
   {
-    "name": "Prince Kwabena Adu",
+    "name": "Abdul Mumin",
+    "team": "Gana"
+  },
+  {
+    "name": "Thomas Partey",
+    "team": "Gana"
+  },
+  {
+    "name": "Elisha Owusu",
+    "team": "Gana"
+  },
+  {
+    "name": "Abdul Fatawu",
+    "team": "Gana"
+  },
+  {
+    "name": "Jerome Opoku",
+    "team": "Gana"
+  },
+  {
+    "name": "Augustine Boakye",
+    "team": "Gana"
+  },
+  {
+    "name": "Kojo Peprah Oppong",
+    "team": "Gana"
+  },
+  {
+    "name": "Kwasi Sibo",
+    "team": "Gana"
+  },
+  {
+    "name": "Caleb Yirenkyi",
     "team": "Gana"
   },
   {
@@ -884,15 +100,19 @@
     "team": "Gana"
   },
   {
+    "name": "Prince Kwabena Adu",
+    "team": "Gana"
+  },
+  {
+    "name": "Josue Duverger",
+    "team": "Haiti"
+  },
+  {
+    "name": "Kamaldeen Sulemana",
+    "team": "Gana"
+  },
+  {
     "name": "Antoine Semenyo",
-    "team": "Gana"
-  },
-  {
-    "name": "Jordan Ayew",
-    "team": "Gana"
-  },
-  {
-    "name": "Iñaki Williams",
     "team": "Gana"
   },
   {
@@ -900,23 +120,23 @@
     "team": "Gana"
   },
   {
+    "name": "Iñaki Williams",
+    "team": "Gana"
+  },
+  {
+    "name": "Christopher Bonsu Baah",
+    "team": "Gana"
+  },
+  {
+    "name": "Jordan Ayew",
+    "team": "Gana"
+  },
+  {
     "name": "Alexandre Pierre",
     "team": "Haiti"
   },
   {
-    "name": "Josue Duverger",
-    "team": "Haiti"
-  },
-  {
-    "name": "Johny Placide",
-    "team": "Haiti"
-  },
-  {
-    "name": "Duke Lacroix",
-    "team": "Haiti"
-  },
-  {
-    "name": "Wilguens Paugain",
+    "name": "Martin Experience",
     "team": "Haiti"
   },
   {
@@ -924,11 +144,15 @@
     "team": "Haiti"
   },
   {
-    "name": "Carl Fred Sainte",
+    "name": "Duke Lacroix",
     "team": "Haiti"
   },
   {
-    "name": "Jean-Ricner Bellegarde",
+    "name": "Hannes Delcroix",
+    "team": "Haiti"
+  },
+  {
+    "name": "Johny Placide",
     "team": "Haiti"
   },
   {
@@ -940,7 +164,7 @@
     "team": "Haiti"
   },
   {
-    "name": "Hannes Delcroix",
+    "name": "Wilguens Paugain",
     "team": "Haiti"
   },
   {
@@ -948,35 +172,11 @@
     "team": "Haiti"
   },
   {
-    "name": "Martin Experience",
-    "team": "Haiti"
-  },
-  {
-    "name": "Yassin Fortune",
-    "team": "Haiti"
-  },
-  {
-    "name": "Derrick Etienne Jr.",
-    "team": "Haiti"
-  },
-  {
-    "name": "Wilson Isidor",
-    "team": "Haiti"
-  },
-  {
-    "name": "Lenny Joseph",
-    "team": "Haiti"
-  },
-  {
-    "name": "Louicius Deedson",
-    "team": "Haiti"
-  },
-  {
-    "name": "Leverton Pierre",
-    "team": "Haiti"
-  },
-  {
     "name": "Danley Jean Jacques",
+    "team": "Haiti"
+  },
+  {
+    "name": "Carl Fred Sainte",
     "team": "Haiti"
   },
   {
@@ -992,15 +192,43 @@
     "team": "Haiti"
   },
   {
+    "name": "Louicius Deedson",
+    "team": "Haiti"
+  },
+  {
+    "name": "Jean-Ricner Bellegarde",
+    "team": "Haiti"
+  },
+  {
+    "name": "Leverton Pierre",
+    "team": "Haiti"
+  },
+  {
+    "name": "Yassin Fortune",
+    "team": "Haiti"
+  },
+  {
+    "name": "Derrick Etienne Jr.",
+    "team": "Haiti"
+  },
+  {
     "name": "Robin Roefs",
     "team": "Holanda (Países Baixos)"
   },
   {
-    "name": "Jorrel Hato",
-    "team": "Holanda (Países Baixos)"
+    "name": "Lenny Joseph",
+    "team": "Haiti"
   },
   {
-    "name": "Jurriën Timber",
+    "name": "Ruben Providence",
+    "team": "Haiti"
+  },
+  {
+    "name": "Wilson Isidor",
+    "team": "Haiti"
+  },
+  {
+    "name": "Bart Verbruggen",
     "team": "Holanda (Países Baixos)"
   },
   {
@@ -1012,15 +240,7 @@
     "team": "Haiti"
   },
   {
-    "name": "Ruben Providence",
-    "team": "Haiti"
-  },
-  {
     "name": "Mark Flekken",
-    "team": "Holanda (Países Baixos)"
-  },
-  {
-    "name": "Bart Verbruggen",
     "team": "Holanda (Países Baixos)"
   },
   {
@@ -1028,23 +248,15 @@
     "team": "Holanda (Países Baixos)"
   },
   {
+    "name": "Jorrel Hato",
+    "team": "Holanda (Países Baixos)"
+  },
+  {
     "name": "Marten de Roon",
     "team": "Holanda (Países Baixos)"
   },
   {
-    "name": "Guus Til",
-    "team": "Holanda (Países Baixos)"
-  },
-  {
-    "name": "Quinten Timber",
-    "team": "Holanda (Países Baixos)"
-  },
-  {
-    "name": "Mats Wieffer",
-    "team": "Holanda (Países Baixos)"
-  },
-  {
-    "name": "Brian Brobbey",
+    "name": "Jurriën Timber",
     "team": "Holanda (Países Baixos)"
   },
   {
@@ -1052,7 +264,7 @@
     "team": "Holanda (Países Baixos)"
   },
   {
-    "name": "Noa Lang",
+    "name": "Guus Til",
     "team": "Holanda (Países Baixos)"
   },
   {
@@ -1060,15 +272,23 @@
     "team": "Holanda (Países Baixos)"
   },
   {
-    "name": "Wout Weghorst",
+    "name": "Brian Brobbey",
     "team": "Holanda (Países Baixos)"
   },
   {
-    "name": "Dean Henderson",
-    "team": "Inglaterra"
+    "name": "Quinten Timber",
+    "team": "Holanda (Países Baixos)"
   },
   {
-    "name": "James Trafford",
+    "name": "Noa Lang",
+    "team": "Holanda (Países Baixos)"
+  },
+  {
+    "name": "Mats Wieffer",
+    "team": "Holanda (Países Baixos)"
+  },
+  {
+    "name": "Tino Livramento",
     "team": "Inglaterra"
   },
   {
@@ -1076,31 +296,27 @@
     "team": "Inglaterra"
   },
   {
-    "name": "Ezri Konsa",
-    "team": "Inglaterra"
-  },
-  {
-    "name": "Tino Livramento",
-    "team": "Inglaterra"
-  },
-  {
     "name": "Nico O’Reilly",
     "team": "Inglaterra"
   },
   {
-    "name": "Jarell Quansah",
+    "name": "Ezri Konsa",
     "team": "Inglaterra"
   },
   {
-    "name": "Djed Spence",
+    "name": "James Trafford",
     "team": "Inglaterra"
   },
   {
-    "name": "Elliott Anderson",
+    "name": "Dean Henderson",
     "team": "Inglaterra"
   },
   {
-    "name": "Eberechi Eze",
+    "name": "Wout Weghorst",
+    "team": "Holanda (Países Baixos)"
+  },
+  {
+    "name": "Morgan Rogers",
     "team": "Inglaterra"
   },
   {
@@ -1108,16 +324,20 @@
     "team": "Inglaterra"
   },
   {
-    "name": "Morgan Rogers",
+    "name": "Elliott Anderson",
     "team": "Inglaterra"
   },
   {
-    "name": "Noni Madueke",
+    "name": "Djed Spence",
     "team": "Inglaterra"
   },
   {
-    "name": "Tomoki Hayakawa",
-    "team": "Japão"
+    "name": "Eberechi Eze",
+    "team": "Inglaterra"
+  },
+  {
+    "name": "Jarell Quansah",
+    "team": "Inglaterra"
   },
   {
     "name": "Keisuke Osako",
@@ -1128,27 +348,11 @@
     "team": "Japão"
   },
   {
-    "name": "Ko Itakura",
-    "team": "Japão"
+    "name": "Noni Madueke",
+    "team": "Inglaterra"
   },
   {
-    "name": "Hiroki Ito",
-    "team": "Japão"
-  },
-  {
-    "name": "Yukinari Sugawara",
-    "team": "Japão"
-  },
-  {
-    "name": "Ayumu Seko",
-    "team": "Japão"
-  },
-  {
-    "name": "Yuto Nagatomo",
-    "team": "Japão"
-  },
-  {
-    "name": "Junnosuke Suzuki",
+    "name": "Tomoki Hayakawa",
     "team": "Japão"
   },
   {
@@ -1156,11 +360,39 @@
     "team": "Japão"
   },
   {
+    "name": "Tsuyoshi Watanabe",
+    "team": "Japão"
+  },
+  {
+    "name": "Yukinari Sugawara",
+    "team": "Japão"
+  },
+  {
+    "name": "Junnosuke Suzuki",
+    "team": "Japão"
+  },
+  {
+    "name": "Yuto Nagatomo",
+    "team": "Japão"
+  },
+  {
+    "name": "Ko Itakura",
+    "team": "Japão"
+  },
+  {
+    "name": "Ayumu Seko",
+    "team": "Japão"
+  },
+  {
+    "name": "Hiroki Ito",
+    "team": "Japão"
+  },
+  {
     "name": "Junya Ito",
     "team": "Japão"
   },
   {
-    "name": "Tsuyoshi Watanabe",
+    "name": "Daichi Kamada",
     "team": "Japão"
   },
   {
@@ -1176,18 +408,6 @@
     "team": "Japão"
   },
   {
-    "name": "Kento Shiogai",
-    "team": "Japão"
-  },
-  {
-    "name": "Daichi Kamada",
-    "team": "Japão"
-  },
-  {
-    "name": "Koki Ogawa",
-    "team": "Japão"
-  },
-  {
     "name": "Keisuke Goto",
     "team": "Japão"
   },
@@ -1196,11 +416,27 @@
     "team": "Japão"
   },
   {
+    "name": "Koki Ogawa",
+    "team": "Japão"
+  },
+  {
+    "name": "Kento Shiogai",
+    "team": "Japão"
+  },
+  {
     "name": "Yuito Suzuki",
     "team": "Japão"
   },
   {
+    "name": "Ayase Ueda",
+    "team": "Japão"
+  },
+  {
     "name": "Max Crocombe",
+    "team": "Nova Zelândia"
+  },
+  {
+    "name": "Michael Woud",
     "team": "Nova Zelândia"
   },
   {
@@ -1216,12 +452,8 @@
     "team": "Nova Zelândia"
   },
   {
-    "name": "Michael Woud",
+    "name": "Francis de Vries",
     "team": "Nova Zelândia"
-  },
-  {
-    "name": "Ayase Ueda",
-    "team": "Japão"
   },
   {
     "name": "Liberato Cacace",
@@ -1232,7 +464,7 @@
     "team": "Nova Zelândia"
   },
   {
-    "name": "Francis de Vries",
+    "name": "Tommy Smith",
     "team": "Nova Zelândia"
   },
   {
@@ -1244,19 +476,7 @@
     "team": "Nova Zelândia"
   },
   {
-    "name": "Tommy Smith",
-    "team": "Nova Zelândia"
-  },
-  {
     "name": "Finn Surman",
-    "team": "Nova Zelândia"
-  },
-  {
-    "name": "Lachlan Bayliss",
-    "team": "Nova Zelândia"
-  },
-  {
-    "name": "Matt Garbett",
     "team": "Nova Zelândia"
   },
   {
@@ -1264,11 +484,15 @@
     "team": "Nova Zelândia"
   },
   {
-    "name": "Eli Just",
+    "name": "Matt Garbett",
     "team": "Nova Zelândia"
   },
   {
-    "name": "Alex Rufer",
+    "name": "Lachlan Bayliss",
+    "team": "Nova Zelândia"
+  },
+  {
+    "name": "Eli Just",
     "team": "Nova Zelândia"
   },
   {
@@ -1280,27 +504,7 @@
     "team": "Nova Zelândia"
   },
   {
-    "name": "Ben Waine",
-    "team": "Nova Zelândia"
-  },
-  {
-    "name": "Chris Wood",
-    "team": "Nova Zelândia"
-  },
-  {
-    "name": "Egil Selvik",
-    "team": "Noruega"
-  },
-  {
-    "name": "Orjan Haskjold Nyland",
-    "team": "Noruega"
-  },
-  {
-    "name": "Sander Tangvik",
-    "team": "Noruega"
-  },
-  {
-    "name": "Ryan Thomas",
+    "name": "Alex Rufer",
     "team": "Nova Zelândia"
   },
   {
@@ -1312,12 +516,36 @@
     "team": "Nova Zelândia"
   },
   {
-    "name": "Kosta Barbarouses",
+    "name": "Ryan Thomas",
     "team": "Nova Zelândia"
+  },
+  {
+    "name": "Ben Waine",
+    "team": "Nova Zelândia"
+  },
+  {
+    "name": "Orjan Haskjold Nyland",
+    "team": "Noruega"
   },
   {
     "name": "Jesse Randall",
     "team": "Nova Zelândia"
+  },
+  {
+    "name": "Kosta Barbarouses",
+    "team": "Nova Zelândia"
+  },
+  {
+    "name": "Chris Wood",
+    "team": "Nova Zelândia"
+  },
+  {
+    "name": "Egil Selvik",
+    "team": "Noruega"
+  },
+  {
+    "name": "Sander Tangvik",
+    "team": "Noruega"
   },
   {
     "name": "Kristoffer Vassbakk Ajer",
@@ -1336,11 +564,11 @@
     "team": "Noruega"
   },
   {
-    "name": "Marcus Holmgren Pedersen",
+    "name": "Julian Ryerson",
     "team": "Noruega"
   },
   {
-    "name": "Julian Ryerson",
+    "name": "Marcus Holmgren Pedersen",
     "team": "Noruega"
   },
   {
@@ -1360,19 +588,15 @@
     "team": "Noruega"
   },
   {
-    "name": "Patrick Berg",
-    "team": "Noruega"
-  },
-  {
     "name": "Fredrik Aursnes",
     "team": "Noruega"
   },
   {
-    "name": "Sander Berge",
+    "name": "Patrick Berg",
     "team": "Noruega"
   },
   {
-    "name": "Jens Petter Hauge",
+    "name": "Sander Berge",
     "team": "Noruega"
   },
   {
@@ -1412,7 +636,7 @@
     "team": "Suécia"
   },
   {
-    "name": "Hjalmar Ekdal",
+    "name": "Viktor Johansson",
     "team": "Suécia"
   },
   {
@@ -1420,35 +644,11 @@
     "team": "Suécia"
   },
   {
+    "name": "Hjalmar Ekdal",
+    "team": "Suécia"
+  },
+  {
     "name": "Isak Hien",
-    "team": "Suécia"
-  },
-  {
-    "name": "Viktor Johansson",
-    "team": "Suécia"
-  },
-  {
-    "name": "Victor Lindelöf",
-    "team": "Suécia"
-  },
-  {
-    "name": "Carl Starfelt",
-    "team": "Suécia"
-  },
-  {
-    "name": "Daniel Svensson",
-    "team": "Suécia"
-  },
-  {
-    "name": "Lucas Bergvall",
-    "team": "Suécia"
-  },
-  {
-    "name": "Yasin Ayari",
-    "team": "Suécia"
-  },
-  {
-    "name": "Jesper Karlström",
     "team": "Suécia"
   },
   {
@@ -1456,15 +656,39 @@
     "team": "Suécia"
   },
   {
+    "name": "Victor Lindelöf",
+    "team": "Suécia"
+  },
+  {
+    "name": "Yasin Ayari",
+    "team": "Suécia"
+  },
+  {
+    "name": "Lucas Bergvall",
+    "team": "Suécia"
+  },
+  {
+    "name": "Daniel Svensson",
+    "team": "Suécia"
+  },
+  {
+    "name": "Carl Starfelt",
+    "team": "Suécia"
+  },
+  {
+    "name": "Jesper Karlström",
+    "team": "Suécia"
+  },
+  {
     "name": "Benjamin Nygren",
     "team": "Suécia"
   },
   {
-    "name": "Elliot Stroud",
+    "name": "Ken Sema",
     "team": "Suécia"
   },
   {
-    "name": "Ken Sema",
+    "name": "Elliot Stroud",
     "team": "Suécia"
   },
   {
@@ -1484,15 +708,15 @@
     "team": "Suécia"
   },
   {
-    "name": "Anthony Elanga",
-    "team": "Suécia"
-  },
-  {
     "name": "Viktor Gyökeres",
     "team": "Suécia"
   },
   {
-    "name": "Alexander Isak",
+    "name": "Anthony Elanga",
+    "team": "Suécia"
+  },
+  {
+    "name": "Gustaf Nilsson",
     "team": "Suécia"
   },
   {
@@ -1500,7 +724,7 @@
     "team": "Suíça"
   },
   {
-    "name": "Gustaf Nilsson",
+    "name": "Alexander Isak",
     "team": "Suécia"
   },
   {
@@ -1509,6 +733,14 @@
   },
   {
     "name": "Marvin Keller",
+    "team": "Suíça"
+  },
+  {
+    "name": "Manuel Akanji",
+    "team": "Suíça"
+  },
+  {
+    "name": "Aurèle Amenda",
     "team": "Suíça"
   },
   {
@@ -1524,7 +756,7 @@
     "team": "Suíça"
   },
   {
-    "name": "Granit Xhaka",
+    "name": "Miro Muheim",
     "team": "Suíça"
   },
   {
@@ -1532,7 +764,11 @@
     "team": "Suíça"
   },
   {
-    "name": "Miro Muheim",
+    "name": "Ricardo Rodríguez",
+    "team": "Suíça"
+  },
+  {
+    "name": "Granit Xhaka",
     "team": "Suíça"
   },
   {
@@ -1540,19 +776,15 @@
     "team": "Suíça"
   },
   {
-    "name": "Ricardo Rodríguez",
-    "team": "Suíça"
-  },
-  {
-    "name": "Manuel Akanji",
-    "team": "Suíça"
-  },
-  {
-    "name": "Aurèle Amenda",
-    "team": "Suíça"
-  },
-  {
     "name": "Denis Zakaria",
+    "team": "Suíça"
+  },
+  {
+    "name": "Christian Fassnacht",
+    "team": "Suíça"
+  },
+  {
+    "name": "Breel Embolo",
     "team": "Suíça"
   },
   {
@@ -1576,14 +808,6 @@
     "team": "Suíça"
   },
   {
-    "name": "Breel Embolo",
-    "team": "Suíça"
-  },
-  {
-    "name": "Christian Fassnacht",
-    "team": "Suíça"
-  },
-  {
     "name": "Johan Manzambi",
     "team": "Suíça"
   },
@@ -1592,119 +816,15 @@
     "team": "Suíça"
   },
   {
-    "name": "Zeki Amdouni",
+    "name": "Rubén Vargas",
     "team": "Suíça"
-  },
-  {
-    "name": "Sabri Ben Hassan",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Abdelmouhib Chamakh",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Aymen Dahmene",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Mohamed Amine Ben Hamida",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Ali Abdi",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Adem Arous",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Dylan Bronn",
-    "team": "Tunísia"
   },
   {
     "name": "Dan Ndoye",
     "team": "Suíça"
   },
   {
-    "name": "Rubén Vargas",
+    "name": "Zeki Amdouni",
     "team": "Suíça"
-  },
-  {
-    "name": "Raed Chikhaoui",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Moutaz Neffati",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Omar Rekik",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Montassar Talbi",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Yan Valery",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Mortadha Ben Ouanes",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Ismaël Gharbi",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Rani Khedira",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Anis Ben Slimane",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Hadj Mahmoud",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Elias Achouri",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Ellyes Skhiri",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Firas Chaouat",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Khalil Ayari",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Hannibal Mejbri",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Hazem Mastouri",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Elias Saad",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Rayan Elloumi",
-    "team": "Tunísia"
-  },
-  {
-    "name": "Sebastian Tounekti",
-    "team": "Tunísia"
   }
 ]

@@ -27,7 +27,7 @@ export const teams: Team[] = [
 
   // Group E
   { code: 'GER', name: 'Alemanha', nameEn: 'Germany', group: 'E', flagCode: 'de', fifaRanking: 11 },
-  { code: 'CUW', name: 'Curaçao', nameEn: 'Curaçao', group: 'E', flagCode: 'cw', fifaRanking: 123 },
+  { code: 'CUW', name: 'Curaçau', nameEn: 'Curaçao', group: 'E', flagCode: 'cw', fifaRanking: 123 },
   { code: 'CIV', name: 'Costa do Marfim', nameEn: 'Ivory Coast', group: 'E', flagCode: 'ci', fifaRanking: 38 },
   { code: 'ECU', name: 'Equador', nameEn: 'Ecuador', group: 'E', flagCode: 'ec', fifaRanking: 32 },
 

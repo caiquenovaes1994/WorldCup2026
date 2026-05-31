@@ -83,7 +83,7 @@ function selectTeam(code: string) {
           <ul class="player-list">
             <li v-for="player in players" :key="player.name" class="player-item">
               <a :href="player.transfermarktUrl" target="_blank" class="player-name-link">{{ player.name }}</a>
-              <span class="player-club" v-if="player.club">({{ player.club }})</span>
+              <span class="player-club" v-if="player.club">{{ player.club }}</span>
             </li>
           </ul>
         </div>
