@@ -19,6 +19,13 @@ try {
   console.log('No known_clubs.json found, skipping.');
 }
 
+let coaches = {};
+try {
+  coaches = JSON.parse(fs.readFileSync(path.join(__dirname, 'coaches.json'), 'utf8'));
+} catch (e) {
+  console.log('No coaches.json found, skipping.');
+}
+
 const squads = {};
 let currentTeam = null;
 let currentPosition = null;
@@ -85,7 +92,12 @@ async function parse() {
 
     if (isTeamNameNext) {
       currentTeam = line;
-      if (!squads[currentTeam]) squads[currentTeam] = [];
+      if (!squads[currentTeam]) {
+        squads[currentTeam] = {
+          coach: coaches[currentTeam] || "Desconhecido",
+          players: []
+        };
+      }
       isTeamNameNext = false;
       continue;
     }
@@ -114,8 +126,11 @@ async function parse() {
   for (let i = 0; i < parsedPlayers.length; i += batchSize) {
     const batch = parsedPlayers.slice(i, i + batchSize);
     await Promise.all(batch.map(async (p) => {
+      const normPlayer = p.name.trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
       if (knownClubs[p.name]) {
         p.club = knownClubs[p.name];
+      } else if (knownClubs[normPlayer]) {
+        p.club = knownClubs[normPlayer];
       } else if (!p.club || p.club === 'Desconhecido') {
         const fetchedClub = await fetchClubFromWikidata(p.name);
         if (fetchedClub) {
@@ -129,7 +144,7 @@ async function parse() {
       const encodedName = encodeURIComponent(p.name);
       p.transfermarktUrl = `https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=${encodedName}`;
       
-      squads[p.team].push({
+      squads[p.team].players.push({
         name: p.name,
         position: p.position,
         club: p.club,
