@@ -325,196 +325,134 @@
     "coach": "Desconhecido",
     "players": [
       {
-        "name": "Mohamed Al-Owais",
-        "position": "Goleiros",
-        "club": "Al-Hilal - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mohamed%20Al-Owais"
+        "position": "Goleiro",
+        "name": "Ahmed Al Kassar",
+        "club": "Al-Qadsiah"
       },
       {
-        "name": "Emil Audero",
-        "position": "Goleiros",
-        "club": "Palermo F.C. - Itália",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Emil%20Audero"
+        "position": "Goleiro",
+        "name": "Mohammed Al Owais",
+        "club": "Al-Ula"
       },
       {
-        "name": "Ayed Awadh",
-        "position": "Defensores",
-        "club": "Al-Nassr - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ayed%20Awadh"
+        "position": "Goleiro",
+        "name": "Nawaf Al Aqidi",
+        "club": "Al-Nassr"
       },
       {
-        "name": "Abdulelah Alamri",
-        "position": "Defensores",
-        "club": "Al-Nassr - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Abdulelah%20Alamri"
+        "position": "Defensor",
+        "name": "Saud Abdulhamid",
+        "club": "Lens"
       },
       {
-        "name": "Ali Al-Bulayhi",
-        "position": "Defensores",
-        "club": "Al-Hilal - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ali%20Al-Bulayhi"
+        "position": "Defensor",
+        "name": "Mohammed Abu Al Shamat",
+        "club": "Al-Qadsiah"
       },
       {
-        "name": "Ali Madu",
-        "position": "Defensores",
-        "club": "Al-Ettifaq - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ali%20Madu"
+        "position": "Defensor",
+        "name": "Khalid Al Ghannam",
+        "club": "Al-Ettifaq"
       },
       {
-        "name": "Mohammed Al-Breik",
-        "position": "Defensores",
-        "club": "Al-Raed FC - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mohammed%20Al-Breik"
+        "position": "Defensor",
+        "name": "Moteb Al Harbi",
+        "club": "Al-Hilal"
       },
       {
-        "name": "Sultan Al-Ghannam",
-        "position": "Defensores",
-        "club": "Al-Nassr - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Sultan%20Al-Ghannam"
+        "position": "Defensor",
+        "name": "Abdulelah Al Amri",
+        "club": "Al-Nassr"
       },
       {
-        "name": "Mohammed Al-Khaibari",
-        "position": "Defensores",
-        "club": "Ohod Club - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mohammed%20Al-Khaibari"
+        "position": "Defensor",
+        "name": "Nawaf Boushal",
+        "club": "Al-Nassr"
       },
       {
+        "position": "Defensor",
+        "name": "Hassan Kadesh",
+        "club": "Al-Ittihad"
+      },
+      {
+        "position": "Defensor",
+        "name": "Ali Lajami",
+        "club": "Al-Hilal"
+      },
+      {
+        "position": "Defensor",
+        "name": "Ali Majrashi",
+        "club": "Al-Ahli"
+      },
+      {
+        "position": "Defensor",
         "name": "Hassan Tambakti",
-        "position": "Defensores",
-        "club": "Al-Hilal - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hassan%20Tambakti"
+        "club": "Al-Ahli"
       },
       {
+        "position": "Defensor",
+        "name": "Jehad Thikri",
+        "club": "Al-Qadsiah"
+      },
+      {
+        "position": "Meio-campista",
+        "name": "Nasser Al Dawsari",
+        "club": "Al-Hilal"
+      },
+      {
+        "position": "Meio-campista",
+        "name": "Alaa Al Hajji",
+        "club": "Neom"
+      },
+      {
+        "position": "Meio-campista",
+        "name": "Ziyad Al Johani",
+        "club": "Al-Ahli"
+      },
+      {
+        "position": "Meio-campista",
+        "name": "Musab Al Juwayr",
+        "club": "Al-Qadsiah"
+      },
+      {
+        "position": "Meio-campista",
+        "name": "Abdullah Al Khaibari",
+        "club": "Al Nassr"
+      },
+      {
+        "position": "Meio-campista",
+        "name": "Mohammed Kanno",
+        "club": "Al-Hilal"
+      },
+      {
+        "position": "Meio-campista",
+        "name": "Sultan Mandash",
+        "club": "Al Hilal"
+      },
+      {
+        "position": "Meio-campista",
         "name": "Ayman Yahya",
-        "position": "Defensores",
-        "club": "Al-Nassr - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ayman%20Yahya"
+        "club": "Al-Nassr"
       },
       {
-        "name": "Abdulrahman Sahihi",
-        "position": "Meio-campistas",
-        "club": "Al-Ahli - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Abdulrahman%20Sahihi"
+        "position": "Atacante",
+        "name": "Feras Al Brikan",
+        "club": "Al-Ahli"
       },
       {
-        "name": "Abdulrahman Ghareeb",
-        "position": "Meio-campistas",
-        "club": "Al-Nassr - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Abdulrahman%20Ghareeb"
+        "position": "Atacante",
+        "name": "Salem Al Dawsari",
+        "club": "Al-Hilal"
       },
       {
-        "name": "Fahad Al-Muwallad",
-        "position": "Meio-campistas",
-        "club": "Al-Shabab Football Club - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Fahad%20Al-Muwallad"
+        "position": "Atacante",
+        "name": "Abdullah Al Hamdan",
+        "club": "Al-Nassr"
       },
       {
-        "name": "Mukhtar Ali",
-        "position": "Meio-campistas",
-        "club": "Al-Fateh - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mukhtar%20Ali"
-      },
-      {
-        "name": "Ayman Yahya",
-        "position": "Meio-campistas",
-        "club": "Al-Nassr - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ayman%20Yahya"
-      },
-      {
-        "name": "Ali Al-Hassan",
-        "position": "Meio-campistas",
-        "club": "Saudi Arabia Olympic football team",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ali%20Al-Hassan"
-      },
-      {
-        "name": "Mohamed Kanno",
-        "position": "Meio-campistas",
-        "club": "Al-Ettifaq FC",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mohamed%20Kanno"
-      },
-      {
-        "name": "Ayman Al-Dawsari",
-        "position": "Meio-campistas",
-        "club": "Al-Ittihad - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ayman%20Al-Dawsari"
-      },
-      {
-        "name": "Mazen Al-Faqihi",
-        "position": "Meio-campistas",
-        "club": "Al-Ittihad - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mazen%20Al-Faqihi"
-      },
-      {
-        "name": "Ayman Yahya",
-        "position": "Meio-campistas",
-        "club": "Al-Nassr - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ayman%20Yahya"
-      },
-      {
-        "name": "Hassan Tambakti",
-        "position": "Meio-campistas",
-        "club": "Al-Hilal - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hassan%20Tambakti"
-      },
-      {
-        "name": "Abdelrahman Ghareeb",
-        "position": "Atacantes",
-        "club": "Al-Nassr - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Abdelrahman%20Ghareeb"
-      },
-      {
-        "name": "Salem Al-Dawsari",
-        "position": "Atacantes",
-        "club": "Al-Hilal - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Salem%20Al-Dawsari"
-      },
-      {
-        "name": "Firas Al-Buraikan",
-        "position": "Atacantes",
-        "club": "Al-Ahli - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Firas%20Al-Buraikan"
-      },
-      {
-        "name": "Abdullah Al-Hamdan",
-        "position": "Atacantes",
-        "club": "Al-Hilal - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Abdullah%20Al-Hamdan"
-      },
-      {
-        "name": "Sumayhan Al-Nabit",
-        "position": "Atacantes",
-        "club": "Ohod Club",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Sumayhan%20Al-Nabit"
-      },
-      {
-        "name": "Khalil Al-Absi",
-        "position": "Meio-campistas",
-        "club": "Al-Nassr",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Khalil%20Al-Absi"
-      },
-      {
-        "name": "Mukhtar Ali",
-        "position": "Atacantes",
-        "club": "Al-Fateh - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mukhtar%20Ali"
-      },
-      {
-        "name": "Abdullah Radif",
-        "position": "Atacantes",
-        "club": "Al-Shabab - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Abdullah%20Radif"
-      },
-      {
-        "name": "Ayman Yahya",
-        "position": "Atacantes",
-        "club": "Al-Nassr - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ayman%20Yahya"
-      },
-      {
-        "name": "Saleh Al-Shehri",
-        "position": "Atacantes",
-        "club": "Al-Ittihad - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Saleh%20Al-Shehri"
+        "position": "Atacante",
+        "name": "Saleh Al Shehri",
+        "club": "Al-Ittihad"
       }
     ]
   },
@@ -522,166 +460,139 @@
     "coach": "Desconhecido",
     "players": [
       {
-        "name": "Melvin Mastil",
-        "position": "Goleiros",
-        "club": "Lausanne-Sport - Suíça",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Melvin%20Mastil"
-      },
-      {
-        "name": "Abdelatif Ramdane",
-        "position": "Goleiros",
-        "club": "MC Alger - Argélia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Abdelatif%20Ramdane"
-      },
-      {
+        "position": "Goleiro",
         "name": "Luca Zidane",
-        "position": "Goleiros",
-        "club": "Eibar - Espanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Luca%20Zidane"
+        "club": "Granada"
       },
       {
+        "position": "Goleiro",
         "name": "Oussama Benbot",
-        "position": "Goleiros",
-        "club": "USM Alger - Argélia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Oussama%20Benbot"
+        "club": "USM Alger"
       },
       {
-        "name": "Samir Chergui",
-        "position": "Defensores",
-        "club": "Paris FC - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Samir%20Chergui"
+        "position": "Goleiro",
+        "name": "Melvin Mastil",
+        "club": "Stade Nyonnais"
       },
       {
+        "position": "Goleiro",
+        "name": "Abdelatif Ramdane",
+        "club": "MC Alger"
+      },
+      {
+        "position": "Defensor",
         "name": "Rafik Belghali",
-        "position": "Defensores",
-        "club": "Lommel SK - Bélgica",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Rafik%20Belghali"
+        "club": "Hellas Verona"
       },
       {
-        "name": "Zineddine Belaid",
-        "position": "Defensores",
-        "club": "USM Alger - Argélia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Zineddine%20Belaid"
+        "position": "Defensor",
+        "name": "Samir Chergui",
+        "club": "Paris FC"
       },
       {
-        "name": "Achref Abada",
-        "position": "Defensores",
-        "club": "JS Kabylie - Argélia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Achref%20Abada"
-      },
-      {
+        "position": "Defensor",
         "name": "Rayan Ait-Nouri",
-        "position": "Defensores",
-        "club": "Wolverhampton - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Rayan%20Ait-Nouri"
+        "club": "Manchester City"
       },
       {
+        "position": "Defensor",
         "name": "Jaouen Hadjam",
-        "position": "Defensores",
-        "club": "Young Boys - Suíça",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jaouen%20Hadjam"
+        "club": "Young Boys"
       },
       {
+        "position": "Defensor",
         "name": "Aissa Mandi",
-        "position": "Defensores",
-        "club": "Villarreal - Espanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Aissa%20Mandi"
+        "club": "Lille"
       },
       {
-        "name": "Mohamed Amine Tougai",
-        "position": "Defensores",
-        "club": "ES Tunis - Tunísia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mohamed%20Amine%20Tougai"
-      },
-      {
+        "position": "Defensor",
         "name": "Ramy Bensebaini",
-        "position": "Defensores",
-        "club": "Borussia Dortmund - Alemanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ramy%20Bensebaini"
+        "club": "Borussia Dortmund"
       },
       {
-        "name": "Hicham Boudaqui",
-        "position": "Meio-campistas",
-        "club": "ES Sétif - Argélia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hicham%20Boudaqui"
+        "position": "Defensor",
+        "name": "Zineddine Belaid",
+        "club": "JS Kabylie"
       },
       {
+        "position": "Defensor",
+        "name": "Achref Abada",
+        "club": "USM Alger"
+      },
+      {
+        "position": "Defensor",
+        "name": "Mohamed Amine Tougai",
+        "club": "Espérance de Tunis"
+      },
+      {
+        "position": "Meio-campista",
         "name": "Nabil Bentaleb",
-        "position": "Meio-campistas",
-        "club": "Lille - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Nabil%20Bentaleb"
+        "club": "Lille"
       },
       {
+        "position": "Meio-campista",
+        "name": "Hicham Boudaqui",
+        "club": "Nice"
+      },
+      {
+        "position": "Meio-campista",
         "name": "Houssem Aouar",
-        "position": "Meio-campistas",
-        "club": "Al-Ittihad - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Houssem%20Aouar"
+        "club": "Al-Ittihad"
       },
       {
+        "position": "Meio-campista",
         "name": "Farès Chaibi",
-        "position": "Meio-campistas",
-        "club": "Eintracht Frankfurt - Alemanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Far%C3%A8s%20Chaibi"
+        "club": "Frankfurt"
       },
       {
-        "name": "Ramiz Zerrouki",
-        "position": "Meio-campistas",
-        "club": "Feyenoord - Holanda",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ramiz%20Zerrouki"
-      },
-      {
-        "name": "Yacine Titraoui",
-        "position": "Meio-campistas",
-        "club": "Paradou AC - Argélia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Yacine%20Titraoui"
-      },
-      {
+        "position": "Meio-campista",
         "name": "Ibrahim Maza",
-        "position": "Meio-campistas",
-        "club": "Hertha Berlin - Alemanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ibrahim%20Maza"
+        "club": "Bayer Leverkusen"
       },
       {
-        "name": "Amine Gouri",
-        "position": "Atacantes",
-        "club": "Rennes - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Amine%20Gouri"
+        "position": "Meio-campista",
+        "name": "Yacine Titraoui",
+        "club": "Royal Charleroi"
       },
       {
+        "position": "Meio-campista",
+        "name": "Ramiz Zerrouki",
+        "club": "Twente"
+      },
+      {
+        "position": "Atacante",
         "name": "Mohamed Amine Amoura",
-        "position": "Atacantes",
-        "club": "Union SG - Bélgica",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mohamed%20Amine%20Amoura"
+        "club": "Wolfsburg"
       },
       {
+        "position": "Atacante",
         "name": "Nadhir Benbouali",
-        "position": "Atacantes",
-        "club": "Charleroi - Bélgica",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Nadhir%20Benbouali"
+        "club": "Gyor"
       },
       {
+        "position": "Atacante",
         "name": "Adil Boulbina",
-        "position": "Atacantes",
-        "club": "Paradou AC - Argélia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Adil%20Boulbina"
+        "club": "Al-Duhail"
       },
       {
-        "name": "Anis Hadj Moussa",
-        "position": "Atacantes",
-        "club": "Feyenoord - Holanda",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Anis%20Hadj%20Moussa"
-      },
-      {
+        "position": "Atacante",
         "name": "Farès Ghedjemis",
-        "position": "Atacantes",
-        "club": "Frosinone - Itália",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Far%C3%A8s%20Ghedjemis"
+        "club": "Frosinone"
       },
       {
+        "position": "Atacante",
+        "name": "Amine Gouri",
+        "club": "Olympique de Marseille"
+      },
+      {
+        "position": "Atacante",
+        "name": "Anis Hadj Moussa",
+        "club": "Feyenoord"
+      },
+      {
+        "position": "Atacante",
         "name": "Riyad Mahrez",
-        "position": "Atacantes",
-        "club": "Al-Ahli - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Riyad%20Mahrez"
+        "club": "Al-Ahli"
       }
     ]
   },
@@ -1970,6 +1881,167 @@
         "position": "Atacantes",
         "club": "Union Saint-Gilloise - Bélgica",
         "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Promise%20David"
+      }
+    ]
+  },
+  "Catar": {
+    "coach": "Julen Lopetegui",
+    "players": [
+      {
+        "name": "Mahmoud Abunada",
+        "position": "Goleiros",
+        "club": "Al-Rayyan - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mahmoud%20Abunada"
+      },
+      {
+        "name": "Meshaal Barsham",
+        "position": "Goleiros",
+        "club": "Al-Sadd - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Meshaal%20Barsham"
+      },
+      {
+        "name": "Salah Zakaria",
+        "position": "Goleiros",
+        "club": "Al-Duhail - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Salah%20Zakaria"
+      },
+      {
+        "name": "Ayoub Al-Alawi",
+        "position": "Defensores",
+        "club": "Al-Gharafa - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ayoub%20Al-Alawi"
+      },
+      {
+        "name": "Boualem Khoukhi",
+        "position": "Defensores",
+        "club": "Al-Sadd - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Boualem%20Khoukhi"
+      },
+      {
+        "name": "Homam Al-Amin",
+        "position": "Defensores",
+        "club": "Al-Duhail - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Homam%20Al-Amin"
+      },
+      {
+        "name": "Lucas Mendes",
+        "position": "Defensores",
+        "club": "Al-Wakrah - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Lucas%20Mendes"
+      },
+      {
+        "name": "Issa Laye",
+        "position": "Defensores",
+        "club": "Al-Arabi - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Issa%20Laye"
+      },
+      {
+        "name": "Pedro Miguel",
+        "position": "Defensores",
+        "club": "Al-Sadd - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Pedro%20Miguel"
+      },
+      {
+        "name": "Al-Hashmi Al-Hussain",
+        "position": "Defensores",
+        "club": "Al-Arabi - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Al-Hashmi%20Al-Hussain"
+      },
+      {
+        "name": "Sultan Al-Brake",
+        "position": "Defensores",
+        "club": "Al-Duhail - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Sultan%20Al-Brake"
+      },
+      {
+        "name": "Assim Madibo",
+        "position": "Meio-campistas",
+        "club": "Al-Duhail - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Assim%20Madibo"
+      },
+      {
+        "name": "Abdulaziz Hatem",
+        "position": "Meio-campistas",
+        "club": "Al-Rayyan - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Abdulaziz%20Hatem"
+      },
+      {
+        "name": "Ahmed Fathy",
+        "position": "Meio-campistas",
+        "club": "Pyramids - Egito",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ahmed%20Fathy"
+      },
+      {
+        "name": "Karim Boudiaf",
+        "position": "Meio-campistas",
+        "club": "Al-Duhail - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Karim%20Boudiaf"
+      },
+      {
+        "name": "Jassem Gaber",
+        "position": "Meio-campistas",
+        "club": "Al-Rayyan - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jassem%20Gaber"
+      },
+      {
+        "name": "Mohamed Mannaj",
+        "position": "Meio-campistas",
+        "club": "Al-Shamal - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mohamed%20Mannaj"
+      },
+      {
+        "name": "Ahmed Al-Ganehi",
+        "position": "Atacantes",
+        "club": "Al-Gharafa - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ahmed%20Al-Ganehi"
+      },
+      {
+        "name": "Ahmed Alaa",
+        "position": "Atacantes",
+        "club": "Al-Rayyan - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ahmed%20Alaa"
+      },
+      {
+        "name": "Akram Afif",
+        "position": "Atacantes",
+        "club": "Al-Sadd - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Akram%20Afif"
+      },
+      {
+        "name": "AlMoez Ali",
+        "position": "Atacantes",
+        "club": "Al-Duhail - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=AlMoez%20Ali"
+      },
+      {
+        "name": "Edmilson Junior",
+        "position": "Atacantes",
+        "club": "Al-Duhail - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Edmilson%20Junior"
+      },
+      {
+        "name": "Hasan Al-Haydos",
+        "position": "Atacantes",
+        "club": "Al-Sadd - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hasan%20Al-Haydos"
+      },
+      {
+        "name": "Mohammed Muntari",
+        "position": "Atacantes",
+        "club": "Al-Gharafa - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mohammed%20Muntari"
+      },
+      {
+        "name": "Tahsin Mohammed",
+        "position": "Atacantes",
+        "club": "Al-Duhail - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Tahsin%20Mohammed"
+      },
+      {
+        "name": "Youssef Abdulrazzaq",
+        "position": "Atacantes",
+        "club": "Al-Sadd - Catar",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Youssef%20Abdulrazzaq"
       }
     ]
   },
@@ -5215,142 +5287,134 @@
     "coach": "Desconhecido",
     "players": [
       {
-        "name": "Mohamed Bounou",
-        "position": "Goleiros",
-        "club": "Al-Hilal - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mohamed%20Bounou"
+        "position": "Goleiro",
+        "name": "Bounou",
+        "club": "Al Hilal"
       },
       {
-        "name": "Munir El Kajoui",
-        "position": "Goleiros",
-        "club": "Al-Wehda - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Munir%20El%20Kajoui"
+        "position": "Goleiro",
+        "name": "El Kajoui",
+        "club": "Berkane"
       },
       {
-        "name": "Ahmed Reda Tagnaouti",
-        "position": "Goleiros",
-        "club": "Wydad AC - Marrocos",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ahmed%20Reda%20Tagnaouti"
+        "position": "Goleiro",
+        "name": "Tagnaouti",
+        "club": "Asfar"
       },
       {
-        "name": "Achraf Hakimi",
-        "position": "Defensores",
-        "club": "Paris Saint-Germain - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Achraf%20Hakimi"
+        "position": "Defensor",
+        "name": "Mazraoui",
+        "club": "Manchester United"
       },
       {
-        "name": "Noussair Mazraoui",
-        "position": "Defensores",
-        "club": "Bayern de Munique - Alemanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Noussair%20Mazraoui"
+        "position": "Defensor",
+        "name": "Salah-Eddine",
+        "club": "PSV"
       },
       {
-        "name": "Romain Saïss",
-        "position": "Defensores",
-        "club": "Al-Shabab - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Romain%20Sa%C3%AFss"
+        "position": "Defensor",
+        "name": "Belammari",
+        "club": "Al Ahly"
       },
       {
-        "name": "Nayef Aguerd",
-        "position": "Defensores",
-        "club": "West Ham - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Nayef%20Aguerd"
+        "position": "Defensor",
+        "name": "Hakimi",
+        "club": "PSG"
       },
       {
-        "name": "Abdülkerim Bardakcı",
-        "position": "Defensores",
-        "club": "Galatasaray - Turquia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Abd%C3%BClkerim%20Bardakc%C4%B1"
+        "position": "Defensor",
+        "name": "El Ouahdi",
+        "club": "Genk"
       },
       {
-        "name": "Chancel Mbemba",
-        "position": "Defensores",
-        "club": "Lille - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Chancel%20Mbemba"
+        "position": "Defensor",
+        "name": "Aguerd",
+        "club": "Olympique de Marselha"
       },
       {
-        "name": "Yahya Attiyat Allah",
-        "position": "Defensores",
-        "club": "Ahli Jeddah - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Yahya%20Attiyat%20Allah"
+        "position": "Defensor",
+        "name": "Riad",
+        "club": "Crystal Palace"
       },
       {
-        "name": "Sofyan Amrabat",
-        "position": "Meio-campistas",
-        "club": "Fenerbahçe - Turquia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Sofyan%20Amrabat"
+        "position": "Defensor",
+        "name": "Halhal",
+        "club": "KV Mechelen"
       },
       {
-        "name": "Oussama El Azzouzi",
-        "position": "Meio-campistas",
-        "club": "Bologna - Itália",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Oussama%20El%20Azzouzi"
+        "position": "Defensor",
+        "name": "Diop",
+        "club": "Fulham"
       },
       {
-        "name": "Azzedine Ounahi",
-        "position": "Meio-campistas",
-        "club": "Olympique de Marselha - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Azzedine%20Ounahi"
+        "position": "Meio-campista",
+        "name": "El Mourabet",
+        "club": "Strasbourg"
       },
       {
-        "name": "Amine Harit",
-        "position": "Meio-campistas",
-        "club": "Schalke 04 - Alemanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Amine%20Harit"
+        "position": "Meio-campista",
+        "name": "Bouaddi",
+        "club": "Lille"
       },
       {
-        "name": "Ismaël Bennacer",
-        "position": "Meio-campistas",
-        "club": "Milan - Itália",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Isma%C3%ABl%20Bennacer"
+        "position": "Meio-campista",
+        "name": "El Aynaoui",
+        "club": "Roma"
       },
       {
-        "name": "Bilal El Khannouss",
-        "position": "Meio-campistas",
-        "club": "Genk - Bélgica",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Bilal%20El%20Khannouss"
+        "position": "Meio-campista",
+        "name": "Amrabat",
+        "club": "Betis"
       },
       {
-        "name": "Ibrahim Salah",
-        "position": "Meio-campistas",
-        "club": "Rennes - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ibrahim%20Salah"
+        "position": "Meio-campista",
+        "name": "Ounahi",
+        "club": "Girona"
       },
       {
-        "name": "Hakim Ziyech",
-        "position": "Atacantes",
-        "club": "Galatasaray - Turquia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hakim%20Ziyech"
+        "position": "Meio-campista",
+        "name": "El Khannouss",
+        "club": "Stuttgart"
       },
       {
-        "name": "Abdessamad Ezzalzouli",
-        "position": "Atacantes",
-        "club": "Real Betis - Espanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Abdessamad%20Ezzalzouli"
+        "position": "Meio-campista",
+        "name": "Saibari",
+        "club": "PSV"
       },
       {
-        "name": "Youssef En-Nesyri",
-        "position": "Atacantes",
-        "club": "Sevilla - Espanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Youssef%20En-Nesyri"
+        "position": "Atacante",
+        "name": "Ez Abde",
+        "club": "Betis"
       },
       {
-        "name": "Zakaria Aboukhlal",
-        "position": "Atacantes",
-        "club": "Tolosa - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Zakaria%20Aboukhlal"
+        "position": "Atacante",
+        "name": "Talbi",
+        "club": "Sunderland"
       },
       {
-        "name": "Sofiane Boufal",
-        "position": "Atacantes",
-        "club": "Al-Rayyan - Qatar",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Sofiane%20Boufal"
+        "position": "Atacante",
+        "name": "Rahimi",
+        "club": "Al Ain"
       },
       {
-        "name": "Samir Nusairi",
-        "position": "Atacantes",
-        "club": "Al-Ahli - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Samir%20Nusairi"
+        "position": "Atacante",
+        "name": "El Kaabi",
+        "club": "Olympiacos"
+      },
+      {
+        "position": "Atacante",
+        "name": "Brahim Díaz",
+        "club": "Real Madrid"
+      },
+      {
+        "position": "Atacante",
+        "name": "Gessime",
+        "club": "Strasbourg"
+      },
+      {
+        "position": "Atacante",
+        "name": "Echghouyabe",
+        "club": "Eintracht Frankfurt"
       }
     ]
   },
@@ -5358,238 +5422,134 @@
     "coach": "Desconhecido",
     "players": [
       {
-        "name": "Rafael Baca",
-        "position": "Goleiros",
-        "club": "Monterey Bay - Estados Unidos",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Rafael%20Baca"
+        "position": "Goleiro",
+        "name": "Raúl Rangel",
+        "club": "Chivas Guadalajara"
       },
       {
-        "name": "Antonio Rodríguez",
-        "position": "Goleiros",
-        "club": "Tijuana - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Antonio%20Rodr%C3%ADguez"
-      },
-      {
+        "position": "Goleiro",
         "name": "Carlos Acevedo",
-        "position": "Goleiros",
-        "club": "Santos Laguna - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Carlos%20Acevedo"
+        "club": "Santos Laguna"
       },
       {
-        "name": "Sebastián Jurado",
-        "position": "Goleiros",
-        "club": "Juárez - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Sebasti%C3%A1n%20Jurado"
+        "position": "Goleiro",
+        "name": "Guillermo Ochoa",
+        "club": "AEL Limassol"
       },
       {
-        "name": "Edson Álvarez",
-        "position": "Defensores",
-        "club": "West Ham - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Edson%20%C3%81lvarez"
-      },
-      {
-        "name": "Juan Briseño",
-        "position": "Defensores",
-        "club": "Tigres - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Juan%20Brise%C3%B1o"
-      },
-      {
-        "name": "Julián Araujo",
-        "position": "Defensores",
-        "club": "Bournemouth - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Juli%C3%A1n%20Araujo"
-      },
-      {
+        "position": "Defensor",
         "name": "Jorge Sánchez",
-        "position": "Defensores",
-        "club": "Cruz Azul - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jorge%20S%C3%A1nchez"
+        "club": "PAOK"
       },
       {
+        "position": "Defensor",
         "name": "César Montes",
-        "position": "Defensores",
-        "club": "Lokomotiv Moscow - Rússia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=C%C3%A9sar%20Montes"
+        "club": "Lokomotiv"
       },
       {
-        "name": "Kevin Álvarez",
-        "position": "Defensores",
-        "club": "América - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Kevin%20%C3%81lvarez"
+        "position": "Defensor",
+        "name": "Edson Álvarez",
+        "club": "Fenerbahçe"
       },
       {
-        "name": "Ryan Salvador",
-        "position": "Defensores",
-        "club": "Chivas - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ryan%20Salvador"
+        "position": "Defensor",
+        "name": "Joah Vásquez",
+        "club": "Genoa"
       },
       {
-        "name": "Gerardo Arteaga",
-        "position": "Defensores",
-        "club": "Monterrey - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gerardo%20Arteaga"
+        "position": "Defensor",
+        "name": "Erik Lira",
+        "club": "Cruz Azul"
       },
       {
-        "name": "Ramón Juárez",
-        "position": "Defensores",
-        "club": "América - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ram%C3%B3n%20Ju%C3%A1rez"
-      },
-      {
-        "name": "Andrés Mohedano",
-        "position": "Defensores",
-        "club": "Pumas - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Andr%C3%A9s%20Mohedano"
-      },
-      {
-        "name": "Ozziel Herrera",
-        "position": "Defensores",
-        "club": "Tigres - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ozziel%20Herrera"
-      },
-      {
+        "position": "Defensor",
         "name": "Luis Romo",
-        "position": "Meio-campistas",
-        "club": "Cruz Azul - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Luis%20Romo"
+        "club": "Chivas Guadalajara"
       },
       {
-        "name": "Jordan Silva",
-        "position": "Meio-campistas",
-        "club": "OFI Crete - Grécia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jordan%20Silva"
+        "position": "Defensor",
+        "name": "Israel Reyes",
+        "club": "América do México"
       },
       {
-        "name": "Diego Valdés",
-        "position": "Meio-campistas",
-        "club": "América - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Diego%20Vald%C3%A9s"
+        "position": "Defensor",
+        "name": "Mateo Chávez",
+        "club": "AZ Alkmaar"
       },
       {
-        "name": "Carlos Salcedo",
-        "position": "Meio-campistas",
-        "club": "Juárez - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Carlos%20Salcedo"
+        "position": "Defensor",
+        "name": "Jesús Gallardo",
+        "club": "Toluca"
       },
       {
-        "name": "Sebastián Córdova",
-        "position": "Meio-campistas",
-        "club": "Tigres - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Sebasti%C3%A1n%20C%C3%B3rdova"
+        "position": "Meio-campista",
+        "name": "Álvaro Fidalgo",
+        "club": "Betis"
       },
       {
-        "name": "Josué Martínez",
-        "position": "Meio-campistas",
-        "club": "Monterrey - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Josu%C3%A9%20Mart%C3%ADnez"
+        "position": "Meio-campista",
+        "name": "Orbelín Pineda",
+        "club": "AEK"
       },
       {
-        "name": "Luis Gerardo Chávez",
-        "position": "Meio-campistas",
-        "club": "Dynamo Moscow - Rússia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Luis%20Gerardo%20Ch%C3%A1vez"
+        "position": "Meio-campista",
+        "name": "Obed Vargas",
+        "club": "Atlético de Madrid"
       },
       {
-        "name": "Erick Sánchez",
-        "position": "Meio-campistas",
-        "club": "América - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Erick%20S%C3%A1nchez"
+        "position": "Meio-campista",
+        "name": "Gilberto Mora",
+        "club": "Tijuana"
       },
       {
-        "name": "Alan Cervantes",
-        "position": "Meio-campistas",
-        "club": "América - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Alan%20Cervantes"
+        "position": "Meio-campista",
+        "name": "César Huerta",
+        "club": "Anderlecht"
       },
       {
-        "name": "Luis Olivas",
-        "position": "Meio-campistas",
-        "club": "Guadalajara - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Luis%20Olivas"
+        "position": "Meio-campista",
+        "name": "Luis Chávez",
+        "club": "Dínamo de Moscou"
       },
       {
-        "name": "Rodrigo Huescas",
-        "position": "Meio-campistas",
-        "club": "FC Copenhagen - Dinamarca",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Rodrigo%20Huescas"
+        "position": "Meio-campista",
+        "name": "Roberto Alvarado",
+        "club": "Chivas Guadalajara"
       },
       {
-        "name": "Juan Daniel Amador",
-        "position": "Meio-campistas",
-        "club": "Mazatlán - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Juan%20Daniel%20Amador"
+        "position": "Meio-campista",
+        "name": "Brian Gutiérrez",
+        "club": "Chivas Guadalajara"
       },
       {
-        "name": "Santi Giménez",
-        "position": "Atacantes",
-        "club": "Feyenoord - Holanda",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Santi%20Gim%C3%A9nez"
+        "position": "Atacante",
+        "name": "Raúl Jiménez",
+        "club": "Fulham"
       },
       {
-        "name": "Antuna",
-        "position": "Atacantes",
-        "club": "Tigres - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Antuna"
+        "position": "Atacante",
+        "name": "Alexis Veja",
+        "club": "Toluca"
       },
       {
-        "name": "Mateo González",
-        "position": "Atacantes",
-        "club": "América - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mateo%20Gonz%C3%A1lez"
+        "position": "Atacante",
+        "name": "Santiago Giménez",
+        "club": "Milan"
       },
       {
+        "position": "Atacante",
+        "name": "Armando González",
+        "club": "Chivas Guadalajara"
+      },
+      {
+        "position": "Atacante",
         "name": "Julián Quiñones",
-        "position": "Atacantes",
-        "club": "Al Qadsiah - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Juli%C3%A1n%20Qui%C3%B1ones"
+        "club": "Al Qadsiah"
       },
       {
-        "name": "Efraín Álvarez",
-        "position": "Atacantes",
-        "club": "Tijuana - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Efra%C3%ADn%20%C3%81lvarez"
-      },
-      {
-        "name": "Óscar Pérez",
-        "position": "Atacantes",
-        "club": "Pachuca - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=%C3%93scar%20P%C3%A9rez"
-      },
-      {
-        "name": "Fidel Ambriz",
-        "position": "Atacantes",
-        "club": "Monterrey - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Fidel%20Ambriz"
-      },
-      {
-        "name": "Marcelo Flores",
-        "position": "Atacantes",
-        "club": "Tigres - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Marcelo%20Flores"
-      },
-      {
-        "name": "Carlos Vela",
-        "position": "Atacantes",
-        "club": "LAFC - Estados Unidos",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Carlos%20Vela"
-      },
-      {
-        "name": "Luka Romero",
-        "position": "Atacantes",
-        "club": "Alavés - Espanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Luka%20Romero"
-      },
-      {
-        "name": "Javier Hernández",
-        "position": "Atacantes",
-        "club": "Guadalajara - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Javier%20Hern%C3%A1ndez"
-      },
-      {
-        "name": "Ozziel Herrera",
-        "position": "Atacantes",
-        "club": "Tigres - México",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ozziel%20Herrera"
+        "position": "Atacante",
+        "name": "Guillermo Martínez",
+        "club": "Pumas"
       }
     ]
   },
@@ -6742,154 +6702,134 @@
     "coach": "Jon Dahl Tomasson",
     "players": [
       {
+        "position": "Goleiro",
         "name": "Viktor Johansson",
-        "position": "Goleiros",
-        "club": "Rotherham United - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Viktor%20Johansson"
+        "club": "N/A"
       },
       {
-        "name": "Gustaf Lagerbielke",
-        "position": "Goleiros",
-        "club": "Celtic - Escócia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gustaf%20Lagerbielke"
-      },
-      {
+        "position": "Goleiro",
         "name": "Kristoffer Nordfeldt",
-        "position": "Goleiros",
-        "club": "AIK - Suécia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Kristoffer%20Nordfeldt"
+        "club": "N/A"
       },
       {
-        "name": "Jacob Zetterström",
-        "position": "Goleiros",
-        "club": "Djurgårdens IF - Suécia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jacob%20Zetterstr%C3%B6m"
+        "position": "Goleiro",
+        "name": "Jacob Widell Zetterström",
+        "club": "N/A"
       },
       {
+        "position": "Defensor",
         "name": "Hjalmar Ekdal",
-        "position": "Defensores",
-        "club": "Burnley - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hjalmar%20Ekdal"
+        "club": "N/A"
       },
       {
+        "position": "Defensor",
         "name": "Gabriel Gudmundsson",
-        "position": "Defensores",
-        "club": "Lille - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gabriel%20Gudmundsson"
+        "club": "N/A"
       },
       {
+        "position": "Defensor",
         "name": "Isak Hien",
-        "position": "Defensores",
-        "club": "Atalanta - Itália",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Isak%20Hien"
+        "club": "N/A"
       },
       {
-        "name": "Victor Lindelöf",
-        "position": "Defensores",
-        "club": "Manchester United - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Victor%20Lindel%C3%B6f"
+        "position": "Defensor",
+        "name": "Herman Johansson",
+        "club": "N/A"
       },
       {
+        "position": "Defensor",
+        "name": "Gustaf Lagerbielke",
+        "club": "N/A"
+      },
+      {
+        "position": "Defensor",
+        "name": "Victor Nilsson Lindelöf",
+        "club": "N/A"
+      },
+      {
+        "position": "Defensor",
         "name": "Eric Smith",
-        "position": "Defensores",
-        "club": "FC St. Pauli - Alemanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Eric%20Smith"
+        "club": "N/A"
       },
       {
+        "position": "Defensor",
         "name": "Carl Starfelt",
-        "position": "Defensores",
-        "club": "Celta de Vigo - Espanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Carl%20Starfelt"
+        "club": "N/A"
       },
       {
-        "name": "Daniel Svensson",
-        "position": "Defensores",
-        "club": "FC Nordsjælland - Dinamarca",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Daniel%20Svensson"
-      },
-      {
-        "name": "Yasin Ayari",
-        "position": "Meio-campistas",
-        "club": "Blackburn Rovers - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Yasin%20Ayari"
-      },
-      {
-        "name": "Lucas Bergvall",
-        "position": "Meio-campistas",
-        "club": "Djurgårdens IF - Suécia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Lucas%20Bergvall"
-      },
-      {
-        "name": "Jesper Karlström",
-        "position": "Meio-campistas",
-        "club": "Lech Poznań - Polônia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jesper%20Karlstr%C3%B6m"
-      },
-      {
-        "name": "Benjamin Nygren",
-        "position": "Meio-campistas",
-        "club": "FC Nordsjælland - Dinamarca",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Benjamin%20Nygren"
-      },
-      {
-        "name": "Ken Sema",
-        "position": "Meio-campistas",
-        "club": "Watford - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ken%20Sema"
-      },
-      {
+        "position": "Defensor",
         "name": "Elliot Stroud",
-        "position": "Meio-campistas",
-        "club": "Mjällby AIF - Suécia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Elliot%20Stroud"
+        "club": "N/A"
       },
       {
-        "name": "Mattias Svanberg",
-        "position": "Meio-campistas",
-        "club": "VfL Wolfsburg - Alemanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mattias%20Svanberg"
+        "position": "Defensor",
+        "name": "Daniel Svensson",
+        "club": "N/A"
       },
       {
-        "name": "Besfort Zeneli",
-        "position": "Meio-campistas",
-        "club": "IF Elfsborg - Suécia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Besfort%20Zeneli"
-      },
-      {
+        "position": "Meio-campista/Atacante",
         "name": "Taha Ali",
-        "position": "Atacantes",
-        "club": "Malmö FF - Suécia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Taha%20Ali"
+        "club": "N/A"
       },
       {
+        "position": "Meio-campista/Atacante",
+        "name": "Yasin Ayari",
+        "club": "N/A"
+      },
+      {
+        "position": "Meio-campista/Atacante",
+        "name": "Lucas Bergvall",
+        "club": "N/A"
+      },
+      {
+        "position": "Meio-campista/Atacante",
         "name": "Alexander Bernhardsson",
-        "position": "Atacantes",
-        "club": "Holstein Kiel - Alemanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Alexander%20Bernhardsson"
+        "club": "N/A"
       },
       {
+        "position": "Meio-campista/Atacante",
         "name": "Anthony Elanga",
-        "position": "Atacantes",
-        "club": "Nottingham Forest - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Anthony%20Elanga"
+        "club": "N/A"
       },
       {
+        "position": "Meio-campista/Atacante",
         "name": "Viktor Gyökeres",
-        "position": "Atacantes",
-        "club": "Sporting CP - Portugal",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Viktor%20Gy%C3%B6keres"
+        "club": "N/A"
       },
       {
+        "position": "Meio-campista/Atacante",
         "name": "Alexander Isak",
-        "position": "Atacantes",
-        "club": "Newcastle United - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Alexander%20Isak"
+        "club": "N/A"
       },
       {
+        "position": "Meio-campista/Atacante",
+        "name": "Jesper Karlström",
+        "club": "N/A"
+      },
+      {
+        "position": "Meio-campista/Atacante",
         "name": "Gustaf Nilsson",
-        "position": "Atacantes",
-        "club": "Union SG - Bélgica",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gustaf%20Nilsson"
+        "club": "N/A"
+      },
+      {
+        "position": "Meio-campista/Atacante",
+        "name": "Benjamin Nygren",
+        "club": "N/A"
+      },
+      {
+        "position": "Meio-campista/Atacante",
+        "name": "Ken Sema",
+        "club": "N/A"
+      },
+      {
+        "position": "Meio-campista/Atacante",
+        "name": "Mattias Svanberg",
+        "club": "N/A"
+      },
+      {
+        "position": "Meio-campista/Atacante",
+        "name": "Besfort Zeneli",
+        "club": "N/A"
       }
     ]
   },
