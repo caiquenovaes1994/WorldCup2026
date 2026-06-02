@@ -5,7 +5,7 @@ import squadsData from '../data/squads.json'
 import coachesData from '../data/coaches.json'
 
 // Cast squadsData for TypeScript
-type SquadType = { coach: string; players: Array<{name: string, position: string, club: string, transfermarktUrl?: string}> };
+type SquadType = { coach: string; players: Array<{name: string, position: string, club: string, transfermarktUrl?: string, number?: number}> };
 const squads = squadsData as unknown as Record<string, SquadType>;
 
 const sortedTeams = computed(() => {
@@ -33,12 +33,21 @@ const selectedTeamSquad = computed(() => {
   if (!selectedTeam.value || !selectedTeam.value.hasSquad) return null
   const squad = squads[selectedTeam.value.name]?.players || []
   
-  // Group by position
+  const sortPlayers = (a: any, b: any) => {
+    if (a.number !== undefined && b.number !== undefined) {
+      return a.number - b.number;
+    }
+    if (a.number !== undefined) return -1;
+    if (b.number !== undefined) return 1;
+    return a.name.localeCompare(b.name);
+  };
+
+  // Group by position and sort
   const grouped = {
-    'Goleiros': squad.filter(p => p.position === 'Goleiros'),
-    'Defensores': squad.filter(p => p.position === 'Defensores'),
-    'Meio-campistas': squad.filter(p => p.position === 'Meio-campistas'),
-    'Atacantes': squad.filter(p => p.position === 'Atacantes')
+    'Goleiros': squad.filter(p => p.position === 'Goleiros').sort(sortPlayers),
+    'Defensores': squad.filter(p => p.position === 'Defensores').sort(sortPlayers),
+    'Meio-campistas': squad.filter(p => p.position === 'Meio-campistas').sort(sortPlayers),
+    'Atacantes': squad.filter(p => p.position === 'Atacantes').sort(sortPlayers)
   }
   return grouped
 })
@@ -141,7 +150,9 @@ function selectTeam(code: string) {
           <h3 class="position-title">{{ position }}</h3>
           <ul class="player-list">
             <li v-for="player in players" :key="player.name" class="player-item">
-              <a :href="player.transfermarktUrl" target="_blank" class="player-name-link">{{ player.name }}</a>
+              <a :href="player.transfermarktUrl" target="_blank" class="player-name-link">
+                <template v-if="player.number">#{{ player.number }} - </template>{{ player.name }}
+              </a>
               <span class="player-club" v-if="player.club">{{ player.club }}</span>
             </li>
           </ul>

@@ -1408,157 +1408,183 @@
         "name": "Alisson",
         "position": "Goleiros",
         "club": "Liverpool - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Alisson"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Alisson",
+        "number": 1
       },
       {
         "name": "Ederson",
         "position": "Goleiros",
         "club": "Fenerbahçe - Turquia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ederson"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ederson",
+        "number": 23
       },
       {
         "name": "Weverton",
         "position": "Goleiros",
         "club": "Grêmio - Brasil",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Weverton"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Weverton",
+        "number": 12
       },
       {
         "name": "Alex Sandro",
         "position": "Defensores",
         "club": "Flamengo - Brasil",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Alex%20Sandro"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Alex%20Sandro",
+        "number": 6
       },
       {
         "name": "Bremer",
         "position": "Defensores",
         "club": "Juventus - Itália",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Bremer"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Bremer",
+        "number": 14
       },
       {
         "name": "Danilo",
         "position": "Defensores",
         "club": "Flamengo - Brasil",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Danilo"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Danilo",
+        "number": 13
       },
       {
         "name": "Douglas Santos",
         "position": "Defensores",
         "club": "Zenit - Rússia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Douglas%20Santos"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Douglas%20Santos",
+        "number": 16
       },
       {
         "name": "Gabriel Magalhães",
         "position": "Defensores",
         "club": "Arsenal - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gabriel%20Magalh%C3%A3es"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gabriel%20Magalh%C3%A3es",
+        "number": 3
       },
       {
         "name": "Ibañez",
         "position": "Defensores",
         "club": "Al-Ahli - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Iba%C3%B1ez"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Iba%C3%B1ez",
+        "number": 24
       },
       {
         "name": "Léo Pereira",
         "position": "Defensores",
         "club": "Flamengo - Brasil",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=L%C3%A9o%20Pereira"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=L%C3%A9o%20Pereira",
+        "number": 15
       },
       {
         "name": "Marquinhos",
         "position": "Defensores",
         "club": "Paris Saint-Germain - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Marquinhos"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Marquinhos",
+        "number": 4
       },
       {
         "name": "Wesley",
         "position": "Defensores",
         "club": "Roma - Itália",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Wesley"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Wesley",
+        "number": 2
       },
       {
         "name": "Bruno Guimarães",
         "position": "Meio-campistas",
         "club": "Newcastle United - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Bruno%20Guimar%C3%A3es"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Bruno%20Guimar%C3%A3es",
+        "number": 8
       },
       {
         "name": "Casemiro",
         "position": "Meio-campistas",
         "club": "Manchester United - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Casemiro"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Casemiro",
+        "number": 5
       },
       {
         "name": "Danilo Santos",
         "position": "Meio-campistas",
         "club": "Botafogo - Brasil",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Danilo%20Santos"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Danilo%20Santos",
+        "number": 18
       },
       {
         "name": "Fabinho",
         "position": "Meio-campistas",
         "club": "Al-Ittihad - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Fabinho"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Fabinho",
+        "number": 17
       },
       {
         "name": "Lucas Paquetá",
         "position": "Meio-campistas",
         "club": "Flamengo - Brasil",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Lucas%20Paquet%C3%A1"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Lucas%20Paquet%C3%A1",
+        "number": 20
       },
       {
         "name": "Endrick",
         "position": "Atacantes",
         "club": "Lyon - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Endrick"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Endrick",
+        "number": 19
       },
       {
         "name": "Gabriel Martinelli",
         "position": "Atacantes",
         "club": "Arsenal - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gabriel%20Martinelli"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gabriel%20Martinelli",
+        "number": 22
       },
       {
         "name": "Igor Thiago",
         "position": "Atacantes",
         "club": "Brentford - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Igor%20Thiago"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Igor%20Thiago",
+        "number": 25
       },
       {
         "name": "Luiz Henrique",
         "position": "Atacantes",
         "club": "Zenit - Rússia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Luiz%20Henrique"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Luiz%20Henrique",
+        "number": 21
       },
       {
         "name": "Matheus Cunha",
         "position": "Atacantes",
         "club": "Manchester United - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Matheus%20Cunha"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Matheus%20Cunha",
+        "number": 9
       },
       {
         "name": "Neymar Junior",
         "position": "Atacantes",
         "club": "Santos - Brasil",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Neymar%20Junior"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Neymar%20Junior",
+        "number": 10
       },
       {
         "name": "Raphinha",
         "position": "Atacantes",
         "club": "Barcelona - Espanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Raphinha"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Raphinha",
+        "number": 11
       },
       {
         "name": "Rayan",
         "position": "Atacantes",
         "club": "Bournemouth - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Rayan"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Rayan",
+        "number": 26
       },
       {
         "name": "Vinicius Junior",
         "position": "Atacantes",
         "club": "Real Madrid - Espanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Vinicius%20Junior"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Vinicius%20Junior",
+        "number": 7
       }
     ]
   },
@@ -6301,19 +6327,22 @@
         "name": "Diogo Costa",
         "position": "Goleiros",
         "club": "Porto - Portugal",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Diogo%20Costa"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Diogo%20Costa",
+        "number": 1
       },
       {
         "name": "José Sá",
         "position": "Goleiros",
         "club": "Wolverhampton - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jos%C3%A9%20S%C3%A1"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jos%C3%A9%20S%C3%A1",
+        "number": 12
       },
       {
         "name": "Rui Silva",
         "position": "Goleiros",
         "club": "Sporting - Portugal",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Rui%20Silva"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Rui%20Silva",
+        "number": 22
       },
       {
         "name": "Ricardo Velho",
@@ -6325,139 +6354,162 @@
         "name": "Diogo Dalot",
         "position": "Defensores",
         "club": "Manchester United - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Diogo%20Dalot"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Diogo%20Dalot",
+        "number": 5
       },
       {
         "name": "Matheus Nunes",
         "position": "Defensores",
         "club": "Manchester City - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Matheus%20Nunes"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Matheus%20Nunes",
+        "number": 6
       },
       {
         "name": "Nélson Semedo",
         "position": "Defensores",
         "club": "Fenerbahce - Turquia",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=N%C3%A9lson%20Semedo"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=N%C3%A9lson%20Semedo",
+        "number": 2
       },
       {
         "name": "João Cancelo",
         "position": "Defensores",
         "club": "Barcelona - Espanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jo%C3%A3o%20Cancelo"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jo%C3%A3o%20Cancelo",
+        "number": 20
       },
       {
         "name": "Nuno Mendes",
         "position": "Defensores",
         "club": "Paris Saint-Germain - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Nuno%20Mendes"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Nuno%20Mendes",
+        "number": 25
       },
       {
         "name": "Gonçalo Inácio",
         "position": "Defensores",
         "club": "Sporting - Portugal",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gon%C3%A7alo%20In%C3%A1cio"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gon%C3%A7alo%20In%C3%A1cio",
+        "number": 14
       },
       {
         "name": "Renato Veiga",
         "position": "Defensores",
         "club": "Villarreal - Espanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Renato%20Veiga"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Renato%20Veiga",
+        "number": 13
       },
       {
         "name": "Rúben Dias",
         "position": "Defensores",
         "club": "Manchester City - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=R%C3%BAben%20Dias"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=R%C3%BAben%20Dias",
+        "number": 3
       },
       {
         "name": "Tomás Araújo",
         "position": "Defensores",
         "club": "Benfica - Portugal",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Tom%C3%A1s%20Ara%C3%BAjo"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Tom%C3%A1s%20Ara%C3%BAjo",
+        "number": 4
       },
       {
         "name": "Rúben Neves",
         "position": "Meio-campistas",
         "club": "Al-Hilal - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=R%C3%BAben%20Neves"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=R%C3%BAben%20Neves",
+        "number": 21
       },
       {
         "name": "Samuel Costa",
         "position": "Meio-campistas",
         "club": "Mallorca - Espanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Samuel%20Costa"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Samuel%20Costa",
+        "number": 24
       },
       {
         "name": "João Neves",
         "position": "Meio-campistas",
         "club": "Paris Saint-Germain - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jo%C3%A3o%20Neves"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jo%C3%A3o%20Neves",
+        "number": 15
       },
       {
         "name": "Vitinha",
         "position": "Meio-campistas",
         "club": "Paris Saint-Germain - França",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Vitinha"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Vitinha",
+        "number": 23
       },
       {
         "name": "Bruno Fernandes",
         "position": "Meio-campistas",
         "club": "Manchester United - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Bruno%20Fernandes"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Bruno%20Fernandes",
+        "number": 8
       },
       {
         "name": "Bernardo Silva",
         "position": "Meio-campistas",
         "club": "Manchester City - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Bernardo%20Silva"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Bernardo%20Silva",
+        "number": 10
       },
       {
         "name": "João Félix",
         "position": "Atacantes",
         "club": "Al-Nassr - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jo%C3%A3o%20F%C3%A9lix"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jo%C3%A3o%20F%C3%A9lix",
+        "number": 11
       },
       {
         "name": "Francisco Trincão",
         "position": "Atacantes",
         "club": "Sporting - Portugal",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Francisco%20Trinc%C3%A3o"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Francisco%20Trinc%C3%A3o",
+        "number": 16
       },
       {
         "name": "Francisco Conceição",
         "position": "Atacantes",
         "club": "Juventus - Itália",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Francisco%20Concei%C3%A7%C3%A3o"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Francisco%20Concei%C3%A7%C3%A3o",
+        "number": 26
       },
       {
         "name": "Pedro Neto",
         "position": "Atacantes",
         "club": "Chelsea - Inglaterra",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Pedro%20Neto"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Pedro%20Neto",
+        "number": 18
       },
       {
         "name": "Rafael Leão",
         "position": "Atacantes",
         "club": "Milan - Itália",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Rafael%20Le%C3%A3o"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Rafael%20Le%C3%A3o",
+        "number": 17
       },
       {
         "name": "Gonçalo Guedes",
         "position": "Atacantes",
         "club": "Real Sociedad - Espanha",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gon%C3%A7alo%20Guedes"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gon%C3%A7alo%20Guedes",
+        "number": 19
       },
       {
         "name": "Gonçalo Ramos",
         "position": "Atacantes",
         "club": "Paris Saint-Germain",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gon%C3%A7alo%20Ramos"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Gon%C3%A7alo%20Ramos",
+        "number": 9
       },
       {
         "name": "Cristiano Ronaldo",
         "position": "Atacantes",
         "club": "Al-Nassr - Arábia Saudita",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Cristiano%20Ronaldo"
+        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Cristiano%20Ronaldo",
+        "number": 7
       }
     ]
   },
