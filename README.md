@@ -5,11 +5,11 @@
   <h1>Copa do Mundo FIFA 2026™ — Simulador Interativo</h1>
 
   <p>
-    <img src="https://img.shields.io/badge/Vue.js-3.5-4FC08D?style=flat-square&logo=vue.js&logoColor=white" alt="Vue 3" />
-    <img src="https://img.shields.io/badge/TypeScript-6.0-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Pinia-3.0-FFE56F?style=flat-square&logo=vue.js&logoColor=black" alt="Pinia" />
-    <img src="https://img.shields.io/badge/Vite-8.0-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-    <img src="https://img.shields.io/badge/licença-MIT-22c55e?style=flat-square" alt="MIT License" />
+    <img src="https://img.shields.io/badge/Vue.js-3.5-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue 3" />
+    <img src="https://img.shields.io/badge/TypeScript-6.0-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Pinia-3.0-FFE56F?style=flat&logo=vue.js&logoColor=black" alt="Pinia" />
+    <img src="https://img.shields.io/badge/Vite-8.0-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite" />
+    <img src="https://img.shields.io/badge/licença-MIT-22c55e?style=flat" alt="MIT License" />
   </p>
 
   <p>
@@ -234,10 +234,10 @@ Distribuído sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE) para 
 Desenvolvido por **[Caique Novaes](https://github.com/caiquenovaes1994)**
 
 <a href="https://github.com/caiquenovaes1994">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
 </a>
 <a href="mailto:caiquenovaes1994@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail" />
 </a>
 
 </div>
