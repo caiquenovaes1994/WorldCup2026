@@ -11,7 +11,6 @@ const matchStore = useMatchStore()
 const route = useRoute()
 
 const selectedGroups = ref<string[]>([...groupNames])
-const showThirdPlace = ref(true)
 const showResetModal = ref(false)
 
 function toggleGroup(group: string) {
@@ -121,7 +120,7 @@ onMounted(() => {
     </div>
 
     <!-- Third Place Table -->
-    <div v-if="showThirdPlace" class="third-place-section">
+    <div class="third-place-section">
       <ThirdPlaceTable />
     </div>
 

@@ -10,4 +10,4 @@ As seleções abaixo não possuem exatamente 26 jogadores em seu elenco, conform
 | **Senegal** | 28 jogadores | +2 | Seleção optou por convocar quatro goleiros visando substituições específicas na posição permitidas pela FIFA em casos de lesão. |
 
 > [!NOTE]
-> As seleções presentes nesta lista possuem justificativas documentadas relacionadas à preparação final para a Copa e às regras da FIFA para goleiros, com exceção de Gana. Sendo assim, o monitoramento pode ser encerrado por enquanto.
+> As seleções presentes nesta lista possuem justificativas documentadas relacionadas à preparação final para a Copa e às regras da FIFA para goleiros. Sendo assim, o monitoramento pode ser encerrado por enquanto.

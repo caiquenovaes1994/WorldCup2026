@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 import TeamBadge from './TeamBadge.vue'
 import { venuesById } from '../data/venues'
 import { useKnockoutStore } from '../stores/knockoutStore'
+import { useBroadcasters } from '../composables/useBroadcasters'
 import type { KnockoutMatch } from '../types'
 
 const props = defineProps<{ match: KnockoutMatch }>()
@@ -19,35 +20,24 @@ const dateFormatted = new Date(props.match.date + 'T12:00:00').toLocaleDateStrin
   month: '2-digit',
 })
 
-const isDraw = ref(false)
+const isDraw = computed(() =>
+  props.match.homeScore !== null &&
+  props.match.awayScore !== null &&
+  props.match.homeScore === props.match.awayScore
+)
 
-const broadcasters = computed(() => {
-  const list = ['cazetv']
-  
-  // Brazil games get all broadcasters
-  const isBrazil = props.match.homeTeam === 'BRA' || props.match.awayTeam === 'BRA'
-  
-  // Late stages (SF, FINAL) or Brazil get all
-  const isLateStage = props.match.round === 'SF' || props.match.round === 'FINAL' || props.match.round === '3RD'
-  
-  if (isBrazil || isLateStage || parseInt(props.match.id.replace(/\D/g, '') || '0') % 2 === 0) {
-    list.push('tvglobo', 'sportv', 'globoplay')
-  }
-  
-  if (isBrazil || isLateStage || parseInt(props.match.id.replace(/\D/g, '') || '0') % 3 === 0) {
-    list.push('sbt', 'nsports')
-  }
-  
-  return list
-})
+const broadcasters = useBroadcasters(
+  () => props.match.homeTeam,
+  () => props.match.awayTeam,
+  () => props.match.round,
+  () => parseInt(props.match.id.replace(/\D/g, '') || '0')
+)
 
 function onScoreChange() {
   const h = homeScore.value === '' ? null : parseInt(homeScore.value)
   const a = awayScore.value === '' ? null : parseInt(awayScore.value)
   if (h !== null && isNaN(h)) return
   if (a !== null && isNaN(a)) return
-
-  isDraw.value = h !== null && a !== null && h === a
 
   const hp = homePen.value === '' ? null : parseInt(homePen.value)
   const ap = awayPen.value === '' ? null : parseInt(awayPen.value)
@@ -63,8 +53,6 @@ function onPenaltyChange() {
 
   knockoutStore.updateKnockoutScore(props.match.id, h, a, hp, ap)
 }
-
-// Removed onRefereeChange as referees are no longer selectable
 
 function getWinnerClass(team: 'home' | 'away'): string {
   if (props.match.homeScore === null || props.match.awayScore === null) return ''

@@ -145,8 +145,6 @@ export const useKnockoutStore = defineStore('knockout', () => {
   return {
     knockoutMatches,
     updateKnockoutScore,
-    getWinner,
-    getLoser,
     populateFromGroups,
     resetKnockout,
     getMatchesByRound,

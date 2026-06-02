@@ -498,21 +498,6 @@ img {
   color: var(--text-secondary);
 }
 
-.referee-select {
-  flex: 1;
-  background: var(--bg-input);
-  color: var(--text-primary);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  padding: 4px 8px;
-  font-size: var(--font-xs);
-  cursor: pointer;
-  transition: border-color var(--transition-fast);
-}
-
-.referee-select:focus {
-  border-color: var(--accent-blue);
-}
 
 /* Matches grid */
 .matches-grid {
@@ -534,26 +519,7 @@ img {
   overflow: hidden;
 }
 
-/* Knockout bracket */
-.knockout-container {
-  overflow-x: auto;
-  padding: var(--space-lg) 0;
-}
-
-.knockout-bracket {
-  display: flex;
-  gap: var(--space-2xl);
-  min-width: max-content;
-  align-items: flex-start;
-  padding: var(--space-lg);
-}
-
-.knockout-round {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-lg);
-  min-width: 260px;
-}
+/* Knockout match card */
 
 .knockout-round-title {
   text-align: center;
@@ -642,12 +608,6 @@ img {
   border-radius: var(--radius-sm);
 }
 
-.penalty-label {
-  font-size: 10px;
-  color: var(--accent-gold);
-  text-align: center;
-  margin-top: 2px;
-}
 
 .knockout-team-row.winner {
   background: rgba(16, 185, 129, 0.08);
@@ -954,21 +914,6 @@ img {
 
 .info-banner .text strong {
   color: var(--text-primary);
-}
-
-/* Timezone indicator */
-.timezone-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  background: rgba(245, 158, 11, 0.1);
-  color: var(--accent-gold);
-  font-size: 10px;
-  font-weight: 700;
-  padding: 2px 8px;
-  border-radius: var(--radius-full);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
 }
 
 /* Broadcasters */

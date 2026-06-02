@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { ref, watch, computed } from 'vue'
+import { ref, watch } from 'vue'
 import TeamBadge from './TeamBadge.vue'
 import { venuesById } from '../data/venues'
 import { useMatchStore } from '../stores/matchStore'
+import { useBroadcasters } from '../composables/useBroadcasters'
 import type { GroupMatch } from '../types'
 
 const props = defineProps<{ match: GroupMatch }>()
@@ -20,22 +21,12 @@ const dateFormatted = new Date(props.match.date + 'T12:00:00').toLocaleDateStrin
   month: '2-digit',
 })
 
-const broadcasters = computed(() => {
-  const list = ['cazetv']
-  
-  // Brazil games get all broadcasters
-  const isBrazil = props.match.homeTeam === 'BRA' || props.match.awayTeam === 'BRA'
-  
-  if (isBrazil || props.match.id % 2 === 0) {
-    list.push('tvglobo', 'sportv', 'globoplay')
-  }
-  
-  if (isBrazil || props.match.id % 3 === 0) {
-    list.push('sbt', 'nsports')
-  }
-  
-  return list
-})
+const broadcasters = useBroadcasters(
+  () => props.match.homeTeam,
+  () => props.match.awayTeam,
+  () => 'GROUP',
+  () => props.match.id
+)
 
 function onScoreChange() {
   const h = homeScore.value === '' ? null : parseInt(homeScore.value)
@@ -46,8 +37,6 @@ function onScoreChange() {
 
   matchStore.updateScore(props.match.id, h, a)
 }
-
-// Removed onRefereeChange as referees are no longer selectable
 
 watch(() => props.match.homeScore, (newVal, oldVal) => {
   if (newVal !== null && oldVal !== null && newVal > oldVal) {

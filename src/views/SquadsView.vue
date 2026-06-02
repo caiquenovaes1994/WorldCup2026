@@ -4,13 +4,9 @@ import { teams } from '../data/teams'
 import squadsData from '../data/squads.json'
 import coachesData from '../data/coaches.json'
 
-const props = defineProps<{
-  searchQuery: string
-}>()
-
 // Cast squadsData for TypeScript
-type SquadType = { coach: string; players: Array<{name: string, position: string, club: string, transfermarktUrl: string}> };
-const squads = squadsData as Record<string, SquadType>;
+type SquadType = { coach: string; players: Array<{name: string, position: string, club: string, transfermarktUrl?: string}> };
+const squads = squadsData as unknown as Record<string, SquadType>;
 
 const sortedTeams = computed(() => {
   return [...teams].sort((a, b) => a.name.localeCompare(b.name)).map(team => ({

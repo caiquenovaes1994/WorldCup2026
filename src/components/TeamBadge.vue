@@ -3,14 +3,14 @@ import { teamsByCode } from '../data/teams'
 
 const props = withDefaults(defineProps<{
   code: string
-  size?: 'sm' | 'md' | 'lg' | 'xl'
+  size?: 'sm' | 'md' | 'lg'
   showName?: boolean
 }>(), {
+  size: 'md',
   showName: true
 })
 
 const team = teamsByCode[props.code]
-const size = props.size ?? 'md'
 const flagSrc = team ? `/flags/${team.flagCode}.svg` : ''
 </script>
 
