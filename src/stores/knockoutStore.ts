@@ -90,6 +90,17 @@ export const useKnockoutStore = defineStore('knockout', () => {
   function populateFromGroups() {
     const matchStore = useMatchStore()
 
+    // Find all third place slots in the current bracket
+    const thirdPlaceSlots: string[] = []
+    knockoutMatches.value.forEach(m => {
+      if (m.round === 'R32') {
+        if (m.homeSource.startsWith('3')) thirdPlaceSlots.push(m.homeSource)
+        if (m.awaySource.startsWith('3')) thirdPlaceSlots.push(m.awaySource)
+      }
+    })
+
+    const thirdPlaceAssignments = matchStore.allocateThirdPlaces(thirdPlaceSlots)
+
     knockoutMatches.value.forEach(match => {
       if (match.round !== 'R32') return
 
@@ -101,7 +112,7 @@ export const useKnockoutStore = defineStore('knockout', () => {
         const group = match.homeSource[1]
         match.homeTeam = matchStore.getGroupPosition(group, 2)
       } else if (match.homeSource.startsWith('3')) {
-        match.homeTeam = matchStore.getThirdPlaceForSlot(match.homeSource)
+        match.homeTeam = thirdPlaceAssignments[match.homeSource] || null
       }
 
       // Away team source
@@ -112,7 +123,7 @@ export const useKnockoutStore = defineStore('knockout', () => {
         const group = match.awaySource[1]
         match.awayTeam = matchStore.getGroupPosition(group, 2)
       } else if (match.awaySource.startsWith('3')) {
-        match.awayTeam = matchStore.getThirdPlaceForSlot(match.awaySource)
+        match.awayTeam = thirdPlaceAssignments[match.awaySource] || null
       }
     })
 

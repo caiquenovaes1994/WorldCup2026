@@ -189,18 +189,54 @@ export const useMatchStore = defineStore('matches', () => {
     return team.teamCode
   }
 
-  // Get which third-place team goes to a specific bracket slot
-  function getThirdPlaceForSlot(slotOptions: string): string | null {
-    // slotOptions is like "3C/D/E/F" - the groups from which the third can come
+  function allocateThirdPlaces(slots: string[]): Record<string, string> {
     const qualifiedThirds = thirdPlaceTeams.value.filter(t => t.qualified)
-    const optionGroups = slotOptions.replace('3', '').split('/')
+    const assignments: Record<string, string> = {}
+    const usedTeams = new Set<string>()
 
-    for (const third of qualifiedThirds) {
-      if (optionGroups.includes(third.group)) {
-        return third.teamCode
+    function backtrack(slotIndex: number): boolean {
+      if (slotIndex === slots.length) return true
+
+      const slot = slots[slotIndex]
+      const optionGroups = slot.replace('3', '').split('/')
+
+      for (const team of qualifiedThirds) {
+        if (!usedTeams.has(team.teamCode) && optionGroups.includes(team.group)) {
+          usedTeams.add(team.teamCode)
+          assignments[slot] = team.teamCode
+          if (backtrack(slotIndex + 1)) return true
+          usedTeams.delete(team.teamCode)
+          delete assignments[slot]
+        }
+      }
+      return false
+    }
+
+    function greedyFallback() {
+      usedTeams.clear()
+      for (const key in assignments) delete assignments[key]
+      
+      for (const slot of slots) {
+        const optionGroups = slot.replace('3', '').split('/')
+        for (const team of qualifiedThirds) {
+          if (!usedTeams.has(team.teamCode) && optionGroups.includes(team.group)) {
+            usedTeams.add(team.teamCode)
+            assignments[slot] = team.teamCode
+            break
+          }
+        }
       }
     }
-    return null
+
+    if (qualifiedThirds.length === 8) {
+      if (!backtrack(0)) {
+        greedyFallback()
+      }
+    } else {
+      greedyFallback()
+    }
+
+    return assignments
   }
 
   // Check if all group stage matches are completed
@@ -224,7 +260,7 @@ export const useMatchStore = defineStore('matches', () => {
     allStandings,
     thirdPlaceTeams,
     getGroupPosition,
-    getThirdPlaceForSlot,
+    allocateThirdPlaces,
     allGroupMatchesPlayed,
     isGroupComplete,
   }
