@@ -46,17 +46,21 @@ Uma plataforma interativa premium para acompanhar e simular todos os jogos da **
 
 ## 🤝 Contribuição e Políticas
 
-Leia nosso [Código de Conduta](CODE_OF_CONDUCT.md) e o manual de [Segurança](SECURITY.md) antes de submeter um *Pull Request*. Este projeto está sob a licença [MIT](LICENSE).
+Leia nosso [Código de Conduta](CODE_OF_CONDUCT.md) e o manual de [Segurança](SECURITY.md) antes de submeter um *Pull Request*.
+
+Para as diretrizes e regras oficiais da FIFA sobre a convocação de elencos, consulte o documento de controle de [Seleções e Jogadores](selecoes_jogadores_incorretos.md).
+
+Este projeto está sob a licença [MIT](LICENSE).
 
 ---
 
 <div align="center">
-  <h3>Desenvolvido por Caique</h3>
+  <h3>Desenvolvido por Caique Novaes</h3>
   
-  <a href="https://github.com/caiqu">
+  <a href="https://github.com/caiquenovaes1994">
     <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="mailto:contato@gmail.com">
+  <a href="mailto:caiquenovaes1994@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   
