@@ -87,12 +87,7 @@ function selectTeam(code: string) {
       Jogadores Convocados
     </h1>
     
-    <div class="info-banner" style="margin-top: 1rem; margin-bottom: 2rem;">
-      <span class="icon">📅</span>
-      <div class="text">
-        <strong>Aviso Oficial:</strong> Estas listas foram divulgadas pelas Confederações. Seleções marcadas com <strong>(*)</strong> não possuem lista oficial até o momento. A lista final da FIFA será divulgada em <strong>2 de junho</strong>.
-      </div>
-    </div>
+
 
     <div v-if="!selectedTeamCode" class="teams-grid">
       <button 
@@ -102,7 +97,7 @@ function selectTeam(code: string) {
         class="team-card-btn"
       >
         <img :src="`/flags/${team.flagCode}.svg`" :alt="team.name" class="team-flag" />
-        <span class="team-name">{{ team.name }}{{ team.hasSquad ? '' : '*' }}</span>
+        <span class="team-name">{{ team.name }}</span>
       </button>
     </div>
 
@@ -120,7 +115,7 @@ function selectTeam(code: string) {
           :class="{ active: selectedTeamCode === team.code }"
         >
           <img :src="`/flags/${team.flagCode}.svg`" :alt="team.name" class="team-flag" />
-          <span class="team-name">{{ team.name }}{{ team.hasSquad ? '' : '*' }}</span>
+          <span class="team-name">{{ team.name }}</span>
         </button>
       </div>
 
@@ -165,10 +160,22 @@ function selectTeam(code: string) {
 <style scoped>
 .teams-grid {
   display: grid; 
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+  grid-template-columns: repeat(2, 1fr); 
   gap: 1rem;
   margin-bottom: 2rem;
   width: 100%;
+}
+
+@media (min-width: 640px) {
+  .teams-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .teams-grid {
+    grid-template-columns: repeat(8, 1fr);
+  }
 }
 
 .carousel-container {
