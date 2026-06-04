@@ -5,7 +5,7 @@ import squadsData from '../data/squads.json'
 import coachesData from '../data/coaches.json'
 
 // Cast squadsData for TypeScript
-type SquadType = { coach: string; players: Array<{name: string, position: string, club: string, transfermarktUrl?: string, number?: number}> };
+type SquadType = { players: Array<{name: string, position: string, club: string, transfermarktUrl?: string, number?: number}> };
 const squads = squadsData as unknown as Record<string, SquadType>;
 
 const sortedTeams = computed(() => {
@@ -24,9 +24,9 @@ const selectedTeam = computed(() => {
 })
 
 const selectedTeamCoach = computed(() => {
-  if (!selectedTeam.value) return null
-  const coaches = coachesData as Record<string, string>;
-  return coaches[selectedTeam.value.name] || "Desconhecido"
+  if (!selectedTeam.value) return { name: "Desconhecido" }
+  const coaches = coachesData as unknown as Record<string, { name: string, nationality?: string, flagCode?: string }>;
+  return coaches[selectedTeam.value.name] || { name: "Desconhecido" }
 })
 
 const selectedTeamSquad = computed(() => {
@@ -128,9 +128,10 @@ function selectTeam(code: string) {
     <div v-if="selectedTeam" class="squad-display">
       <h2 class="squad-title">Elenco: {{ selectedTeam.name }}</h2>
 
-      <div class="coach-banner" style="margin-bottom: 2rem;">
+      <div class="coach-banner" style="margin-bottom: 2rem; display: flex; align-items: center; gap: 0.5rem;">
         <span class="coach-label">Técnico:</span>
-        <span class="coach-name">{{ selectedTeamCoach }}</span>
+        <span class="coach-name">{{ selectedTeamCoach.name }}</span>
+        <img v-if="selectedTeamCoach.flagCode" :src="`/flags/${selectedTeamCoach.flagCode}.svg`" :alt="selectedTeamCoach.nationality" :title="selectedTeamCoach.nationality" style="width: 24px; height: 18px; border-radius: 2px; object-fit: cover; margin-left: 0.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.2);" />
       </div>
       
       <div v-if="!selectedTeam.hasSquad" class="info-banner warning">

@@ -71,6 +71,7 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 ### 👥 Convocados
 
 - Elencos completos das **48 seleções** organizados por posição (Goleiros · Defensores · Meio-campistas · Atacantes)
+- **Numeração oficial (1 ao 26)** de todos os jogadores, atualizada com base nas convocações finais da FIFA
 - Informação do técnico de cada seleção
 - Link para o perfil de cada jogador no Transfermarkt
 - Carrossel de navegação entre seleções com scroll suave

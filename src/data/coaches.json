@@ -1,51 +1,242 @@
 {
-  "África do Sul": "Hugo Broos",
-  "Alemanha": "Julian Nagelsmann",
-  "Arábia Saudita": "Hervé Renard",
-  "Argélia": "Vladimir Petković",
-  "Argentina": "Lionel Scaloni",
-  "Austrália": "Tony Popovic",
-  "Áustria": "Ralf Rangnick",
-  "Bélgica": "Rudi Garcia",
-  "Bósnia e Herz.": "Sergej Barbarez",
-  "Brasil": "Carlo Ancelotti",
-  "Cabo Verde": "Pedro Brito (Bubista)",
-  "Canadá": "Jesse Marsch",
-  "Catar": "Julen Lopetegui",
-  "Colômbia": "Néstor Lorenzo",
-  "Congo": "Sébastien Desabre",
-  "Coreia do Sul": "Hong Myung-bo",
-  "Costa do Marfim": "Emerse Faé",
-  "Croácia": "Zlatko Dalić",
-  "Curaçau": "Dick Advocaat",
-  "Egito": "Hossam Hassan",
-  "Equador": "Sebastián Beccacece",
-  "Escócia": "Steve Clarke",
-  "Espanha": "Luis de la Fuente",
-  "Estados Unidos": "Mauricio Pochettino",
-  "França": "Didier Deschamps",
-  "Gana": "Carlos Queiroz",
-  "Haiti": "Sébastien Migné",
-  "Holanda": "Ronald Koeman",
-  "Inglaterra": "Thomas Tuchel",
-  "Irã": "Amir Ghalenoei",
-  "Iraque": "Graham Arnold",
-  "Japão": "Hajime Moriyasu",
-  "Jordânia": "Jamal Sellami",
-  "Marrocos": "Mohamed Ouahbi",
-  "México": "Javier Aguirre",
-  "Noruega": "Ståle Solbakken",
-  "Nova Zelândia": "Darren Bazeley",
-  "Panamá": "Thomas Christiansen",
-  "Paraguai": "Gustavo Alfaro",
-  "Portugal": "Roberto Martínez",
-  "RD Congo": "Sébastien Desabre",
-  "Senegal": "Pape Thiaw",
-  "Suécia": "Graham Potter",
-  "Suíça": "Murat Yakin",
-  "Tchéquia": "Miroslav Koubek",
-  "Tunísia": "Sabri Lamouchi",
-  "Turquia": "Vincenzo Montella",
-  "Uruguai": "Marcelo Bielsa",
-  "Uzbequistão": "Fabio Cannavaro"
+  "África do Sul": {
+    "name": "Hugo Broos",
+    "nationality": "Bélgica",
+    "flagCode": "be"
+  },
+  "Alemanha": {
+    "name": "Julian Nagelsmann",
+    "nationality": "Alemanha",
+    "flagCode": "de"
+  },
+  "Arábia Saudita": {
+    "name": "Hervé Renard",
+    "nationality": "Grécia",
+    "flagCode": "gr"
+  },
+  "Argélia": {
+    "name": "Vladimir Petković",
+    "nationality": "Suíça",
+    "flagCode": "ch"
+  },
+  "Argentina": {
+    "name": "Lionel Scaloni",
+    "nationality": "Argentina",
+    "flagCode": "ar"
+  },
+  "Austrália": {
+    "name": "Tony Popovic",
+    "nationality": "Austrália",
+    "flagCode": "au"
+  },
+  "Áustria": {
+    "name": "Ralf Rangnick",
+    "nationality": "Alemanha",
+    "flagCode": "de"
+  },
+  "Bélgica": {
+    "name": "Rudi Garcia",
+    "nationality": "França",
+    "flagCode": "fr"
+  },
+  "Bósnia e Herz.": {
+    "name": "Sergej Barbarez",
+    "nationality": "Bósnia e Herz.",
+    "flagCode": "ba"
+  },
+  "Brasil": {
+    "name": "Carlo Ancelotti",
+    "nationality": "Itália",
+    "flagCode": "it"
+  },
+  "Cabo Verde": {
+    "name": "Pedro Brito (Bubista)",
+    "nationality": "Cabo Verde",
+    "flagCode": "cv"
+  },
+  "Canadá": {
+    "name": "Jesse Marsch",
+    "nationality": "Estados Unidos",
+    "flagCode": "us"
+  },
+  "Catar": {
+    "name": "Julen Lopetegui",
+    "nationality": "Espanha",
+    "flagCode": "es"
+  },
+  "Colômbia": {
+    "name": "Néstor Lorenzo",
+    "nationality": "Argentina",
+    "flagCode": "ar"
+  },
+  "Coreia do Sul": {
+    "name": "Hong Myung-bo",
+    "nationality": "Coreia do Sul",
+    "flagCode": "kr"
+  },
+  "Costa do Marfim": {
+    "name": "Emerse Faé",
+    "nationality": "Costa do Marfim",
+    "flagCode": "ci"
+  },
+  "Croácia": {
+    "name": "Zlatko Dalić",
+    "nationality": "Croácia",
+    "flagCode": "hr"
+  },
+  "Curaçau": {
+    "name": "Dick Advocaat",
+    "nationality": "Holanda",
+    "flagCode": "nl"
+  },
+  "Egito": {
+    "name": "Hossam Hassan",
+    "nationality": "Egito",
+    "flagCode": "eg"
+  },
+  "Equador": {
+    "name": "Sebastián Beccacece",
+    "nationality": "Argentina",
+    "flagCode": "ar"
+  },
+  "Escócia": {
+    "name": "Steve Clarke",
+    "nationality": "Escócia",
+    "flagCode": "gb-sct"
+  },
+  "Espanha": {
+    "name": "Luis de la Fuente",
+    "nationality": "Espanha",
+    "flagCode": "es"
+  },
+  "Estados Unidos": {
+    "name": "Mauricio Pochettino",
+    "nationality": "Argentina",
+    "flagCode": "ar"
+  },
+  "França": {
+    "name": "Didier Deschamps",
+    "nationality": "França",
+    "flagCode": "fr"
+  },
+  "Gana": {
+    "name": "Carlos Queiroz",
+    "nationality": "Portugal",
+    "flagCode": "pt"
+  },
+  "Haiti": {
+    "name": "Sébastien Migné",
+    "nationality": "França",
+    "flagCode": "fr"
+  },
+  "Holanda": {
+    "name": "Ronald Koeman",
+    "nationality": "Holanda",
+    "flagCode": "nl"
+  },
+  "Inglaterra": {
+    "name": "Thomas Tuchel",
+    "nationality": "Alemanha",
+    "flagCode": "de"
+  },
+  "Irã": {
+    "name": "Amir Ghalenoei",
+    "nationality": "Irã",
+    "flagCode": "ir"
+  },
+  "Iraque": {
+    "name": "Graham Arnold",
+    "nationality": "Austrália",
+    "flagCode": "au"
+  },
+  "Japão": {
+    "name": "Hajime Moriyasu",
+    "nationality": "Japão",
+    "flagCode": "jp"
+  },
+  "Jordânia": {
+    "name": "Jamal Sellami",
+    "nationality": "Marrocos",
+    "flagCode": "ma"
+  },
+  "Marrocos": {
+    "name": "Mohamed Ouahbi",
+    "nationality": "Marrocos",
+    "flagCode": "ma"
+  },
+  "México": {
+    "name": "Javier Aguirre",
+    "nationality": "México",
+    "flagCode": "mx"
+  },
+  "Noruega": {
+    "name": "Ståle Solbakken",
+    "nationality": "Noruega",
+    "flagCode": "no"
+  },
+  "Nova Zelândia": {
+    "name": "Darren Bazeley",
+    "nationality": "Nova Zelândia",
+    "flagCode": "nz"
+  },
+  "Panamá": {
+    "name": "Thomas Christiansen",
+    "nationality": "Espanha",
+    "flagCode": "es"
+  },
+  "Paraguai": {
+    "name": "Gustavo Alfaro",
+    "nationality": "Argentina",
+    "flagCode": "ar"
+  },
+  "Portugal": {
+    "name": "Roberto Martínez",
+    "nationality": "Espanha",
+    "flagCode": "es"
+  },
+  "RD Congo": {
+    "name": "Sébastien Desabre",
+    "nationality": "França",
+    "flagCode": "fr"
+  },
+  "Senegal": {
+    "name": "Pape Thiaw",
+    "nationality": "Senegal",
+    "flagCode": "sn"
+  },
+  "Suécia": {
+    "name": "Graham Potter",
+    "nationality": "Inglaterra",
+    "flagCode": "gb-eng"
+  },
+  "Suíça": {
+    "name": "Murat Yakin",
+    "nationality": "Suíça",
+    "flagCode": "ch"
+  },
+  "Tchéquia": {
+    "name": "Miroslav Koubek",
+    "nationality": "Tchéquia",
+    "flagCode": "cz"
+  },
+  "Tunísia": {
+    "name": "Sabri Lamouchi",
+    "nationality": "França",
+    "flagCode": "fr"
+  },
+  "Turquia": {
+    "name": "Vincenzo Montella",
+    "nationality": "Itália",
+    "flagCode": "it"
+  },
+  "Uruguai": {
+    "name": "Marcelo Bielsa",
+    "nationality": "Argentina",
+    "flagCode": "ar"
+  },
+  "Uzbequistão": {
+    "name": "Fabio Cannavaro",
+    "nationality": "Itália",
+    "flagCode": "it"
+  }
 }
