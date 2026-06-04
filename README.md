@@ -5,10 +5,12 @@
   <h1>Copa do Mundo FIFA 2026™ — Simulador Interativo</h1>
 
   <p>
-    <img src="https://img.shields.io/badge/Vue.js-3.5-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue 3" />
+    <img src="https://img.shields.io/badge/Vue.js-3.5-4FC08D?style=flat&logo=vuedotjs&logoColor=white" alt="Vue 3" />
+    <img src="https://img.shields.io/badge/Vue%20Router-4.6-4FC08D?style=flat&logo=vuedotjs&logoColor=white" alt="Vue Router" />
+    <img src="https://img.shields.io/badge/Pinia-3.0-FFE56F?style=flat&logo=vuedotjs&logoColor=black" alt="Pinia" />
     <img src="https://img.shields.io/badge/TypeScript-6.0-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Pinia-3.0-FFE56F?style=flat&logo=vue.js&logoColor=black" alt="Pinia" />
     <img src="https://img.shields.io/badge/Vite-8.0-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite" />
+    <img src="https://img.shields.io/badge/CSS3-Vanilla-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" />
     <img src="https://img.shields.io/badge/licença-MIT-22c55e?style=flat" alt="MIT License" />
   </p>
 
