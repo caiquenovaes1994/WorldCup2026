@@ -17,6 +17,16 @@ const sortedTeams = computed(() => {
 
 const selectedTeamCode = ref<string | null>(null)
 const carouselRef = ref<HTMLElement | null>(null)
+const openPositions = ref<string[]>([])
+
+const togglePosition = (pos: string) => {
+  const index = openPositions.value.indexOf(pos)
+  if (index > -1) {
+    openPositions.value.splice(index, 1)
+  } else {
+    openPositions.value.push(pos)
+  }
+}
 
 const selectedTeam = computed(() => {
   if (!selectedTeamCode.value) return null
@@ -63,6 +73,7 @@ function scrollCarousel(direction: number) {
 
 function selectTeam(code: string) {
   selectedTeamCode.value = code
+  openPositions.value = []
   nextTick(() => {
     if (carouselRef.value) {
       const activeBtn = carouselRef.value.querySelector('.active') as HTMLElement
@@ -141,17 +152,31 @@ function selectTeam(code: string) {
         </div>
       </div>
       
-      <div v-else class="squad-sections">
-        <div v-for="(players, position) in selectedTeamSquad" :key="position" class="squad-position-group">
-          <h3 class="position-title">{{ position }}</h3>
-          <ul class="player-list">
-            <li v-for="player in players" :key="player.name" class="player-item">
-              <a :href="player.transfermarktUrl" target="_blank" class="player-name-link">
-                <template v-if="player.number">#{{ player.number }} - </template>{{ player.name }}
-              </a>
-              <span class="player-club" v-if="player.club">{{ player.club }}</span>
-            </li>
-          </ul>
+      <div v-else class="positions-row">
+        <div v-for="(players, position) in selectedTeamSquad" :key="position" style="border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--surface);">
+          <div @click="togglePosition(position.toString())" style="padding: 1rem 1.5rem; cursor: pointer; font-weight: bold; font-size: 1.2rem; user-select: none; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;">
+            <span></span>
+            <div style="display: flex; align-items: center; justify-content: center; text-align: center; font-size: 1rem;">
+              {{ position }}
+            </div>
+            <div style="text-align: right;">
+              <span style="display: inline-block; font-size: 0.8em; color: var(--text-secondary);" :style="{ transform: openPositions.includes(position.toString()) ? 'rotate(180deg)' : 'rotate(0deg)', transition: 'transform 0.8s ease' }">▼</span>
+            </div>
+          </div>
+          <div class="accordion-wrapper" :class="{ open: openPositions.includes(position.toString()) }">
+            <div class="accordion-content">
+              <div style="padding: 1rem; border-top: 1px solid var(--border); opacity: 0; transform: translateY(-10px); transition: all 0.8s ease-out;" :style="openPositions.includes(position.toString()) ? 'opacity: 1; transform: translateY(0); transition-delay: 0.1s;' : ''">
+                <ul class="player-list">
+                  <li v-for="player in players" :key="player.name" class="player-item">
+                    <a :href="player.transfermarktUrl" target="_blank" class="player-name-link">
+                      <template v-if="player.number">#{{ player.number }} - </template>{{ player.name }}
+                    </a>
+                    <span class="player-club" v-if="player.club">{{ player.club }}</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -159,6 +184,37 @@ function selectTeam(code: string) {
 </template>
 
 <style scoped>
+.accordion-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.accordion-wrapper.open {
+  grid-template-rows: 1fr;
+}
+.accordion-content {
+  overflow: hidden;
+}
+
+.positions-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .positions-row {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+  }
+  .positions-row > div {
+    min-width: 160px;
+    flex: 0 0 auto;
+  }
+}
+
 .teams-grid {
   display: grid; 
   grid-template-columns: repeat(2, 1fr); 
@@ -357,6 +413,8 @@ function selectTeam(code: string) {
   margin-bottom: 0.5rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .player-name-link {
