@@ -5,6 +5,7 @@ export interface Team {
   group: string
   flagCode: string
   fifaRanking: number
+appearances?: number
 }
 
 export interface Venue {

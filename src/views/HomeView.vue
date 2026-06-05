@@ -44,7 +44,7 @@ const hostFlags = [
           <img :src="`/flags/${flag.code}.svg`" :alt="flag.name" />
         </div>
       </div>
-      <h1 class="hero-title">Copa do Mundo FIFA 2026™</h1>
+      <h1 class="hero-title">Copa do Mundo <img src="/FIFA_Logo_White_Generic.webp" class="inline-fifa-logo" alt="FIFA" /> 2026™</h1>
       <p class="hero-subtitle">Estados Unidos · México · Canadá — 11 de junho a 19 de julho</p>
 
       <div class="countdown">
@@ -127,6 +127,12 @@ const hostFlags = [
           <div style="font-size: 3rem; margin-bottom: 1rem;">✨</div>
           <div class="group-label">Sobre o Torneio</div>
           <div style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">Mascotes e Bola Oficial</div>
+        </RouterLink>
+
+        <RouterLink :to="{ name: 'statistics' }" class="overview-card" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; width: 250px;">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">📊</div>
+          <div class="group-label">Estatísticas</div>
+          <div style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">Treinadores, clubes e mais</div>
         </RouterLink>
       </div>
     </div>

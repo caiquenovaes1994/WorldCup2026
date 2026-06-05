@@ -61,7 +61,7 @@ onMounted(() => {
     <div class="info-banner">
       <span class="icon">ℹ️</span>
       <div class="text">
-        Insira os placares nos campos de cada jogo. A classificação será atualizada automaticamente seguindo os critérios oficiais da FIFA.
+        Insira os placares nos campos de cada jogo. A classificação será atualizada automaticamente seguindo os critérios oficiais da <img src="/FIFA_Logo_White_Generic.webp" class="inline-fifa-logo" alt="FIFA" />.
       </div>
     </div>
 

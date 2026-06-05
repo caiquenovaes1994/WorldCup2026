@@ -6,7 +6,7 @@ import { mascotInfo, officialBallInfo } from '../data/tournamentInfo'
   <div class="page-container">
     <div class="header-section">
       <h1 class="page-title">Sobre o Torneio</h1>
-      <p class="page-subtitle">Conheça os símbolos oficiais da Copa do Mundo FIFA 2026™</p>
+      <p class="page-subtitle">Conheça os símbolos oficiais da Copa do Mundo <img src="/FIFA_Logo_White_Generic.webp" class="inline-fifa-logo" alt="FIFA" /> 2026™</p>
     </div>
 
     <!-- Mascotes Section -->

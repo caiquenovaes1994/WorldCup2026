@@ -83,6 +83,13 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 - Página dedicada aos Mascotes Oficiais — **Maple** (Canadá), **Zayu** (México) e **Clutch** (EUA)
 - Bola oficial **Adidas Trionda** com especificações técnicas completas
 
+### 📊 Estatísticas Avançadas
+
+- **Treinadores por Nacionalidade**: Ranking interativo mostrando de onde vêm os comandantes da Copa, com atalho direto para a convocação de suas seleções.
+- **Jogadores por País (Clubes)**: Ranking das ligas que mais cedem atletas para a Copa. Inclui um filtro inteligente por Seleção e exibe as bandeiras dos países sede dos clubes.
+- **Participações em Copas**: Histórico completo de aparições no torneio, com destaque visual em **ouro 🥇, prata 🥈 e bronze 🥉** para os anos em que as seleções terminaram no pódio.
+- **Ranking FIFA ao Vivo**: Acesso direto à classificação mundial oficial e atualizada.
+
 ### 📺 Extras
 
 - Countdown regressivo ao vivo para a abertura do torneio
@@ -102,7 +109,7 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 | Roteamento | [Vue Router 4](https://router.vuejs.org/) com lazy-loading por rota |
 | Build | [Vite 8](https://vitejs.dev/) |
 | Estilos | CSS Vanilla com variáveis customizadas (design system próprio) |
-| Fontes | [Inter](https://fonts.google.com/specimen/Inter) via Google Fonts |
+| Fontes | [Oswald](https://fonts.google.com/specimen/Oswald) via Google Fonts |
 | Persistência | `localStorage` (sem backend) |
 | Imagens | WebP otimizado via [sharp](https://sharp.pixelplumbing.com/) |
 
@@ -201,6 +208,7 @@ Acesse **[http://localhost:5173](http://localhost:5173)** no navegador.
 | `/arbitros` | `RefereesView` | Lista dos árbitros por confederação |
 | `/convocados` | `SquadsView` | Elencos das 48 seleções |
 | `/sobre-torneio` | `TournamentInfoView` | Mascotes e bola oficial |
+| `/estatisticas` | `StatisticsView` | Rankings de técnicos, atletas por país e histórico de Copas |
 
 ---
 

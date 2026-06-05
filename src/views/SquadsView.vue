@@ -1,8 +1,11 @@
 <script setup lang="ts">
-import { ref, computed, nextTick } from 'vue'
+import { ref, computed, nextTick, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
 import { teams } from '../data/teams'
 import squadsData from '../data/squads.json'
 import coachesData from '../data/coaches.json'
+
+const route = useRoute()
 
 // Cast squadsData for TypeScript
 type SquadType = { players: Array<{name: string, position: string, club: string, transfermarktUrl?: string, number?: number}> };
@@ -19,6 +22,12 @@ const selectedTeamCode = ref<string | null>(null)
 const carouselRef = ref<HTMLElement | null>(null)
 const openPositions = ref<string[]>([])
 
+onMounted(() => {
+  if (route.query.team) {
+    selectTeam(route.query.team as string)
+  }
+})
+
 const togglePosition = (pos: string) => {
   const index = openPositions.value.indexOf(pos)
   if (index > -1) {
@@ -26,6 +35,13 @@ const togglePosition = (pos: string) => {
   } else {
     openPositions.value.push(pos)
   }
+}
+
+const positionEmojis: Record<string, string> = {
+  'Goleiros': '🧤',
+  'Defensores': '🛡️',
+  'Meio-campistas': '⚽',
+  'Atacantes': '⚔️'
 }
 
 const selectedTeam = computed(() => {
@@ -157,7 +173,7 @@ function selectTeam(code: string) {
           <div @click="togglePosition(position.toString())" style="padding: 1rem 1.5rem; cursor: pointer; font-weight: bold; font-size: 1.2rem; user-select: none; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;">
             <span></span>
             <div style="display: flex; align-items: center; justify-content: center; text-align: center; font-size: 1rem;">
-              {{ position }}
+              <span style="margin-right: 0.4rem;">{{ positionEmojis[position.toString()] }}</span> {{ position }}
             </div>
             <div style="text-align: right;">
               <span style="display: inline-block; font-size: 0.8em; color: var(--text-secondary);" :style="{ transform: openPositions.includes(position.toString()) ? 'rotate(180deg)' : 'rotate(0deg)', transition: 'transform 0.8s ease' }">▼</span>
