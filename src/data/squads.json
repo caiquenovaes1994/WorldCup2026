@@ -377,157 +377,183 @@
         "position": "Goleiros",
         "name": "Nawaf Al Aqidi",
         "club": "Al Nassr FC (Arábia Saudita)",
-        "number": 1
+        "number": 1,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/nawaf-al-aqidi/profil/spieler/886183"
       },
       {
         "position": "Defensores",
         "name": "Ali Majrashi",
         "club": "Al Ahli FC (Arábia Saudita)",
-        "number": 2
+        "number": 2,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ali-majrashi/profil/spieler/672391"
       },
       {
         "position": "Defensores",
         "name": "Ali Lajami",
         "club": "Al Hilal SC (Arábia Saudita)",
-        "number": 3
+        "number": 3,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ali-lajami/profil/spieler/264909"
       },
       {
         "position": "Defensores",
         "name": "Abdulelah Al Amri",
         "club": "Al Nassr FC (Arábia Saudita)",
-        "number": 4
+        "number": 4,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdulelah-al-amri/profil/spieler/509894"
       },
       {
         "name": "Hassan Altambakti",
         "position": "Defensores",
         "club": "Al Hilal SC (Arábia Saudita)",
-        "number": 5
+        "number": 5,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/hassan-tambakti/profil/spieler/509897"
       },
       {
         "position": "Meio-campistas",
         "name": "Nasser Al Dawsari",
         "club": "Al Hilal SC (Arábia Saudita)",
-        "number": 6
+        "number": 6,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/nasser-al-dawsari/profil/spieler/509911"
       },
       {
         "position": "Meio-campistas",
         "name": "Musab Al Juwayr",
         "club": "Al Qadsiah FC (Arábia Saudita)",
-        "number": 7
+        "number": 7,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/musab-al-juwayr/profil/spieler/901181"
       },
       {
         "position": "Atacantes",
         "name": "Ayman Yahya",
         "club": "Al Nassr FC (Arábia Saudita)",
-        "number": 8
+        "number": 8,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ayman-yahya/profil/spieler/735815"
       },
       {
         "position": "Atacantes",
-        "name": "Feras Al Brikan",
+        "name": "Firas Al Buraikan",
         "club": "Al Ahli FC (Arábia Saudita)",
-        "number": 9
+        "number": 9,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/firas-al-buraikan/profil/spieler/631922"
       },
       {
         "position": "Atacantes",
         "name": "Salem Al Dawsari",
         "club": "Al Hilal SC (Arábia Saudita)",
-        "number": 10
+        "number": 10,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/salem-al-dawsari/profil/spieler/195332"
       },
       {
         "position": "Atacantes",
         "name": "Saleh Al Shehri",
         "club": "Al Ittihad (Arábia Saudita)",
-        "number": 11
+        "number": 11,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/saleh-al-shehri/profil/spieler/242267"
       },
       {
         "position": "Defensores",
         "name": "Saud Abdulhamid",
         "club": "RC Lens (França)",
-        "number": 12
+        "number": 12,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/saud-abdulhamid/profil/spieler/631927"
       },
       {
-        "name": "Nawaf Bu Washl",
+        "name": "Nawaf Boushal",
         "position": "Defensores",
         "club": "Al Nassr FC (Arábia Saudita)",
-        "number": 13
+        "number": 13,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/nawaf-boushal/profil/spieler/821377"
       },
       {
         "position": "Defensores",
         "name": "Hassan Kadesh",
         "club": "Al Ittihad (Arábia Saudita)",
-        "number": 14
+        "number": 14,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/hassan-kadesh/profil/spieler/260859"
       },
       {
         "position": "Meio-campistas",
         "name": "Abdullah Al Khaibari",
         "club": "Al Nassr FC (Arábia Saudita)",
-        "number": 15
+        "number": 15,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdullah-al-khaibari/profil/spieler/437903"
       },
       {
         "position": "Meio-campistas",
         "name": "Ziyad Al Johani",
         "club": "Al Ahli FC (Arábia Saudita)",
-        "number": 16
+        "number": 16,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ziyad-al-johani/profil/spieler/901079"
       },
       {
         "position": "Atacantes",
         "name": "Khalid Al Ghannam",
         "club": "Al Ettifaq FC (Arábia Saudita)",
-        "number": 17
+        "number": 17,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/khalid-al-ghannam/profil/spieler/631923"
       },
       {
         "position": "Meio-campistas",
-        "name": "Alaa Al Hajji",
+        "name": "Alaa Hejji",
         "club": "Neom SC (Arábia Saudita)",
-        "number": 18
+        "number": 18,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/alaa-hejji/profil/spieler/443937"
       },
       {
         "position": "Atacantes",
         "name": "Abdullah Al Hamdan",
         "club": "Al Nassr FC (Arábia Saudita)",
-        "number": 19
+        "number": 19,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdullah-al-hamdan/profil/spieler/68626"
       },
       {
         "position": "Atacantes",
         "name": "Sultan Mandash",
         "club": "Al Hilal SC (Arábia Saudita)",
-        "number": 20
+        "number": 20,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/sultan-mandash/profil/spieler/210349"
       },
       {
         "position": "Goleiros",
-        "name": "Mohammed Kanno",
+        "name": "Mohamed Kanno",
         "club": "Al Ula Saudi FC (Arábia Saudita)",
-        "number": 21
+        "number": 21,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mohamed-kanno/profil/spieler/308120"
       },
       {
         "position": "Goleiros",
         "name": "Ahmed Al Kassar",
         "club": "Al Qadsiah FC (Arábia Saudita)",
-        "number": 22
+        "number": 22,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ahmed-al-kassar/profil/spieler/177956"
       },
       {
         "position": "Meio-campistas",
         "name": "Mohammed Al Owais",
         "club": "Al Hilal SC (Arábia Saudita)",
-        "number": 23
+        "number": 23,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mohammed-al-owais/profil/spieler/262845"
       },
       {
         "position": "Defensores",
         "name": "Moteb Al Harbi",
         "club": "Al Hilal SC (Arábia Saudita)",
-        "number": 24
+        "number": 24,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/moteb-al-harbi/profil/spieler/869509"
       },
       {
         "position": "Defensores",
-        "name": "Jehad Thikri",
+        "name": "Jehad Thakri",
         "club": "Al Qadsiah FC (Arábia Saudita)",
-        "number": 25
+        "number": 25,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jehad-thakri/profil/spieler/901334"
       },
       {
         "position": "Defensores",
         "name": "Mohammed Abu Al Shamat",
         "club": "Al Qadsiah FC (Arábia Saudita)",
-        "number": 26
+        "number": 26,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mohammed-abu-al-shamat/profil/spieler/1181852"
       }
     ]
   },
@@ -537,157 +563,183 @@
         "position": "Goleiros",
         "name": "Melvin Mastil",
         "club": "FC Stade Nyonnais (Suíça)",
-        "number": 1
+        "number": 1,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/melvin-mastil/profil/spieler/534398"
       },
       {
         "position": "Defensores",
         "name": "Aissa Mandi",
         "club": "Lille OSC (França)",
-        "number": 2
+        "number": 2,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/aissa-mandi/profil/spieler/80293"
       },
       {
         "position": "Defensores",
-        "name": "Achraf Abada",
+        "name": "Achref Abada",
         "club": "USM Alger (Argélia)",
-        "number": 3
+        "number": 3,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/achref-abada/profil/spieler/949929"
       },
       {
         "position": "Defensores",
         "name": "Mohamed Amine Tougai",
         "club": "Espérance De Tunisie (Tunísia)",
-        "number": 4
+        "number": 4,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mohamed-amine-tougai/profil/spieler/592396"
       },
       {
         "position": "Defensores",
         "name": "Zineddine Belaid",
         "club": "JS Kabylie (Argélia)",
-        "number": 5
+        "number": 5,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/zineddine-belaid/profil/spieler/625142"
       },
       {
         "position": "Meio-campistas",
         "name": "Ramiz Zerrouki",
         "club": "FC Twente (Holanda)",
-        "number": 6
+        "number": 6,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ramiz-zerrouki/profil/spieler/416660"
       },
       {
         "position": "Atacantes",
         "name": "Riyad Mahrez",
         "club": "Al Ahli FC (Arábia Saudita)",
-        "number": 7
+        "number": 7,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/riyad-mahrez/profil/spieler/171424"
       },
       {
         "position": "Meio-campistas",
         "name": "Houssem Aouar",
         "club": "Al Ittihad (Arábia Saudita)",
-        "number": 8
+        "number": 8,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/houssem-aouar/profil/spieler/395693"
       },
       {
         "position": "Atacantes",
         "name": "Amine Gouiri",
         "club": "Olympique Marseille (França)",
-        "number": 9
+        "number": 9,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/amine-gouiri/profil/spieler/418659"
       },
       {
         "position": "Meio-campistas",
         "name": "Fares Chaibi",
         "club": "Eintracht Frankfurt (Alemanha)",
-        "number": 10
+        "number": 10,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/fares-chaibi/profil/spieler/855015"
       },
       {
         "position": "Atacantes",
         "name": "Anis Hadj Moussa",
         "club": "Feyenoord Rotterdam (Holanda)",
-        "number": 11
+        "number": 11,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/anis-hadj-moussa/profil/spieler/917911"
       },
       {
         "position": "Atacantes",
         "name": "Nadhir Benbouali",
         "club": "Györi ETO FC (Hungria)",
-        "number": 12
+        "number": 12,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/nadhir-benbouali/profil/spieler/840254"
       },
       {
         "position": "Defensores",
         "name": "Jaouen Hadjam",
         "club": "BSC Young Boys (Suíça)",
-        "number": 13
+        "number": 13,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jaouen-hadjam/profil/spieler/750903"
       },
       {
         "position": "Meio-campistas",
         "name": "Hicham Boudaoui",
         "club": "OGC Nice (França)",
-        "number": 14
+        "number": 14,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/hicham-boudaoui/profil/spieler/560593"
       },
       {
         "position": "Defensores",
         "name": "Rayan Ait-nouri",
         "club": "Manchester City FC (Inglaterra)",
-        "number": 15
+        "number": 15,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/rayan-ait-nouri/profil/spieler/578391"
       },
       {
         "position": "Goleiros",
         "name": "Oussama Benbot",
         "club": "USM Alger (Argélia)",
-        "number": 16
+        "number": 16,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/oussama-benbout/profil/spieler/437982"
       },
       {
         "position": "Defensores",
-        "name": "Ra«k Belghali",
+        "name": "Rafik Belghali",
         "club": "Hellas Verona FC (Itália)",
-        "number": 17
+        "number": 17,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/rafik-belghali/profil/spieler/864306"
       },
       {
         "position": "Atacantes",
         "name": "Mohamed Amoura",
         "club": "VfL Wolfsburg (Alemanha)",
-        "number": 18
+        "number": 18,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mohamed-amoura/profil/spieler/746910"
       },
       {
         "position": "Meio-campistas",
         "name": "Nabil Bentaleb",
         "club": "Lille OSC (França)",
-        "number": 19
+        "number": 19,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/nabil-bentaleb/profil/spieler/245537"
       },
       {
         "position": "Atacantes",
         "name": "Adil Boulbina",
         "club": "Al Duhail SC (Catar)",
-        "number": 20
+        "number": 20,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/adil-boulbina/profil/spieler/748443"
       },
       {
         "position": "Defensores",
         "name": "Ramy Bensebaini",
         "club": "Borussia Dortmund (Alemanha)",
-        "number": 21
+        "number": 21,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ramy-bensebaini/profil/spieler/284732"
       },
       {
         "position": "Meio-campistas",
         "name": "Ibrahim Maza",
         "club": "Bayer Leverkusen (Alemanha)",
-        "number": 22
+        "number": 22,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ibrahim-maza/profil/spieler/905011"
       },
       {
         "position": "Goleiros",
         "name": "Luca Zidane",
         "club": "Granada CF (Espanha)",
-        "number": 23
+        "number": 23,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/luca-zidane/profil/spieler/283489"
       },
       {
         "position": "Meio-campistas",
         "name": "Yassine Titraoui",
         "club": "Sporting Charleroi (Bélgica)",
-        "number": 24
+        "number": 24,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/yassine-titraoui/profil/spieler/748445"
       },
       {
         "position": "Atacantes",
         "name": "Fares Ghedjemis",
         "club": "Frosinone (Itália)",
-        "number": 25
+        "number": 25,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/fares-ghedjemis/profil/spieler/888738"
       },
       {
         "position": "Defensores",
         "name": "Samir Chergui",
         "club": "Paris FC (França)",
-        "number": 26
+        "number": 26,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/samir-chergui/profil/spieler/668167"
       }
     ]
   },
@@ -1399,10 +1451,10 @@
         "number": 21
       },
       {
-        "name": "Alexis Saelemekars",
+        "name": "Alexis Saelemaekers",
         "position": "Meio-campistas",
         "club": "AC Milan (Itália)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Alexis%20Saelemekars",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/alexis-saelemaekers/profil/spieler/381950",
         "number": 22
       },
       {
@@ -1518,7 +1570,8 @@
         "name": "Mladen Jurkas",
         "position": "Goleiros",
         "club": "FK Borac Banja Luka (Bósnia e Herzegovina)",
-        "number": 12
+        "number": 12,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mladen-jurkas/profil/spieler/952692"
       },
       {
         "name": "Ivan Basic",
@@ -1689,7 +1742,7 @@
         "name": "Neymar Junior",
         "position": "Atacantes",
         "club": "Santos FC (Brasil)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Neymar%20Junior",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/neymar/profil/spieler/68290",
         "number": 10
       },
       {
@@ -1819,14 +1872,14 @@
         "name": "Ianique 'Stopira'",
         "position": "Defensores",
         "club": "SCU Torreense (Portugal)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ianique%20'Stopira'",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/stopira/profil/spieler/80486",
         "number": 2
       },
       {
         "name": "'Diney' Borges",
         "position": "Defensores",
         "club": "Al Bataeh Club (Emirados Árabes Unidos)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query='Diney'%20Borges",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/diney-borges/profil/spieler/349570",
         "number": 3
       },
       {
@@ -2149,10 +2202,10 @@
         "number": 22
       },
       {
-        "name": "Kiko Sigur",
+        "name": "Niko Sigur",
         "position": "Defensores",
         "club": "HNK Hajduk Split (Croácia)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Kiko%20Sigur",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/niko-sigur/profil/spieler/1045375",
         "number": 23
       },
       {
@@ -2265,10 +2318,10 @@
         "number": 12
       },
       {
-        "name": "Ayoub Al-Alawi",
+        "name": "Ayoub Al-Oui",
         "position": "Defensores",
         "club": "Al Gharafa SC (Catar)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ayoub%20Al-Alawi",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ayoub-al-oui/profil/spieler/1054631",
         "number": 13
       },
       {
@@ -2279,10 +2332,10 @@
         "number": 14
       },
       {
-        "name": "Youssef Abdulrazzaq",
+        "name": "Abdul Razak Yusif",
         "position": "Atacantes",
         "club": "Al Wakrah SC (Catar)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Youssef%20Abdulrazzaq",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdul-razak-yusif/profil/spieler/734668",
         "number": 15
       },
       {
@@ -2349,16 +2402,17 @@
         "number": 24
       },
       {
-        "name": "Alhashmi Alhussein",
+        "name": "Al-Hashimi Al-Hussain",
         "position": "Defensores",
         "club": "Al Arabi SC (Catar)",
-        "number": 25
+        "number": 25,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/al-hashmi-al-hussain/profil/spieler/943150"
       },
       {
-        "name": "Mohamed Mannaj",
+        "name": "Mohamed Al-Mannai",
         "position": "Atacantes",
         "club": "Al Shamal SC (Catar)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mohamed%20Mannaj",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mohamed-al-mannai/profil/spieler/822935",
         "number": 26
       }
     ]
@@ -2555,153 +2609,154 @@
         "name": "Kim Seunggyu",
         "position": "Goleiros",
         "club": "FC Tokyo (Japão)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Kim%20Seunggyu",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/seung-gyu-kim/profil/spieler/92076",
         "number": 1
       },
       {
         "name": "Lee Hanbeom",
         "position": "Defensores",
         "club": "FC Midtjylland (Dinamarca)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Lee%20Hanbeom",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/han-beom-lee/profil/spieler/706963",
         "number": 2
       },
       {
         "name": "Lee Kihyuk",
         "position": "Meio-campistas",
         "club": "Gangwon FC (Coreia do Sul)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Lee%20Kihyuk",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/gi-hyuk-lee/profil/spieler/763349",
         "number": 3
       },
       {
         "name": "Kim Min-jae",
         "position": "Defensores",
         "club": "FC Bayern München (Alemanha)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Kim%20Min-jae",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/min-jae-kim/profil/spieler/503482",
         "number": 4
       },
       {
         "name": "Kim Taehyeon",
         "position": "Defensores",
         "club": "Kashima Antlers (Japão)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Kim%20Taehyeon",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/tae-hyeon-kim/profil/spieler/645847",
         "number": 5
       },
       {
         "name": "Hwang Inbeom",
         "position": "Meio-campistas",
         "club": "Feyenoord Rotterdam (Holanda)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hwang%20Inbeom",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/in-beom-hwang/profil/spieler/365394",
         "number": 6
       },
       {
         "name": "Son Heung-min",
         "position": "Atacantes",
         "club": "LAFC (Estados Unidos)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Son%20Heung-min",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/heung-min-son/profil/spieler/91845",
         "number": 7
       },
       {
         "name": "Paik Seungho",
         "position": "Meio-campistas",
         "club": "Birmingham City FC (Inglaterra)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Paik%20Seungho",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/seung-ho-paik/profil/spieler/282689",
         "number": 8
       },
       {
         "name": "Cho Gue-sung",
         "position": "Atacantes",
         "club": "FC Midtjylland (Dinamarca)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Cho%20Gue-sung",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/gue-sung-cho/profil/spieler/652537",
         "number": 9
       },
       {
         "name": "Lee Jaesung",
         "position": "Meio-campistas",
         "club": "1. FSV Mainz 05 (Alemanha)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Lee%20Jaesung",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jae-sung-lee/profil/spieler/314398",
         "number": 10
       },
       {
         "name": "Hwang Heechan",
         "position": "Meio-campistas",
         "club": "Wolverhampton Wanderers FC (Inglaterra)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hwang%20Heechan",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/hee-chan-hwang/profil/spieler/292246",
         "number": 11
       },
       {
         "name": "Song Bumkeun",
         "position": "Goleiros",
         "club": "Jeonbuk Hyundai Motors FC (Coreia do Sul)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Song%20Bumkeun",
+        "transfermarktUrl": "https://www.transfermarkt.com/bum-keun-song/profil/spieler/508237",
         "number": 12
       },
       {
         "name": "Lee Taeseok",
         "position": "Defensores",
         "club": "FK Austria Wien (Áustria)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Lee%20Taeseok",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/tae-seok-lee/profil/spieler/639027",
         "number": 13
       },
       {
         "name": "Wije Cho",
         "position": "Defensores",
         "club": "Jeonbuk Hyundai Motors FC (Coreia do Sul)",
-        "number": 14
+        "number": 14,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/wi-je-cho/profil/spieler/550978"
       },
       {
         "name": "Kim Moonhwan",
         "position": "Defensores",
         "club": "Daejeon Hana Citizen FC (Coreia do Sul)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Kim%20Moonhwan",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/moon-hwan-kim/profil/spieler/524592",
         "number": 15
       },
       {
         "name": "Park Jinseob",
         "position": "Defensores",
         "club": "Zhejiang FC (China)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Park%20Jinseob",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jin-seob-park/profil/spieler/557469",
         "number": 16
       },
       {
         "name": "Bae Junho",
         "position": "Meio-campistas",
         "club": "Stoke City FC (Inglaterra)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Bae%20Junho",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jun-ho-bae/profil/spieler/912081",
         "number": 17
       },
       {
         "name": "Oh Hyeongyu",
         "position": "Atacantes",
         "club": "Beşiktaş JK (Turquia)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Oh%20Hyeongyu",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/hyeon-gyu-oh/profil/spieler/639246",
         "number": 18
       },
       {
         "name": "Lee Kang-in",
         "position": "Meio-campistas",
         "club": "Paris Saint-Germain (França)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Lee%20Kang-in",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/kang-in-lee/profil/spieler/557149",
         "number": 19
       },
       {
         "name": "Yang Hyunjun",
         "position": "Meio-campistas",
         "club": "Celtic FC (Escócia)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Yang%20Hyunjun",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/hyun-jun-yang/profil/spieler/853110",
         "number": 20
       },
       {
         "name": "Jo Hyeonwoo",
         "position": "Goleiros",
         "club": "Ulsan HD (Coreia do Sul)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Jo%20Hyeonwoo",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/hyeon-woo-jo/profil/spieler/260171",
         "number": 21
       },
       {
         "name": "Seol Youngwoo",
         "position": "Defensores",
         "club": "FK Crvena Zvezda (Sérvia)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Seol%20Youngwoo",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/young-woo-seol/profil/spieler/639414",
         "number": 22
       },
       {
@@ -2715,21 +2770,21 @@
         "name": "Kim Jingyu",
         "position": "Meio-campistas",
         "club": "Jeonbuk Hyundai Motors FC (Coreia do Sul)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Kim%20Jingyu",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jin-gyu-kim/profil/spieler/365377",
         "number": 24
       },
       {
         "name": "Eom Jisung",
         "position": "Meio-campistas",
         "club": "Swansea City AFC (País de Gales)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Eom%20Jisung",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ji-sung-eom/profil/spieler/706968",
         "number": 25
       },
       {
         "name": "Lee Donggyeong",
         "position": "Meio-campistas",
         "club": "Ulsan HD (Coreia do Sul)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Lee%20Donggyeong",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/dong-gyeong-lee/profil/spieler/558086",
         "number": 26
       }
     ]
@@ -2824,7 +2879,8 @@
         "name": "Christopher Operi",
         "position": "Defensores",
         "club": "Başakşehir FK (Turquia)",
-        "number": 13
+        "number": 13,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/christopher-operi/profil/spieler/469976"
       },
       {
         "name": "Oumar Diakite",
@@ -3097,10 +3153,10 @@
         "number": 25
       },
       {
-        "name": "Peter Musa",
+        "name": "Petar Musa",
         "position": "Atacantes",
         "club": "FC Dallas (Estados Unidos)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Peter%20Musa",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/petar-musa/profil/spieler/387110",
         "number": 26
       }
     ]
@@ -3276,10 +3332,10 @@
         "number": 24
       },
       {
-        "name": "Tyrick Bodack",
+        "name": "Tyrick Bodak",
         "position": "Goleiros",
         "club": "SC Telstar (Holanda)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Tyrick%20Bodack",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/tyrick-bodak/profil/spieler/663961",
         "number": 25
       },
       {
@@ -3315,10 +3371,10 @@
         "number": 3
       },
       {
-        "name": "Hossam Abdelmagid",
+        "name": "Hossam Abdelmaguid",
         "position": "Defensores",
         "club": "Zamalek SC (Egito)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hossam%20Abdelmagid",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/hossam-abdelmaguid/profil/spieler/737524",
         "number": 4
       },
       {
@@ -3339,7 +3395,8 @@
         "name": "Trezeguet",
         "position": "Atacantes",
         "club": "Al Ahly FC (Egito)",
-        "number": 7
+        "number": 7,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/trezeguet/profil/spieler/234189"
       },
       {
         "name": "Emam Ashour",
@@ -3349,10 +3406,10 @@
         "number": 8
       },
       {
-        "name": "Hamza Abdulkarim",
+        "name": "Hamza Abdelkarim",
         "position": "Atacantes",
         "club": "FC Barcelona (Espanha)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hamza%20Abdulkarim",
+        "transfermarktUrl": "https://www.transfermarkt.com/hamza-abdelkarim/profil/spieler/1259085",
         "number": 9
       },
       {
@@ -3387,7 +3444,7 @@
         "name": "Hamdi Fathi",
         "position": "Meio-campistas",
         "club": "Al Wakrah SC (Catar)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hamdi%20Fathi",
+        "transfermarktUrl": "https://www.transfermarkt.com/hamdi-fathi/geruechte/spieler/340303",
         "number": 14
       },
       {
@@ -3398,17 +3455,17 @@
         "number": 15
       },
       {
-        "name": "El Mahdy Soliman",
+        "name": "El Mahdi Soliman",
         "position": "Goleiros",
         "club": "Zamalek SC (Egito)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=El%20Mahdy%20Soliman",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/el-mahdi-soliman/profil/spieler/104951",
         "number": 16
       },
       {
-        "name": "Mohannad Lashin",
+        "name": "Mohanad Lasheen",
         "position": "Meio-campistas",
         "club": "Pyramids FC (Egito)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mohannad%20Lashin",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mohanad-lasheen/profil/spieler/479682",
         "number": 17
       },
       {
@@ -3419,10 +3476,10 @@
         "number": 18
       },
       {
-        "name": "Marwan Attia",
+        "name": "Marwan Ateya",
         "position": "Meio-campistas",
         "club": "Al Ahly FC (Egito)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Marwan%20Attia",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/marwan-ateya/profil/spieler/734542",
         "number": 19
       },
       {
@@ -3447,10 +3504,10 @@
         "number": 22
       },
       {
-        "name": "Mostafa Shobeir",
+        "name": "Oufa Shobeir",
         "position": "Goleiros",
         "club": "Al Ahly FC (Egito)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mostafa%20Shobeir",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/oufa-shobeir/profil/spieler/661455",
         "number": 23
       },
       {
@@ -3464,7 +3521,8 @@
         "name": "Zizo",
         "position": "Atacantes",
         "club": "Al Ahly FC (Egito)",
-        "number": 25
+        "number": 25,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/zizo/profil/spieler/320722"
       },
       {
         "name": "Mohamed El Shenawy",
@@ -3716,7 +3774,8 @@
         "name": "Tyler Fletcher",
         "position": "Meio-campistas",
         "club": "Manchester United FC (Inglaterra)",
-        "number": 8
+        "number": 8,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/tyler-fletcher/profil/spieler/1049911"
       },
       {
         "name": "Lyndon Dykes",
@@ -4410,157 +4469,183 @@
         "name": "Lawrence Ati-Zigi",
         "position": "Goleiros",
         "club": "FC St. Gallen (Suíça)",
-        "number": 1
+        "number": 1,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/lawrence-ati-zigi/profil/spieler/254285"
       },
       {
         "name": "Alidu Seidu",
         "position": "Defensores",
         "club": "Stade Rennais FC (França)",
-        "number": 2
+        "number": 2,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/alidu-seidu/profil/spieler/798404"
       },
       {
         "name": "Caleb Yirenkyi",
         "position": "Meio-campistas",
         "club": "FC Nordsjælland (Dinamarca)",
-        "number": 3
+        "number": 3,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/caleb-yirenkyi/profil/spieler/1240763"
       },
       {
         "name": "Jonas Adjetey",
         "position": "Defensores",
         "club": "VfL Wolfsburg (Alemanha)",
-        "number": 4
+        "number": 4,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jonas-adjetey/profil/spieler/734676"
       },
       {
         "name": "Thomas Partey",
         "position": "Meio-campistas",
         "club": "Villarreal CF (Espanha)",
-        "number": 5
+        "number": 5,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/thomas-partey/profil/spieler/230784"
       },
       {
         "name": "Abdul Mumin",
         "position": "Defensores",
         "club": "Rayo Vallecano (Espanha)",
-        "number": 6
+        "number": 6,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdul-mumin/profil/spieler/451801"
       },
       {
         "name": "Abdul Fatawu Issahaku",
         "position": "Atacantes",
         "club": "Leicester City FC (Inglaterra)",
-        "number": 7
+        "number": 7,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdul-fatawu/profil/spieler/864121"
       },
       {
         "name": "Kwasi Sibo",
         "position": "Meio-campistas",
         "club": "Real Oviedo (Espanha)",
-        "number": 8
+        "number": 8,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/kwasi-sibo/profil/spieler/538006"
       },
       {
         "name": "Jordan Ayew",
         "position": "Atacantes",
         "club": "Leicester City FC (Inglaterra)",
-        "number": 9
+        "number": 9,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jordan-ayew/profil/spieler/108354"
       },
       {
         "name": "Brandon Thomas-Asante",
         "position": "Atacantes",
         "club": "Coventry City FC (Inglaterra)",
-        "number": 10
+        "number": 10,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/brandon-thomas-asante/profil/spieler/451747"
       },
       {
         "name": "Antoine Semenyo",
         "position": "Meio-campistas",
         "club": "Manchester City FC (Inglaterra)",
-        "number": 11
+        "number": 11,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/antoine-semenyo/profil/spieler/583255"
       },
       {
         "name": "Joseph Anang",
         "position": "Goleiros",
         "club": "St Patrick's Athletic FC (Irlanda)",
-        "number": 12
+        "number": 12,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/joseph-anang/profil/spieler/576099"
       },
       {
         "name": "Christopher Bonsu Baah",
         "position": "Atacantes",
         "club": "Al Qadsiah FC (Arábia Saudita)",
-        "number": 13
+        "number": 13,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/christopher-bonsu-baah/profil/spieler/1119447"
       },
       {
-        "name": "Gideoh Mensah",
+        "name": "Gideon Mensah",
         "position": "Defensores",
         "club": "AJ Auxerre (França)",
-        "number": 14
+        "number": 14,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/gideon-mensah/profil/spieler/397171"
       },
       {
         "name": "Elisha Owusu",
         "position": "Meio-campistas",
         "club": "AJ Auxerre (França)",
-        "number": 15
+        "number": 15,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/elisha-owusu/profil/spieler/395695"
       },
       {
         "name": "Benjamin Asare",
         "position": "Goleiros",
         "club": "Hearts Of Oak SC (Gana)",
-        "number": 16
+        "number": 16,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/benjamin-asare/profil/spieler/837368"
       },
       {
         "name": "Baba Abdul Rahman",
         "position": "Defensores",
         "club": "PAOK Saloniki (Grécia)",
-        "number": 17
+        "number": 17,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdul-rahman-baba/profil/spieler/224884"
       },
       {
         "name": "Jerome Opoku",
         "position": "Defensores",
         "club": "Başakşehir FK (Turquia)",
-        "number": 18
+        "number": 18,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jerome-opoku/profil/spieler/408563"
       },
       {
         "name": "Iñaki Williams",
         "position": "Atacantes",
         "club": "Athletic Club (Espanha)",
-        "number": 19
+        "number": 19,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/inaki-pena/profil/spieler/283170"
       },
       {
         "name": "Augustine Boakye",
         "position": "Meio-campistas",
         "club": "AS Saint-Etienne (França)",
-        "number": 20
+        "number": 20,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/augustine-boakye/profil/spieler/579263"
       },
       {
         "name": "Kojo Oppong Peprah",
         "position": "Defensores",
         "club": "OGC Nice (França)",
-        "number": 21
+        "number": 21,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/kojo-peprah-oppong/profil/spieler/1113451"
       },
       {
-        "name": "Kamal Deen Sulemana",
+        "name": "Kamaldeen Sulemana",
         "position": "Atacantes",
         "club": "Atalanta Bergamo (Itália)",
-        "number": 22
+        "number": 22,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/kamaldeen-sulemana/profil/spieler/746695"
       },
       {
         "name": "Derrick Luckassen",
         "position": "Defensores",
         "club": "Pafos FC (Chipre)",
-        "number": 23
+        "number": 23,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/derrick-luckassen/profil/spieler/241457"
       },
       {
         "name": "Ernest Nuamah",
         "position": "Atacantes",
         "club": "Olympique Lyonnais (França)",
-        "number": 24
+        "number": 24,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ernest-nuamah/profil/spieler/955070"
       },
       {
         "name": "Prince Kwabena Adu",
         "position": "Atacantes",
         "club": "FC Viktoria Plzeň (Tchéquia)",
-        "number": 25
+        "number": 25,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/prince-adu/profil/spieler/734799"
       },
       {
         "name": "Marvin Senaya",
         "position": "Defensores",
         "club": "AJ Auxerre (França)",
-        "number": 26
+        "number": 26,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/marvin-senaya/profil/spieler/830890"
       }
     ]
   },
@@ -4651,10 +4736,11 @@
         "number": 12
       },
       {
-        "name": "Markhus Lacroix",
+        "name": "Duke Lacroix",
         "position": "Defensores",
         "club": "Colorado Springs Switchbacks FC (Estados Unidos)",
-        "number": 13
+        "number": 13,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/duke-lacroix/profil/spieler/375472"
       },
       {
         "name": "Leverton Pierre",
@@ -4952,10 +5038,10 @@
         "number": 2
       },
       {
-        "name": "Nico O’Reilly",
+        "name": "Nico O'Reilly",
         "position": "Defensores",
         "club": "Manchester City FC (Inglaterra)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Nico%20O%E2%80%99Reilly",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/nico-oreilly/profil/spieler/743413",
         "number": 3
       },
       {
@@ -4987,10 +5073,10 @@
         "number": 7
       },
       {
-        "name": "Elliott Anderson",
+        "name": "Elliot Anderson",
         "position": "Meio-campistas",
         "club": "Nottingham Forest FC (Inglaterra)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Elliott%20Anderson",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/elliot-anderson/profil/spieler/567576",
         "number": 8
       },
       {
@@ -5180,10 +5266,10 @@
         "number": 8
       },
       {
-        "name": "Medi Taremi",
+        "name": "Mehdi Taremi",
         "position": "Atacantes",
         "club": "Olympiacos FC (Grécia)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Medi%20Taremi",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mehdi-taremi/profil/spieler/307058",
         "number": 9
       },
       {
@@ -5208,17 +5294,17 @@
         "number": 12
       },
       {
-        "name": "Hosein Kanaani",
+        "name": "Hossein Kanaani",
         "position": "Defensores",
         "club": "Persepolis FC (Irã)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hosein%20Kanaani",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/hossein-kanaani/profil/spieler/249400",
         "number": 13
       },
       {
-        "name": "Saman Ghodoos",
+        "name": "Saman Ghoddos",
         "position": "Meio-campistas",
         "club": "Al Ittihad Kalba SCC (Emirados Árabes Unidos)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Saman%20Ghodoos",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/saman-ghoddos/profil/spieler/204294",
         "number": 14
       },
       {
@@ -5236,10 +5322,10 @@
         "number": 16
       },
       {
-        "name": "Ariya Yousefi",
+        "name": "Arya Yousefi",
         "position": "Defensores",
         "club": "Sepahan SC (Irã)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ariya%20Yousefi",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/arya-yousefi/profil/spieler/932724",
         "number": 17
       },
       {
@@ -5257,10 +5343,10 @@
         "number": 19
       },
       {
-        "name": "Shahriyar Moghanloo",
+        "name": "Shahriar Moghanlou",
         "position": "Atacantes",
         "club": "Al Ittihad Kalba SCC (Emirados Árabes Unidos)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Shahriyar%20Moghanloo",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/shahriar-moghanlou/profil/spieler/357125",
         "number": 20
       },
       {
@@ -5271,38 +5357,38 @@
         "number": 21
       },
       {
-        "name": "Hosein Hoseini",
+        "name": "Seyed Hossein Hosseini",
         "position": "Goleiros",
         "club": "Sepahan SC (Irã)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Hosein%20Hoseini",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/seyed-hossein-hosseini/profil/spieler/132561",
         "number": 22
       },
       {
-        "name": "Ramin Rezaeiyan",
+        "name": "Ramin Rezaeian",
         "position": "Defensores",
         "club": "Foolad Khuzestan FC (Irã)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Ramin%20Rezaeiyan",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ramin-rezaeian/profil/spieler/188312",
         "number": 23
       },
       {
-        "name": "Denis Dargahi",
+        "name": "Dennis Eckert Ayensa",
         "position": "Atacantes",
         "club": "Standard Liège (Bélgica)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Denis%20Dargahi",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/dennis-eckert-ayensa/profil/spieler/249303",
         "number": 24
       },
       {
-        "name": "Daniyal Eiri",
+        "name": "Danial Eiri",
         "position": "Defensores",
         "club": "Malavan Anzali FC (Irã)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Daniyal%20Eiri",
+        "transfermarktUrl": "https://www.transfermarkt.com/danial-eiri/profil/spieler/1080301",
         "number": 25
       },
       {
-        "name": "Amir Mohammad Razagah Niya",
+        "name": "Amirmohammad Razzaghinia",
         "position": "Meio-campistas",
         "club": "Esteghlal Tehran FC (Irã)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Amir%20Mohammad%20Razagah%20Niya",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/amirmohammad-razzaghinia/profil/spieler/1051591",
         "number": 26
       }
     ]
@@ -5317,10 +5403,11 @@
         "number": 1
       },
       {
-        "name": "Rebin Ghareeb",
+        "name": "Abdulrahman Ghareeb",
         "position": "Defensores",
         "club": "Port FC (Tailândia)",
-        "number": 2
+        "number": 2,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdulrahman-ghareeb/profil/spieler/164593"
       },
       {
         "name": "Hussein Ali",
@@ -5375,7 +5462,7 @@
         "name": "Mohannad Ali",
         "position": "Atacantes",
         "club": "Dibba FC (Emirados Árabes Unidos)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mohannad%20Ali",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mohanad-ali/profil/spieler/589646",
         "number": 10
       },
       {
@@ -5424,7 +5511,8 @@
         "name": "Ali Jasim",
         "position": "Atacantes",
         "club": "Al Najmah SC (Arábia Saudita)",
-        "number": 17
+        "number": 17,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ali-jasim/profil/spieler/877672"
       },
       {
         "name": "Aymen Hussein",
@@ -5437,19 +5525,22 @@
         "name": "Kevin Yakob",
         "position": "Meio-campistas",
         "club": "Aarhus GF (Dinamarca)",
-        "number": 19
+        "number": 19,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/kevin-yakob/profil/spieler/413268"
       },
       {
         "name": "Aimar Sher",
         "position": "Meio-campistas",
         "club": "Sarpsborg 08 FF (Noruega)",
-        "number": 20
+        "number": 20,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/aimar-sher/profil/spieler/579294"
       },
       {
         "name": "Marko Farji",
         "position": "Atacantes",
         "club": "Venezia FC (Itália)",
-        "number": 21
+        "number": 21,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/marko-farji/profil/spieler/663153"
       },
       {
         "name": "Ahmed Basil",
@@ -5462,27 +5553,28 @@
         "name": "Mirkhas Doski",
         "position": "Defensores",
         "club": "FC Viktoria Plzeň (Tchéquia)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mirkhas%20Doski",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/merchas-doski/profil/spieler/530527",
         "number": 23
       },
       {
-        "name": "Zaid Ismael",
+        "name": "Zaid Ismail",
         "position": "Meio-campistas",
         "club": "Al Talaba SC (Iraque)",
-        "number": 24
+        "number": 24,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/zaid-ismail/profil/spieler/1132850"
       },
       {
         "name": "Mustafa Saadoun",
         "position": "Defensores",
         "club": "Al Shorta SC (Iraque)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Mustafa%20Saadoun",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mustafa-saadoon/profil/spieler/952341",
         "number": 25
       },
       {
         "name": "Frans Putros",
         "position": "Defensores",
         "club": "Persib Bandung (Indonésia)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Frans%20Putros",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/frans-dhia-putros/profil/spieler/166460",
         "number": 26
       }
     ]
@@ -5676,160 +5768,186 @@
   "Jordânia": {
     "players": [
       {
-        "name": "Yazeed Abu Laila",
+        "name": "Yazeed Abulaila",
         "position": "Goleiros",
         "club": "Al Hussein SC (Jordânia)",
-        "number": 1
+        "number": 1,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/yazeed-abulaila/profil/spieler/261850"
       },
       {
-        "name": "Mohammad Abu Hashish",
+        "name": "Mohammad Abu Hasheesh",
         "position": "Defensores",
         "club": "Al Karma SC (Iraque)",
-        "number": 2
+        "number": 2,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mohammad-abu-hasheesh/profil/spieler/895249"
       },
       {
         "name": "Abdallah Nasib",
         "position": "Defensores",
         "club": "Al Zawra'a SC (Iraque)",
-        "number": 3
+        "number": 3,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdallah-nasib/profil/spieler/882197"
       },
       {
         "name": "Husam Abu Dahab",
         "position": "Defensores",
         "club": "Al Faisaly SC (Jordânia)",
-        "number": 4
+        "number": 4,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/husam-abu-dahab/profil/spieler/895291"
       },
       {
         "name": "Yazan Al-Arab",
         "position": "Defensores",
         "club": "FC Seoul (Coreia do Sul)",
-        "number": 5
+        "number": 5,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/yazan-al-arab/profil/spieler/539961"
       },
       {
         "name": "Amer Jamous",
         "position": "Meio-campistas",
         "club": "Al Zawra'a SC (Iraque)",
-        "number": 6
+        "number": 6,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/amer-jamous/profil/spieler/744040"
       },
       {
         "name": "Mohammad Abualnadi",
         "position": "Atacantes",
         "club": "Raja Casablanca (Marrocos)",
-        "number": 7
+        "number": 7,
+        "transfermarktUrl": "https://www.transfermarkt.pt/mohammad-abualnadi/profil/spieler/658052"
       },
       {
-        "name": "Nour Al-Rawabdeh",
+        "name": "Noor Al-Rawabdeh",
         "position": "Meio-campistas",
         "club": "Selangor FC (Malásia)",
-        "number": 8
+        "number": 8,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/noor-al-rawabdeh/profil/spieler/561485"
       },
       {
         "name": "Ali Olwan",
         "position": "Atacantes",
         "club": "Al Sailiya SC (Catar)",
-        "number": 9
+        "number": 9,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ali-olwan/profil/spieler/664057"
       },
       {
-        "name": "Mousa Altamari",
+        "name": "Mousa Tamari",
         "position": "Atacantes",
         "club": "Stade Rennais FC (França)",
-        "number": 10
+        "number": 10,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mousa-tamari/profil/spieler/551505"
       },
       {
-        "name": "Odeh Fakhouri",
+        "name": "Odeh Fakhoury",
         "position": "Atacantes",
         "club": "Pyramids FC (Egito)",
-        "number": 11
+        "number": 11,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/odeh-fakhoury/profil/spieler/1252820"
       },
       {
-        "name": "Nour Baniateyah",
+        "name": "Noor Bane Ataya",
         "position": "Goleiros",
         "club": "Al Faisaly SC (Jordânia)",
-        "number": 12
+        "number": 12,
+        "transfermarktUrl": "https://www.transfermarkt.com/noor-bane-ataya/profil/spieler/261837"
       },
       {
         "name": "Mahmoud Al-Mardi",
         "position": "Atacantes",
         "club": "Al Hussein SC (Jordânia)",
-        "number": 13
+        "number": 13,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mahmoud-al-mardi/profil/spieler/401086"
       },
       {
         "name": "Rajaei Ayed",
         "position": "Meio-campistas",
         "club": "Al Hussein SC (Jordânia)",
-        "number": 14
+        "number": 14,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/rajaei-ayed/profil/spieler/261842"
       },
       {
-        "name": "Ibrahim Sadeh",
+        "name": "Ibrahim Saadeh",
         "position": "Meio-campistas",
         "club": "Al Karma SC (Iraque)",
-        "number": 15
+        "number": 15,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ibrahim-saadeh/profil/spieler/709974"
       },
       {
         "name": "Mohammad Al-Dawoud",
         "position": "Defensores",
         "club": "Selangor FC (Malásia)",
-        "number": 16
+        "number": 16,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mohammad-al-dawoud/profil/spieler/310801"
       },
       {
         "name": "Saleem Obaid",
         "position": "Defensores",
         "club": "Al Hussein SC (Jordânia)",
-        "number": 17
+        "number": 17,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/saleem-obaid/profil/spieler/658807"
       },
       {
         "name": "Ibrahim Sabra",
         "position": "Atacantes",
         "club": "NK Lokomotiva Zagreb (Croácia)",
-        "number": 18
+        "number": 18,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ibrahim-sabra/profil/spieler/1142382"
       },
       {
         "name": "Saed Al-Rosan",
         "position": "Defensores",
         "club": "Al Hussein SC (Jordânia)",
-        "number": 19
+        "number": 19,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/saed-al-rousan/profil/spieler/561481"
       },
       {
         "name": "Mohannad Abu Taha",
         "position": "Meio-campistas",
         "club": "Al-Quwa Al-Jawiya (Iraque)",
-        "number": 20
+        "number": 20,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mohannad-abu-taha/profil/spieler/883111"
       },
       {
-        "name": "Nizar Alrashdan",
+        "name": "Nizar Al-Rashdan",
         "position": "Meio-campistas",
         "club": "Qatar SC (Catar)",
-        "number": 21
+        "number": 21,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/nizar-al-rashdan/profil/spieler/734751"
       },
       {
-        "name": "Abdullah Al-Fakhouri",
+        "name": "Abdallah Al-Fakhouri",
         "position": "Goleiros",
         "club": "Al Wahdat SC (Jordânia)",
-        "number": 22
+        "number": 22,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdallah-al-fakhouri/profil/spieler/658805"
       },
       {
         "name": "Ehsan Haddad",
         "position": "Defensores",
         "club": "Al Hussein SC (Jordânia)",
-        "number": 23
+        "number": 23,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ehsan-haddad/profil/spieler/310943"
       },
       {
-        "name": "Ali Al-Azaizeh",
+        "name": "Ali Azaizeh",
         "position": "Atacantes",
         "club": "Al Shabab FC (Arábia Saudita)",
-        "number": 24
+        "number": 24,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ali-azaizeh/profil/spieler/1059056"
       },
       {
         "name": "Mohammad Abu Zrayq",
         "position": "Meio-campistas",
         "club": "Al Wahdat SC (Jordânia)",
-        "number": 25
+        "number": 25,
+        "transfermarktUrl": "https://www.transfermarkt.com/shararh/profil/spieler/677986"
       },
       {
         "name": "Anas Badawi",
         "position": "Defensores",
         "club": "Al Faisaly SC (Jordânia)",
-        "number": 26
+        "number": 26,
+        "transfermarktUrl": "https://www.transfermarkt.pt/anas-badawi/profil/spieler/1378902"
       }
     ]
   },
@@ -5839,157 +5957,183 @@
         "position": "Goleiros",
         "name": "Yassine Bounou",
         "club": "Al Hilal SC (Arábia Saudita)",
-        "number": 1
+        "number": 1,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/yassine-bounou/profil/spieler/207834"
       },
       {
         "position": "Defensores",
         "name": "Achraf Hakimi",
         "club": "Paris Saint-Germain (França)",
-        "number": 2
+        "number": 2,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/achraf-hakimi/profil/spieler/398073"
       },
       {
         "position": "Defensores",
         "name": "Noussair Mazraoui",
         "club": "Manchester United FC (Inglaterra)",
-        "number": 3
+        "number": 3,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/noussair-mazraoui/profil/spieler/340456"
       },
       {
         "position": "Meio-campistas",
         "name": "Sofyan Amrabat",
         "club": "Real Betis (Espanha)",
-        "number": 4
+        "number": 4,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/sofyan-amrabat/profil/spieler/287579"
       },
       {
         "position": "Defensores",
         "name": "Nayef Aguerd",
         "club": "Olympique Marseille (França)",
-        "number": 5
+        "number": 5,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/nayef-aguerd/profil/spieler/361914"
       },
       {
         "position": "Meio-campistas",
         "name": "Ayyoub Bouaddi",
         "club": "Lille OSC (França)",
-        "number": 6
+        "number": 6,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ayyoub-bouaddi/profil/spieler/1097139"
       },
       {
         "name": "Chemsdine Talbi",
         "position": "Meio-campistas",
         "club": "Sunderland AFC (Inglaterra)",
-        "number": 7
+        "number": 7,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/chemsdine-talbi/profil/spieler/743384"
       },
       {
         "name": "Azzedine Ounahi",
         "position": "Meio-campistas",
         "club": "Girona FC (Espanha)",
-        "number": 8
+        "number": 8,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/azzedine-ounahi/profil/spieler/593482"
       },
       {
         "position": "Atacantes",
         "name": "Brahim Díaz",
         "club": "Al Ain FC (Emirados Árabes Unidos)",
-        "number": 9
+        "number": 9,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/brahim-diaz/profil/spieler/314678"
       },
       {
         "position": "Atacantes",
         "name": "Soufiane Rahimi",
         "club": "Real Madrid C. F. (Espanha)",
-        "number": 10
+        "number": 10,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/soufiane-rahimi/profil/spieler/598506"
       },
       {
         "position": "Meio-campistas",
         "name": "Ismael Saibari",
         "club": "PSV Eindhoven (Holanda)",
-        "number": 11
+        "number": 11,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ismael-saibari/profil/spieler/702869"
       },
       {
         "position": "Goleiros",
         "name": "Munir El Kajoui",
         "club": "RS Berkane (Marrocos)",
-        "number": 12
+        "number": 12,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/munir-el-kajoui/profil/spieler/97925"
       },
       {
         "position": "Defensores",
         "name": "Zakaria El Ouahdi",
         "club": "KRC Genk (Bélgica)",
-        "number": 13
+        "number": 13,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/zakaria-el-ouahdi/profil/spieler/820474"
       },
       {
         "position": "Defensores",
         "name": "Issa Diop",
         "club": "Fulham FC (Inglaterra)",
-        "number": 14
+        "number": 14,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/issa-diop/profil/spieler/272622"
       },
       {
         "position": "Meio-campistas",
         "name": "Samir El Mourabet",
         "club": "RC Strasbourg (França)",
-        "number": 15
+        "number": 15,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/samir-el-mourabet/profil/spieler/1130514"
       },
       {
         "position": "Meio-campistas",
         "name": "Gessime Yassine",
         "club": "RC Strasbourg (França)",
-        "number": 16
+        "number": 16,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/gessime-yassine/profil/spieler/1151929"
       },
       {
         "position": "Atacantes",
         "name": "Abde Ezzalzouli",
         "club": "Real Betis (Espanha)",
-        "number": 17
+        "number": 17,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abde-ezzalzouli/profil/spieler/724520"
       },
       {
         "name": "Chadi Riad",
         "position": "Defensores",
         "club": "Crystal Palace FC (Inglaterra)",
-        "number": 18
+        "number": 18,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/chadi-riad/profil/spieler/689637"
       },
       {
         "position": "Defensores",
         "name": "Youssef Belammari",
         "club": "Al Ahly FC (Egito)",
-        "number": 19
+        "number": 19,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/youssef-belammari/profil/spieler/518804"
       },
       {
         "position": "Atacantes",
         "name": "Ayoub El Kaabi",
         "club": "Olympiacos FC (Grécia)",
-        "number": 20
+        "number": 20,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ayoub-el-kaabi/profil/spieler/521127"
       },
       {
         "name": "Ayoub Amaimouni",
         "position": "Atacantes",
         "club": "Eintracht Frankfurt (Alemanha)",
-        "number": 21
+        "number": 21,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ayoube-amaimouni-echghouyab/profil/spieler/799993"
       },
       {
         "position": "Goleiros",
         "name": "Ahmed Reda Tagnaouti",
         "club": "ASFAR (Marrocos)",
-        "number": 22
+        "number": 22,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ahmed-reda-tagnaouti/profil/spieler/238997"
       },
       {
         "position": "Meio-campistas",
         "name": "Bilal El Khannouss",
         "club": "VfB Stuttgart (Alemanha)",
-        "number": 23
+        "number": 23,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/bilal-el-khannouss/profil/spieler/654982"
       },
       {
         "position": "Meio-campistas",
         "name": "Neil El Aynaoui",
         "club": "AS Roma (Itália)",
-        "number": 24
+        "number": 24,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/neil-el-aynaoui/profil/spieler/901019"
       },
       {
         "name": "Redouane Halhal",
         "position": "Defensores",
         "club": "KV Mechelen (Bélgica)",
-        "number": 25
+        "number": 25,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/redouane-halhal/profil/spieler/913660"
       },
       {
         "position": "Defensores",
-        "name": "Salah-eddine",
+        "name": "Anass Salah-Eddine",
         "club": "PSV Eindhoven (Holanda)",
-        "number": 26
+        "number": 26,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/anass-salah-eddine/profil/spieler/485584"
       }
     ]
   },
@@ -5999,157 +6143,183 @@
         "position": "Goleiros",
         "name": "Raúl Rangel",
         "club": "CD Guadalajara (México)",
-        "number": 1
+        "number": 1,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/raul-rangel/profil/spieler/802855"
       },
       {
         "position": "Defensores",
         "name": "Jorge Sánchez",
         "club": "PAOK Saloniki (Grécia)",
-        "number": 2
+        "number": 2,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jorge-sanchez/profil/spieler/356044"
       },
       {
         "position": "Defensores",
         "name": "César Montes",
         "club": "FC Lokomotiv Moscow (Rússia)",
-        "number": 3
+        "number": 3,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/cesar-montes/profil/spieler/387687"
       },
       {
         "position": "Defensores",
         "name": "Edson Álvarez",
         "club": "Fenerbahçe SK (Turquia)",
-        "number": 4
+        "number": 4,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/edson-alvarez/profil/spieler/401356"
       },
       {
         "position": "Defensores",
-        "name": "Joah Vásquez",
+        "name": "Johan Vásquez",
         "club": "Genoa CFC (Itália)",
-        "number": 5
+        "number": 5,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/johan-vasquez/profil/spieler/532937"
       },
       {
         "position": "Meio-campistas",
         "name": "Erik Lira",
         "club": "CF Cruz Azul (México)",
-        "number": 6
+        "number": 6,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/erik-lira/profil/spieler/602324"
       },
       {
         "position": "Meio-campistas",
         "name": "Luis Romo",
         "club": "CD Guadalajara (México)",
-        "number": 7
+        "number": 7,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/luis-romo/profil/spieler/532938"
       },
       {
         "position": "Meio-campistas",
         "name": "Álvaro Fidalgo",
         "club": "Real Betis (Espanha)",
-        "number": 8
+        "number": 8,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/alvaro-fidalgo/profil/spieler/261503"
       },
       {
         "position": "Atacantes",
         "name": "Raúl Jiménez",
         "club": "Fulham FC (Inglaterra)",
-        "number": 9
+        "number": 9,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/raul-jimenez/profil/spieler/206040"
       },
       {
         "position": "Atacantes",
-        "name": "Alexis Veja",
+        "name": "Alexis Vega",
         "club": "Deportivo Toluca FC (México)",
-        "number": 10
+        "number": 10,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/alexis-vega/profil/spieler/424689"
       },
       {
         "position": "Atacantes",
         "name": "Santiago Giménez",
         "club": "AC Milan (Itália)",
-        "number": 11
+        "number": 11,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/santiago-gimenez/profil/spieler/552955"
       },
       {
         "position": "Goleiros",
         "name": "Carlos Acevedo",
         "club": "Club Santos Laguna (México)",
-        "number": 12
+        "number": 12,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/carlos-acevedo/profil/spieler/356042"
       },
       {
         "position": "Goleiros",
         "name": "Guillermo Ochoa",
         "club": "AEL Limassol (Chipre)",
-        "number": 13
+        "number": 13,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/guillermo-ochoa/profil/spieler/29559"
       },
       {
         "position": "Atacantes",
         "name": "Armando González",
         "club": "CD Guadalajara (México)",
-        "number": 14
+        "number": 14,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/armando-gonzalez/profil/spieler/837619"
       },
       {
         "position": "Defensores",
         "name": "Israel Reyes",
         "club": "Club América (México)",
-        "number": 15
+        "number": 15,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/israel-reyes/profil/spieler/687558"
       },
       {
         "position": "Atacantes",
         "name": "Julián Quiñones",
         "club": "Al Qadsiah FC (Arábia Saudita)",
-        "number": 16
+        "number": 16,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/julian-quinones/profil/spieler/416090"
       },
       {
         "position": "Meio-campistas",
         "name": "Orbelín Pineda",
         "club": "AEK Athens (Grécia)",
-        "number": 17
+        "number": 17,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/orbelin-pineda/profil/spieler/334042"
       },
       {
         "position": "Meio-campistas",
         "name": "Obed Vargas",
         "club": "Atlético De Madrid (Espanha)",
-        "number": 18
+        "number": 18,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/obed-vargas/profil/spieler/889435"
       },
       {
         "position": "Meio-campistas",
         "name": "Gilberto Mora",
         "club": "Club Tijuana (México)",
-        "number": 19
+        "number": 19,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/gilberto/profil/spieler/164013"
       },
       {
         "position": "Defensores",
         "name": "Mateo Chávez",
         "club": "AZ Alkmaar (Holanda)",
-        "number": 20
+        "number": 20,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mateo-chavez/profil/spieler/1066953"
       },
       {
         "position": "Atacantes",
         "name": "César Huerta",
         "club": "RSC Anderlecht (Bélgica)",
-        "number": 21
+        "number": 21,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/cesar-huerta/profil/spieler/540315"
       },
       {
         "position": "Atacantes",
         "name": "Guillermo Martínez",
         "club": "Pumas UNAM (México)",
-        "number": 22
+        "number": 22,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/guillermo-martinez/profil/spieler/347932"
       },
       {
         "position": "Defensores",
         "name": "Jesús Gallardo",
         "club": "Deportivo Toluca FC (México)",
-        "number": 23
+        "number": 23,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jesus-gallardo/profil/spieler/344854"
       },
       {
         "position": "Meio-campistas",
         "name": "Luis Chávez",
         "club": "FC Dynamo Moscow (Rússia)",
-        "number": 24
+        "number": 24,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/luis-chavez/profil/spieler/331059"
       },
       {
         "position": "Atacantes",
         "name": "Roberto Alvarado",
         "club": "CD Guadalajara (México)",
-        "number": 25
+        "number": 25,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/roberto-alvarado/profil/spieler/353583"
       },
       {
         "position": "Meio-campistas",
         "name": "Brian Gutiérrez",
         "club": "CD Guadalajara (México)",
-        "number": 26
+        "number": 26,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/brian-gutierrez/profil/spieler/724443"
       }
     ]
   },
@@ -6170,10 +6340,10 @@
         "number": 2
       },
       {
-        "name": "Kristoffer Vassbakk Ajer",
+        "name": "Kristoffer Ajer",
         "position": "Defensores",
         "club": "Brentford FC (Inglaterra)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Kristoffer%20Vassbakk%20Ajer",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/kristoffer-ajer/profil/spieler/328658",
         "number": 3
       },
       {
@@ -6282,10 +6452,10 @@
         "number": 18
       },
       {
-        "name": "Thelonious Aasgaard",
+        "name": "Thelo Aasgaard",
         "position": "Meio-campistas",
         "club": "Rangers FC (Escócia)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Thelonious%20Aasgaard",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/thelo-aasgaard/profil/spieler/647384",
         "number": 19
       },
       {
@@ -6412,10 +6582,10 @@
         "number": 10
       },
       {
-        "name": "Eli Just",
+        "name": "Elijah Just",
         "position": "Meio-campistas",
         "club": "Motherwell FC (Escócia)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Eli%20Just",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/elijah-just/profil/spieler/485672",
         "number": 11
       },
       {
@@ -6826,10 +6996,10 @@
         "number": 16
       },
       {
-        "name": "Alejandro Romero Gamarra",
+        "name": "Kaku",
         "position": "Atacantes",
         "club": "Al Ain FC (Emirados Árabes Unidos)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Alejandro%20Romero%20Gamarra",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/kaku/profil/spieler/355817",
         "number": 17
       },
       {
@@ -7187,7 +7357,8 @@
         "name": "Aaron Tshibola",
         "position": "Meio-campistas",
         "club": "Kilmarnock FC (Escócia)",
-        "number": 15
+        "number": 15,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/aaron-tshibola/profil/spieler/243633"
       },
       {
         "name": "Timothy Fayulu",
@@ -7439,10 +7610,10 @@
         "number": 24
       },
       {
-        "name": "El Hadji Malich Diouf",
+        "name": "El Hadji Malick Diouf",
         "position": "Defensores",
         "club": "West Ham United FC (Inglaterra)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=El%20Hadji%20Malich%20Diouf",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/el-hadji-malick-diouf/profil/spieler/1111589",
         "number": 25
       },
       {
@@ -7460,157 +7631,183 @@
         "position": "Goleiros",
         "name": "Jacob Widell Zetterström",
         "club": "Derby County FC (Inglaterra)",
-        "number": 1
+        "number": 1,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jacob-widell-zetterstrom/profil/spieler/549440"
       },
       {
         "position": "Defensores",
         "name": "Gustaf Lagerbielke",
         "club": "SC Braga (Portugal)",
-        "number": 2
+        "number": 2,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/gustaf-lagerbielke/profil/spieler/485395"
       },
       {
         "position": "Defensores",
         "name": "Victor Nilsson Lindelöf",
         "club": "Aston Villa FC (Inglaterra)",
-        "number": 3
+        "number": 3,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/victor-lindelof/profil/spieler/184573"
       },
       {
         "position": "Defensores",
         "name": "Isak Hien",
         "club": "Atalanta Bergamo (Itália)",
-        "number": 4
+        "number": 4,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/isak-hien/profil/spieler/503075"
       },
       {
         "position": "Defensores",
         "name": "Gabriel Gudmundsson",
         "club": "Leeds United FC (Inglaterra)",
-        "number": 5
+        "number": 5,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/gabriel-gudmundsson/profil/spieler/362108"
       },
       {
         "position": "Defensores",
         "name": "Herman Johansson",
         "club": "FC Dallas (Estados Unidos)",
-        "number": 6
+        "number": 6,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/herman-johansson/profil/spieler/744853"
       },
       {
         "position": "Meio-campistas",
         "name": "Lucas Bergvall",
         "club": "Tottenham Hotspur FC (Inglaterra)",
-        "number": 7
+        "number": 7,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/lucas-bergvall/profil/spieler/866246"
       },
       {
         "position": "Defensores",
         "name": "Daniel Svensson",
         "club": "Borussia Dortmund (Alemanha)",
-        "number": 8
+        "number": 8,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/daniel-svensson/profil/spieler/579287"
       },
       {
         "position": "Atacantes",
         "name": "Alexander Isak",
         "club": "Liverpool FC (Inglaterra)",
-        "number": 9
+        "number": 9,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/alexander-isak/profil/spieler/349066"
       },
       {
         "position": "Meio-campistas",
         "name": "Benjamin Nygren",
         "club": "Celtic FC (Escócia)",
-        "number": 10
+        "number": 10,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/benjamin-nygren/profil/spieler/475949"
       },
       {
         "position": "Atacantes",
         "name": "Anthony Elanga",
         "club": "Newcastle United FC (Inglaterra)",
-        "number": 11
+        "number": 11,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/anthony-elanga/profil/spieler/583189"
       },
       {
         "position": "Goleiros",
         "name": "Viktor Johansson",
         "club": "Stoke City FC (Inglaterra)",
-        "number": 12
+        "number": 12,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/viktor-johansson/profil/spieler/273742"
       },
       {
         "position": "Meio-campistas",
         "name": "Ken Sema",
         "club": "Pafos FC (Chipre)",
-        "number": 13
+        "number": 13,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ken-sema/profil/spieler/252345"
       },
       {
         "position": "Defensores",
         "name": "Hjalmar Ekdal",
         "club": "Burnley FC (Inglaterra)",
-        "number": 14
+        "number": 14,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/hjalmar-ekdal/profil/spieler/392179"
       },
       {
         "position": "Defensores",
         "name": "Carl Starfelt",
         "club": "RC Celta Vigo (Espanha)",
-        "number": 15
+        "number": 15,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/carl-starfelt/profil/spieler/258987"
       },
       {
         "position": "Meio-campistas",
         "name": "Jesper Karlström",
         "club": "Udinese (Itália)",
-        "number": 16
+        "number": 16,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jesper-karlstrom/profil/spieler/222855"
       },
       {
         "position": "Atacantes",
         "name": "Viktor Gyökeres",
         "club": "Arsenal FC (Inglaterra)",
-        "number": 17
+        "number": 17,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/viktor-gyokeres/profil/spieler/325443"
       },
       {
         "position": "Meio-campistas",
         "name": "Yasin Ayari",
         "club": "Brighton & Hove Albion FC (Inglaterra)",
-        "number": 18
+        "number": 18,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/yasin-ayari/profil/spieler/667287"
       },
       {
         "position": "Meio-campistas",
         "name": "Mattias Svanberg",
         "club": "VfL Wolfsburg (Alemanha)",
-        "number": 19
+        "number": 19,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mattias-svanberg/profil/spieler/342405"
       },
       {
         "position": "Defensores",
         "name": "Eric Smith",
         "club": "FC St. Pauli (Alemanha)",
-        "number": 20
+        "number": 20,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/eric-smith/profil/spieler/292534"
       },
       {
         "position": "Defensores",
         "name": "Alexander Bernhardsson",
         "club": "Holstein Kiel (Alemanha)",
-        "number": 21
+        "number": 21,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/alexander-bernhardsson/profil/spieler/633454"
       },
       {
         "position": "Meio-campistas",
         "name": "Besfort Zeneli",
         "club": "Royale Union Saint-Gilloise (Bélgica)",
-        "number": 22
+        "number": 22,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/besfort-zeneli/profil/spieler/715653"
       },
       {
         "position": "Goleiros",
         "name": "Kristoffer Nordfeldt",
         "club": "AIK Stockholm (Suécia)",
-        "number": 23
+        "number": 23,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/kristoffer-nordfeldt/profil/spieler/75890"
       },
       {
         "position": "Defensores",
         "name": "Elliot Stroud",
         "club": "Mjällby AIF (Suécia)",
-        "number": 24
+        "number": 24,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/elliot-stroud/profil/spieler/687622"
       },
       {
         "position": "Atacantes",
         "name": "Gustaf Nilsson",
         "club": "Club Brugge (Bélgica)",
-        "number": 25
+        "number": 25,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/gustaf-nilsson/profil/spieler/320440"
       },
       {
         "position": "Atacantes",
         "name": "Taha Ali",
         "club": "Malmö FF (Suécia)",
-        "number": 26
+        "number": 26,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/taha-ali/profil/spieler/731771"
       }
     ]
   },
@@ -8090,13 +8287,14 @@
         "name": "Mohamed Hadj Mahmoud",
         "position": "Meio-campistas",
         "club": "FC Lugano (Suíça)",
-        "number": 15
+        "number": 15,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mohamed-belhadj-mahmoud/profil/spieler/673513"
       },
       {
         "name": "Aymen Dahmene",
         "position": "Goleiros",
         "club": "CS Sfaxien (Tunísia)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Aymen%20Dahmene",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/aymen-dahmen/profil/spieler/569433",
         "number": 16
       },
       {
@@ -8135,10 +8333,10 @@
         "number": 21
       },
       {
-        "name": "Sabri Ben Hassan",
+        "name": "Sabri Ben Hessen",
         "position": "Goleiros",
         "club": "Étoile Du Sahel (Tunísia)",
-        "transfermarktUrl": "https://www.transfermarkt.com.br/schnellsuche/ergebnis/schnellsuche?query=Sabri%20Ben%20Hassan",
+        "transfermarktUrl": "https://www.transfermarkt.com.br/sabri-ben-hessen/spielegegeneinander/spieler/295381",
         "number": 22
       },
       {
@@ -8177,157 +8375,183 @@
         "name": "Mert Günok",
         "position": "Goleiros",
         "club": "Fenerbahçe SK (Turquia)",
-        "number": 1
+        "number": 1,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/mert-gunok/profil/spieler/51894"
       },
       {
         "name": "Zeki Celik",
         "position": "Defensores",
         "club": "AS Roma (Itália)",
-        "number": 2
+        "number": 2,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/zeki-celik/profil/spieler/251075"
       },
       {
         "name": "Merih Demiral",
         "position": "Defensores",
         "club": "Al Ahli FC (Arábia Saudita)",
-        "number": 3
+        "number": 3,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/merih-demiral/profil/spieler/340879"
       },
       {
         "name": "Caglar Soyuncu",
         "position": "Defensores",
         "club": "Fenerbahçe SK (Turquia)",
-        "number": 4
+        "number": 4,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/caglar-soyuncu/profil/spieler/320141"
       },
       {
         "name": "Salih Ozcan",
         "position": "Meio-campistas",
         "club": "Borussia Dortmund (Alemanha)",
-        "number": 5
+        "number": 5,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/salih-ozcan/profil/spieler/244940"
       },
       {
         "name": "Orkun Kökçü",
         "position": "Meio-campistas",
         "club": "Beşiktaş JK (Turquia)",
-        "number": 6
+        "number": 6,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/orkun-kokcu/profil/spieler/454567"
       },
       {
         "name": "Kerem Akturkoglu",
         "position": "Atacantes",
         "club": "Fenerbahçe SK (Turquia)",
-        "number": 7
+        "number": 7,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/kerem-akturkoglu/profil/spieler/382528"
       },
       {
         "name": "Arda Güler",
         "position": "Atacantes",
         "club": "Real Madrid C. F. (Espanha)",
-        "number": 8
+        "number": 8,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/arda-guler/profil/spieler/861410"
       },
       {
         "name": "Deniz Gül",
         "position": "Atacantes",
         "club": "FC Porto (Portugal)",
-        "number": 9
+        "number": 9,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/deniz-gul/profil/spieler/1063292"
       },
       {
         "name": "Hakan Calhanoglu",
         "position": "Meio-campistas",
         "club": "FC Internazionale Milano (Itália)",
-        "number": 10
+        "number": 10,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/hakan-calhanoglu/profil/spieler/126414"
       },
       {
         "name": "Kenan Yildiz",
         "position": "Atacantes",
         "club": "Juventus FC (Itália)",
-        "number": 11
+        "number": 11,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/kenan-yildiz/profil/spieler/845654"
       },
       {
         "name": "Altay Bayindir",
         "position": "Goleiros",
         "club": "Manchester United FC (Inglaterra)",
-        "number": 12
+        "number": 12,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/altay-bayindir/profil/spieler/336077"
       },
       {
         "name": "Eren Elmalı",
         "position": "Defensores",
         "club": "Galatasaray SK (Turquia)",
-        "number": 13
+        "number": 13,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/eren-elmali/profil/spieler/616894"
       },
       {
         "name": "Abdulkerim Bardakci",
         "position": "Defensores",
         "club": "Galatasaray SK (Turquia)",
-        "number": 14
+        "number": 14,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdulkerim-bardakci/profil/spieler/199316"
       },
       {
         "name": "Ozan Kabak",
         "position": "Defensores",
         "club": "TSG Hoffenheim (Alemanha)",
-        "number": 15
+        "number": 15,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ozan-kabak/profil/spieler/361260"
       },
       {
         "name": "Ismail Yuksek",
         "position": "Meio-campistas",
         "club": "Fenerbahçe SK (Turquia)",
-        "number": 16
+        "number": 16,
+        "transfermarktUrl": "https://www.transfermarkt.com.tr/ismail-yuksek/profil/spieler/613725"
       },
       {
         "name": "Irfan Can Kahveci",
         "position": "Atacantes",
         "club": "Kasımpaşa SK (Turquia)",
-        "number": 17
+        "number": 17,
+        "transfermarktUrl": "https://www.transfermarkt.com.tr/irfan-can-kahveci/profil/spieler/216603"
       },
       {
         "name": "Mert Müldür",
         "position": "Defensores",
         "club": "Fenerbahçe SK (Turquia)",
-        "number": 18
+        "number": 18,
+        "transfermarktUrl": "https://www.transfermarkt.com.tr/mert-muldur/profil/spieler/353922"
       },
       {
         "name": "Yunus Akgun",
         "position": "Atacantes",
         "club": "Galatasaray SK (Turquia)",
-        "number": 19
+        "number": 19,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/yunus-akgun/profil/spieler/396908"
       },
       {
         "name": "Ferdi Kadıoğlu",
         "position": "Defensores",
         "club": "Brighton & Hove Albion FC (Inglaterra)",
-        "number": 20
+        "number": 20,
+        "transfermarktUrl": "https://www.transfermarkt.com.tr/ferdi-kadioglu/profil/spieler/369316"
       },
       {
         "name": "Barış Alper Yılmaz",
         "position": "Atacantes",
         "club": "Galatasaray SK (Turquia)",
-        "number": 21
+        "number": 21,
+        "transfermarktUrl": "https://www.transfermarkt.com.tr/baris-alper-yilmaz/profil/spieler/541537"
       },
       {
         "name": "Kaan Ayhan",
         "position": "Meio-campistas",
         "club": "Galatasaray SK (Turquia)",
-        "number": 22
+        "number": 22,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/kaan-ayhan/profil/spieler/119031"
       },
       {
         "name": "Ugurcan Cakir",
         "position": "Goleiros",
         "club": "Galatasaray SK (Turquia)",
-        "number": 23
+        "number": 23,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/ugurcan-cakir/profil/spieler/292199"
       },
       {
         "name": "Oguz Aydin",
         "position": "Atacantes",
         "club": "Fenerbahçe SK (Turquia)",
-        "number": 24
+        "number": 24,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/oguz-aydin/profil/spieler/563749"
       },
       {
-        "name": "Akaydin",
+        "name": "Samet Akaydin",
         "position": "Defensores",
         "club": "Çaykur Rizespor (Turquia)",
-        "number": 25
+        "number": 25,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/samet-akaydin/profil/spieler/295024"
       },
       {
         "name": "Can Uzun",
         "position": "Atacantes",
         "club": "Eintracht Frankfurt (Alemanha)",
-        "number": 26
+        "number": 26,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/can-uzun/profil/spieler/816585"
       }
     ]
   },
@@ -8520,160 +8744,186 @@
   "Uzbequistão": {
     "players": [
       {
-        "name": "Otkir Yusupov",
+        "name": "Utkir Yusupov",
         "position": "Goleiros",
         "club": "PFC Navbahor Namangan (Uzbequistão)",
-        "number": 1
+        "number": 1,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/utkir-yusupov/profil/spieler/311958"
       },
       {
-        "name": "Abdukodir Husanov",
+        "name": "Abdukodir Khusanov",
         "position": "Defensores",
         "club": "Manchester City FC (Inglaterra)",
-        "number": 2
+        "number": 2,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdukodir-khusanov/profil/spieler/763079"
       },
       {
-        "name": "Hojiakbar Alijonov",
+        "name": "Khozhiakbar Alizhonov",
         "position": "Defensores",
         "club": "Pakhtakor Tashkent FK (Uzbequistão)",
-        "number": 3
+        "number": 3,
+        "transfermarktUrl": "https://www.transfermarkt.com/khozhiakbar-alizhonov/profil/spieler/492558"
       },
       {
-        "name": "Farruh Sayfiyev",
+        "name": "Farrukh Sayfiev",
         "position": "Defensores",
         "club": "FK Neftchi Farg'ona (Uzbequistão)",
-        "number": 4
+        "number": 4,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/farrukh-sayfiev/profil/spieler/212499"
       },
       {
         "name": "Rustam Ashurmatov",
         "position": "Defensores",
         "club": "Esteghlal Tehran FC (Irã)",
-        "number": 5
+        "number": 5,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/rustam-ashurmatov/profil/spieler/288883"
       },
       {
         "name": "Akmal Mozgovoy",
         "position": "Meio-campistas",
         "club": "Pakhtakor Tashkent FK (Uzbequistão)",
-        "number": 6
+        "number": 6,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/akmal-mozgovoy/profil/spieler/562022"
       },
       {
         "name": "Otabek Shukurov",
         "position": "Meio-campistas",
         "club": "Baniyas Club (Emirados Árabes Unidos)",
-        "number": 7
+        "number": 7,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/otabek-shukurov/profil/spieler/294525"
       },
       {
         "name": "Jamshid Iskanderov",
         "position": "Meio-campistas",
         "club": "FK Neftchi Farg'ona (Uzbequistão)",
-        "number": 8
+        "number": 8,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jamshid-iskanderov/profil/spieler/260857"
       },
       {
-        "name": "Odiljon Xamrobekov",
+        "name": "Odildzhon Khamrobekov",
         "position": "Meio-campistas",
         "club": "Tractor Sazi Tabriz FC (Irã)",
-        "number": 9
+        "number": 9,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/odildzhon-khamrobekov/profil/spieler/288915"
       },
       {
         "name": "Jaloliddin Masharipov",
         "position": "Meio-campistas",
         "club": "Esteghlal Tehran FC (Irã)",
-        "number": 10
+        "number": 10,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/jaloliddin-masharipov/profil/spieler/274536"
       },
       {
-        "name": "Oston O'runov",
+        "name": "Oston Urunov",
         "position": "Meio-campistas",
         "club": "Persepolis FC (Irã)",
-        "number": 11
+        "number": 11,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/oston-urunov/profil/spieler/492556"
       },
       {
-        "name": "Abduvohid Nematov",
+        "name": "Abduvokhid Nematov",
         "position": "Goleiros",
         "club": "Nasaf Qarshi FC (Uzbequistão)",
-        "number": 12
+        "number": 12,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abduvokhid-nematov/profil/spieler/527866"
       },
       {
-        "name": "Sherzod Nasrullayev",
+        "name": "Sherzod Nasrullaev",
         "position": "Defensores",
         "club": "Pakhtakor Tashkent FK (Uzbequistão)",
-        "number": 13
+        "number": 13,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/sherzod-nasrullaev/profil/spieler/608537"
       },
       {
         "name": "Eldor Shomurodov",
         "position": "Atacantes",
         "club": "Başakşehir FK (Turquia)",
-        "number": 14
+        "number": 14,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/eldor-shomurodov/profil/spieler/358166"
       },
       {
         "name": "Umar Eshmurodov",
         "position": "Defensores",
         "club": "Nasaf Qarshi FC (Uzbequistão)",
-        "number": 15
+        "number": 15,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/umar-eshmurodov/profil/spieler/493725"
       },
       {
         "name": "Botirali Ergashev",
         "position": "Goleiros",
         "club": "FK Neftchi Farg'ona (Uzbequistão)",
-        "number": 16
+        "number": 16,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/botirali-ergashev/profil/spieler/312690"
       },
       {
-        "name": "Dostonbek Hamdamov",
+        "name": "Dostonbek Khamdamov",
         "position": "Meio-campistas",
         "club": "Pakhtakor Tashkent FK (Uzbequistão)",
-        "number": 17
+        "number": 17,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/dostonbek-khamdamov/profil/spieler/294502"
       },
       {
-        "name": "Abdulla Abdullayev",
+        "name": "Abdulla Abdullaev",
         "position": "Defensores",
         "club": "Dibba FC (Emirados Árabes Unidos)",
-        "number": 18
+        "number": 18,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abdulla-abdullaev/profil/spieler/570272"
       },
       {
-        "name": "Azizjon Ganiev",
+        "name": "Aziz Ganiev",
         "position": "Meio-campistas",
         "club": "Al Bataeh Club (Emirados Árabes Unidos)",
-        "number": 19
+        "number": 19,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/aziz-ganiev/profil/spieler/431911"
       },
       {
-        "name": "Azizbek Amonov",
+        "name": "Azizbek Amanov",
         "position": "Atacantes",
         "club": "FK Dinamo Samarkand (Uzbequistão)",
-        "number": 20
+        "number": 20,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/azizbek-amanov/profil/spieler/517918"
       },
       {
-        "name": "Igor Sergeyev",
+        "name": "Igor Sergeev",
         "position": "Atacantes",
         "club": "Persepolis FC (Irã)",
-        "number": 21
+        "number": 21,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/igor-sergeev/profil/spieler/185372"
       },
       {
-        "name": "Abbosbek Fayzullayev",
+        "name": "Abbosbek Fayzullaev",
         "position": "Meio-campistas",
         "club": "Başakşehir FK (Turquia)",
-        "number": 22
+        "number": 22,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/abbosbek-fayzullaev/profil/spieler/754037"
       },
       {
         "name": "Sherzod Esanov",
         "position": "Meio-campistas",
         "club": "FK Buxoro (Uzbequistão)",
-        "number": 23
+        "number": 23,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/sherzod-esanov/profil/spieler/989068"
       },
       {
-        "name": "Behruz Karimov",
+        "name": "Bekhruz Karimov",
         "position": "Defensores",
         "club": "Surkhon FK (Uzbequistão)",
-        "number": 24
+        "number": 24,
+        "transfermarktUrl": "https://www.transfermarkt.com.br/bekhruz-karimov/profil/spieler/1106187"
       },
       {
-        "name": "Avazbek Olmasaliyev",
+        "name": "Avazbek Ulmasaliev",
         "position": "Defensores",
         "club": "OKMK FK (Uzbequistão)",
-        "number": 25
+        "number": 25,
+        "transfermarktUrl": "https://www.transfermarkt.com/avazbek-ulmasaliev/profil/spieler/538764"
       },
       {
-        "name": "Jahongir Orozov",
+        "name": "Jakhongir Urozov",
         "position": "Defensores",
         "club": "FK Dinamo Samarkand (Uzbequistão)",
-        "number": 26
+        "number": 26,
+        "transfermarktUrl": "https://www.transfermarkt.com/jakhongir-urozov/profil/spieler/989069"
       }
     ]
   }

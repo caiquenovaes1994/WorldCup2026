@@ -65,3 +65,12 @@ export const referees: Referee[] = [
   { name: 'Slavko Vincic', country: 'Eslovênia', confederation: 'UEFA' },
   { name: 'Felix Zwayer', country: 'Alemanha', confederation: 'UEFA' },
 ]
+
+export const countryToCode: Record<string, string> = {
+  'Catar': 'qa', 'Arábia Saudita': 'sa', 'Japão': 'jp', 'Irã': 'ir', 'China': 'cn', 'Jordânia': 'jo', 'Uzbequistão': 'uz', 'Emirados Árabes': 'ae',
+  'Somália': 'so', 'Camarões': 'cm', 'Mauritânia': 'mr', 'Argélia': 'dz', 'Marrocos': 'ma', 'Quênia': 'ke', 'África do Sul': 'za',
+  'El Salvador': 'sv', 'Costa Rica': 'cr', 'Estados Unidos': 'us', 'Canadá': 'ca', 'México': 'mx', 'Honduras': 'hn', 'Jamaica': 'jm',
+  'Brasil': 'br', 'Paraguai': 'py', 'Uruguai': 'uy', 'Chile': 'cl', 'Argentina': 'ar', 'Peru': 'pe', 'Colômbia': 'co', 'Venezuela': 've',
+  'Austrália': 'au',
+  'Noruega': 'no', 'Espanha': 'es', 'Romênia': 'ro', 'França': 'fr', 'Holanda': 'nl', 'Polônia': 'pl', 'Itália': 'it', 'Suécia': 'se', 'Inglaterra': 'gb-eng', 'Portugal': 'pt', 'Suíça': 'ch', 'Alemanha': 'de', 'Eslovênia': 'si'
+}

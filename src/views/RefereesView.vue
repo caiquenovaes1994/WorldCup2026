@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { referees } from '../data/referees'
+import { referees, countryToCode } from '../data/referees'
+import RefereeModal from '../components/RefereeModal.vue'
+import type { Referee } from '../types'
 
 const refereesByConfederation = computed(() => {
   const grouped: Record<string, typeof referees> = {}
@@ -19,15 +21,6 @@ const refereesByConfederation = computed(() => {
 
 const confederations = ['AFC', 'CAF', 'CONCACAF', 'CONMEBOL', 'OFC', 'UEFA']
 
-const countryToCode: Record<string, string> = {
-  'Catar': 'qa', 'Arábia Saudita': 'sa', 'Japão': 'jp', 'Irã': 'ir', 'China': 'cn', 'Jordânia': 'jo', 'Uzbequistão': 'uz', 'Emirados Árabes': 'ae',
-  'Somália': 'so', 'Camarões': 'cm', 'Mauritânia': 'mr', 'Argélia': 'dz', 'Marrocos': 'ma', 'Quênia': 'ke', 'África do Sul': 'za',
-  'El Salvador': 'sv', 'Costa Rica': 'cr', 'Estados Unidos': 'us', 'Canadá': 'ca', 'México': 'mx', 'Honduras': 'hn', 'Jamaica': 'jm',
-  'Brasil': 'br', 'Paraguai': 'py', 'Uruguai': 'uy', 'Chile': 'cl', 'Argentina': 'ar', 'Peru': 'pe', 'Colômbia': 'co', 'Venezuela': 've',
-  'Austrália': 'au',
-  'Noruega': 'no', 'Espanha': 'es', 'Romênia': 'ro', 'França': 'fr', 'Holanda': 'nl', 'Polônia': 'pl', 'Itália': 'it', 'Suécia': 'se', 'Inglaterra': 'gb-eng', 'Portugal': 'pt', 'Suíça': 'ch', 'Alemanha': 'de', 'Eslovênia': 'si'
-}
-
 const getLogoExt = (conf: string) => {
   return (conf === 'AFC' || conf === 'CAF') ? 'svg' : 'png'
 }
@@ -35,6 +28,12 @@ const getLogoExt = (conf: string) => {
 const openConf = ref<string | null>(null)
 const toggle = (conf: string) => {
   openConf.value = openConf.value === conf ? null : conf
+}
+
+const refereeModal = ref<InstanceType<typeof RefereeModal> | null>(null)
+
+const openRefereeModal = (refData: Referee) => {
+  refereeModal.value?.open(refData)
 }
 </script>
 
@@ -62,13 +61,14 @@ const toggle = (conf: string) => {
             <div style="padding: 1rem; border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; opacity: 0; transform: translateY(-10px); transition: all 0.8s ease-out;" :style="openConf === conf ? 'opacity: 1; transform: translateY(0); transition-delay: 0.1s;' : ''">
               <div v-for="ref in refereesByConfederation[conf]" :key="ref.name" style="background: var(--background); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.75rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; text-align: center;">
                 <img :src="`/flags/${countryToCode[ref.country]}.svg`" :alt="ref.country" :title="ref.country" style="width: 32px; height: 21px; object-fit: cover; border-radius: 2px;" v-if="countryToCode[ref.country]" />
-                <a :href="`https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=${encodeURIComponent(ref.name)}`" target="_blank" rel="noopener noreferrer" class="referee-link">{{ ref.name }}</a>
+                <span @click="openRefereeModal(ref)" class="referee-link" style="cursor: pointer;">{{ ref.name }}</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <RefereeModal ref="refereeModal" />
   </div>
 </template>
 

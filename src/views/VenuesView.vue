@@ -1,5 +1,14 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import { venues } from '../data/venues'
+import VenueModal from '../components/VenueModal.vue'
+import type { Venue } from '../types'
+
+const venueModal = ref<InstanceType<typeof VenueModal> | null>(null)
+
+const openVenueModal = (venue: Venue) => {
+  venueModal.value?.open(venue)
+}
 </script>
 
 <template>
@@ -9,7 +18,7 @@ import { venues } from '../data/venues'
       Estádios Oficiais
     </h1>
     <div class="venues-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-top: 2rem;">
-      <div v-for="venue in venues" :key="venue.id" class="venue-card" style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); overflow: hidden; transition: transform 0.2s;">
+      <div v-for="venue in venues" :key="venue.id" class="venue-card" @click="openVenueModal(venue)" style="background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; transition: transform 0.2s; cursor: pointer;">
         <img :src="venue.imageUrl" :alt="venue.name" style="width: 100%; height: 200px; object-fit: cover;" v-if="venue.imageUrl" />
         <div style="width: 100%; height: 200px; background: #333; display: flex; align-items: center; justify-content: center; color: #fff;" v-else>Imagem não disponível</div>
         <div style="padding: 1rem;">
@@ -19,5 +28,6 @@ import { venues } from '../data/venues'
         </div>
       </div>
     </div>
+    <VenueModal ref="venueModal" />
   </div>
 </template>
