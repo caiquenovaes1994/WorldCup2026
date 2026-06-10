@@ -9,7 +9,7 @@ export const groupMatches: GroupMatch[] = [
   // ========== GROUP A ==========
   // Matchday 1
   { id: 1, group: 'A', homeTeam: 'MEX', awayTeam: 'RSA', date: '2026-06-11', time: '16:00', venueId: 'azteca', homeScore: null, awayScore: null, referee: 'Wilton Sampaio', matchday: 1 },
-  { id: 2, group: 'A', homeTeam: 'KOR', awayTeam: 'CZE', date: '2026-06-12', time: '01:00', venueId: 'akron', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 2, group: 'A', homeTeam: 'KOR', awayTeam: 'CZE', date: '2026-06-12', time: '01:00', venueId: 'akron', homeScore: null, awayScore: null, referee: 'Amin Mohamed Omar', matchday: 1 },
   // Matchday 2
   { id: 3, group: 'A', homeTeam: 'MEX', awayTeam: 'KOR', date: '2026-06-18', time: '22:00', venueId: 'akron', homeScore: null, awayScore: null, referee: null, matchday: 2 },
   { id: 4, group: 'A', homeTeam: 'CZE', awayTeam: 'RSA', date: '2026-06-18', time: '19:00', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: null, matchday: 2 },
@@ -19,8 +19,8 @@ export const groupMatches: GroupMatch[] = [
 
   // ========== GROUP B ==========
   // Matchday 1
-  { id: 7, group: 'B', homeTeam: 'CAN', awayTeam: 'BIH', date: '2026-06-12', time: '16:00', venueId: 'bmo', homeScore: null, awayScore: null, referee: null, matchday: 1 },
-  { id: 8, group: 'B', homeTeam: 'QAT', awayTeam: 'SUI', date: '2026-06-13', time: '16:00', venueId: 'levis', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 7, group: 'B', homeTeam: 'CAN', awayTeam: 'BIH', date: '2026-06-12', time: '16:00', venueId: 'bmo', homeScore: null, awayScore: null, referee: 'Facundo Tello', matchday: 1 },
+  { id: 8, group: 'B', homeTeam: 'QAT', awayTeam: 'SUI', date: '2026-06-13', time: '16:00', venueId: 'levis', homeScore: null, awayScore: null, referee: 'Hector Said Martinez', matchday: 1 },
   // Matchday 2
   { id: 9, group: 'B', homeTeam: 'SUI', awayTeam: 'BIH', date: '2026-06-18', time: '16:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: null, matchday: 2 },
   { id: 10, group: 'B', homeTeam: 'CAN', awayTeam: 'QAT', date: '2026-06-18', time: '22:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: null, matchday: 2 },
@@ -30,8 +30,8 @@ export const groupMatches: GroupMatch[] = [
 
   // ========== GROUP C ==========
   // Matchday 1
-  { id: 13, group: 'C', homeTeam: 'BRA', awayTeam: 'MAR', date: '2026-06-13', time: '19:00', venueId: 'metlife', homeScore: null, awayScore: null, referee: null, matchday: 1 },
-  { id: 14, group: 'C', homeTeam: 'HAI', awayTeam: 'SCO', date: '2026-06-13', time: '22:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 13, group: 'C', homeTeam: 'BRA', awayTeam: 'MAR', date: '2026-06-13', time: '19:00', venueId: 'metlife', homeScore: null, awayScore: null, referee: 'Slavko Vincic', matchday: 1 },
+  { id: 14, group: 'C', homeTeam: 'HAI', awayTeam: 'SCO', date: '2026-06-13', time: '22:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: 'Mustapha Ghorbal', matchday: 1 },
   // Matchday 2
   { id: 15, group: 'C', homeTeam: 'BRA', awayTeam: 'HAI', date: '2026-06-19', time: '19:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: null, matchday: 2 },
   { id: 16, group: 'C', homeTeam: 'SCO', awayTeam: 'MAR', date: '2026-06-19', time: '16:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: null, matchday: 2 },
@@ -41,8 +41,8 @@ export const groupMatches: GroupMatch[] = [
 
   // ========== GROUP D ==========
   // Matchday 1
-  { id: 19, group: 'D', homeTeam: 'USA', awayTeam: 'PAR', date: '2026-06-12', time: '22:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: null, matchday: 1 },
-  { id: 20, group: 'D', homeTeam: 'AUS', awayTeam: 'TUR', date: '2026-06-14', time: '01:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: null, matchday: 1 },
+  { id: 19, group: 'D', homeTeam: 'USA', awayTeam: 'PAR', date: '2026-06-12', time: '22:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: 'Danny Makkelie', matchday: 1 },
+  { id: 20, group: 'D', homeTeam: 'AUS', awayTeam: 'TUR', date: '2026-06-14', time: '01:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: 'Jesus Valenzuela', matchday: 1 },
   // Matchday 2
   { id: 21, group: 'D', homeTeam: 'USA', awayTeam: 'AUS', date: '2026-06-19', time: '16:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: null, matchday: 2 },
   { id: 22, group: 'D', homeTeam: 'TUR', awayTeam: 'PAR', date: '2026-06-19', time: '22:00', venueId: 'levis', homeScore: null, awayScore: null, referee: null, matchday: 2 },

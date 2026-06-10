@@ -22,6 +22,7 @@ export interface Referee {
   name: string
   country: string
   confederation: string
+  link?: string
 }
 
 export interface GroupMatch {
