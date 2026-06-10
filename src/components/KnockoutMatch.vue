@@ -3,7 +3,8 @@ import { ref, computed } from 'vue'
 import TeamBadge from './TeamBadge.vue'
 import { venuesById } from '../data/venues'
 import { useKnockoutStore } from '../stores/knockoutStore'
-import { useBroadcasters } from '../composables/useBroadcasters'
+import { useBroadcasters, broadcasterUrls } from '../composables/useBroadcasters'
+import { getRefereeFlag, getRefereeCountry } from '../data/referees'
 import type { KnockoutMatch } from '../types'
 
 const props = defineProps<{ match: KnockoutMatch }>()
@@ -151,16 +152,19 @@ function getSourceLabel(source: string): string {
     </div>
 
     <!-- Referee -->
-    <div class="match-referee" style="font-size: 10px; margin-top: 6px; padding-top: 6px;">
+    <div class="match-referee" style="font-size: 10px; margin-top: 6px; padding-top: 6px; display: flex; align-items: center; justify-content: center;">
       <span class="referee-label">🏁</span>
       <span class="referee-name" style="font-size: 10px; margin-left: 4px; color: var(--text-primary);">{{ match.referee || 'TDB' }}</span>
+      <img v-if="getRefereeFlag(match.referee)" :src="getRefereeFlag(match.referee)" :title="getRefereeCountry(match.referee) || ''" :alt="getRefereeCountry(match.referee) || ''" class="referee-flag" style="height: 10px; margin-left: 4px; border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.3); cursor: help;" />
     </div>
 
     <!-- Broadcasters -->
     <div class="match-broadcasters" style="margin-top: 6px; padding-top: 6px;">
-      <div class="broadcasters-list" style="justify-content: center; align-items: center; gap: 4px;">
+      <div class="broadcasters-list" style="justify-content: center; align-items: center; gap: 12px;">
         <span class="broadcasters-icon" style="font-size: 10px;">📺</span>
-        <img v-for="b in broadcasters" :key="b" :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" style="height: 12px;" />
+        <a v-for="b in broadcasters" :key="b" :href="broadcasterUrls[b]" target="_blank" rel="noopener noreferrer" class="broadcaster-link">
+          <img :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" style="height: 12px;" />
+        </a>
       </div>
     </div>
   </div>

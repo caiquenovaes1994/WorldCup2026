@@ -3,7 +3,8 @@ import { ref, watch } from 'vue'
 import TeamBadge from './TeamBadge.vue'
 import { venuesById } from '../data/venues'
 import { useMatchStore } from '../stores/matchStore'
-import { useBroadcasters } from '../composables/useBroadcasters'
+import { useBroadcasters, broadcasterUrls } from '../composables/useBroadcasters'
+import { getRefereeFlag, getRefereeCountry } from '../data/referees'
 import type { GroupMatch } from '../types'
 
 const props = defineProps<{ match: GroupMatch }>()
@@ -92,16 +93,19 @@ watch(() => props.match.awayScore, (newVal, oldVal) => {
         <TeamBadge :code="match.awayTeam" size="md" />
       </div>
     </div>
-    <div class="match-referee">
+    <div class="match-referee" style="display: flex; align-items: center;">
       <span class="referee-label">🏁 Árbitro:</span>
-      <span class="referee-name">{{ match.referee || 'TDB' }}</span>
+      <span class="referee-name" style="margin-left: 4px;">{{ match.referee || 'TDB' }}</span>
+      <img v-if="getRefereeFlag(match.referee)" :src="getRefereeFlag(match.referee)" :title="getRefereeCountry(match.referee) || ''" :alt="getRefereeCountry(match.referee) || ''" class="referee-flag" style="height: 12px; margin-left: 6px; border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.3); cursor: help;" />
     </div>
     
     <!-- Broadcasters -->
     <div class="match-broadcasters">
       <span class="broadcasters-label">📺 Transmissão:</span>
       <div class="broadcasters-list">
-        <img v-for="b in broadcasters" :key="b" :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" />
+        <a v-for="b in broadcasters" :key="b" :href="broadcasterUrls[b]" target="_blank" rel="noopener noreferrer" class="broadcaster-link">
+          <img :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" />
+        </a>
       </div>
     </div>
   </div>

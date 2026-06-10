@@ -74,3 +74,19 @@ export const countryToCode: Record<string, string> = {
   'Austrália': 'au', 'Nova Zelândia': 'nz',
   'Noruega': 'no', 'Espanha': 'es', 'Romênia': 'ro', 'França': 'fr', 'Holanda': 'nl', 'Polônia': 'pl', 'Itália': 'it', 'Suécia': 'se', 'Inglaterra': 'gb-eng', 'Portugal': 'pt', 'Suíça': 'ch', 'Alemanha': 'de', 'Eslovênia': 'si'
 }
+
+export function getRefereeFlag(name: string | null): string | undefined {
+  if (!name) return undefined
+  const ref = referees.find(r => r.name === name)
+  if (ref && ref.country) {
+    const code = countryToCode[ref.country]
+    if (code) return `/flags/${code}.svg`
+  }
+  return undefined
+}
+
+export function getRefereeCountry(name: string | null): string | undefined {
+  if (!name) return undefined
+  const ref = referees.find(r => r.name === name)
+  return ref ? ref.country : undefined
+}
