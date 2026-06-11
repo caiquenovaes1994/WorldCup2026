@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import { ref, watch, computed } from 'vue'
 import TeamBadge from './TeamBadge.vue'
+import MatchSummaryModal from './MatchSummaryModal.vue'
 import { venuesById } from '../data/venues'
 import { useMatchStore } from '../stores/matchStore'
 import { useBroadcasters, broadcasterUrls } from '../composables/useBroadcasters'
@@ -14,6 +15,15 @@ const homeScore = ref<string>(props.match.homeScore !== null ? String(props.matc
 const awayScore = ref<string>(props.match.awayScore !== null ? String(props.match.awayScore) : '')
 const flashHome = ref(false)
 const flashAway = ref(false)
+const showModal = ref(false)
+
+const isFinished = computed(() => props.match.homeScore !== null && props.match.awayScore !== null)
+
+function handleCardClick() {
+  if (isFinished.value) {
+    showModal.value = true
+  }
+}
 
 const venue = venuesById[props.match.venueId]
 
@@ -57,7 +67,7 @@ watch(() => props.match.awayScore, (newVal, oldVal) => {
 </script>
 
 <template>
-  <div class="match-card">
+  <div class="match-card" :class="{ 'is-finished-card': isFinished }" @click="handleCardClick">
     <div class="match-card-header">
       <span class="match-date">{{ dateFormatted }} · {{ match.time }}</span>
       <span class="match-venue" :title="venue?.name + ', ' + venue?.city">📍 {{ venue?.city }}</span>
@@ -67,27 +77,34 @@ watch(() => props.match.awayScore, (newVal, oldVal) => {
         <TeamBadge :code="match.homeTeam" size="md" />
       </div>
       <div class="match-score-area">
-        <input
-          v-model="homeScore"
-          @input="onScoreChange"
-          type="number"
-          min="0"
-          max="99"
-          class="score-input"
-          :class="{ 'score-flash': flashHome }"
-          placeholder="–"
-        />
-        <span class="score-separator">×</span>
-        <input
-          v-model="awayScore"
-          @input="onScoreChange"
-          type="number"
-          min="0"
-          max="99"
-          class="score-input"
-          :class="{ 'score-flash': flashAway }"
-          placeholder="–"
-        />
+        <template v-if="!isFinished">
+          <input
+            v-model="homeScore"
+            @input="onScoreChange"
+            type="number"
+            min="0"
+            max="99"
+            class="score-input"
+            :class="{ 'score-flash': flashHome }"
+            placeholder="–"
+          />
+          <span class="score-separator">×</span>
+          <input
+            v-model="awayScore"
+            @input="onScoreChange"
+            type="number"
+            min="0"
+            max="99"
+            class="score-input"
+            :class="{ 'score-flash': flashAway }"
+            placeholder="–"
+          />
+        </template>
+        <template v-else>
+          <span class="score-display">{{ match.homeScore }}</span>
+          <span class="score-separator">×</span>
+          <span class="score-display">{{ match.awayScore }}</span>
+        </template>
       </div>
       <div class="match-team away">
         <TeamBadge :code="match.awayTeam" size="md" />
@@ -101,12 +118,34 @@ watch(() => props.match.awayScore, (newVal, oldVal) => {
     
     <!-- Broadcasters -->
     <div class="match-broadcasters">
-      <span class="broadcasters-label">📺 Transmissão:</span>
+      <span class="broadcasters-label" title="Transmissão">📺</span>
       <div class="broadcasters-list">
         <a v-for="b in broadcasters" :key="b" :href="broadcasterUrls[b]" target="_blank" rel="noopener noreferrer" class="broadcaster-link">
           <img :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" />
         </a>
       </div>
     </div>
+    <Teleport to="body">
+      <MatchSummaryModal v-if="showModal" :match="match" @close="showModal = false" />
+    </Teleport>
   </div>
 </template>
+
+<style scoped>
+.is-finished-card {
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.is-finished-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  border-color: var(--accent-blue);
+}
+.score-display {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  width: 40px;
+  text-align: center;
+}
+</style>

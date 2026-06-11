@@ -5,8 +5,15 @@ import coachesData from '../data/coaches.json'
 import squadsData from '../data/squads.json'
 import appearancesData from '../data/appearances.json'
 import { teams } from '../data/teams'
+import TeamBadge from '../components/TeamBadge.vue'
+import { topScorers, topAssists, cards } from '../data/stats2026'
 
 const router = useRouter()
+const activeTab = ref<'general' | '2026'>('general')
+const activeCardTab = ref<'yellow' | 'red'>('yellow')
+
+const sortedYellowCards = computed(() => cards.filter(c => c.yellow > 0).sort((a, b) => b.yellow - a.yellow))
+const sortedRedCards = computed(() => cards.filter(c => c.red > 0).sort((a, b) => b.red - a.red))
 
 const goToTeam = (teamCode: string) => {
   if (teamCode) {
@@ -226,13 +233,19 @@ const toggleAppearance = (code: string) => {
         <span class="emoji">📊</span>
         Estatísticas
       </h1>
-      <a href="https://inside.fifa.com/fifa-world-ranking/men?dateId=LiveRanking" target="_blank" rel="noopener noreferrer" class="action-btn fifa-btn" title="Ranking FIFA">
+      <a v-if="activeTab === 'general'" href="https://inside.fifa.com/fifa-world-ranking/men?dateId=LiveRanking" target="_blank" rel="noopener noreferrer" class="action-btn fifa-btn" title="Ranking FIFA">
         <span class="fifa-font" style="font-size: 1.2rem;">RANKING</span>
         <img src="/FIFA_Logo_White_Generic.webp" alt="FIFA" class="fifa-btn-logo" />
       </a>
     </div>
 
-    <div class="stats-top-row">
+    <div class="tabs-container" style="display: flex; gap: 1rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
+      <button :class="['tab-btn', { active: activeTab === 'general' }]" @click="activeTab = 'general'">Estatísticas Gerais</button>
+      <button :class="['tab-btn', { active: activeTab === '2026' }]" @click="activeTab = '2026'">Estatísticas 2026</button>
+    </div>
+
+    <div v-if="activeTab === 'general'">
+      <div class="stats-top-row">
       <!-- Coaches -->
       <section class="stats-section">
         <h2 class="section-title">
@@ -351,10 +364,133 @@ const toggleAppearance = (code: string) => {
         </div>
       </section>
     </div>
+    </div> <!-- end v-if general -->
+
+    <div v-if="activeTab === '2026'">
+      <div class="stats-top-row" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+        <!-- Artilheiros -->
+        <section class="stats-section">
+          <h2 class="section-title">
+            <span class="emoji">⚽</span> Artilheiros
+          </h2>
+          <div class="stats-card">
+            <div v-if="topScorers.length === 0" style="text-align: center; color: var(--text-secondary); padding: 2rem 0;">Ainda não há gols na competição.</div>
+            <div class="stats-list" v-else>
+              <div v-for="(player, idx) in topScorers" :key="idx" class="stats-item">
+                <div class="stats-row">
+                  <div class="stats-info">
+                    <span style="font-weight: bold; width: 20px; color: var(--text-secondary);">{{ idx + 1 }}º</span>
+                    <span class="stats-name">{{ player.name }}</span>
+                    <TeamBadge :code="player.teamCode" size="sm" :showName="false" style="transform: scale(0.7); margin-left: -8px;" />
+                  </div>
+                  <div class="stats-right">
+                    <div class="stats-value">{{ player.count }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Assistências -->
+        <section class="stats-section">
+          <h2 class="section-title">
+            <span class="emoji">👟</span> Assistências
+          </h2>
+          <div class="stats-card">
+            <div v-if="topAssists.length === 0" style="text-align: center; color: var(--text-secondary); padding: 2rem 0;">Ainda não há assistências na competição.</div>
+            <div class="stats-list" v-else>
+              <div v-for="(player, idx) in topAssists" :key="idx" class="stats-item">
+                <div class="stats-row">
+                  <div class="stats-info">
+                    <span style="font-weight: bold; width: 20px; color: var(--text-secondary);">{{ idx + 1 }}º</span>
+                    <span class="stats-name">{{ player.name }}</span>
+                    <TeamBadge :code="player.teamCode" size="sm" :showName="false" style="transform: scale(0.7); margin-left: -8px;" />
+                  </div>
+                  <div class="stats-right">
+                    <div class="stats-value" style="color: #4ade80;">{{ player.count }}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Cartões -->
+        <section class="stats-section" style="grid-column: 1 / -1; max-width: 500px; margin: 0 auto; width: 100%;">
+          <h2 class="section-title">
+            <span class="emoji">🟨</span> Cartões
+          </h2>
+          <div class="tabs-container" style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+            <button :class="['tab-btn', { active: activeCardTab === 'yellow' }]" @click="activeCardTab = 'yellow'" style="font-size: 1rem;">Amarelos</button>
+            <button :class="['tab-btn', { active: activeCardTab === 'red' }]" @click="activeCardTab = 'red'" style="font-size: 1rem;">Vermelhos</button>
+          </div>
+          <div class="stats-card">
+            <!-- Amarelos -->
+            <div v-if="activeCardTab === 'yellow'">
+              <div v-if="sortedYellowCards.length === 0" style="text-align: center; color: var(--text-secondary); padding: 2rem 0;">Ainda não há cartões amarelos.</div>
+              <div class="stats-list" v-else>
+                <div v-for="(player, idx) in sortedYellowCards" :key="idx" class="stats-item">
+                  <div class="stats-row">
+                    <div class="stats-info">
+                      <span class="stats-name">{{ player.name }}</span>
+                      <TeamBadge :code="player.teamCode" size="sm" :showName="false" style="transform: scale(0.7); margin-left: -8px;" />
+                    </div>
+                    <div class="stats-right" style="gap: 0.5rem;">
+                      <div class="stats-value" style="background: rgba(250, 204, 21, 0.2); color: #facc15;">{{ player.yellow }}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Vermelhos -->
+            <div v-if="activeCardTab === 'red'">
+              <div v-if="sortedRedCards.length === 0" style="text-align: center; color: var(--text-secondary); padding: 2rem 0;">Ainda não há cartões vermelhos.</div>
+              <div class="stats-list" v-else>
+                <div v-for="(player, idx) in sortedRedCards" :key="idx" class="stats-item">
+                  <div class="stats-row">
+                    <div class="stats-info">
+                      <span class="stats-name">{{ player.name }}</span>
+                      <TeamBadge :code="player.teamCode" size="sm" :showName="false" style="transform: scale(0.7); margin-left: -8px;" />
+                    </div>
+                    <div class="stats-right" style="gap: 0.5rem;">
+                      <div class="stats-value" style="background: rgba(248, 113, 113, 0.2); color: #f87171;">{{ player.red }}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
+.tab-btn {
+  background: transparent;
+  color: var(--text-secondary);
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  transition: all 0.2s;
+}
+
+.tab-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+}
+
+.tab-btn.active {
+  background: var(--accent-blue);
+  color: white;
+}
+
 .page-title {
   display: flex;
   align-items: center;

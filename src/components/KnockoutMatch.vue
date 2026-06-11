@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import TeamBadge from './TeamBadge.vue'
+import MatchSummaryModal from './MatchSummaryModal.vue'
 import { venuesById } from '../data/venues'
 import { useKnockoutStore } from '../stores/knockoutStore'
 import { useBroadcasters, broadcasterUrls } from '../composables/useBroadcasters'
@@ -14,6 +15,15 @@ const homeScore = ref<string>(props.match.homeScore !== null ? String(props.matc
 const awayScore = ref<string>(props.match.awayScore !== null ? String(props.match.awayScore) : '')
 const homePen = ref<string>(props.match.homePenalties !== null ? String(props.match.homePenalties) : '')
 const awayPen = ref<string>(props.match.awayPenalties !== null ? String(props.match.awayPenalties) : '')
+const showModal = ref(false)
+
+const isFinished = computed(() => props.match.homeScore !== null && props.match.awayScore !== null)
+
+function handleCardClick() {
+  if (isFinished.value) {
+    showModal.value = true
+  }
+}
 
 const venue = venuesById[props.match.venueId]
 const dateFormatted = new Date(props.match.date + 'T12:00:00').toLocaleDateString('pt-BR', {
@@ -84,7 +94,7 @@ function getSourceLabel(source: string): string {
 </script>
 
 <template>
-  <div class="knockout-match">
+  <div class="knockout-match" :class="{ 'is-finished-card': isFinished }" @click="handleCardClick">
     <div class="knockout-match-info">
       {{ dateFormatted }} · {{ match.time }} · {{ venue?.city }}
     </div>
@@ -97,16 +107,21 @@ function getSourceLabel(source: string): string {
         </template>
         <span v-else class="source-label">{{ getSourceLabel(match.homeSource) }}</span>
       </div>
-      <input
-        v-model="homeScore"
-        @input="onScoreChange"
-        type="number"
-        min="0"
-        max="99"
-        class="knockout-score-input"
-        placeholder="–"
-        :disabled="!match.homeTeam || !match.awayTeam"
-      />
+      <template v-if="!isFinished">
+        <input
+          v-model="homeScore"
+          @input="onScoreChange"
+          type="number"
+          min="0"
+          max="99"
+          class="knockout-score-input"
+          placeholder="–"
+          :disabled="!match.homeTeam || !match.awayTeam"
+        />
+      </template>
+      <template v-else>
+        <span class="score-display">{{ match.homeScore }}</span>
+      </template>
       <input
         v-if="isDraw || (match.homeScore !== null && match.awayScore !== null && match.homeScore === match.awayScore)"
         v-model="homePen"
@@ -117,6 +132,7 @@ function getSourceLabel(source: string): string {
         class="penalty-input"
         placeholder="P"
         title="Pênaltis"
+        :disabled="isFinished"
       />
     </div>
 
@@ -128,16 +144,21 @@ function getSourceLabel(source: string): string {
         </template>
         <span v-else class="source-label">{{ getSourceLabel(match.awaySource) }}</span>
       </div>
-      <input
-        v-model="awayScore"
-        @input="onScoreChange"
-        type="number"
-        min="0"
-        max="99"
-        class="knockout-score-input"
-        placeholder="–"
-        :disabled="!match.homeTeam || !match.awayTeam"
-      />
+      <template v-if="!isFinished">
+        <input
+          v-model="awayScore"
+          @input="onScoreChange"
+          type="number"
+          min="0"
+          max="99"
+          class="knockout-score-input"
+          placeholder="–"
+          :disabled="!match.homeTeam || !match.awayTeam"
+        />
+      </template>
+      <template v-else>
+        <span class="score-display">{{ match.awayScore }}</span>
+      </template>
       <input
         v-if="isDraw || (match.homeScore !== null && match.awayScore !== null && match.homeScore === match.awayScore)"
         v-model="awayPen"
@@ -148,6 +169,7 @@ function getSourceLabel(source: string): string {
         class="penalty-input"
         placeholder="P"
         title="Pênaltis"
+        :disabled="isFinished"
       />
     </div>
 
@@ -161,11 +183,33 @@ function getSourceLabel(source: string): string {
     <!-- Broadcasters -->
     <div class="match-broadcasters" style="margin-top: 6px; padding-top: 6px;">
       <div class="broadcasters-list" style="justify-content: center; align-items: center; gap: 12px;">
-        <span class="broadcasters-icon" style="font-size: 10px;">📺</span>
+        <span class="broadcasters-icon" style="font-size: 10px;" title="Transmissão">📺</span>
         <a v-for="b in broadcasters" :key="b" :href="broadcasterUrls[b]" target="_blank" rel="noopener noreferrer" class="broadcaster-link">
           <img :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" style="height: 12px;" />
         </a>
       </div>
     </div>
+    <Teleport to="body">
+      <MatchSummaryModal v-if="showModal" :match="match" @close="showModal = false" />
+    </Teleport>
   </div>
 </template>
+
+<style scoped>
+.is-finished-card {
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.is-finished-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  border-color: var(--accent-blue);
+}
+.score-display {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  width: 30px;
+  text-align: center;
+}
+</style>

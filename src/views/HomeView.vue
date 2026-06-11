@@ -1,31 +1,36 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue'
+import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
 import { groupNames, getTeamsByGroup } from '../data/teams'
+import { useMatchStore } from '../stores/matchStore'
+import { useKnockoutStore } from '../stores/knockoutStore'
+import MatchCard from '../components/MatchCard.vue'
+import KnockoutMatch from '../components/KnockoutMatch.vue'
 
-const countdown = ref({ days: 0, hours: 0, minutes: 0, seconds: 0 })
-let timer: number | null = null
+const matchStore = useMatchStore()
+const knockoutStore = useKnockoutStore()
 
-function updateCountdown() {
-  const target = new Date('2026-06-11T19:00:00Z') // 16:00 BRT
-  const now = new Date()
-  const diff = Math.max(0, target.getTime() - now.getTime())
-
-  countdown.value = {
-    days: Math.floor(diff / (1000 * 60 * 60 * 24)),
-    hours: Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-    minutes: Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60)),
-    seconds: Math.floor((diff % (1000 * 60)) / 1000),
-  }
-}
-
-onMounted(() => {
-  updateCountdown()
-  timer = window.setInterval(updateCountdown, 1000)
+const allMatches = computed(() => {
+  const groups = matchStore.matches
+  const knockouts = knockoutStore.knockoutMatches
+  
+  const combined = [
+    ...groups.map(m => ({ match: m, type: 'group', dateObj: new Date(`${m.date}T${m.time}:00-03:00`) })),
+    ...knockouts.map(m => ({ match: m, type: 'knockout', dateObj: new Date(`${m.date}T${m.time}:00-03:00`) }))
+  ]
+  return combined.sort((a, b) => a.dateObj.getTime() - b.dateObj.getTime())
 })
 
-onUnmounted(() => {
-  if (timer) clearInterval(timer)
+const last4Matches = computed(() => {
+  const now = new Date()
+  const pastMatches = allMatches.value.filter(m => m.dateObj <= now)
+  return pastMatches.slice(-4).reverse()
+})
+
+const next4Matches = computed(() => {
+  const now = new Date()
+  const futureMatches = allMatches.value.filter(m => m.dateObj > now)
+  return futureMatches.slice(0, 4)
 })
 
 const hostFlags = [
@@ -46,34 +51,37 @@ const hostFlags = [
       </div>
       <h1 class="hero-title">Copa do Mundo <img src="/FIFA_Logo_White_Generic.webp" class="inline-fifa-logo" alt="FIFA" /> 2026™</h1>
       <p class="hero-subtitle">Estados Unidos · México · Canadá — 11 de junho a 19 de julho</p>
-
-      <div class="countdown">
-        <div class="countdown-item">
-          <div class="countdown-value">{{ String(countdown.days).padStart(2, '0') }}</div>
-          <div class="countdown-label">Dias</div>
-        </div>
-        <div class="countdown-item">
-          <div class="countdown-value">{{ String(countdown.hours).padStart(2, '0') }}</div>
-          <div class="countdown-label">Horas</div>
-        </div>
-        <div class="countdown-item">
-          <div class="countdown-value">{{ String(countdown.minutes).padStart(2, '0') }}</div>
-          <div class="countdown-label">Minutos</div>
-        </div>
-        <div class="countdown-item">
-          <div class="countdown-value">{{ String(countdown.seconds).padStart(2, '0') }}</div>
-          <div class="countdown-label">Segundos</div>
-        </div>
-      </div>
     </section>
 
     <!-- Content -->
     <div class="page-container">
-      <div class="info-banner">
+      <h2 class="section-title" style="justify-content: center; text-align: center; margin-bottom: 1rem;">
+        <span class="emoji">⏪</span> Últimos 4 Jogos
+      </h2>
+      <div class="matches-row" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; padding-bottom: 1rem; justify-content: center; overflow-x: auto;">
+        <template v-for="item in last4Matches" :key="item.type + item.match.id">
+          <MatchCard v-if="item.type === 'group'" :match="(item.match as any)" style="min-width: 200px; width: 100%;" />
+          <KnockoutMatch v-else :match="(item.match as any)" style="min-width: 200px; width: 100%;" />
+        </template>
+        <div v-if="last4Matches.length === 0" style="color: var(--text-secondary);">Nenhum jogo ocorreu ainda.</div>
+      </div>
+
+      <h2 class="section-title" style="justify-content: center; text-align: center; margin-top: 2rem; margin-bottom: 1rem;">
+        <span class="emoji">⏩</span> Próximos 4 Jogos
+      </h2>
+      <div class="matches-row" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; padding-bottom: 1rem; justify-content: center; overflow-x: auto;">
+        <template v-for="item in next4Matches" :key="item.type + item.match.id">
+          <MatchCard v-if="item.type === 'group'" :match="(item.match as any)" style="min-width: 200px; width: 100%;" />
+          <KnockoutMatch v-else :match="(item.match as any)" style="min-width: 200px; width: 100%;" />
+        </template>
+        <div v-if="next4Matches.length === 0" style="color: var(--text-secondary);">Não há próximos jogos previstos.</div>
+      </div>
+
+      <div class="info-banner" style="margin-top: 2rem;">
         <span class="icon">⚽</span>
         <div class="text">
           <strong>48 seleções</strong> divididas em <strong>12 grupos</strong>. Os 2 primeiros de cada grupo + os 8 melhores 3º colocados avançam para o
-          <strong>Round of 32</strong>. Insira os placares e veja a classificação atualizar em tempo real!
+          <strong>Round of 32</strong>.
         </div>
       </div>
 
