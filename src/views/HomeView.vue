@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
-import { groupNames, getTeamsByGroup } from '../data/teams'
+import { groupNames, teams } from '../data/teams'
 import { useMatchStore } from '../stores/matchStore'
 import { useKnockoutStore } from '../stores/knockoutStore'
 import MatchCard from '../components/MatchCard.vue'
@@ -60,8 +60,8 @@ const hostFlags = [
       </h2>
       <div class="matches-row" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; padding-bottom: 1rem; justify-content: center; overflow-x: auto;">
         <template v-for="item in last4Matches" :key="item.type + item.match.id">
-          <MatchCard v-if="item.type === 'group'" :match="(item.match as any)" style="min-width: 200px; width: 100%;" />
-          <KnockoutMatch v-else :match="(item.match as any)" style="min-width: 200px; width: 100%;" />
+          <MatchCard v-if="item.type === 'group'" :match="(item.match as any)" :is-home="true" style="min-width: 200px; width: 100%;" />
+          <KnockoutMatch v-else :match="(item.match as any)" :is-home="true" style="min-width: 200px; width: 100%;" />
         </template>
         <div v-if="last4Matches.length === 0" style="color: var(--text-secondary);">Nenhum jogo ocorreu ainda.</div>
       </div>
@@ -71,8 +71,8 @@ const hostFlags = [
       </h2>
       <div class="matches-row" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; padding-bottom: 1rem; justify-content: center; overflow-x: auto;">
         <template v-for="item in next4Matches" :key="item.type + item.match.id">
-          <MatchCard v-if="item.type === 'group'" :match="(item.match as any)" style="min-width: 200px; width: 100%;" />
-          <KnockoutMatch v-else :match="(item.match as any)" style="min-width: 200px; width: 100%;" />
+          <MatchCard v-if="item.type === 'group'" :match="(item.match as any)" :is-home="true" style="min-width: 200px; width: 100%;" />
+          <KnockoutMatch v-else :match="(item.match as any)" :is-home="true" style="min-width: 200px; width: 100%;" />
         </template>
         <div v-if="next4Matches.length === 0" style="color: var(--text-secondary);">Não há próximos jogos previstos.</div>
       </div>
@@ -98,10 +98,13 @@ const hostFlags = [
           class="overview-card"
         >
           <div class="group-label">Grupo {{ group }}</div>
-          <div class="teams-list">
-            <div v-for="team in getTeamsByGroup(group)" :key="team.code" class="team-row">
-              <img :src="`/flags/${team.flagCode}.svg`" :alt="team.name" />
-              <span>{{ team.name }}</span>
+          <div class="teams-list" style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
+            <div v-for="teamStanding in matchStore.allStandings[group]" :key="teamStanding.teamCode" class="team-row" style="display: flex; align-items: center; justify-content: space-between;">
+              <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <img :src="`/flags/${teams.find(t => t.code === teamStanding.teamCode)?.flagCode}.svg`" :alt="teamStanding.teamCode" style="width: 24px; border-radius: 2px;" />
+                <span>{{ teams.find(t => t.code === teamStanding.teamCode)?.name }}</span>
+              </div>
+              <span style="font-weight: 700; color: var(--primary-light);">{{ teamStanding.points }} pts</span>
             </div>
           </div>
         </RouterLink>

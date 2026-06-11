@@ -8,7 +8,7 @@ import { useBroadcasters, broadcasterUrls } from '../composables/useBroadcasters
 import { getRefereeFlag, getRefereeCountry } from '../data/referees'
 import type { KnockoutMatch } from '../types'
 
-const props = defineProps<{ match: KnockoutMatch }>()
+const props = defineProps<{ match: KnockoutMatch, isHome?: boolean }>()
 const knockoutStore = useKnockoutStore()
 
 const homeScore = ref<string>(props.match.homeScore !== null ? String(props.match.homeScore) : '')
@@ -180,13 +180,20 @@ function getSourceLabel(source: string): string {
       <img v-if="getRefereeFlag(match.referee)" :src="getRefereeFlag(match.referee)" :title="getRefereeCountry(match.referee) || ''" :alt="getRefereeCountry(match.referee) || ''" class="referee-flag" style="height: 10px; margin-left: 4px; border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.3); cursor: help;" />
     </div>
 
-    <!-- Broadcasters -->
+    <!-- Broadcasters or Highlights -->
     <div class="match-broadcasters" style="margin-top: 6px; padding-top: 6px;">
       <div class="broadcasters-list" style="justify-content: center; align-items: center; gap: 12px;">
-        <span class="broadcasters-icon" style="font-size: 10px;" title="Transmissão">📺</span>
-        <a v-for="b in broadcasters" :key="b" :href="broadcasterUrls[b]" target="_blank" rel="noopener noreferrer" class="broadcaster-link">
-          <img :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" style="height: 12px;" />
-        </a>
+        <template v-if="isHome && isFinished && match.highlightsUrl">
+          <a :href="match.highlightsUrl" target="_blank" rel="noopener noreferrer" class="broadcaster-link highlights-link" style="text-decoration: none;" @click.stop>
+            <span class="broadcasters-icon" style="font-size: 10px; color: #ef4444;" title="Melhores Momentos">▶ Melhores Momentos</span>
+          </a>
+        </template>
+        <template v-else>
+          <span class="broadcasters-icon" style="font-size: 10px;" title="Transmissão">📺</span>
+          <a v-for="b in broadcasters" :key="b" :href="broadcasterUrls[b]" target="_blank" rel="noopener noreferrer" class="broadcaster-link" @click.stop>
+            <img :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" style="height: 12px;" />
+          </a>
+        </template>
       </div>
     </div>
     <Teleport to="body">

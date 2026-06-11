@@ -8,7 +8,7 @@ import { useBroadcasters, broadcasterUrls } from '../composables/useBroadcasters
 import { getRefereeFlag, getRefereeCountry } from '../data/referees'
 import type { GroupMatch } from '../types'
 
-const props = defineProps<{ match: GroupMatch }>()
+const props = defineProps<{ match: GroupMatch, isHome?: boolean }>()
 const matchStore = useMatchStore()
 
 const homeScore = ref<string>(props.match.homeScore !== null ? String(props.match.homeScore) : '')
@@ -116,14 +116,21 @@ watch(() => props.match.awayScore, (newVal, oldVal) => {
       <img v-if="getRefereeFlag(match.referee)" :src="getRefereeFlag(match.referee)" :title="getRefereeCountry(match.referee) || ''" :alt="getRefereeCountry(match.referee) || ''" class="referee-flag" style="height: 12px; margin-left: 6px; border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.3); cursor: help;" />
     </div>
     
-    <!-- Broadcasters -->
+    <!-- Broadcasters or Highlights -->
     <div class="match-broadcasters">
-      <span class="broadcasters-label" title="Transmissão">📺</span>
-      <div class="broadcasters-list">
-        <a v-for="b in broadcasters" :key="b" :href="broadcasterUrls[b]" target="_blank" rel="noopener noreferrer" class="broadcaster-link">
-          <img :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" />
+      <template v-if="isHome && isFinished && match.highlightsUrl">
+        <a :href="match.highlightsUrl" target="_blank" rel="noopener noreferrer" class="broadcaster-link highlights-link" @click.stop>
+          <span class="broadcasters-label" title="Melhores Momentos" style="color: #ef4444;">▶ Melhores Momentos</span>
         </a>
-      </div>
+      </template>
+      <template v-else>
+        <span class="broadcasters-label" title="Transmissão">📺</span>
+        <div class="broadcasters-list">
+          <a v-for="b in broadcasters" :key="b" :href="broadcasterUrls[b]" target="_blank" rel="noopener noreferrer" class="broadcaster-link" @click.stop>
+            <img :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" />
+          </a>
+        </div>
+      </template>
     </div>
     <Teleport to="body">
       <MatchSummaryModal v-if="showModal" :match="match" @close="showModal = false" />

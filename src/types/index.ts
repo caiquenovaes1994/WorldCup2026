@@ -37,6 +37,7 @@ export interface GroupMatch {
   awayScore: number | null
   referee: string | null // referee name
   matchday: number // 1, 2 or 3
+  highlightsUrl?: string
 }
 
 export interface GroupStanding {
@@ -69,6 +70,7 @@ export interface KnockoutMatch {
   venueId: string
   homeSource: string // e.g. "1A", "2B", "3C/E/F", "W-R32-1"
   awaySource: string
+  highlightsUrl?: string
 }
 
 export interface ThirdPlaceRanking {
