@@ -23,6 +23,10 @@ const venueMatches = computed(() => {
       time: m.time,
       homeTeam: m.homeTeam,
       awayTeam: m.awayTeam,
+      homeScore: m.homeScore,
+      awayScore: m.awayScore,
+      homePen: undefined as number | null | undefined,
+      awayPen: undefined as number | null | undefined,
       stage: `Grupo ${m.group}`
     }))
   
@@ -34,6 +38,10 @@ const venueMatches = computed(() => {
       time: m.time,
       homeTeam: m.homeTeam,
       awayTeam: m.awayTeam,
+      homeScore: m.homeScore,
+      awayScore: m.awayScore,
+      homePen: m.homePenalties,
+      awayPen: m.awayPenalties,
       stage: roundNames[m.round] || m.round
     }))
   
@@ -81,7 +89,12 @@ defineExpose({ open, close })
             <div class="match-stage">{{ match.stage }}</div>
             <div class="match-teams">
               <TeamBadge :code="match.homeTeam || ''" size="sm" :showName="true" />
-              <span class="vs">vs</span>
+              <div v-if="match.homeScore !== null && match.awayScore !== null" class="vs score-display">
+                <span v-if="match.homePen !== undefined && match.homePen !== null" class="penalties">({{ match.homePen }})</span>
+                {{ match.homeScore }} x {{ match.awayScore }}
+                <span v-if="match.awayPen !== undefined && match.awayPen !== null" class="penalties">({{ match.awayPen }})</span>
+              </div>
+              <span v-else class="vs">vs</span>
               <TeamBadge :code="match.awayTeam || ''" size="sm" :showName="true" />
             </div>
           </div>
@@ -201,5 +214,15 @@ defineExpose({ open, close })
   font-size: 0.85rem;
   color: var(--text-muted, #6b7280);
   font-weight: bold;
+}
+.score-display {
+  font-size: 1rem;
+  color: var(--text-primary, #fff);
+  white-space: nowrap;
+}
+.penalties {
+  font-size: 0.75rem;
+  color: var(--text-muted, #6b7280);
+  margin: 0 0.25rem;
 }
 </style>
