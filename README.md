@@ -50,6 +50,8 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 - Destaque visual diferenciado para: 1º classificado, 2º classificado, 3º disputado e eliminado
 - Filtro por grupo com navegação entre rodadas (1ª, 2ª e 3ª rodada)
 - Tabela global com os **8 melhores terceiros colocados** e seu status de classificação
+- **Resumo Detalhado de Partidas:** Clique em jogos finalizados para abrir um modal interativo exibindo a linha do tempo com gols, cartões e revisões do VAR.
+- **Melhores Momentos:** Acesso rápido aos highlights em vídeo diretamente pelo card das partidas passadas na tela inicial.
 
 ### 🏆 Mata-Mata
 
@@ -85,6 +87,7 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 
 ### 📊 Estatísticas Avançadas
 
+- **Dados da Copa 2026**: Rankings atualizados em tempo real com **Artilheiros**, **Assistências** e **Cartões** (separados em abas de Amarelos e Vermelhos).
 - **Treinadores por Nacionalidade**: Ranking interativo mostrando de onde vêm os comandantes da Copa, com atalho direto para a convocação de suas seleções.
 - **Jogadores por País (Clubes)**: Ranking das ligas que mais cedem atletas para a Copa. Inclui um filtro inteligente por Seleção e exibe as bandeiras dos países sede dos clubes.
 - **Participações em Copas**: Histórico completo de aparições no torneio, com destaque visual em **ouro 🥇, prata 🥈 e bronze 🥉** para os anos em que as seleções terminaram no pódio.
@@ -128,6 +131,7 @@ src/
 │   ├── GroupTable.vue        # Tabela de classificação + jogos do grupo
 │   ├── KnockoutMatch.vue     # Card de partida do mata-mata
 │   ├── MatchCard.vue         # Card de partida da fase de grupos
+│   ├── MatchSummaryModal.vue # Modal interativo de resumo das partidas
 │   ├── TeamBadge.vue         # Bandeira + nome da seleção
 │   └── ThirdPlaceTable.vue   # Ranking dos melhores terceiros colocados
 ├── composables/
@@ -138,6 +142,8 @@ src/
 │   ├── matches.ts            # 48 partidas da fase de grupos com datas e sedes
 │   ├── referees.ts           # Árbitros oficiais por confederação
 │   ├── squads.json           # Elencos das 48 seleções (~300KB, chunk separado)
+│   ├── stats2026.ts          # Dados da edição atual (Gols, Assistências, Cartões)
+│   ├── summaries.ts          # Resumo detalhado (linha do tempo) de cada partida
 │   ├── teams.ts              # Seleções com grupo e ranking FIFA
 │   ├── tournamentInfo.ts     # Dados dos mascotes e bola oficial
 │   └── venues.ts             # 16 estádios com capacidade e imagem
