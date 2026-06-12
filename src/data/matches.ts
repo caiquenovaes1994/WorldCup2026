@@ -9,7 +9,7 @@ export const groupMatches: GroupMatch[] = [
   // ========== GROUP A ==========
   // Matchday 1
   { id: 1, group: 'A', homeTeam: 'MEX', awayTeam: 'RSA', date: '2026-06-11', time: '16:00', venueId: 'azteca', homeScore: 2, awayScore: 0, referee: 'Wilton Sampaio', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=LPp92M0dRAA' },
-  { id: 2, group: 'A', homeTeam: 'KOR', awayTeam: 'CZE', date: '2026-06-12', time: '01:00', venueId: 'akron', homeScore: null, awayScore: null, referee: 'Amin Mohamed Omar', matchday: 1 },
+  { id: 2, group: 'A', homeTeam: 'KOR', awayTeam: 'CZE', date: '2026-06-11', time: '23:00', venueId: 'akron', homeScore: 2, awayScore: 1, referee: 'Amin Mohamed Omar', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=KjQtpF_X5Uw' },
   // Matchday 2
   { id: 3, group: 'A', homeTeam: 'MEX', awayTeam: 'KOR', date: '2026-06-18', time: '22:00', venueId: 'akron', homeScore: null, awayScore: null, referee: null, matchday: 2 },
   { id: 4, group: 'A', homeTeam: 'CZE', awayTeam: 'RSA', date: '2026-06-18', time: '19:00', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: null, matchday: 2 },
