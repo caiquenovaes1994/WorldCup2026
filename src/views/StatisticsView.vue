@@ -367,7 +367,7 @@ const toggleAppearance = (code: string) => {
     </div> <!-- end v-if general -->
 
     <div v-if="activeTab === '2026'">
-      <div class="stats-top-row" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+      <div class="stats-row-3">
         <!-- Artilheiros -->
         <section class="stats-section">
           <h2 class="section-title">
@@ -417,13 +417,21 @@ const toggleAppearance = (code: string) => {
         </section>
 
         <!-- Cartões -->
-        <section class="stats-section" style="grid-column: 1 / -1; max-width: 500px; margin: 0 auto; width: 100%;">
+        <section class="stats-section">
           <h2 class="section-title">
-            <span class="emoji">🟨</span> Cartões
+            <span style="display: flex; gap: -4px; align-items: center; margin-right: 4px;">
+              <span class="card-icon yellow" style="transform: rotate(-10deg);"></span>
+              <span class="card-icon red" style="transform: rotate(10deg); margin-left: -8px; z-index: 1;"></span>
+            </span>
+            Cartões
           </h2>
           <div class="tabs-container" style="display: flex; gap: 1rem; margin-bottom: 1rem;">
-            <button :class="['tab-btn', { active: activeCardTab === 'yellow' }]" @click="activeCardTab = 'yellow'" style="font-size: 1rem;">Amarelos</button>
-            <button :class="['tab-btn', { active: activeCardTab === 'red' }]" @click="activeCardTab = 'red'" style="font-size: 1rem;">Vermelhos</button>
+            <button :class="['tab-btn', { active: activeCardTab === 'yellow' }]" @click="activeCardTab = 'yellow'" style="font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+              <span class="card-icon yellow"></span> Amarelos
+            </button>
+            <button :class="['tab-btn', { active: activeCardTab === 'red' }]" @click="activeCardTab = 'red'" style="font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+              <span class="card-icon red"></span> Vermelhos
+            </button>
           </div>
           <div class="stats-card">
             <!-- Amarelos -->
@@ -509,8 +517,22 @@ const toggleAppearance = (code: string) => {
   margin-bottom: 2rem;
 }
 
+.stats-row-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .stats-row-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
-  .stats-top-row {
+  .stats-top-row,
+  .stats-row-3 {
     grid-template-columns: 1fr;
   }
 }
@@ -860,5 +882,22 @@ const toggleAppearance = (code: string) => {
   color: #4A2511;
   font-weight: 700;
   box-shadow: 0 2px 5px rgba(205, 127, 50, 0.4);
+}
+
+.card-icon {
+  display: inline-block;
+  width: 14px;
+  height: 20px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  vertical-align: middle;
+}
+
+.card-icon.yellow {
+  background-color: #facc15;
+}
+
+.card-icon.red {
+  background-color: #ef4444;
 }
 </style>
