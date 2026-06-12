@@ -20,14 +20,10 @@ Abaixo estão listados todos os jogos da fase de grupos da Copa do Mundo de 2026
 | 22 | D | TUR x PAR | 2026-06-19 |
 | 23 | D | TUR x USA | 2026-06-25 |
 | 24 | D | PAR x AUS | 2026-06-25 |
-| 25 | E | GER x CUW | 2026-06-14 |
-| 26 | E | CIV x ECU | 2026-06-14 |
 | 27 | E | GER x CIV | 2026-06-20 |
 | 28 | E | ECU x CUW | 2026-06-20 |
 | 29 | E | CUW x CIV | 2026-06-25 |
 | 30 | E | ECU x GER | 2026-06-25 |
-| 31 | F | NED x JPN | 2026-06-14 |
-| 32 | F | SWE x TUN | 2026-06-14 |
 | 33 | F | NED x SWE | 2026-06-20 |
 | 34 | F | TUN x JPN | 2026-06-20 |
 | 35 | F | TUN x NED | 2026-06-25 |
