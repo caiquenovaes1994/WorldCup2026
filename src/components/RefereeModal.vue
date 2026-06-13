@@ -4,6 +4,7 @@ import { useMatchStore } from '../stores/matchStore'
 import { useKnockoutStore } from '../stores/knockoutStore'
 import { roundNames } from '../data/knockoutRules'
 import { countryToCode } from '../data/referees'
+import { matchEvents } from '../data/summaries'
 import TeamBadge from './TeamBadge.vue'
 import type { Referee } from '../types'
 
@@ -17,6 +18,14 @@ const knockoutStore = useKnockoutStore()
 const refereeMatches = computed(() => {
   if (!referee.value) return []
   
+  const getCards = (id: number | string) => {
+    const events = matchEvents[id] || []
+    return {
+      yellow: events.filter(e => e.type === 'yellow').length,
+      red: events.filter(e => e.type === 'red').length
+    }
+  }
+
   const groups = matchStore.matches
     .filter(m => m.referee === referee.value?.name)
     .map(m => ({
@@ -29,7 +38,8 @@ const refereeMatches = computed(() => {
       awayScore: m.awayScore,
       homePen: undefined as number | null | undefined,
       awayPen: undefined as number | null | undefined,
-      stage: `Grupo ${m.group}`
+      stage: `Grupo ${m.group}`,
+      cards: getCards(m.id)
     }))
   
   const knockouts = knockoutStore.knockoutMatches
@@ -44,7 +54,8 @@ const refereeMatches = computed(() => {
       awayScore: m.awayScore,
       homePen: m.homePenalties,
       awayPen: m.awayPenalties,
-      stage: roundNames[m.round] || m.round
+      stage: roundNames[m.round] || m.round,
+      cards: getCards(m.id)
     }))
   
   return [...groups, ...knockouts].sort((a, b) => new Date(`${a.date}T${a.time}`).getTime() - new Date(`${b.date}T${b.time}`).getTime())
@@ -100,6 +111,14 @@ defineExpose({ open, close })
               </div>
               <span v-else class="vs">vs</span>
               <TeamBadge :code="match.awayTeam || ''" size="sm" :showName="true" />
+            </div>
+            <div class="match-cards" v-if="match.cards.yellow > 0 || match.cards.red > 0">
+              <span v-if="match.cards.yellow > 0" class="card-count" title="Cartões Amarelos">
+                <span class="card-icon yellow"></span> {{ match.cards.yellow }}
+              </span>
+              <span v-if="match.cards.red > 0" class="card-count" title="Cartões Vermelhos">
+                <span class="card-icon red"></span> {{ match.cards.red }}
+              </span>
             </div>
           </div>
         </div>
@@ -232,8 +251,77 @@ defineExpose({ open, close })
   white-space: nowrap;
 }
 .penalties {
-  font-size: 0.75rem;
   color: var(--text-muted);
   margin: 0 0.25rem;
+}
+
+.match-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.card-count {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--text-muted);
+}
+
+.card-icon {
+  display: inline-block;
+  width: 10px;
+  height: 14px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.card-icon.yellow {
+  background-color: #facc15;
+}
+
+.card-icon.red {
+  background-color: #ef4444;
+}
+
+.referee-stats {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stat-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-val {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--text);
+  line-height: 1;
+}
+
+.stat-desc {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
 }
 </style>

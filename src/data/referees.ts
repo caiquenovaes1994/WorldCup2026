@@ -12,7 +12,6 @@ export const referees: Referee[] = [
   { name: 'Omar Al Ali', country: 'Emirados Árabes', confederation: 'AFC', link: 'https://www.transfermarkt.com.br/omar-mohamed-al-ali/profil/schiedsrichter/20406' },
 
   // CAF
-  { name: 'Omar Abdulkadir Artan', country: 'Somália', confederation: 'CAF', link: 'https://www.transfermarkt.com.br/omar-abdulkadir-artan/profil/schiedsrichter/44909' },
   { name: 'Pierre Atcho', country: 'Gabão', confederation: 'CAF', link: 'https://www.transfermarkt.com.br/pierre-atcho/profil/schiedsrichter/35863' },
   { name: 'Dahane Beida', country: 'Mauritânia', confederation: 'CAF', link: 'https://www.transfermarkt.com.br/dahane-beida/profil/schiedsrichter/35817' },
   { name: 'Mustapha Ghorbal', country: 'Argélia', confederation: 'CAF', link: 'https://www.transfermarkt.com.br/mustapha-ghorbal/profil/schiedsrichter/7488' },
@@ -68,7 +67,7 @@ export const referees: Referee[] = [
 
 export const countryToCode: Record<string, string> = {
   'Catar': 'qa', 'Arábia Saudita': 'sa', 'Japão': 'jp', 'Irã': 'ir', 'China': 'cn', 'Jordânia': 'jo', 'Uzbequistão': 'uz', 'Emirados Árabes': 'ae',
-  'Somália': 'so', 'Camarões': 'cm', 'Mauritânia': 'mr', 'Argélia': 'dz', 'Marrocos': 'ma', 'Quênia': 'ke', 'África do Sul': 'za', 'Gabão': 'ga', 'Egito': 'eg',
+  'Camarões': 'cm', 'Mauritânia': 'mr', 'Argélia': 'dz', 'Marrocos': 'ma', 'Quênia': 'ke', 'África do Sul': 'za', 'Gabão': 'ga', 'Egito': 'eg',
   'El Salvador': 'sv', 'Costa Rica': 'cr', 'Estados Unidos': 'us', 'Canadá': 'ca', 'México': 'mx', 'Honduras': 'hn', 'Jamaica': 'jm',
   'Brasil': 'br', 'Paraguai': 'py', 'Uruguai': 'uy', 'Chile': 'cl', 'Argentina': 'ar', 'Peru': 'pe', 'Colômbia': 'co', 'Venezuela': 've',
   'Austrália': 'au', 'Nova Zelândia': 'nz',
