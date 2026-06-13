@@ -7,13 +7,39 @@ import appearancesData from '../data/appearances.json'
 import { teams } from '../data/teams'
 import TeamBadge from '../components/TeamBadge.vue'
 import { topScorers, topAssists, cards } from '../data/stats2026'
+import PlayerStatsModal from '../components/PlayerStatsModal.vue'
 
 const router = useRouter()
 const activeTab = ref<'general' | '2026'>('general')
 const activeCardTab = ref<'yellow' | 'red'>('yellow')
 
-const sortedYellowCards = computed(() => cards.filter(c => c.yellow > 0).sort((a, b) => b.yellow - a.yellow))
-const sortedRedCards = computed(() => cards.filter(c => c.red > 0).sort((a, b) => b.red - a.red))
+const sortedScorers = computed(() => [...topScorers].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name)))
+const sortedAssists = computed(() => [...topAssists].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name)))
+const sortedYellowCards = computed(() => cards.filter(c => c.yellow > 0).sort((a, b) => b.yellow - a.yellow || a.name.localeCompare(b.name)))
+const sortedRedCards = computed(() => cards.filter(c => c.red > 0).sort((a, b) => b.red - a.red || a.name.localeCompare(b.name)))
+
+const ITEMS_PER_PAGE = 10
+
+const pageScorers = ref(1)
+const paginatedScorers = computed(() => sortedScorers.value.slice((pageScorers.value - 1) * ITEMS_PER_PAGE, pageScorers.value * ITEMS_PER_PAGE))
+const totalPagesScorers = computed(() => Math.ceil(sortedScorers.value.length / ITEMS_PER_PAGE))
+
+const pageAssists = ref(1)
+const paginatedAssists = computed(() => sortedAssists.value.slice((pageAssists.value - 1) * ITEMS_PER_PAGE, pageAssists.value * ITEMS_PER_PAGE))
+const totalPagesAssists = computed(() => Math.ceil(sortedAssists.value.length / ITEMS_PER_PAGE))
+
+const pageYellow = ref(1)
+const paginatedYellow = computed(() => sortedYellowCards.value.slice((pageYellow.value - 1) * ITEMS_PER_PAGE, pageYellow.value * ITEMS_PER_PAGE))
+const totalPagesYellow = computed(() => Math.ceil(sortedYellowCards.value.length / ITEMS_PER_PAGE))
+
+const pageRed = ref(1)
+const paginatedRed = computed(() => sortedRedCards.value.slice((pageRed.value - 1) * ITEMS_PER_PAGE, pageRed.value * ITEMS_PER_PAGE))
+const totalPagesRed = computed(() => Math.ceil(sortedRedCards.value.length / ITEMS_PER_PAGE))
+
+const selectedPlayerForModal = ref<{ name: string, teamCode: string, type: 'goal' | 'assist' | 'yellow' | 'red' } | null>(null)
+const openPlayerModal = (name: string, teamCode: string, type: 'goal' | 'assist' | 'yellow' | 'red') => {
+  selectedPlayerForModal.value = { name, teamCode, type }
+}
 
 const goToTeam = (teamCode: string) => {
   if (teamCode) {
@@ -371,15 +397,15 @@ const toggleAppearance = (code: string) => {
         <!-- Artilheiros -->
         <section class="stats-section">
           <h2 class="section-title">
-            <span class="emoji">⚽</span> Artilheiros
+            <span class="emoji"><img src="/ball.png" style="width: 1em; height: 1em; vertical-align: middle;" alt="⚽" /></span> Artilheiros
           </h2>
           <div class="stats-card">
             <div v-if="topScorers.length === 0" style="text-align: center; color: var(--text-secondary); padding: 2rem 0;">Ainda não há gols na competição.</div>
             <div class="stats-list" v-else>
-              <div v-for="(player, idx) in topScorers" :key="idx" class="stats-item">
+              <div v-for="(player, idx) in paginatedScorers" :key="idx" class="stats-item clickable" @click="openPlayerModal(player.name, player.teamCode, 'goal')">
                 <div class="stats-row">
                   <div class="stats-info">
-                    <span style="font-weight: bold; width: 20px; color: var(--text-secondary);">{{ idx + 1 }}º</span>
+                    <span style="font-weight: bold; width: 20px; color: var(--text-secondary);">{{ (pageScorers - 1) * ITEMS_PER_PAGE + idx + 1 }}º</span>
                     <span class="stats-name">{{ player.name }}</span>
                     <TeamBadge :code="player.teamCode" size="sm" :showName="false" style="transform: scale(0.7); margin-left: -8px;" />
                   </div>
@@ -387,6 +413,11 @@ const toggleAppearance = (code: string) => {
                     <div class="stats-value">{{ player.count }}</div>
                   </div>
                 </div>
+              </div>
+              <div v-if="totalPagesScorers > 1" class="pagination-controls">
+                <button :disabled="pageScorers === 1" @click="pageScorers--">Anterior</button>
+                <span>{{ pageScorers }} de {{ totalPagesScorers }}</span>
+                <button :disabled="pageScorers === totalPagesScorers" @click="pageScorers++">Próximo</button>
               </div>
             </div>
           </div>
@@ -400,10 +431,10 @@ const toggleAppearance = (code: string) => {
           <div class="stats-card">
             <div v-if="topAssists.length === 0" style="text-align: center; color: var(--text-secondary); padding: 2rem 0;">Ainda não há assistências na competição.</div>
             <div class="stats-list" v-else>
-              <div v-for="(player, idx) in topAssists" :key="idx" class="stats-item">
+              <div v-for="(player, idx) in paginatedAssists" :key="idx" class="stats-item clickable" @click="openPlayerModal(player.name, player.teamCode, 'assist')">
                 <div class="stats-row">
                   <div class="stats-info">
-                    <span style="font-weight: bold; width: 20px; color: var(--text-secondary);">{{ idx + 1 }}º</span>
+                    <span style="font-weight: bold; width: 20px; color: var(--text-secondary);">{{ (pageAssists - 1) * ITEMS_PER_PAGE + idx + 1 }}º</span>
                     <span class="stats-name">{{ player.name }}</span>
                     <TeamBadge :code="player.teamCode" size="sm" :showName="false" style="transform: scale(0.7); margin-left: -8px;" />
                   </div>
@@ -411,6 +442,11 @@ const toggleAppearance = (code: string) => {
                     <div class="stats-value" style="color: #4ade80;">{{ player.count }}</div>
                   </div>
                 </div>
+              </div>
+              <div v-if="totalPagesAssists > 1" class="pagination-controls">
+                <button :disabled="pageAssists === 1" @click="pageAssists--">Anterior</button>
+                <span>{{ pageAssists }} de {{ totalPagesAssists }}</span>
+                <button :disabled="pageAssists === totalPagesAssists" @click="pageAssists++">Próximo</button>
               </div>
             </div>
           </div>
@@ -438,9 +474,10 @@ const toggleAppearance = (code: string) => {
             <div v-if="activeCardTab === 'yellow'">
               <div v-if="sortedYellowCards.length === 0" style="text-align: center; color: var(--text-secondary); padding: 2rem 0;">Ainda não há cartões amarelos.</div>
               <div class="stats-list" v-else>
-                <div v-for="(player, idx) in sortedYellowCards" :key="idx" class="stats-item">
+                <div v-for="(player, idx) in paginatedYellow" :key="idx" class="stats-item clickable" @click="openPlayerModal(player.name, player.teamCode, 'yellow')">
                   <div class="stats-row">
                     <div class="stats-info">
+                      <span style="font-weight: bold; width: 20px; color: var(--text-secondary);">{{ (pageYellow - 1) * ITEMS_PER_PAGE + idx + 1 }}º</span>
                       <span class="stats-name">{{ player.name }}</span>
                       <TeamBadge :code="player.teamCode" size="sm" :showName="false" style="transform: scale(0.7); margin-left: -8px;" />
                     </div>
@@ -449,6 +486,11 @@ const toggleAppearance = (code: string) => {
                     </div>
                   </div>
                 </div>
+                <div v-if="totalPagesYellow > 1" class="pagination-controls">
+                  <button :disabled="pageYellow === 1" @click="pageYellow--">Anterior</button>
+                  <span>{{ pageYellow }} de {{ totalPagesYellow }}</span>
+                  <button :disabled="pageYellow === totalPagesYellow" @click="pageYellow++">Próximo</button>
+                </div>
               </div>
             </div>
             
@@ -456,9 +498,10 @@ const toggleAppearance = (code: string) => {
             <div v-if="activeCardTab === 'red'">
               <div v-if="sortedRedCards.length === 0" style="text-align: center; color: var(--text-secondary); padding: 2rem 0;">Ainda não há cartões vermelhos.</div>
               <div class="stats-list" v-else>
-                <div v-for="(player, idx) in sortedRedCards" :key="idx" class="stats-item">
+                <div v-for="(player, idx) in paginatedRed" :key="idx" class="stats-item clickable" @click="openPlayerModal(player.name, player.teamCode, 'red')">
                   <div class="stats-row">
                     <div class="stats-info">
+                      <span style="font-weight: bold; width: 20px; color: var(--text-secondary);">{{ (pageRed - 1) * ITEMS_PER_PAGE + idx + 1 }}º</span>
                       <span class="stats-name">{{ player.name }}</span>
                       <TeamBadge :code="player.teamCode" size="sm" :showName="false" style="transform: scale(0.7); margin-left: -8px;" />
                     </div>
@@ -467,12 +510,20 @@ const toggleAppearance = (code: string) => {
                     </div>
                   </div>
                 </div>
+                <div v-if="totalPagesRed > 1" class="pagination-controls">
+                  <button :disabled="pageRed === 1" @click="pageRed--">Anterior</button>
+                  <span>{{ pageRed }} de {{ totalPagesRed }}</span>
+                  <button :disabled="pageRed === totalPagesRed" @click="pageRed++">Próximo</button>
+                </div>
               </div>
             </div>
           </div>
         </section>
       </div>
     </div>
+    <Teleport to="body">
+      <PlayerStatsModal v-if="selectedPlayerForModal" :player="selectedPlayerForModal" @close="selectedPlayerForModal = null" />
+    </Teleport>
   </div>
 </template>
 
@@ -899,5 +950,39 @@ const toggleAppearance = (code: string) => {
 
 .card-icon.red {
   background-color: #ef4444;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 0.5rem 0;
+  margin-top: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.pagination-controls button {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.pagination-controls button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.pagination-controls button:not(:disabled):hover {
+  background: var(--accent-blue);
+  border-color: var(--accent-blue);
+}
+
+.pagination-controls span {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
 }
 </style>

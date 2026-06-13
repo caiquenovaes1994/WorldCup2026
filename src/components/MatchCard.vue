@@ -118,7 +118,7 @@ watch(() => props.match.awayScore, (newVal, oldVal) => {
     
     <!-- Broadcasters or Highlights -->
     <div class="match-broadcasters">
-      <template v-if="isHome && isFinished && match.highlightsUrl">
+      <template v-if="isFinished && match.highlightsUrl">
         <a :href="match.highlightsUrl" target="_blank" rel="noopener noreferrer" class="broadcaster-link highlights-link" @click.stop>
           <span class="broadcasters-label" title="Melhores Momentos" style="color: #ef4444;">▶ Melhores Momentos</span>
         </a>

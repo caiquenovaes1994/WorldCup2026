@@ -87,7 +87,7 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 
 ### 📊 Estatísticas Avançadas
 
-- **Dados da Copa 2026**: Rankings atualizados em tempo real com **Artilheiros**, **Assistências** e **Cartões** (separados em abas de Amarelos e Vermelhos).
+- **Dados da Copa 2026**: Rankings atualizados em tempo real com **Artilheiros**, **Assistências** e **Cartões** (separados em abas de Amarelos e Vermelhos). Inclui paginação e modais interativos para visualizar o histórico detalhado de cada jogador por partida.
 - **Treinadores por Nacionalidade**: Ranking interativo mostrando de onde vêm os comandantes da Copa, com atalho direto para a convocação de suas seleções.
 - **Jogadores por País (Clubes)**: Ranking das ligas que mais cedem atletas para a Copa. Inclui um filtro inteligente por Seleção e exibe as bandeiras dos países sede dos clubes.
 - **Participações em Copas**: Histórico completo de aparições no torneio, com destaque visual em **ouro 🥇, prata 🥈 e bronze 🥉** para os anos em que as seleções terminaram no pódio.

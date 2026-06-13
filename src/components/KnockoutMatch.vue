@@ -183,7 +183,7 @@ function getSourceLabel(source: string): string {
     <!-- Broadcasters or Highlights -->
     <div class="match-broadcasters" style="margin-top: 6px; padding-top: 6px;">
       <div class="broadcasters-list" style="justify-content: center; align-items: center; gap: 12px;">
-        <template v-if="isHome && isFinished && match.highlightsUrl">
+        <template v-if="isFinished && match.highlightsUrl">
           <a :href="match.highlightsUrl" target="_blank" rel="noopener noreferrer" class="broadcaster-link highlights-link" style="text-decoration: none;" @click.stop>
             <span class="broadcasters-icon" style="font-size: 10px; color: #ef4444;" title="Melhores Momentos">▶ Melhores Momentos</span>
           </a>

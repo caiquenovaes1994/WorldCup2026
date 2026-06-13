@@ -78,7 +78,7 @@ const hostFlags = [
       </div>
 
       <div class="info-banner" style="margin-top: 2rem;">
-        <span class="icon">⚽</span>
+        <span class="icon"><img src="/ball.png" style="width: 1em; height: 1em; vertical-align: middle;" alt="⚽" /></span>
         <div class="text">
           <strong>48 seleções</strong> divididas em <strong>12 grupos</strong>. Os 2 primeiros de cada grupo + os 8 melhores 3º colocados avançam para o
           <strong>Round of 32</strong>.

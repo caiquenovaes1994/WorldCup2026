@@ -57,7 +57,7 @@ onMounted(() => {
             <template v-if="event.team === 'home'">
               <div class="time">{{ event.time }}</div>
               <div class="icon">
-                <span v-if="event.type === 'goal'" title="Gol">⚽</span>
+                <span v-if="event.type === 'goal'" title="Gol"><img src="/ball.png" style="width: 1em; height: 1em; vertical-align: middle;" alt="⚽" /></span>
                 <span v-else-if="event.type === 'yellow'" class="card-icon yellow" title="Cartão Amarelo"></span>
                 <span v-else-if="event.type === 'red'" class="card-icon red" title="Cartão Vermelho"></span>
                 <span v-else-if="event.type === 'sub'" title="Substituição">🔄</span>
@@ -79,7 +79,7 @@ onMounted(() => {
                 <span v-if="event.type === 'goal' && event.description" class="score-badge">{{ event.description }}</span>
               </div>
               <div class="icon">
-                <span v-if="event.type === 'goal'" title="Gol">⚽</span>
+                <span v-if="event.type === 'goal'" title="Gol"><img src="/ball.png" style="width: 1em; height: 1em; vertical-align: middle;" alt="⚽" /></span>
                 <span v-else-if="event.type === 'yellow'" class="card-icon yellow" title="Cartão Amarelo"></span>
                 <span v-else-if="event.type === 'red'" class="card-icon red" title="Cartão Vermelho"></span>
                 <span v-else-if="event.type === 'sub'" title="Substituição">🔄</span>
@@ -97,7 +97,7 @@ onMounted(() => {
       </div>
       <div class="summary-placeholder" v-else>
         <p>As informações oficiais desta partida serão inseridas em breve.</p>
-        <p style="font-size: 2rem; margin-top: 1rem;">⚽</p>
+        <p style="font-size: 2rem; margin-top: 1rem;"><img src="/ball.png" style="width: 1em; height: 1em; vertical-align: middle;" alt="⚽" /></p>
       </div>
     </div>
   </div>
