@@ -10,7 +10,16 @@ export const useKnockoutStore = defineStore('knockout', () => {
   function loadKnockout(): KnockoutMatch[] {
     const saved = localStorage.getItem('wc2026-knockout')
     if (saved) {
-      try { return JSON.parse(saved) } catch { /* fallthrough */ }
+      try {
+        const parsed = JSON.parse(saved) as KnockoutMatch[]
+        parsed.forEach(m => {
+          const original = knockoutTemplate.find(kt => kt.id === m.id)
+          if (original) {
+            m.referee = original.referee
+          }
+        })
+        return parsed
+      } catch { /* fallthrough */ }
     }
     return JSON.parse(JSON.stringify(knockoutTemplate))
   }

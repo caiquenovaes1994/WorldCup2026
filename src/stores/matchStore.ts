@@ -11,7 +11,14 @@ export const useMatchStore = defineStore('matches', () => {
     const saved = localStorage.getItem('wc2026-matches')
     if (saved) {
       try {
-        return JSON.parse(saved)
+        const parsed = JSON.parse(saved) as GroupMatch[]
+        parsed.forEach(m => {
+          const original = groupMatches.find(gm => gm.id === m.id)
+          if (original) {
+            m.referee = original.referee
+          }
+        })
+        return parsed
       } catch {
         return JSON.parse(JSON.stringify(groupMatches))
       }
