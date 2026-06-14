@@ -34,6 +34,26 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "21'", type: "goal", team: "away", player: "Jovo Lukic", secondaryPlayer: "Saed Kolasinac", description: "0 - 1" },
     { time: "11'", type: "yellow", team: "home", player: "Alistair Johnston" }
   ],
+  8: [
+    { time: "90'+4", type: "goal", team: "home", player: "Miro Muheim (GC)", description: "1 - 1" },
+    { time: "42'", type: "yellow", team: "away", player: "Denis Zakaria" },
+    { time: "23'", type: "yellow", team: "home", player: "Jassem Gaber Abdulsallam" },
+    { time: "17'", type: "goal", team: "away", player: "Breel Embolo (P)", description: "0 - 1" },
+    { time: "16'", type: "yellow", team: "home", player: "Mahmud Abunada" }
+  ],
+  13: [
+    { time: "43'", type: "yellow", team: "home", player: "Roger Ibañez" },
+    { time: "37'", type: "yellow", team: "home", player: "Casemiro" },
+    { time: "32'", type: "goal", team: "home", player: "Vinicius Jr", secondaryPlayer: "Bruno Guimarães", description: "1 - 1" },
+    { time: "21'", type: "goal", team: "away", player: "Ismael Saibari", secondaryPlayer: "Brahím Diaz", description: "0 - 1" }
+  ],
+  14: [
+    { time: "90'+5", type: "yellow", team: "away", player: "Kenny McLean" },
+    { time: "90'+1", type: "yellow", team: "away", player: "Findlay Curtis" },
+    { time: "46'", type: "yellow", team: "away", player: "Aaron Hickey" },
+    { time: "39'", type: "yellow", team: "home", player: "Jean-Ricner Bellegarde" },
+    { time: "28'", type: "goal", team: "away", player: "John McGinn", description: "0 - 1" }
+  ],
   19: [
     { time: "90'+8", type: "goal", team: "home", player: "Giovanni Reyna", secondaryPlayer: "Alexander Freeman", description: "4 - 1" },
     { time: "90'+3", type: "yellow", team: "away", player: "Junior Alonso" },
@@ -46,5 +66,10 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "31'", type: "goal", team: "home", player: "Folarin Balogun", secondaryPlayer: "Christian Pulisic", description: "2 - 0" },
     { time: "10'", type: "yellow", team: "away", player: "Juan Cáceres" },
     { time: "7'", type: "goal", team: "home", player: "Damián Bobadilla (GC)", description: "1 - 0" }
+  ],
+  20: [
+    { time: "86'", type: "yellow", team: "away", player: "Yunus Akgun" },
+    { time: "75'", type: "goal", team: "home", player: "Connor Metcalfe", description: "2 - 0" },
+    { time: "27'", type: "goal", team: "home", player: "Nestory Irankuda", secondaryPlayer: "Paul Okon-Engstler", description: "1 - 0" }
   ]
 }

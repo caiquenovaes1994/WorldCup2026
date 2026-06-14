@@ -14,7 +14,13 @@ export const topScorers: PlayerStat[] = [
   { name: 'Cyle Larin', teamCode: 'CAN', count: 1 },
   { name: 'Folarin Balogun', teamCode: 'USA', count: 2 },
   { name: 'Mauricio', teamCode: 'PAR', count: 1 },
-  { name: 'Giovanni Reyna', teamCode: 'USA', count: 1 }
+  { name: 'Giovanni Reyna', teamCode: 'USA', count: 1 },
+  { name: 'Breel Embolo', teamCode: 'SUI', count: 1 },
+  { name: 'Ismael Saibari', teamCode: 'MAR', count: 1 },
+  { name: 'Vinicius Jr', teamCode: 'BRA', count: 1 },
+  { name: 'John McGinn', teamCode: 'SCO', count: 1 },
+  { name: 'Nestory Irankuda', teamCode: 'AUS', count: 1 },
+  { name: 'Connor Metcalfe', teamCode: 'AUS', count: 1 }
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -28,7 +34,10 @@ export const topAssists: PlayerStat[] = [
   { name: 'Christian Pulisic', teamCode: 'USA', count: 1 },
   { name: 'Malik Tillman', teamCode: 'USA', count: 1 },
   { name: 'Julio Enciso', teamCode: 'PAR', count: 1 },
-  { name: 'Alexander Freeman', teamCode: 'USA', count: 1 }
+  { name: 'Alexander Freeman', teamCode: 'USA', count: 1 },
+  { name: 'Brahím Diaz', teamCode: 'MAR', count: 1 },
+  { name: 'Bruno Guimarães', teamCode: 'BRA', count: 1 },
+  { name: 'Paul Okon-Engstler', teamCode: 'AUS', count: 1 }
 ]
 
 export const cards: { name: string, teamCode: string, yellow: number, red: number }[] = [
@@ -49,5 +58,15 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Tyler Adams', teamCode: 'USA', yellow: 1, red: 0 },
   { name: 'Diego Gómez', teamCode: 'PAR', yellow: 1, red: 0 },
   { name: 'Alex Arce', teamCode: 'PAR', yellow: 1, red: 0 },
-  { name: 'Junior Alonso', teamCode: 'PAR', yellow: 1, red: 0 }
+  { name: 'Junior Alonso', teamCode: 'PAR', yellow: 1, red: 0 },
+  { name: 'Mahmud Abunada', teamCode: 'QAT', yellow: 1, red: 0 },
+  { name: 'Jassem Gaber Abdulsallam', teamCode: 'QAT', yellow: 1, red: 0 },
+  { name: 'Denis Zakaria', teamCode: 'SUI', yellow: 1, red: 0 },
+  { name: 'Casemiro', teamCode: 'BRA', yellow: 1, red: 0 },
+  { name: 'Roger Ibañez', teamCode: 'BRA', yellow: 1, red: 0 },
+  { name: 'Jean-Ricner Bellegarde', teamCode: 'HAI', yellow: 1, red: 0 },
+  { name: 'Aaron Hickey', teamCode: 'SCO', yellow: 1, red: 0 },
+  { name: 'Findlay Curtis', teamCode: 'SCO', yellow: 1, red: 0 },
+  { name: 'Kenny McLean', teamCode: 'SCO', yellow: 1, red: 0 },
+  { name: 'Yunus Akgun', teamCode: 'TUR', yellow: 1, red: 0 }
 ]
