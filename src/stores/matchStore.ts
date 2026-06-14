@@ -16,6 +16,8 @@ export const useMatchStore = defineStore('matches', () => {
           const original = groupMatches.find(gm => gm.id === m.id)
           if (original) {
             m.referee = original.referee
+            m.time = original.time
+            m.date = original.date
           }
         })
         return parsed

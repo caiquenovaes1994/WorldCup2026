@@ -16,6 +16,8 @@ export const useKnockoutStore = defineStore('knockout', () => {
           const original = knockoutTemplate.find(kt => kt.id === m.id)
           if (original) {
             m.referee = original.referee
+            m.time = original.time
+            m.date = original.date
           }
         })
         return parsed
