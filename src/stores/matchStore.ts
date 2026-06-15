@@ -19,6 +19,12 @@ export const useMatchStore = defineStore('matches', () => {
             m.time = original.time
             m.date = original.date
             m.highlightsUrl = original.highlightsUrl
+            if (m.homeScore === null && original.homeScore !== null) {
+              m.homeScore = original.homeScore
+            }
+            if (m.awayScore === null && original.awayScore !== null) {
+              m.awayScore = original.awayScore
+            }
           }
         })
         return parsed

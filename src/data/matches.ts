@@ -74,7 +74,7 @@ export const groupMatches: GroupMatch[] = [
 
   // ========== GROUP G ==========
   // Matchday 1
-  { id: 37, group: 'G', homeTeam: 'BEL', awayTeam: 'EGY', date: '2026-06-15', time: '16:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: 'Ramon Abatti', matchday: 1 },
+  { id: 37, group: 'G', homeTeam: 'BEL', awayTeam: 'EGY', date: '2026-06-15', time: '16:00', venueId: 'lumen', homeScore: 1, awayScore: 1, referee: 'Ramon Abatti', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=1H3txZ-BtiA' },
   { id: 38, group: 'G', homeTeam: 'IRN', awayTeam: 'NZL', date: '2026-06-15', time: '22:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: 'Cesar Ramos', matchday: 1 },
   // Matchday 2
   { id: 39, group: 'G', homeTeam: 'BEL', awayTeam: 'IRN', date: '2026-06-21', time: '22:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: null, matchday: 2 },
