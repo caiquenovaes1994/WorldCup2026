@@ -66,18 +66,19 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 
 - Galeria dos **16 estádios oficiais** em imagens WebP otimizadas
 - Informações de capacidade, cidade, estado e país de cada sede
+- **Modal interativo** com a lista completa de jogos atribuídos a cada estádio (fase de grupos + mata-mata)
 
 ### 🧑‍⚖️ Árbitros
 
 - Lista oficial dos árbitros por confederação (AFC · CAF · CONCACAF · CONMEBOL · OFC · UEFA)
 - Accordion animado com logos oficiais das confederações
-- Link direto para o perfil de cada árbitro no Transfermarkt
+- **Modal de detalhes do árbitro** com link para o Transfermarkt e lista de jogos atribuídos, incluindo contagem de cartões por partida
 
 ### 👥 Convocados
 
 - Elencos completos das **48 seleções** organizados por posição (Goleiros · Defensores · Meio-campistas · Atacantes)
 - **Numeração oficial (1 ao 26)** de todos os jogadores, atualizada com base nas convocações finais da FIFA
-- Informação do técnico de cada seleção
+- Informação do técnico e sua nacionalidade (com bandeira)
 - Link para o perfil de cada jogador no Transfermarkt
 - Carrossel de navegação entre seleções com scroll suave
 
@@ -96,8 +97,7 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 
 ### 📺 Extras
 
-- Countdown regressivo ao vivo para a abertura do torneio
-- Indicação de emissoras de TV brasileiras por partida (TV Globo, SporTV, Globoplay, SBT, Cazé TV, NSports)
+- Indicação de emissoras de TV brasileiras por partida (TV Globo, SporTV, Globoplay, ge.tv, SBT, Cazé TV, NSports)
 - Horários convertidos para o **Horário de Brasília (UTC-3)**
 - Design responsivo com suporte a mobile
 
@@ -125,46 +125,51 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 src/
 ├── assets/
 │   └── styles/
-│       ├── main.css          # Estilos globais e componentes
-│       └── variables.css     # Design tokens (cores, espaçamentos, tipografia)
+│       ├── main.css              # Estilos globais e componentes
+│       └── variables.css         # Design tokens (cores, espaçamentos, tipografia)
 ├── components/
-│   ├── ConfirmModal.vue      # Modal de confirmação reutilizável
-│   ├── GroupTable.vue        # Tabela de classificação + jogos do grupo
-│   ├── KnockoutMatch.vue     # Card de partida do mata-mata
-│   ├── MatchCard.vue         # Card de partida da fase de grupos
-│   ├── MatchSummaryModal.vue # Modal interativo de resumo das partidas
-│   ├── TeamBadge.vue         # Bandeira + nome da seleção
-│   └── ThirdPlaceTable.vue   # Ranking dos melhores terceiros colocados
+│   ├── ConfirmModal.vue          # Modal de confirmação reutilizável
+│   ├── GroupTable.vue            # Tabela de classificação + jogos do grupo
+│   ├── KnockoutMatch.vue         # Card de partida do mata-mata
+│   ├── MatchCard.vue             # Card de partida da fase de grupos
+│   ├── MatchSummaryModal.vue     # Modal interativo de resumo das partidas
+│   ├── PlayerStatsModal.vue      # Modal de estatísticas detalhadas por jogador
+│   ├── RefereeModal.vue          # Modal de detalhes e jogos do árbitro
+│   ├── TeamBadge.vue             # Bandeira + nome da seleção
+│   ├── ThirdPlaceTable.vue       # Ranking dos melhores terceiros colocados
+│   └── VenueModal.vue            # Modal de detalhes e jogos do estádio
 ├── composables/
-│   └── useBroadcasters.ts   # Lógica de emissoras de TV (reutilizável)
+│   └── useBroadcasters.ts       # Lógica de emissoras de TV (reutilizável)
 ├── data/
-│   ├── coaches.json          # Técnicos das 48 seleções
-│   ├── knockoutRules.ts      # Template e regras do mata-mata
-│   ├── matches.ts            # 48 partidas da fase de grupos com datas e sedes
-│   ├── referees.ts           # Árbitros oficiais por confederação
-│   ├── squads.json           # Elencos das 48 seleções (~300KB, chunk separado)
-│   ├── stats2026.ts          # Dados da edição atual (Gols, Assistências, Cartões)
-│   ├── summaries.ts          # Resumo detalhado (linha do tempo) de cada partida
-│   ├── teams.ts              # Seleções com grupo e ranking FIFA
-│   ├── tournamentInfo.ts     # Dados dos mascotes e bola oficial
-│   └── venues.ts             # 16 estádios com capacidade e imagem
+│   ├── appearances.json          # Histórico de participações em Copas por seleção
+│   ├── coaches.json              # Técnicos das 48 seleções
+│   ├── knockoutRules.ts          # Template e regras do mata-mata
+│   ├── matches.ts                # 48 partidas da fase de grupos com datas e sedes
+│   ├── referees.ts               # Árbitros oficiais por confederação
+│   ├── squads.json               # Elencos das 48 seleções (~300KB, chunk separado)
+│   ├── stats2026.ts              # Dados da edição atual (Gols, Assistências, Cartões)
+│   ├── summaries.ts              # Resumo detalhado (linha do tempo) de cada partida
+│   ├── teams.ts                  # Seleções com grupo e ranking FIFA
+│   ├── tournamentInfo.ts         # Dados dos mascotes e bola oficial
+│   └── venues.ts                 # 16 estádios com capacidade e imagem
 ├── router/
-│   └── index.ts              # Rotas com lazy-loading por view
+│   └── index.ts                  # Rotas com lazy-loading por view
 ├── stores/
-│   ├── knockoutStore.ts      # Estado e lógica do mata-mata (Pinia)
-│   └── matchStore.ts         # Estado e classificações da fase de grupos (Pinia)
+│   ├── knockoutStore.ts          # Estado e lógica do mata-mata (Pinia)
+│   └── matchStore.ts             # Estado e classificações da fase de grupos (Pinia)
 ├── types/
-│   └── index.ts              # Interfaces TypeScript (Team, Venue, GroupMatch…)
+│   └── index.ts                  # Interfaces TypeScript (Team, Venue, GroupMatch…)
 ├── views/
-│   ├── GroupsView.vue        # /grupos
-│   ├── HomeView.vue          # /
-│   ├── KnockoutView.vue      # /mata-mata
-│   ├── RefereesView.vue      # /arbitros
-│   ├── SquadsView.vue        # /convocados
-│   ├── TournamentInfoView.vue # /sobre-torneio
-│   └── VenuesView.vue        # /estadios
-├── App.vue                   # Layout raiz com navbar
-└── main.ts                   # Bootstrap da aplicação
+│   ├── GroupsView.vue            # /grupos
+│   ├── HomeView.vue              # /
+│   ├── KnockoutView.vue          # /mata-mata
+│   ├── RefereesView.vue          # /arbitros
+│   ├── SquadsView.vue            # /convocados
+│   ├── StatisticsView.vue        # /estatisticas
+│   ├── TournamentInfoView.vue    # /sobre-torneio
+│   └── VenuesView.vue            # /estadios
+├── App.vue                       # Layout raiz com navbar
+└── main.ts                       # Bootstrap da aplicação
 ```
 
 ---
@@ -208,14 +213,14 @@ Acesse **[http://localhost:5173](http://localhost:5173)** no navegador.
 
 | Rota | View | Descrição |
 | --- | --- | --- |
-| `/` | `HomeView` | Página inicial com countdown e visão geral dos grupos |
-| `/grupos` | `GroupsView` | Fase de grupos com placares e classificações |
-| `/mata-mata` | `KnockoutView` | Chaveamento completo do mata-mata |
-| `/estadios` | `VenuesView` | Galeria dos 16 estádios oficiais |
-| `/arbitros` | `RefereesView` | Lista dos árbitros por confederação |
-| `/convocados` | `SquadsView` | Elencos das 48 seleções |
-| `/sobre-torneio` | `TournamentInfoView` | Mascotes e bola oficial |
-| `/estatisticas` | `StatisticsView` | Rankings de técnicos, atletas por país e histórico de Copas |
+| `/` | `HomeView` | Página inicial com calendário interativo e visão geral dos grupos |
+| `/grupos` | `GroupsView` | Fase de grupos com placares editáveis e classificações automáticas |
+| `/mata-mata` | `KnockoutView` | Chaveamento completo do mata-mata com propagação de resultados |
+| `/estadios` | `VenuesView` | Galeria dos 16 estádios oficiais com modal de jogos por sede |
+| `/arbitros` | `RefereesView` | Lista dos árbitros por confederação com modal de jogos atribuídos |
+| `/convocados` | `SquadsView` | Elencos das 48 seleções com carrossel de navegação |
+| `/sobre-torneio` | `TournamentInfoView` | Mascotes oficiais e bola Adidas Trionda |
+| `/estatisticas` | `StatisticsView` | Rankings de artilheiros, assistências, cartões, treinadores, atletas por país e histórico de Copas |
 
 ---
 
