@@ -32,7 +32,12 @@ export const topScorers: PlayerStat[] = [
   { name: 'Keito Nakamura', teamCode: 'JPN', count: 1 },
   { name: 'Crysencio Summerville', teamCode: 'NED', count: 1 },
   { name: 'Daichi Kamada', teamCode: 'JPN', count: 1 },
-  { name: 'Amad Diallo', teamCode: 'CIV', count: 1 }
+  { name: 'Amad Diallo', teamCode: 'CIV', count: 1 },
+  { name: 'Yasin Ayari', teamCode: 'SWE', count: 2 },
+  { name: 'Alexsander Isak', teamCode: 'SWE', count: 1 },
+  { name: 'Viktor Gyokeres', teamCode: 'SWE', count: 1 },
+  { name: 'Mattias Svanberg', teamCode: 'SWE', count: 1 },
+  { name: 'Omar Rekik', teamCode: 'TUN', count: 1 }
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -56,7 +61,11 @@ export const topAssists: PlayerStat[] = [
   { name: 'Nathaniel Brown', teamCode: 'GER', count: 1 },
   { name: 'Ryan Gravenberch', teamCode: 'NED', count: 2 },
   { name: 'Takefusa Kubo', teamCode: 'JPN', count: 1 },
-  { name: 'Koki Ogawa', teamCode: 'JPN', count: 1 }
+  { name: 'Koki Ogawa', teamCode: 'JPN', count: 1 },
+  { name: 'Viktor Gyokeres', teamCode: 'SWE', count: 1 },
+  { name: 'Hannibal Mejbri', teamCode: 'TUN', count: 1 },
+  { name: 'Alexsander Isak', teamCode: 'SWE', count: 2 },
+  { name: 'Lucas Bergvall', teamCode: 'SWE', count: 1 }
 ]
 
 export const cards: { name: string, teamCode: string, yellow: number, red: number }[] = [
@@ -94,5 +103,6 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Seko Fofana', teamCode: 'CIV', yellow: 1, red: 0 },
   { name: 'Franck Kessié', teamCode: 'CIV', yellow: 1, red: 0 },
   { name: 'Guéla Doué', teamCode: 'CIV', yellow: 1, red: 0 },
-  { name: 'Jackson Porozo', teamCode: 'ECU', yellow: 1, red: 0 }
+  { name: 'Jackson Porozo', teamCode: 'ECU', yellow: 1, red: 0 },
+  { name: 'Rani Khedira', teamCode: 'TUN', yellow: 1, red: 0 }
 ]

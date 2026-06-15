@@ -97,5 +97,14 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "40'", type: "yellow", team: "home", player: "Guéla Doué" },
     { time: "38'", type: "yellow", team: "home", player: "Franck Kessié" },
     { time: "28'", type: "yellow", team: "home", player: "Seko Fofana" }
+  ],
+  32: [
+    { time: "90'+6", type: "goal", team: "home", player: "Yasin Ayari", secondaryPlayer: "Lucas Bergvall", description: "5 - 1" },
+    { time: "84'", type: "goal", team: "home", player: "Mattias Svanberg", secondaryPlayer: "Alexsander Isak", description: "4 - 1" },
+    { time: "59'", type: "goal", team: "home", player: "Viktor Gyokeres", secondaryPlayer: "Alexsander Isak", description: "3 - 1" },
+    { time: "54'", type: "yellow", team: "away", player: "Rani Khedira" },
+    { time: "43'", type: "goal", team: "away", player: "Omar Rekik", secondaryPlayer: "Hannibal Mejbri", description: "2 - 1" },
+    { time: "30'", type: "goal", team: "home", player: "Alexsander Isak", secondaryPlayer: "Viktor Gyokeres", description: "2 - 0" },
+    { time: "7'", type: "goal", team: "home", player: "Yasin Ayari", description: "1 - 0" }
   ]
 }
