@@ -85,7 +85,7 @@ export const groupMatches: GroupMatch[] = [
 
   // ========== GROUP H ==========
   // Matchday 1
-  { id: 43, group: 'H', homeTeam: 'ESP', awayTeam: 'CPV', date: '2026-06-15', time: '13:00', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: 'Adham Makhadmeh', matchday: 1 },
+  { id: 43, group: 'H', homeTeam: 'ESP', awayTeam: 'CPV', date: '2026-06-15', time: '13:00', venueId: 'mercedesbenz', homeScore: 0, awayScore: 0, referee: 'Adham Makhadmeh', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=z7e6Sfoyt0o' },
   { id: 44, group: 'H', homeTeam: 'KSA', awayTeam: 'URU', date: '2026-06-15', time: '19:00', venueId: 'hardrock', homeScore: null, awayScore: null, referee: 'Maurizio Mariani', matchday: 1 },
   // Matchday 2
   { id: 45, group: 'H', homeTeam: 'ESP', awayTeam: 'KSA', date: '2026-06-21', time: '16:00', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: null, matchday: 2 },

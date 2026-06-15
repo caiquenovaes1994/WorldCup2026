@@ -399,7 +399,7 @@ const toggleAppearance = (code: string) => {
           <h2 class="section-title">
             <span class="emoji"><img src="/ball.png" style="width: 1em; height: 1em; vertical-align: middle;" alt="⚽" /></span> Artilheiros
           </h2>
-          <div class="stats-card">
+          <div class="stats-card paginated-card">
             <div v-if="topScorers.length === 0" style="text-align: center; color: var(--text-secondary); padding: 2rem 0;">Ainda não há gols na competição.</div>
             <div class="stats-list" v-else>
               <div v-for="(player, idx) in paginatedScorers" :key="idx" class="stats-item clickable" @click="openPlayerModal(player.name, player.teamCode, 'goal')">
@@ -428,7 +428,7 @@ const toggleAppearance = (code: string) => {
           <h2 class="section-title">
             <span class="emoji">👟</span> Assistências
           </h2>
-          <div class="stats-card">
+          <div class="stats-card paginated-card">
             <div v-if="topAssists.length === 0" style="text-align: center; color: var(--text-secondary); padding: 2rem 0;">Ainda não há assistências na competição.</div>
             <div class="stats-list" v-else>
               <div v-for="(player, idx) in paginatedAssists" :key="idx" class="stats-item clickable" @click="openPlayerModal(player.name, player.teamCode, 'assist')">
@@ -469,7 +469,7 @@ const toggleAppearance = (code: string) => {
               <span class="card-icon red"></span> Vermelhos
             </button>
           </div>
-          <div class="stats-card">
+          <div class="stats-card paginated-card">
             <!-- Amarelos -->
             <div v-if="activeCardTab === 'yellow'">
               <div v-if="sortedYellowCards.length === 0" style="text-align: center; color: var(--text-secondary); padding: 2rem 0;">Ainda não há cartões amarelos.</div>
@@ -742,6 +742,11 @@ const toggleAppearance = (code: string) => {
   overflow-y: auto;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
+}
+
+.paginated-card {
+  max-height: none;
+  overflow-y: visible;
 }
 
 .stats-card::-webkit-scrollbar {

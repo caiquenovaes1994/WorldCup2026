@@ -18,6 +18,7 @@ export const useMatchStore = defineStore('matches', () => {
             m.referee = original.referee
             m.time = original.time
             m.date = original.date
+            m.highlightsUrl = original.highlightsUrl
           }
         })
         return parsed

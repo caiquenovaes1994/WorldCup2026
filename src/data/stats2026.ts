@@ -104,5 +104,7 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Franck Kessié', teamCode: 'CIV', yellow: 1, red: 0 },
   { name: 'Guéla Doué', teamCode: 'CIV', yellow: 1, red: 0 },
   { name: 'Jackson Porozo', teamCode: 'ECU', yellow: 1, red: 0 },
-  { name: 'Rani Khedira', teamCode: 'TUN', yellow: 1, red: 0 }
+  { name: 'Rani Khedira', teamCode: 'TUN', yellow: 1, red: 0 },
+  { name: 'Sidny Lopes Cabral', teamCode: 'CPV', yellow: 1, red: 0 },
+  { name: 'Pedri', teamCode: 'ESP', yellow: 1, red: 0 }
 ]
