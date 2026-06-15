@@ -20,7 +20,19 @@ export const topScorers: PlayerStat[] = [
   { name: 'Vinicius Jr', teamCode: 'BRA', count: 1 },
   { name: 'John McGinn', teamCode: 'SCO', count: 1 },
   { name: 'Nestory Irankuda', teamCode: 'AUS', count: 1 },
-  { name: 'Connor Metcalfe', teamCode: 'AUS', count: 1 }
+  { name: 'Connor Metcalfe', teamCode: 'AUS', count: 1 },
+  { name: 'Kai Havertz', teamCode: 'GER', count: 2 },
+  { name: 'Felix Nmecha', teamCode: 'GER', count: 1 },
+  { name: 'Nico Schlotterbeck', teamCode: 'GER', count: 1 },
+  { name: 'Jamal Musiala', teamCode: 'GER', count: 1 },
+  { name: 'Nathaniel Brown', teamCode: 'GER', count: 1 },
+  { name: 'Deniz Undav', teamCode: 'GER', count: 1 },
+  { name: 'Livano Comenencia', teamCode: 'CUW', count: 1 },
+  { name: 'Virgil van Dijk', teamCode: 'NED', count: 1 },
+  { name: 'Keito Nakamura', teamCode: 'JPN', count: 1 },
+  { name: 'Crysencio Summerville', teamCode: 'NED', count: 1 },
+  { name: 'Daichi Kamada', teamCode: 'JPN', count: 1 },
+  { name: 'Amad Diallo', teamCode: 'CIV', count: 1 }
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -37,7 +49,14 @@ export const topAssists: PlayerStat[] = [
   { name: 'Alexander Freeman', teamCode: 'USA', count: 1 },
   { name: 'Brahím Diaz', teamCode: 'MAR', count: 1 },
   { name: 'Bruno Guimarães', teamCode: 'BRA', count: 1 },
-  { name: 'Paul Okon-Engstler', teamCode: 'AUS', count: 1 }
+  { name: 'Paul Okon-Engstler', teamCode: 'AUS', count: 1 },
+  { name: 'Deniz Undav', teamCode: 'GER', count: 2 },
+  { name: 'Joshua Kimmich', teamCode: 'GER', count: 2 },
+  { name: 'Florian Wirtz', teamCode: 'GER', count: 1 },
+  { name: 'Nathaniel Brown', teamCode: 'GER', count: 1 },
+  { name: 'Ryan Gravenberch', teamCode: 'NED', count: 2 },
+  { name: 'Takefusa Kubo', teamCode: 'JPN', count: 1 },
+  { name: 'Koki Ogawa', teamCode: 'JPN', count: 1 }
 ]
 
 export const cards: { name: string, teamCode: string, yellow: number, red: number }[] = [
@@ -68,5 +87,12 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Aaron Hickey', teamCode: 'SCO', yellow: 1, red: 0 },
   { name: 'Findlay Curtis', teamCode: 'SCO', yellow: 1, red: 0 },
   { name: 'Kenny McLean', teamCode: 'SCO', yellow: 1, red: 0 },
-  { name: 'Yunus Akgun', teamCode: 'TUR', yellow: 1, red: 0 }
+  { name: 'Yunus Akgun', teamCode: 'TUR', yellow: 1, red: 0 },
+  { name: 'Crysencio Summerville', teamCode: 'NED', yellow: 1, red: 0 },
+  { name: 'Memphis Depay', teamCode: 'NED', yellow: 1, red: 0 },
+  { name: 'Micky van de Ven', teamCode: 'NED', yellow: 1, red: 0 },
+  { name: 'Seko Fofana', teamCode: 'CIV', yellow: 1, red: 0 },
+  { name: 'Franck Kessié', teamCode: 'CIV', yellow: 1, red: 0 },
+  { name: 'Guéla Doué', teamCode: 'CIV', yellow: 1, red: 0 },
+  { name: 'Jackson Porozo', teamCode: 'ECU', yellow: 1, red: 0 }
 ]

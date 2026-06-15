@@ -50,6 +50,7 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 - Destaque visual diferenciado para: 1º classificado, 2º classificado, 3º disputado e eliminado
 - Filtro por grupo com navegação entre rodadas (1ª, 2ª e 3ª rodada)
 - Tabela global com os **8 melhores terceiros colocados** e seu status de classificação
+- **Calendário Interativo:** Carrossel unificado na página inicial com rolagem suave entre todos os jogos e foco automático na partida mais recente.
 - **Resumo Detalhado de Partidas:** Clique em jogos finalizados para abrir um modal interativo exibindo a linha do tempo com gols, cartões e revisões do VAR.
 - **Melhores Momentos:** Acesso rápido aos highlights em vídeo diretamente pelo card das partidas passadas na tela inicial.
 
@@ -87,7 +88,7 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 
 ### 📊 Estatísticas Avançadas
 
-- **Dados da Copa 2026**: Rankings atualizados em tempo real com **Artilheiros**, **Assistências** e **Cartões** (separados em abas de Amarelos e Vermelhos). Inclui paginação e modais interativos para visualizar o histórico detalhado de cada jogador por partida.
+- **Dados da Copa 2026**: Rankings atualizados em tempo real com **Artilheiros**, **Assistências** e **Cartões** (separados em abas de Amarelos e Vermelhos). Inclui paginação dinâmica e modais interativos para detalhamento focado de partidas, placares e eventos do jogador.
 - **Treinadores por Nacionalidade**: Ranking interativo mostrando de onde vêm os comandantes da Copa, com atalho direto para a convocação de suas seleções.
 - **Jogadores por País (Clubes)**: Ranking das ligas que mais cedem atletas para a Copa. Inclui um filtro inteligente por Seleção e exibe as bandeiras dos países sede dos clubes.
 - **Participações em Copas**: Histórico completo de aparições no torneio, com destaque visual em **ouro 🥇, prata 🥈 e bronze 🥉** para os anos em que as seleções terminaram no pódio.

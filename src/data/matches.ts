@@ -52,8 +52,8 @@ export const groupMatches: GroupMatch[] = [
 
   // ========== GROUP E ==========
   // Matchday 1
-  { id: 25, group: 'E', homeTeam: 'GER', awayTeam: 'CUW', date: '2026-06-14', time: '14:00', venueId: 'nrg', homeScore: null, awayScore: null, referee: 'Jalal Jayed', matchday: 1 },
-  { id: 26, group: 'E', homeTeam: 'CIV', awayTeam: 'ECU', date: '2026-06-14', time: '20:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: 'Michael Oliver', matchday: 1 },
+  { id: 25, group: 'E', homeTeam: 'GER', awayTeam: 'CUW', date: '2026-06-14', time: '14:00', venueId: 'nrg', homeScore: 7, awayScore: 1, referee: 'Jalal Jayed', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=SjCj8eZM7Po' },
+  { id: 26, group: 'E', homeTeam: 'CIV', awayTeam: 'ECU', date: '2026-06-14', time: '20:00', venueId: 'lincoln', homeScore: 1, awayScore: 0, referee: 'Michael Oliver', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=jZfgaWK0FiQ' },
   // Matchday 2
   { id: 27, group: 'E', homeTeam: 'GER', awayTeam: 'CIV', date: '2026-06-20', time: '16:00', venueId: 'bmo', homeScore: null, awayScore: null, referee: null, matchday: 2 },
   { id: 28, group: 'E', homeTeam: 'ECU', awayTeam: 'CUW', date: '2026-06-20', time: '19:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: null, matchday: 2 },
@@ -63,7 +63,7 @@ export const groupMatches: GroupMatch[] = [
 
   // ========== GROUP F ==========
   // Matchday 1
-  { id: 31, group: 'F', homeTeam: 'NED', awayTeam: 'JPN', date: '2026-06-14', time: '17:00', venueId: 'att', homeScore: null, awayScore: null, referee: 'Ismail Elfath', matchday: 1 },
+  { id: 31, group: 'F', homeTeam: 'NED', awayTeam: 'JPN', date: '2026-06-14', time: '17:00', venueId: 'att', homeScore: 2, awayScore: 2, referee: 'Ismail Elfath', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=4GalIYEMjZQ' },
   { id: 32, group: 'F', homeTeam: 'SWE', awayTeam: 'TUN', date: '2026-06-14', time: '23:00', venueId: 'bbva', homeScore: null, awayScore: null, referee: 'Yael Falcon Perez', matchday: 1 },
   // Matchday 2
   { id: 33, group: 'F', homeTeam: 'NED', awayTeam: 'SWE', date: '2026-06-20', time: '22:00', venueId: 'nrg', homeScore: null, awayScore: null, referee: null, matchday: 2 },

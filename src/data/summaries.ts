@@ -71,5 +71,31 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "86'", type: "yellow", team: "away", player: "Yunus Akgun" },
     { time: "75'", type: "goal", team: "home", player: "Connor Metcalfe", description: "2 - 0" },
     { time: "27'", type: "goal", team: "home", player: "Nestory Irankuda", secondaryPlayer: "Paul Okon-Engstler", description: "1 - 0" }
+  ],
+  25: [
+    { time: "88'", type: "goal", team: "home", player: "Kai Havertz", secondaryPlayer: "Deniz Undav", description: "7 - 1" },
+    { time: "78'", type: "goal", team: "home", player: "Deniz Undav", secondaryPlayer: "Joshua Kimmich", description: "6 - 1" },
+    { time: "68'", type: "goal", team: "home", player: "Nathaniel Brown", secondaryPlayer: "Deniz Undav", description: "5 - 1" },
+    { time: "47'", type: "goal", team: "home", player: "Jamal Musiala", secondaryPlayer: "Joshua Kimmich", description: "4 - 1" },
+    { time: "45'+5", type: "goal", team: "home", player: "Kai Havertz (P)", description: "3 - 1" },
+    { time: "38'", type: "goal", team: "home", player: "Nico Schlotterbeck", secondaryPlayer: "Nathaniel Brown", description: "2 - 1" },
+    { time: "21'", type: "goal", team: "away", player: "Livano Comenencia", description: "1 - 1" },
+    { time: "6'", type: "goal", team: "home", player: "Felix Nmecha", secondaryPlayer: "Florian Wirtz", description: "1 - 0" }
+  ],
+  31: [
+    { time: "90'+1", type: "yellow", team: "home", player: "Micky van de Ven" },
+    { time: "89'", type: "goal", team: "away", player: "Daichi Kamada", secondaryPlayer: "Koki Ogawa", description: "2 - 2" },
+    { time: "83'", type: "yellow", team: "home", player: "Memphis Depay" },
+    { time: "64'", type: "goal", team: "home", player: "Crysencio Summerville", secondaryPlayer: "Ryan Gravenberch", description: "2 - 1" },
+    { time: "61'", type: "yellow", team: "home", player: "Crysencio Summerville" },
+    { time: "57'", type: "goal", team: "away", player: "Keito Nakamura", secondaryPlayer: "Takefusa Kubo", description: "1 - 1" },
+    { time: "51'", type: "goal", team: "home", player: "Virgil van Dijk", secondaryPlayer: "Ryan Gravenberch", description: "1 - 0" }
+  ],
+  26: [
+    { time: "90'", type: "goal", team: "home", player: "Amad Diallo", description: "1 - 0" },
+    { time: "73'", type: "yellow", team: "away", player: "Jackson Porozo" },
+    { time: "40'", type: "yellow", team: "home", player: "Guéla Doué" },
+    { time: "38'", type: "yellow", team: "home", player: "Franck Kessié" },
+    { time: "28'", type: "yellow", team: "home", player: "Seko Fofana" }
   ]
 }

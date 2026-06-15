@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { teamsByCode } from '../data/teams'
 
 const props = withDefaults(defineProps<{
@@ -10,8 +11,8 @@ const props = withDefaults(defineProps<{
   showName: true
 })
 
-const team = teamsByCode[props.code]
-const flagSrc = team ? `/flags/${team.flagCode}.svg` : ''
+const team = computed(() => teamsByCode[props.code])
+const flagSrc = computed(() => team.value ? `/flags/${team.value.flagCode}.svg` : '')
 </script>
 
 <template>

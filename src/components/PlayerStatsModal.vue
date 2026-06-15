@@ -19,27 +19,33 @@ const emit = defineEmits<{
 
 const knockoutStore = useKnockoutStore()
 
+const isNameMatch = (full: string, partial: string | undefined) => {
+  if (!partial) return false
+  if (partial.includes(full) || full.includes(partial)) return true
+  const parts = full.split(' ')
+  const lastName = parts[parts.length - 1]
+  return partial.includes(lastName)
+}
+
 const matchDetails = computed(() => {
-  const result: { matchStr: string, date: string, count: number, details: string[] }[] = []
+  const result: { home: string, away: string, homeScore: number | null, awayScore: number | null, date: string, count: number, details: string[] }[] = []
   
   for (const matchIdStr in matchEvents) {
     const events = matchEvents[matchIdStr]
     if (!events) continue
     
     const relevantEvents = events.filter(e => {
-      // In events, name might include "(GC)" for own goals, or we might match exactly.
-      // Usually, player names match exactly. If it's an own goal, it's not counted in topScorers anyway.
       if (props.player.type === 'goal') {
-        return e.type === 'goal' && e.player.includes(props.player.name)
+        return e.type === 'goal' && isNameMatch(props.player.name, e.player)
       }
       if (props.player.type === 'assist') {
-        return e.type === 'goal' && e.secondaryPlayer && e.secondaryPlayer.includes(props.player.name)
+        return e.type === 'goal' && isNameMatch(props.player.name, e.secondaryPlayer)
       }
       if (props.player.type === 'yellow') {
-        return e.type === 'yellow' && e.player.includes(props.player.name)
+        return e.type === 'yellow' && isNameMatch(props.player.name, e.player)
       }
       if (props.player.type === 'red') {
-        return e.type === 'red' && e.player.includes(props.player.name)
+        return e.type === 'red' && isNameMatch(props.player.name, e.player)
       }
       return false
     })
@@ -50,25 +56,34 @@ const matchDetails = computed(() => {
       let mDate = ''
       let home = ''
       let away = ''
+      let homeScore: number | null = null
+      let awayScore: number | null = null
       
       const groupMatch = groupMatches.find(m => m.id === matchId)
       if (groupMatch) {
         mDate = groupMatch.date
         home = groupMatch.homeTeam
         away = groupMatch.awayTeam
+        homeScore = groupMatch.homeScore
+        awayScore = groupMatch.awayScore
       } else {
         const koMatch = knockoutStore.knockoutMatches.find(m => m.id === String(matchId))
         if (koMatch) {
           mDate = koMatch.date
           home = koMatch.homeTeam || '?'
           away = koMatch.awayTeam || '?'
+          homeScore = koMatch.homeScore
+          awayScore = koMatch.awayScore
         }
       }
       
       const formattedDate = mDate ? new Date(mDate + 'T12:00:00').toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' }) : '?'
       
       result.push({
-        matchStr: `${home} x ${away}`,
+        home,
+        away,
+        homeScore,
+        awayScore,
         date: formattedDate,
         count: relevantEvents.length,
         details: relevantEvents.map(e => e.time)
@@ -118,9 +133,12 @@ const getUnit = (count: number) => {
         
         <div v-else class="match-list">
           <div v-for="(item, idx) in matchDetails" :key="idx" class="match-item">
-            <div class="match-info">
-              <span class="match-date">{{ item.date }}</span>
-              <span class="match-teams">{{ item.matchStr }}</span>
+            <div class="match-info" style="flex-direction: row; align-items: center; gap: 0.75rem;">
+              <TeamBadge v-if="item.home !== '?'" :code="item.home" size="md" :showName="false" />
+              <span class="match-teams" style="font-size: 1.25rem;">
+                {{ item.homeScore !== null ? item.homeScore : '-' }} × {{ item.awayScore !== null ? item.awayScore : '-' }}
+              </span>
+              <TeamBadge v-if="item.away !== '?'" :code="item.away" size="md" :showName="false" />
             </div>
             <div class="match-stat">
               <span class="stat-count">{{ item.count }} {{ getUnit(item.count) }}</span>
