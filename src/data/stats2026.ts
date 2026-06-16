@@ -40,7 +40,10 @@ export const topScorers: PlayerStat[] = [
   { name: 'Omar Rekik', teamCode: 'TUN', count: 1 },
   { name: 'Emam Ashour', teamCode: 'EGY', count: 1 },
   { name: 'Abdulaleh Al-Amri', teamCode: 'KSA', count: 1 },
-  { name: 'Maximiliano Araujo', teamCode: 'URU', count: 1 }
+  { name: 'Maximiliano Araujo', teamCode: 'URU', count: 1 },
+  { name: 'Elijah Just', teamCode: 'NZL', count: 2 },
+  { name: 'Ramin Rezaeian', teamCode: 'IRN', count: 1 },
+  { name: 'Mohammad Mohebi', teamCode: 'IRN', count: 1 }
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -69,7 +72,9 @@ export const topAssists: PlayerStat[] = [
   { name: 'Hannibal Mejbri', teamCode: 'TUN', count: 1 },
   { name: 'Alexsander Isak', teamCode: 'SWE', count: 2 },
   { name: 'Lucas Bergvall', teamCode: 'SWE', count: 1 },
-  { name: 'Mohamed Salah', teamCode: 'EGY', count: 1 }
+  { name: 'Mohamed Salah', teamCode: 'EGY', count: 1 },
+  { name: 'Chris Wood', teamCode: 'NZL', count: 2 },
+  { name: 'Ramin Rezaeian', teamCode: 'IRN', count: 1 }
 ]
 
 export const cards: { name: string, teamCode: string, yellow: number, red: number }[] = [
@@ -115,5 +120,6 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Timothy Castagne', teamCode: 'BEL', yellow: 1, red: 0 },
   { name: 'Ahmed Fatouh', teamCode: 'EGY', yellow: 1, red: 0 },
   { name: 'Maxim De Cuyper', teamCode: 'BEL', yellow: 1, red: 0 },
-  { name: 'Abdulaleh Al-Amri', teamCode: 'KSA', yellow: 1, red: 0 }
+  { name: 'Abdulaleh Al-Amri', teamCode: 'KSA', yellow: 1, red: 0 },
+  { name: 'Ehsan Hajsafi', teamCode: 'IRN', yellow: 1, red: 0 }
 ]
