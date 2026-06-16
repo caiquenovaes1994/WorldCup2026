@@ -38,7 +38,9 @@ export const topScorers: PlayerStat[] = [
   { name: 'Viktor Gyokeres', teamCode: 'SWE', count: 1 },
   { name: 'Mattias Svanberg', teamCode: 'SWE', count: 1 },
   { name: 'Omar Rekik', teamCode: 'TUN', count: 1 },
-  { name: 'Emam Ashour', teamCode: 'EGY', count: 1 }
+  { name: 'Emam Ashour', teamCode: 'EGY', count: 1 },
+  { name: 'Abdulaleh Al-Amri', teamCode: 'KSA', count: 1 },
+  { name: 'Maximiliano Araujo', teamCode: 'URU', count: 1 }
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -112,5 +114,6 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Marwan Attia', teamCode: 'EGY', yellow: 1, red: 0 },
   { name: 'Timothy Castagne', teamCode: 'BEL', yellow: 1, red: 0 },
   { name: 'Ahmed Fatouh', teamCode: 'EGY', yellow: 1, red: 0 },
-  { name: 'Maxim De Cuyper', teamCode: 'BEL', yellow: 1, red: 0 }
+  { name: 'Maxim De Cuyper', teamCode: 'BEL', yellow: 1, red: 0 },
+  { name: 'Abdulaleh Al-Amri', teamCode: 'KSA', yellow: 1, red: 0 }
 ]

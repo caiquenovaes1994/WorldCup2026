@@ -118,5 +118,10 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "20'", type: "goal", team: "away", player: "Emam Ashour", secondaryPlayer: "Mohamed Salah", description: "0 - 1" },
     { time: "14'", type: "yellow", team: "home", player: "Timothy Castagne" },
     { time: "13'", type: "yellow", team: "away", player: "Marwan Attia" }
+  ],
+  44: [
+    { time: "80'", type: "goal", team: "away", player: "Maximiliano Araujo", description: "1 - 1" },
+    { time: "44'", type: "yellow", team: "home", player: "Abdulaleh Al-Amri" },
+    { time: "41'", type: "goal", team: "home", player: "Abdulaleh Al-Amri", description: "1 - 0" }
   ]
 }
