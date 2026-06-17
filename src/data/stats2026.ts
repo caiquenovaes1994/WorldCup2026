@@ -55,7 +55,12 @@ export const topScorers: PlayerStat[] = [
   { name: 'Ali Olwan', teamCode: 'JOR', count: 1 },
   { name: 'Marko Arnautovic', teamCode: 'AUT', count: 1 },
   { name: 'João Neves', teamCode: 'POR', count: 1 },
-  { name: 'Yoane Wissa', teamCode: 'COD', count: 1 }
+  { name: 'Yoane Wissa', teamCode: 'COD', count: 1 },
+  { name: 'Harry Kane', teamCode: 'ENG', count: 2 },
+  { name: 'Martin Baturina', teamCode: 'CRO', count: 1 },
+  { name: 'Petar Musa', teamCode: 'CRO', count: 1 },
+  { name: 'Jude Bellingham', teamCode: 'ENG', count: 1 },
+  { name: 'Marcus Rashford', teamCode: 'ENG', count: 1 }
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -98,7 +103,12 @@ export const topAssists: PlayerStat[] = [
   { name: 'Xaver Schlager', teamCode: 'AUT', count: 1 },
   { name: 'Noor Al-Rawabdeh', teamCode: 'JOR', count: 1 },
   { name: 'Pedro Neto', teamCode: 'POR', count: 1 },
-  { name: 'Arthur Masuaku', teamCode: 'COD', count: 1 }
+  { name: 'Arthur Masuaku', teamCode: 'COD', count: 1 },
+  { name: 'Petar Sucic', teamCode: 'CRO', count: 1 },
+  { name: 'Declan Rice', teamCode: 'ENG', count: 1 },
+  { name: 'Ivan Perisic', teamCode: 'CRO', count: 1 },
+  { name: 'Elliot Anderson', teamCode: 'ENG', count: 1 },
+  { name: 'Bukayo Saka', teamCode: 'ENG', count: 1 }
 ]
 
 export const cards: { name: string, teamCode: string, yellow: number, red: number }[] = [

@@ -164,5 +164,13 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "32'", type: "yellow", team: "away", player: "Chancel Mbemba" },
     { time: "13'", type: "yellow", team: "home", player: "Bernardo Silva" },
     { time: "6'", type: "goal", team: "home", player: "João Neves", secondaryPlayer: "Pedro Neto", description: "1 - 0" }
+  ],
+  67: [
+    { time: "85'", type: "goal", team: "home", player: "Marcus Rashford", secondaryPlayer: "Bukayo Saka", description: "4 - 2" },
+    { time: "47'", type: "goal", team: "home", player: "Jude Bellingham", secondaryPlayer: "Elliot Anderson", description: "3 - 2" },
+    { time: "45'+5", type: "goal", team: "away", player: "Petar Musa", secondaryPlayer: "Ivan Perisic", description: "2 - 2" },
+    { time: "42'", type: "goal", team: "home", player: "Harry Kane", secondaryPlayer: "Declan Rice", description: "2 - 1" },
+    { time: "36'", type: "goal", team: "away", player: "Martin Baturina", secondaryPlayer: "Petar Sucic", description: "1 - 1" },
+    { time: "12'", type: "goal", team: "home", player: "Harry Kane (P)", description: "1 - 0" }
   ]
 }

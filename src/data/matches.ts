@@ -129,7 +129,7 @@ export const groupMatches: GroupMatch[] = [
 
   // ========== GROUP L ==========
   // Matchday 1
-  { id: 67, group: 'L', homeTeam: 'ENG', awayTeam: 'CRO', date: '2026-06-17', time: '17:00', venueId: 'att', homeScore: null, awayScore: null, referee: 'Clement Turpin', matchday: 1 },
+  { id: 67, group: 'L', homeTeam: 'ENG', awayTeam: 'CRO', date: '2026-06-17', time: '17:00', venueId: 'att', homeScore: 4, awayScore: 2, referee: 'Clement Turpin', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=4oSd8kBXO6A' },
   { id: 68, group: 'L', homeTeam: 'GHA', awayTeam: 'PAN', date: '2026-06-17', time: '20:00', venueId: 'bmo', homeScore: null, awayScore: null, referee: 'Glenn Nyberg', matchday: 1 },
   // Matchday 2
   { id: 69, group: 'L', homeTeam: 'ENG', awayTeam: 'GHA', date: '2026-06-23', time: '17:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: null, matchday: 2 },
