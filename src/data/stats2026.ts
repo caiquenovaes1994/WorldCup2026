@@ -49,7 +49,11 @@ export const topScorers: PlayerStat[] = [
   { name: 'Ibrahim Mbaye', teamCode: 'SEN', count: 1 },
   { name: 'Erling Haaland', teamCode: 'NOR', count: 2 },
   { name: 'Aymen Hussein', teamCode: 'IRQ', count: 1 },
-  { name: 'Leo Ostigard', teamCode: 'NOR', count: 1 }
+  { name: 'Leo Ostigard', teamCode: 'NOR', count: 1 },
+  { name: 'Lionel Messi', teamCode: 'ARG', count: 3 },
+  { name: 'Romano Schmid', teamCode: 'AUT', count: 1 },
+  { name: 'Ali Olwan', teamCode: 'JOR', count: 1 },
+  { name: 'Marko Arnautovic', teamCode: 'AUT', count: 1 }
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -86,7 +90,11 @@ export const topAssists: PlayerStat[] = [
   { name: 'Iliman Ndiaye', teamCode: 'SEN', count: 1 },
   { name: 'David Moller Wolffe', teamCode: 'NOR', count: 1 },
   { name: 'Amir Al-Ammari', teamCode: 'IRQ', count: 1 },
-  { name: 'Martin Odegaard', teamCode: 'NOR', count: 1 }
+  { name: 'Martin Odegaard', teamCode: 'NOR', count: 1 },
+  { name: 'Rodrigo De Paul', teamCode: 'ARG', count: 1 },
+  { name: 'Nicolás González', teamCode: 'ARG', count: 1 },
+  { name: 'Xaver Schlager', teamCode: 'AUT', count: 1 },
+  { name: 'Noor Al-Rawabdeh', teamCode: 'JOR', count: 1 }
 ]
 
 export const cards: { name: string, teamCode: string, yellow: number, red: number }[] = [
@@ -134,5 +142,6 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Maxim De Cuyper', teamCode: 'BEL', yellow: 1, red: 0 },
   { name: 'Abdulaleh Al-Amri', teamCode: 'KSA', yellow: 1, red: 0 },
   { name: 'Ehsan Hajsafi', teamCode: 'IRN', yellow: 1, red: 0 },
-  { name: 'Zaid Tahseen', teamCode: 'IRQ', yellow: 1, red: 0 }
+  { name: 'Zaid Tahseen', teamCode: 'IRQ', yellow: 1, red: 0 },
+  { name: 'Marcel Sabitzer', teamCode: 'AUT', yellow: 1, red: 0 }
 ]

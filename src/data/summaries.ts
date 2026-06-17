@@ -144,5 +144,17 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "43'", type: "goal", team: "away", player: "Erling Haaland", description: "1 - 2" },
     { time: "39'", type: "goal", team: "home", player: "Aymen Hussein", secondaryPlayer: "Amir Al-Ammari", description: "1 - 1" },
     { time: "29'", type: "goal", team: "away", player: "Erling Haaland", secondaryPlayer: "David Moller Wolffe", description: "0 - 1" }
+  ],
+  55: [
+    { time: "76'", type: "goal", team: "home", player: "Lionel Messi", secondaryPlayer: "Nicolás González", description: "3 - 0" },
+    { time: "60'", type: "goal", team: "home", player: "Lionel Messi", description: "2 - 0" },
+    { time: "17'", type: "goal", team: "home", player: "Lionel Messi", secondaryPlayer: "Rodrigo De Paul", description: "1 - 0" }
+  ],
+  56: [
+    { time: "90'+12", type: "goal", team: "home", player: "Marko Arnautovic (P)", description: "3 - 1" },
+    { time: "77'", type: "yellow", team: "home", player: "Marcel Sabitzer" },
+    { time: "76'", type: "goal", team: "home", player: "Yazan Al-Arab (GC)", description: "2 - 1" },
+    { time: "50'", type: "goal", team: "away", player: "Ali Olwan", secondaryPlayer: "Noor Al-Rawabdeh", description: "1 - 1" },
+    { time: "21'", type: "goal", team: "home", player: "Romano Schmid", secondaryPlayer: "Xaver Schlager", description: "1 - 0" }
   ]
 }
