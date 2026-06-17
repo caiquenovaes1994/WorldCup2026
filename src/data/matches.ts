@@ -97,7 +97,7 @@ export const groupMatches: GroupMatch[] = [
   // ========== GROUP I ==========
   // Matchday 1
   { id: 49, group: 'I', homeTeam: 'FRA', awayTeam: 'SEN', date: '2026-06-16', time: '16:00', venueId: 'metlife', homeScore: 3, awayScore: 1, referee: 'Alireza Faghani', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=63h686GP-M0' },
-  { id: 50, group: 'I', homeTeam: 'IRQ', awayTeam: 'NOR', date: '2026-06-16', time: '19:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: 'Pierre Atcho', matchday: 1 },
+  { id: 50, group: 'I', homeTeam: 'IRQ', awayTeam: 'NOR', date: '2026-06-16', time: '19:00', venueId: 'gillette', homeScore: 1, awayScore: 4, referee: 'Pierre Atcho', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=HIReh6NKvJs' },
   // Matchday 2
   { id: 51, group: 'I', homeTeam: 'FRA', awayTeam: 'IRQ', date: '2026-06-22', time: '18:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: null, matchday: 2 },
   { id: 52, group: 'I', homeTeam: 'NOR', awayTeam: 'SEN', date: '2026-06-22', time: '21:00', venueId: 'metlife', homeScore: null, awayScore: null, referee: null, matchday: 2 },

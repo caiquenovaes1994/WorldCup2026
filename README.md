@@ -90,6 +90,7 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 ### 📊 Estatísticas Avançadas
 
 - **Dados da Copa 2026**: Rankings atualizados em tempo real com **Artilheiros**, **Assistências** e **Cartões** (separados em abas de Amarelos e Vermelhos). Inclui paginação dinâmica e modais interativos para detalhamento focado de partidas, placares e eventos do jogador.
+- **Maiores Artilheiros da História**: Top 10 histórico interativo que cruza dados do passado e atualiza dinamicamente em tempo real com os gols marcados pelos jogadores na edição de 2026.
 - **Treinadores por Nacionalidade**: Ranking interativo mostrando de onde vêm os comandantes da Copa, com atalho direto para a convocação de suas seleções.
 - **Jogadores por País (Clubes)**: Ranking das ligas que mais cedem atletas para a Copa. Inclui um filtro inteligente por Seleção e exibe as bandeiras dos países sede dos clubes.
 - **Participações em Copas**: Histórico completo de aparições no torneio, com destaque visual em **ouro 🥇, prata 🥈 e bronze 🥉** para os anos em que as seleções terminaram no pódio.
@@ -143,6 +144,7 @@ src/
 ├── data/
 │   ├── appearances.json          # Histórico de participações em Copas por seleção
 │   ├── coaches.json              # Técnicos das 48 seleções
+│   ├── historical_scorers.json   # Base de dados com os maiores artilheiros de Copas passadas
 │   ├── knockoutRules.ts          # Template e regras do mata-mata
 │   ├── matches.ts                # 48 partidas da fase de grupos com datas e sedes
 │   ├── referees.ts               # Árbitros oficiais por confederação

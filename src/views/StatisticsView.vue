@@ -8,6 +8,7 @@ import { teams } from '../data/teams'
 import TeamBadge from '../components/TeamBadge.vue'
 import { topScorers, topAssists, cards } from '../data/stats2026'
 import PlayerStatsModal from '../components/PlayerStatsModal.vue'
+import baseHistoricalScorers from '../data/historical_scorers.json'
 
 const router = useRouter()
 const activeTab = ref<'general' | '2026'>('general')
@@ -250,6 +251,43 @@ const expandedAppearances = ref<Record<string, boolean>>({})
 const toggleAppearance = (code: string) => {
   expandedAppearances.value[code] = !expandedAppearances.value[code]
 }
+
+const dynamicAllTimeTopScorers = computed(() => {
+  const merged = new Map<string, { name: string, flagCode: string, baseGoals: number, currentGoals: number }>()
+  
+  baseHistoricalScorers.forEach(p => {
+    merged.set(p.name, {
+      name: p.name,
+      flagCode: p.flagCode,
+      baseGoals: p.goals,
+      currentGoals: 0
+    })
+  })
+
+  topScorers.forEach(p => {
+    const existing = merged.get(p.name)
+    if (existing) {
+      existing.currentGoals += p.count
+    } else {
+      const teamObj = teams.find(t => t.code === p.teamCode)
+      merged.set(p.name, {
+        name: p.name,
+        flagCode: teamObj ? teamObj.flagCode : '',
+        baseGoals: 0,
+        currentGoals: p.count
+      })
+    }
+  })
+
+  return Array.from(merged.values())
+    .map(p => ({
+      ...p,
+      totalGoals: p.baseGoals + p.currentGoals
+    }))
+    .filter(p => p.totalGoals >= 10)
+    .sort((a, b) => b.totalGoals - a.totalGoals || a.name.localeCompare(b.name))
+    .slice(0, 10)
+})
 </script>
 
 <template>
@@ -382,6 +420,35 @@ const toggleAppearance = (code: string) => {
                   <div class="detail-col">
                     <span class="detail-primary">{{ player.playerName }}</span>
                     <span class="detail-secondary">{{ player.clubName }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Maiores Artilheiros da História -->
+      <section class="stats-section">
+        <h2 class="section-title">
+          <span class="emoji"><img src="/ball.png" style="width: 1em; height: 1em; vertical-align: middle;" alt="⚽" /></span> Maiores Artilheiros (História)
+        </h2>
+        <div class="stats-card">
+          <div class="stats-list">
+            <div v-for="(player, idx) in dynamicAllTimeTopScorers" :key="idx" class="stats-item">
+              <div class="stats-row">
+                <div class="stats-info">
+                  <span style="font-weight: bold; width: 20px; color: var(--text-secondary);">{{ idx + 1 }}º</span>
+                  <span class="stats-name">{{ player.name }}</span>
+                  <img :src="`/flags/${player.flagCode}.svg`" :alt="player.flagCode" class="micro-flag" style="margin-left: -4px;" />
+                </div>
+                <div class="stats-right">
+                  <div class="stats-value all-time-value">
+                    <span>{{ player.totalGoals }}</span>
+                    <span v-if="player.currentGoals > 0" class="current-cup-goals" title="Gols em 2026">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+                      {{ player.currentGoals }}
+                    </span>
                   </div>
                 </div>
               </div>
@@ -583,12 +650,16 @@ const toggleAppearance = (code: string) => {
 
 @media (max-width: 768px) {
   .stats-top-row,
+  .stats-bottom-row,
   .stats-row-3 {
     grid-template-columns: 1fr;
   }
 }
 
 .stats-bottom-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
   margin-bottom: 3rem;
 }
 
@@ -989,5 +1060,18 @@ const toggleAppearance = (code: string) => {
 .pagination-controls span {
   font-size: 0.9rem;
   color: var(--text-secondary);
+}
+
+.all-time-value {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.current-cup-goals {
+  color: #4ade80;
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  gap: 2px;
 }
 </style>

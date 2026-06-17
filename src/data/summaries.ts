@@ -136,5 +136,13 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "90'+5", type: "goal", team: "away", player: "Ibrahim Mbaye", secondaryPlayer: "Iliman Ndiaye", description: "2 - 1" },
     { time: "82'", type: "goal", team: "home", player: "Bradley Barcola", secondaryPlayer: "Adrien Rabiot", description: "2 - 0" },
     { time: "66'", type: "goal", team: "home", player: "Kylian Mbappé", secondaryPlayer: "Michael Olise", description: "1 - 0" }
+  ],
+  50: [
+    { time: "90'+6", type: "goal", team: "away", player: "Aymen Hussein (GC)", description: "1 - 4" },
+    { time: "86'", type: "yellow", team: "home", player: "Zaid Tahseen" },
+    { time: "76'", type: "goal", team: "away", player: "Leo Ostigard", secondaryPlayer: "Martin Odegaard", description: "1 - 3" },
+    { time: "43'", type: "goal", team: "away", player: "Erling Haaland", description: "1 - 2" },
+    { time: "39'", type: "goal", team: "home", player: "Aymen Hussein", secondaryPlayer: "Amir Al-Ammari", description: "1 - 1" },
+    { time: "29'", type: "goal", team: "away", player: "Erling Haaland", secondaryPlayer: "David Moller Wolffe", description: "0 - 1" }
   ]
 }
