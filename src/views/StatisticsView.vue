@@ -8,6 +8,7 @@ import { teams, allTeams } from '../data/teams'
 import TeamBadge from '../components/TeamBadge.vue'
 import { topScorers, topAssists, cards } from '../data/stats2026'
 import PlayerStatsModal from '../components/PlayerStatsModal.vue'
+import YearStatsModal from '../components/YearStatsModal.vue'
 import baseHistoricalScorers from '../data/historical_scorers.json'
 
 const router = useRouter()
@@ -41,6 +42,8 @@ const selectedPlayerForModal = ref<{ name: string, teamCode: string, type: 'goal
 const openPlayerModal = (name: string, teamCode: string, type: 'goal' | 'assist' | 'yellow' | 'red') => {
   selectedPlayerForModal.value = { name, teamCode, type }
 }
+
+const selectedYearForModal = ref<number | null>(null)
 
 const goToTeam = (teamCode: string) => {
   if (teamCode) {
@@ -186,29 +189,30 @@ const playersByClubCountry = computed(() => {
 })
 
 // 3. World Cup Appearances
-const performances: Record<number, { first: string; second: string; third: string }> = {
-  1930: { first: 'URU', second: 'ARG', third: 'USA' },
-  1934: { first: 'ITA', second: 'CZE', third: 'GER' },
-  1938: { first: 'ITA', second: 'HUN', third: 'BRA' },
-  1950: { first: 'URU', second: 'BRA', third: 'SWE' },
-  1954: { first: 'GER', second: 'HUN', third: 'AUT' },
-  1958: { first: 'BRA', second: 'SWE', third: 'FRA' },
-  1962: { first: 'BRA', second: 'CZE', third: 'CHI' },
-  1966: { first: 'ENG', second: 'GER', third: 'POR' },
-  1970: { first: 'BRA', second: 'ITA', third: 'GER' },
-  1974: { first: 'GER', second: 'NED', third: 'POL' },
-  1978: { first: 'ARG', second: 'NED', third: 'BRA' },
-  1982: { first: 'ITA', second: 'GER', third: 'POL' },
-  1986: { first: 'ARG', second: 'GER', third: 'FRA' },
-  1990: { first: 'GER', second: 'ARG', third: 'ITA' },
-  1994: { first: 'BRA', second: 'ITA', third: 'SWE' },
-  1998: { first: 'FRA', second: 'BRA', third: 'CRO' },
-  2002: { first: 'BRA', second: 'GER', third: 'TUR' },
-  2006: { first: 'ITA', second: 'FRA', third: 'GER' },
-  2010: { first: 'ESP', second: 'NED', third: 'GER' },
-  2014: { first: 'GER', second: 'ARG', third: 'NED' },
-  2018: { first: 'FRA', second: 'CRO', third: 'BEL' },
-  2022: { first: 'ARG', second: 'FRA', third: 'CRO' }
+const performances: Record<number, { first: string; second: string; third: string; hosts: string[] }> = {
+  1930: { first: 'URU', second: 'ARG', third: 'USA', hosts: ['URU'] },
+  1934: { first: 'ITA', second: 'CZE', third: 'GER', hosts: ['ITA'] },
+  1938: { first: 'ITA', second: 'HUN', third: 'BRA', hosts: ['FRA'] },
+  1950: { first: 'URU', second: 'BRA', third: 'SWE', hosts: ['BRA'] },
+  1954: { first: 'GER', second: 'HUN', third: 'AUT', hosts: ['SUI'] },
+  1958: { first: 'BRA', second: 'SWE', third: 'FRA', hosts: ['SWE'] },
+  1962: { first: 'BRA', second: 'CZE', third: 'CHI', hosts: ['CHI'] },
+  1966: { first: 'ENG', second: 'GER', third: 'POR', hosts: ['ENG'] },
+  1970: { first: 'BRA', second: 'ITA', third: 'GER', hosts: ['MEX'] },
+  1974: { first: 'GER', second: 'NED', third: 'POL', hosts: ['GER'] },
+  1978: { first: 'ARG', second: 'NED', third: 'BRA', hosts: ['ARG'] },
+  1982: { first: 'ITA', second: 'GER', third: 'POL', hosts: ['ESP'] },
+  1986: { first: 'ARG', second: 'GER', third: 'FRA', hosts: ['MEX'] },
+  1990: { first: 'GER', second: 'ARG', third: 'ITA', hosts: ['ITA'] },
+  1994: { first: 'BRA', second: 'ITA', third: 'SWE', hosts: ['USA'] },
+  1998: { first: 'FRA', second: 'BRA', third: 'CRO', hosts: ['FRA'] },
+  2002: { first: 'BRA', second: 'GER', third: 'TUR', hosts: ['KOR', 'JPN'] },
+  2006: { first: 'ITA', second: 'FRA', third: 'GER', hosts: ['GER'] },
+  2010: { first: 'ESP', second: 'NED', third: 'GER', hosts: ['RSA'] },
+  2014: { first: 'GER', second: 'ARG', third: 'NED', hosts: ['BRA'] },
+  2018: { first: 'FRA', second: 'CRO', third: 'BEL', hosts: ['RUS'] },
+  2022: { first: 'ARG', second: 'FRA', third: 'CRO', hosts: ['QAT'] },
+  2026: { first: '', second: '', third: '', hosts: ['CAN', 'MEX', 'USA'] }
 }
 
 const getMedal = (year: number, teamCode: string) => {
@@ -362,7 +366,7 @@ const dynamicAllTimeTopScorers = computed(() => {
               </div>
               <div v-if="expandedAppearances[item.team.code]" class="stats-details">
                 <div class="detail-row editions-list">
-                  <span v-for="y in item.years" :key="y.year" class="year-badge" :class="y.medal ? 'medal-' + y.medal : ''">
+                  <span v-for="y in item.years" :key="y.year" class="year-badge clickable-year" :class="y.medal ? 'medal-' + y.medal : ''" @click.stop="selectedYearForModal = y.year">
                     {{ y.year }}
                   </span>
                 </div>
@@ -590,6 +594,7 @@ const dynamicAllTimeTopScorers = computed(() => {
     </div>
     <Teleport to="body">
       <PlayerStatsModal v-if="selectedPlayerForModal" :player="selectedPlayerForModal" @close="selectedPlayerForModal = null" />
+      <YearStatsModal v-if="selectedYearForModal" :year="selectedYearForModal" :performance="performances[selectedYearForModal]" @close="selectedYearForModal = null" />
     </Teleport>
   </div>
 </template>
@@ -793,6 +798,16 @@ const dynamicAllTimeTopScorers = computed(() => {
   background: var(--primary-dark);
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
+}
+
+.clickable-year {
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.clickable-year:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 640px) {
