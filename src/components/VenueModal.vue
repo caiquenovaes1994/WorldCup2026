@@ -4,10 +4,12 @@ import { useMatchStore } from '../stores/matchStore'
 import { useKnockoutStore } from '../stores/knockoutStore'
 import { roundNames } from '../data/knockoutRules'
 import TeamBadge from './TeamBadge.vue'
-import type { Venue } from '../types'
+import MatchSummaryModal from './MatchSummaryModal.vue'
+import type { Venue, GroupMatch, KnockoutMatch } from '../types'
 
 const isOpen = ref(false)
 const venue = ref<Venue | null>(null)
+const selectedMatchForSummary = ref<GroupMatch | KnockoutMatch | null>(null)
 
 const matchStore = useMatchStore()
 const knockoutStore = useKnockoutStore()
@@ -48,6 +50,17 @@ const venueMatches = computed(() => {
   return [...groups, ...knockouts].sort((a, b) => new Date(`${a.date}T${a.time}`).getTime() - new Date(`${b.date}T${b.time}`).getTime())
 })
 
+const openMatchSummary = (mappedMatch: any) => {
+  if (mappedMatch.homeScore === null || mappedMatch.awayScore === null) return;
+  if (mappedMatch.id.startsWith('G-')) {
+    const realId = parseInt(mappedMatch.id.replace('G-', ''))
+    selectedMatchForSummary.value = matchStore.matches.find(m => m.id === realId) || null
+  } else if (mappedMatch.id.startsWith('K-')) {
+    const realId = mappedMatch.id.replace('K-', '')
+    selectedMatchForSummary.value = knockoutStore.knockoutMatches.find(m => m.id === realId) || null
+  }
+}
+
 const open = (vData: Venue) => {
   venue.value = vData
   isOpen.value = true
@@ -84,7 +97,13 @@ defineExpose({ open, close })
           Nenhum jogo no local.
         </div>
         <div v-else class="matches-list">
-          <div v-for="match in venueMatches" :key="match.id" class="match-item">
+          <div 
+            v-for="match in venueMatches" 
+            :key="match.id" 
+            class="match-item"
+            :class="{ 'clickable': match.homeScore !== null && match.awayScore !== null }"
+            @click="openMatchSummary(match)"
+          >
             <div class="match-datetime">{{ match.date.split('-').reverse().join('/') }} às {{ match.time }}</div>
             <div class="match-stage">{{ match.stage }}</div>
             <div class="match-teams">
@@ -101,6 +120,12 @@ defineExpose({ open, close })
         </div>
       </div>
     </div>
+    <MatchSummaryModal 
+      v-if="selectedMatchForSummary" 
+      :match="selectedMatchForSummary" 
+      @close="selectedMatchForSummary = null" 
+      style="z-index: 1050;"
+    />
   </div>
 </template>
 
@@ -189,7 +214,10 @@ defineExpose({ open, close })
   background: rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
 }
-.match-item:hover {
+.match-item.clickable {
+  cursor: pointer;
+}
+.match-item.clickable:hover {
   transform: translateY(-2px);
   border-color: var(--primary, #3b82f6);
 }
