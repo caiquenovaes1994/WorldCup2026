@@ -4,7 +4,7 @@ import { useRouter } from 'vue-router'
 import coachesData from '../data/coaches.json'
 import squadsData from '../data/squads.json'
 import appearancesData from '../data/appearances.json'
-import { teams } from '../data/teams'
+import { teams, allTeams } from '../data/teams'
 import TeamBadge from '../components/TeamBadge.vue'
 import { topScorers, topAssists, cards } from '../data/stats2026'
 import PlayerStatsModal from '../components/PlayerStatsModal.vue'
@@ -113,7 +113,7 @@ const extraCountryFlags: Record<string, string> = {
 }
 
 const getCountryFlag = (countryName: string) => {
-  const teamObj = teams.find(t => t.name === countryName || t.nameEn === countryName)
+  const teamObj = allTeams.find(t => t.name === countryName || t.nameEn === countryName)
   if (teamObj) return teamObj.flagCode
   return extraCountryFlags[countryName] || ''
 }
@@ -221,7 +221,7 @@ const getMedal = (year: number, teamCode: string) => {
 }
 
 const appearances = computed(() => {
-  return teams.map(team => {
+  return allTeams.map(team => {
     const yearsData = (appearancesData as Record<string, number[]>)[team.code] || []
     const yearsWithMedals = yearsData.map(year => ({
       year,
@@ -233,7 +233,7 @@ const appearances = computed(() => {
       count: yearsData.length,
       years: yearsWithMedals
     }
-  }).sort((a, b) => b.count - a.count || a.team.name.localeCompare(b.team.name))
+  }).filter(item => item.count > 0).sort((a, b) => b.count - a.count || a.team.name.localeCompare(b.team.name))
 })
 
 // State for expand/collapse
@@ -269,7 +269,7 @@ const dynamicAllTimeTopScorers = computed(() => {
     if (existing) {
       existing.currentGoals += p.count
     } else {
-      const teamObj = teams.find(t => t.code === p.teamCode)
+      const teamObj = allTeams.find(t => t.code === p.teamCode)
       merged.set(p.name, {
         name: p.name,
         flagCode: teamObj ? teamObj.flagCode : '',

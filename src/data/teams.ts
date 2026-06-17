@@ -74,8 +74,48 @@ export const teams: Team[] = [
   { code: 'PAN', name: 'Panamá', nameEn: 'Panama', group: 'L', flagCode: 'pa', fifaRanking: 50 },
 ]
 
+export const historicalTeams: Team[] = [
+  { code: 'ANG', name: 'Angola', nameEn: 'Angola', group: '', flagCode: 'ao', fifaRanking: 0 },
+  { code: 'BOL', name: 'Bolívia', nameEn: 'Bolivia', group: '', flagCode: 'bo', fifaRanking: 0 },
+  { code: 'BUL', name: 'Bulgária', nameEn: 'Bulgaria', group: '', flagCode: 'bg', fifaRanking: 0 },
+  { code: 'CHI', name: 'Chile', nameEn: 'Chile', group: '', flagCode: 'cl', fifaRanking: 0 },
+  { code: 'CHN', name: 'China', nameEn: 'China', group: '', flagCode: 'cn', fifaRanking: 0 },
+  { code: 'CMR', name: 'Camarões', nameEn: 'Cameroon', group: '', flagCode: 'cm', fifaRanking: 0 },
+  { code: 'CRC', name: 'Costa Rica', nameEn: 'Costa Rica', group: '', flagCode: 'cr', fifaRanking: 0 },
+  { code: 'CUB', name: 'Cuba', nameEn: 'Cuba', group: '', flagCode: 'cu', fifaRanking: 0 },
+  { code: 'DEN', name: 'Dinamarca', nameEn: 'Denmark', group: '', flagCode: 'dk', fifaRanking: 0 },
+  { code: 'GRE', name: 'Grécia', nameEn: 'Greece', group: '', flagCode: 'gr', fifaRanking: 0 },
+  { code: 'HON', name: 'Honduras', nameEn: 'Honduras', group: '', flagCode: 'hn', fifaRanking: 0 },
+  { code: 'HUN', name: 'Hungria', nameEn: 'Hungary', group: '', flagCode: 'hu', fifaRanking: 0 },
+  { code: 'IDN', name: 'Indonésia', nameEn: 'Indonesia', group: '', flagCode: 'id', fifaRanking: 0 },
+  { code: 'IRL', name: 'Irlanda', nameEn: 'Republic of Ireland', group: '', flagCode: 'ie', fifaRanking: 0 },
+  { code: 'ISL', name: 'Islândia', nameEn: 'Iceland', group: '', flagCode: 'is', fifaRanking: 0 },
+  { code: 'ISR', name: 'Israel', nameEn: 'Israel', group: '', flagCode: 'il', fifaRanking: 0 },
+  { code: 'ITA', name: 'Itália', nameEn: 'Italy', group: '', flagCode: 'it', fifaRanking: 0 },
+  { code: 'JAM', name: 'Jamaica', nameEn: 'Jamaica', group: '', flagCode: 'jm', fifaRanking: 0 },
+  { code: 'KUW', name: 'Kuwait', nameEn: 'Kuwait', group: '', flagCode: 'kw', fifaRanking: 0 },
+  { code: 'NGA', name: 'Nigéria', nameEn: 'Nigeria', group: '', flagCode: 'ng', fifaRanking: 0 },
+  { code: 'NIR', name: 'Irlanda do Norte', nameEn: 'Northern Ireland', group: '', flagCode: 'gb-nir', fifaRanking: 0 },
+  { code: 'PER', name: 'Peru', nameEn: 'Peru', group: '', flagCode: 'pe', fifaRanking: 0 },
+  { code: 'POL', name: 'Polônia', nameEn: 'Poland', group: '', flagCode: 'pl', fifaRanking: 0 },
+  { code: 'PRK', name: 'Coreia do Norte', nameEn: 'North Korea', group: '', flagCode: 'kp', fifaRanking: 0 },
+  { code: 'ROU', name: 'Romênia', nameEn: 'Romania', group: '', flagCode: 'ro', fifaRanking: 0 },
+  { code: 'RUS', name: 'Rússia', nameEn: 'Russia', group: '', flagCode: 'ru', fifaRanking: 0 },
+  { code: 'SLV', name: 'El Salvador', nameEn: 'El Salvador', group: '', flagCode: 'sv', fifaRanking: 0 },
+  { code: 'SRB', name: 'Sérvia', nameEn: 'Serbia', group: '', flagCode: 'rs', fifaRanking: 0 },
+  { code: 'SVK', name: 'Eslováquia', nameEn: 'Slovakia', group: '', flagCode: 'sk', fifaRanking: 0 },
+  { code: 'SVN', name: 'Eslovênia', nameEn: 'Slovenia', group: '', flagCode: 'si', fifaRanking: 0 },
+  { code: 'TOG', name: 'Togo', nameEn: 'Togo', group: '', flagCode: 'tg', fifaRanking: 0 },
+  { code: 'TRI', name: 'Trinidad e Tobago', nameEn: 'Trinidad and Tobago', group: '', flagCode: 'tt', fifaRanking: 0 },
+  { code: 'UAE', name: 'Emirados Árabes Unidos', nameEn: 'United Arab Emirates', group: '', flagCode: 'ae', fifaRanking: 0 },
+  { code: 'UKR', name: 'Ucrânia', nameEn: 'Ukraine', group: '', flagCode: 'ua', fifaRanking: 0 },
+  { code: 'WAL', name: 'País de Gales', nameEn: 'Wales', group: '', flagCode: 'gb-wls', fifaRanking: 0 },
+]
+
+export const allTeams: Team[] = [...teams, ...historicalTeams]
+
 export const teamsByCode: Record<string, Team> = Object.fromEntries(
-  teams.map(t => [t.code, t])
+  allTeams.map(t => [t.code, t])
 )
 
 export const groupNames = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L']
