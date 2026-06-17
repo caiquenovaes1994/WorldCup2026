@@ -156,5 +156,13 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "76'", type: "goal", team: "home", player: "Yazan Al-Arab (GC)", description: "2 - 1" },
     { time: "50'", type: "goal", team: "away", player: "Ali Olwan", secondaryPlayer: "Noor Al-Rawabdeh", description: "1 - 1" },
     { time: "21'", type: "goal", team: "home", player: "Romano Schmid", secondaryPlayer: "Xaver Schlager", description: "1 - 0" }
+  ],
+  61: [
+    { time: "90'+2", type: "yellow", team: "home", player: "Tomás Araújo" },
+    { time: "88'", type: "yellow", team: "home", player: "Nelson Semedo" },
+    { time: "45'+5", type: "goal", team: "away", player: "Yoane Wissa", secondaryPlayer: "Arthur Masuaku", description: "1 - 1" },
+    { time: "32'", type: "yellow", team: "away", player: "Chancel Mbemba" },
+    { time: "13'", type: "yellow", team: "home", player: "Bernardo Silva" },
+    { time: "6'", type: "goal", team: "home", player: "João Neves", secondaryPlayer: "Pedro Neto", description: "1 - 0" }
   ]
 }

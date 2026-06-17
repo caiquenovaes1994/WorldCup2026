@@ -93,7 +93,7 @@ Todo o progresso da simulação é salvo localmente no navegador via `localStora
 - **Maiores Artilheiros da História**: Top 10 histórico interativo que cruza dados do passado e atualiza dinamicamente em tempo real com os gols marcados pelos jogadores na edição de 2026.
 - **Treinadores por Nacionalidade**: Ranking interativo mostrando de onde vêm os comandantes da Copa, com atalho direto para a convocação de suas seleções.
 - **Jogadores por País (Clubes)**: Ranking das ligas que mais cedem atletas para a Copa. Inclui um filtro inteligente por Seleção e exibe as bandeiras dos países sede dos clubes.
-- **Participações em Copas**: Histórico completo de aparições no torneio, com destaque visual em **ouro 🥇, prata 🥈 e bronze 🥉** para os anos em que as seleções terminaram no pódio.
+- **Participações em Copas**: Histórico completo de aparições no torneio contemplando todas as seleções que já jogaram um mundial. Inclui um modal interativo ao clicar no ano de cada edição, revelando os países sede e o pódio completo (Ouro 🥇, Prata 🥈 e Bronze 🥉).
 - **Ranking FIFA ao Vivo**: Acesso direto à classificação mundial oficial e atualizada.
 
 ### 📺 Extras
@@ -138,7 +138,8 @@ src/
 │   ├── RefereeModal.vue          # Modal de detalhes e jogos do árbitro
 │   ├── TeamBadge.vue             # Bandeira + nome da seleção
 │   ├── ThirdPlaceTable.vue       # Ranking dos melhores terceiros colocados
-│   └── VenueModal.vue            # Modal de detalhes e jogos do estádio
+│   ├── VenueModal.vue            # Modal de detalhes e jogos do estádio
+│   └── YearStatsModal.vue        # Modal com pódio e sedes das antigas edições da Copa
 ├── composables/
 │   └── useBroadcasters.ts       # Lógica de emissoras de TV (reutilizável)
 ├── data/

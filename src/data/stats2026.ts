@@ -53,7 +53,9 @@ export const topScorers: PlayerStat[] = [
   { name: 'Lionel Messi', teamCode: 'ARG', count: 3 },
   { name: 'Romano Schmid', teamCode: 'AUT', count: 1 },
   { name: 'Ali Olwan', teamCode: 'JOR', count: 1 },
-  { name: 'Marko Arnautovic', teamCode: 'AUT', count: 1 }
+  { name: 'Marko Arnautovic', teamCode: 'AUT', count: 1 },
+  { name: 'João Neves', teamCode: 'POR', count: 1 },
+  { name: 'Yoane Wissa', teamCode: 'COD', count: 1 }
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -94,7 +96,9 @@ export const topAssists: PlayerStat[] = [
   { name: 'Rodrigo De Paul', teamCode: 'ARG', count: 1 },
   { name: 'Nicolás González', teamCode: 'ARG', count: 1 },
   { name: 'Xaver Schlager', teamCode: 'AUT', count: 1 },
-  { name: 'Noor Al-Rawabdeh', teamCode: 'JOR', count: 1 }
+  { name: 'Noor Al-Rawabdeh', teamCode: 'JOR', count: 1 },
+  { name: 'Pedro Neto', teamCode: 'POR', count: 1 },
+  { name: 'Arthur Masuaku', teamCode: 'COD', count: 1 }
 ]
 
 export const cards: { name: string, teamCode: string, yellow: number, red: number }[] = [
@@ -143,5 +147,9 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Abdulaleh Al-Amri', teamCode: 'KSA', yellow: 1, red: 0 },
   { name: 'Ehsan Hajsafi', teamCode: 'IRN', yellow: 1, red: 0 },
   { name: 'Zaid Tahseen', teamCode: 'IRQ', yellow: 1, red: 0 },
-  { name: 'Marcel Sabitzer', teamCode: 'AUT', yellow: 1, red: 0 }
+  { name: 'Marcel Sabitzer', teamCode: 'AUT', yellow: 1, red: 0 },
+  { name: 'Bernardo Silva', teamCode: 'POR', yellow: 1, red: 0 },
+  { name: 'Chancel Mbemba', teamCode: 'COD', yellow: 1, red: 0 },
+  { name: 'Nelson Semedo', teamCode: 'POR', yellow: 1, red: 0 },
+  { name: 'Tomás Araújo', teamCode: 'POR', yellow: 1, red: 0 }
 ]
