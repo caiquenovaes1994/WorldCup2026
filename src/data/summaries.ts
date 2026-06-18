@@ -48,6 +48,17 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "17'", type: "goal", team: "away", player: "Breel Embolo (P)", description: "0 - 1" },
     { time: "16'", type: "yellow", team: "home", player: "Mahmud Abunada" }
   ],
+  9: [
+    { time: "90'+7", type: "goal", team: "home", player: "Granit Xhaka (P)", description: "4 - 1" },
+    { time: "90'+3", type: "goal", team: "away", player: "Ermin Mahmic", description: "3 - 1" },
+    { time: "90'", type: "goal", team: "home", player: "Johan Manzambi", secondaryPlayer: "Ruben Vargas", description: "3 - 0" },
+    { time: "84'", type: "goal", team: "home", player: "Ruben Vargas", secondaryPlayer: "Breel Embolo", description: "2 - 0" },
+    { time: "80'", type: "red", team: "away", player: "Tarik Muharemovic" },
+    { time: "74'", type: "goal", team: "home", player: "Johan Manzambi", description: "1 - 0" },
+    { time: "65'", type: "yellow", team: "home", player: "Nico Elvedi" },
+    { time: "61'", type: "yellow", team: "away", player: "Edin Dzeko" },
+    { time: "59'", type: "yellow", team: "away", player: "Amar Dedic" }
+  ],
   13: [
     { time: "43'", type: "yellow", team: "home", player: "Roger Ibañez" },
     { time: "37'", type: "yellow", team: "home", player: "Casemiro" },

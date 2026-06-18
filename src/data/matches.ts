@@ -12,7 +12,7 @@ export const groupMatches: GroupMatch[] = [
   { id: 2, group: 'A', homeTeam: 'KOR', awayTeam: 'CZE', date: '2026-06-11', time: '23:00', venueId: 'akron', homeScore: 2, awayScore: 1, referee: 'Amin Mohamed Omar', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=KjQtpF_X5Uw' },
   // Matchday 2
   { id: 3, group: 'A', homeTeam: 'MEX', awayTeam: 'KOR', date: '2026-06-18', time: '22:00', venueId: 'akron', homeScore: null, awayScore: null, referee: 'Gustavo Tejera', matchday: 2 },
-  { id: 4, group: 'A', homeTeam: 'CZE', awayTeam: 'RSA', date: '2026-06-18', time: '19:00', venueId: 'mercedesbenz', homeScore: 1, awayScore: 1, referee: 'Tori Penso', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=r53ImtCSNog' },
+  { id: 4, group: 'A', homeTeam: 'CZE', awayTeam: 'RSA', date: '2026-06-18', time: '13:00', venueId: 'mercedesbenz', homeScore: 1, awayScore: 1, referee: 'Tori Penso', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=r53ImtCSNog' },
   // Matchday 3
   { id: 5, group: 'A', homeTeam: 'CZE', awayTeam: 'MEX', date: '2026-06-24', time: '22:00', venueId: 'azteca', homeScore: null, awayScore: null, referee: null, matchday: 3 },
   { id: 6, group: 'A', homeTeam: 'RSA', awayTeam: 'KOR', date: '2026-06-24', time: '22:00', venueId: 'bbva', homeScore: null, awayScore: null, referee: null, matchday: 3 },
@@ -22,7 +22,7 @@ export const groupMatches: GroupMatch[] = [
   { id: 7, group: 'B', homeTeam: 'CAN', awayTeam: 'BIH', date: '2026-06-12', time: '16:00', venueId: 'bmo', homeScore: 1, awayScore: 1, referee: 'Facundo Tello', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=on3OBpbOWHg' },
   { id: 8, group: 'B', homeTeam: 'QAT', awayTeam: 'SUI', date: '2026-06-13', time: '16:00', venueId: 'levis', homeScore: 1, awayScore: 1, referee: 'Hector Said Martinez', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=kjsD442TPCw' },
   // Matchday 2
-  { id: 9, group: 'B', homeTeam: 'SUI', awayTeam: 'BIH', date: '2026-06-18', time: '16:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: 'Joao Pinheiro', matchday: 2 },
+  { id: 9, group: 'B', homeTeam: 'SUI', awayTeam: 'BIH', date: '2026-06-18', time: '16:00', venueId: 'sofi', homeScore: 4, awayScore: 1, referee: 'Joao Pinheiro', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=P9ogWhz09D8&pp=0gcJCT8LAYcqIYzv' },
   { id: 10, group: 'B', homeTeam: 'CAN', awayTeam: 'QAT', date: '2026-06-18', time: '19:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: 'Cristian Garay', matchday: 2 },
   // Matchday 3
   { id: 11, group: 'B', homeTeam: 'SUI', awayTeam: 'CAN', date: '2026-06-24', time: '16:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: null, matchday: 3 },

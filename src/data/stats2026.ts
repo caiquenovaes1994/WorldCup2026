@@ -67,7 +67,11 @@ export const topScorers: PlayerStat[] = [
   { name: 'Luis Diaz', teamCode: 'COL', count: 1 },
   { name: 'Jaminton Campaz', teamCode: 'COL', count: 1 },
   { name: 'Michal Sadilek', teamCode: 'CZE', count: 1 },
-  { name: 'Teboho Mokoena', teamCode: 'RSA', count: 1 }
+  { name: 'Teboho Mokoena', teamCode: 'RSA', count: 1 },
+  { name: 'Johan Manzambi', teamCode: 'SUI', count: 2 },
+  { name: 'Ruben Vargas', teamCode: 'SUI', count: 1 },
+  { name: 'Ermin Mahmic', teamCode: 'BIH', count: 1 },
+  { name: 'Granit Xhaka', teamCode: 'SUI', count: 1 }
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -119,7 +123,9 @@ export const topAssists: PlayerStat[] = [
   { name: 'Luis Diaz', teamCode: 'COL', count: 1 },
   { name: 'Gustavo Puerta', teamCode: 'COL', count: 1 },
   { name: 'Cucho Hernández', teamCode: 'COL', count: 1 },
-  { name: 'Alexsandr Sojka', teamCode: 'CZE', count: 1 }
+  { name: 'Alexsandr Sojka', teamCode: 'CZE', count: 1 },
+  { name: 'Breel Embolo', teamCode: 'SUI', count: 1 },
+  { name: 'Ruben Vargas', teamCode: 'SUI', count: 1 }
 ]
 
 export const cards: { name: string, teamCode: string, yellow: number, red: number }[] = [
@@ -179,5 +185,9 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Johan Mojica', teamCode: 'COL', yellow: 1, red: 0 },
   { name: 'Abdukodir Khusanov', teamCode: 'UZB', yellow: 1, red: 0 },
   { name: 'Thalente Mbatha', teamCode: 'RSA', yellow: 1, red: 0 },
-  { name: 'Ladislav Krejci', teamCode: 'CZE', yellow: 1, red: 0 }
+  { name: 'Ladislav Krejci', teamCode: 'CZE', yellow: 1, red: 0 },
+  { name: 'Amar Dedic', teamCode: 'BIH', yellow: 1, red: 0 },
+  { name: 'Edin Dzeko', teamCode: 'BIH', yellow: 1, red: 0 },
+  { name: 'Nico Elvedi', teamCode: 'SUI', yellow: 1, red: 0 },
+  { name: 'Tarik Muharemovic', teamCode: 'BIH', yellow: 0, red: 1 }
 ]
