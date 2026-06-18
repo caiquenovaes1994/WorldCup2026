@@ -165,6 +165,14 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "13'", type: "yellow", team: "home", player: "Bernardo Silva" },
     { time: "6'", type: "goal", team: "home", player: "João Neves", secondaryPlayer: "Pedro Neto", description: "1 - 0" }
   ],
+  62: [
+    { time: "90'+9", type: "goal", team: "away", player: "Jaminton Campaz", secondaryPlayer: "Cucho Hernández", description: "1 - 3" },
+    { time: "65'", type: "goal", team: "away", player: "Luis Diaz", secondaryPlayer: "Gustavo Puerta", description: "1 - 2" },
+    { time: "60'", type: "goal", team: "home", player: "Abbosbek Fayzullaev", description: "1 - 1" },
+    { time: "40'", type: "goal", team: "away", player: "Daniel Muñoz", secondaryPlayer: "Luis Diaz", description: "0 - 1" },
+    { time: "34'", type: "yellow", team: "home", player: "Abdukodir Khusanov" },
+    { time: "7'", type: "yellow", team: "away", player: "Johan Mojica" }
+  ],
   67: [
     { time: "85'", type: "goal", team: "home", player: "Marcus Rashford", secondaryPlayer: "Bukayo Saka", description: "4 - 2" },
     { time: "47'", type: "goal", team: "home", player: "Jude Bellingham", secondaryPlayer: "Elliot Anderson", description: "3 - 2" },
@@ -172,5 +180,13 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "42'", type: "goal", team: "home", player: "Harry Kane", secondaryPlayer: "Declan Rice", description: "2 - 1" },
     { time: "36'", type: "goal", team: "away", player: "Martin Baturina", secondaryPlayer: "Petar Sucic", description: "1 - 1" },
     { time: "12'", type: "goal", team: "home", player: "Harry Kane (P)", description: "1 - 0" }
+  ],
+  68: [
+    { time: "90'+9", type: "yellow", team: "away", player: "Carlos Harvey" },
+    { time: "90'+5", type: "goal", team: "home", player: "Caleb Yirenkyi", description: "1 - 0" },
+    { time: "72'", type: "yellow", team: "away", player: "César Blackman" },
+    { time: "16'", type: "yellow", team: "home", player: "Caleb Yirenkyi" }
   ]
 }
+
+// force hmr

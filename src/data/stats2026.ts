@@ -60,7 +60,12 @@ export const topScorers: PlayerStat[] = [
   { name: 'Martin Baturina', teamCode: 'CRO', count: 1 },
   { name: 'Petar Musa', teamCode: 'CRO', count: 1 },
   { name: 'Jude Bellingham', teamCode: 'ENG', count: 1 },
-  { name: 'Marcus Rashford', teamCode: 'ENG', count: 1 }
+  { name: 'Marcus Rashford', teamCode: 'ENG', count: 1 },
+  { name: 'Caleb Yirenkyi', teamCode: 'GHA', count: 1 },
+  { name: 'Daniel Muñoz', teamCode: 'COL', count: 1 },
+  { name: 'Abbosbek Fayzullaev', teamCode: 'UZB', count: 1 },
+  { name: 'Luis Diaz', teamCode: 'COL', count: 1 },
+  { name: 'Jaminton Campaz', teamCode: 'COL', count: 1 }
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -108,7 +113,10 @@ export const topAssists: PlayerStat[] = [
   { name: 'Declan Rice', teamCode: 'ENG', count: 1 },
   { name: 'Ivan Perisic', teamCode: 'CRO', count: 1 },
   { name: 'Elliot Anderson', teamCode: 'ENG', count: 1 },
-  { name: 'Bukayo Saka', teamCode: 'ENG', count: 1 }
+  { name: 'Bukayo Saka', teamCode: 'ENG', count: 1 },
+  { name: 'Luis Diaz', teamCode: 'COL', count: 1 },
+  { name: 'Gustavo Puerta', teamCode: 'COL', count: 1 },
+  { name: 'Cucho Hernández', teamCode: 'COL', count: 1 }
 ]
 
 export const cards: { name: string, teamCode: string, yellow: number, red: number }[] = [
@@ -161,5 +169,10 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Bernardo Silva', teamCode: 'POR', yellow: 1, red: 0 },
   { name: 'Chancel Mbemba', teamCode: 'COD', yellow: 1, red: 0 },
   { name: 'Nelson Semedo', teamCode: 'POR', yellow: 1, red: 0 },
-  { name: 'Tomás Araújo', teamCode: 'POR', yellow: 1, red: 0 }
+  { name: 'Tomás Araújo', teamCode: 'POR', yellow: 1, red: 0 },
+  { name: 'Caleb Yirenkyi', teamCode: 'GHA', yellow: 1, red: 0 },
+  { name: 'César Blackman', teamCode: 'PAN', yellow: 1, red: 0 },
+  { name: 'Carlos Harvey', teamCode: 'PAN', yellow: 1, red: 0 },
+  { name: 'Johan Mojica', teamCode: 'COL', yellow: 1, red: 0 },
+  { name: 'Abdukodir Khusanov', teamCode: 'UZB', yellow: 1, red: 0 }
 ]

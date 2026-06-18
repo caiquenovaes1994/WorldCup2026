@@ -21,10 +21,24 @@ const knockoutStore = useKnockoutStore()
 
 const isNameMatch = (full: string, partial: string | undefined) => {
   if (!partial) return false
-  if (partial.includes(full) || full.includes(partial)) return true
-  const parts = full.split(' ')
-  const lastName = parts[parts.length - 1]
-  return partial.includes(lastName)
+  const cleanPartial = partial.replace(/\s*\(.*?\)\s*/g, '').trim()
+  if (cleanPartial === full || full.includes(cleanPartial) || cleanPartial.includes(full)) return true
+  
+  const fullParts = full.split(' ')
+  const partialParts = cleanPartial.split(' ')
+  
+  if (fullParts[fullParts.length - 1] === partialParts[partialParts.length - 1]) {
+    if (partialParts.length === 1) return true
+    
+    const pFirst = partialParts[0]
+    const fFirst = fullParts[0]
+    
+    if (pFirst.endsWith('.') || pFirst.length === 1) {
+      if (fFirst.charAt(0).toLowerCase() === pFirst.charAt(0).toLowerCase()) return true
+    }
+    if (pFirst === fFirst) return true
+  }
+  return false
 }
 
 const matchDetails = computed(() => {
@@ -34,7 +48,36 @@ const matchDetails = computed(() => {
     const events = matchEvents[matchIdStr]
     if (!events) continue
     
+    const matchId = isNaN(Number(matchIdStr)) ? matchIdStr : Number(matchIdStr)
+    let mDate = ''
+    let home = ''
+    let away = ''
+    let homeScore: number | null = null
+    let awayScore: number | null = null
+    
+    const groupMatch = groupMatches.find(m => m.id === matchId)
+    if (groupMatch) {
+      mDate = groupMatch.date
+      home = groupMatch.homeTeam
+      away = groupMatch.awayTeam
+      homeScore = groupMatch.homeScore
+      awayScore = groupMatch.awayScore
+    } else {
+      const koMatch = knockoutStore.knockoutMatches.find(m => m.id === String(matchId))
+      if (koMatch) {
+        mDate = koMatch.date
+        home = koMatch.homeTeam || '?'
+        away = koMatch.awayTeam || '?'
+        homeScore = koMatch.homeScore
+        awayScore = koMatch.awayScore
+      }
+    }
+    
     const relevantEvents = events.filter(e => {
+      // Security check: the event must belong to the player's team
+      const eventTeamCode = e.team === 'home' ? home : away
+      if (eventTeamCode !== props.player.teamCode) return false
+      
       if (props.player.type === 'goal') {
         return e.type === 'goal' && isNameMatch(props.player.name, e.player)
       }
@@ -51,32 +94,6 @@ const matchDetails = computed(() => {
     })
     
     if (relevantEvents.length > 0) {
-      // Find match info
-      const matchId = isNaN(Number(matchIdStr)) ? matchIdStr : Number(matchIdStr)
-      let mDate = ''
-      let home = ''
-      let away = ''
-      let homeScore: number | null = null
-      let awayScore: number | null = null
-      
-      const groupMatch = groupMatches.find(m => m.id === matchId)
-      if (groupMatch) {
-        mDate = groupMatch.date
-        home = groupMatch.homeTeam
-        away = groupMatch.awayTeam
-        homeScore = groupMatch.homeScore
-        awayScore = groupMatch.awayScore
-      } else {
-        const koMatch = knockoutStore.knockoutMatches.find(m => m.id === String(matchId))
-        if (koMatch) {
-          mDate = koMatch.date
-          home = koMatch.homeTeam || '?'
-          away = koMatch.awayTeam || '?'
-          homeScore = koMatch.homeScore
-          awayScore = koMatch.awayScore
-        }
-      }
-      
       const formattedDate = mDate ? new Date(mDate + 'T12:00:00').toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' }) : '?'
       
       result.push({
