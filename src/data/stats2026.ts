@@ -65,7 +65,9 @@ export const topScorers: PlayerStat[] = [
   { name: 'Daniel Muñoz', teamCode: 'COL', count: 1 },
   { name: 'Abbosbek Fayzullaev', teamCode: 'UZB', count: 1 },
   { name: 'Luis Diaz', teamCode: 'COL', count: 1 },
-  { name: 'Jaminton Campaz', teamCode: 'COL', count: 1 }
+  { name: 'Jaminton Campaz', teamCode: 'COL', count: 1 },
+  { name: 'Michal Sadilek', teamCode: 'CZE', count: 1 },
+  { name: 'Teboho Mokoena', teamCode: 'RSA', count: 1 }
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -116,11 +118,12 @@ export const topAssists: PlayerStat[] = [
   { name: 'Bukayo Saka', teamCode: 'ENG', count: 1 },
   { name: 'Luis Diaz', teamCode: 'COL', count: 1 },
   { name: 'Gustavo Puerta', teamCode: 'COL', count: 1 },
-  { name: 'Cucho Hernández', teamCode: 'COL', count: 1 }
+  { name: 'Cucho Hernández', teamCode: 'COL', count: 1 },
+  { name: 'Alexsandr Sojka', teamCode: 'CZE', count: 1 }
 ]
 
 export const cards: { name: string, teamCode: string, yellow: number, red: number }[] = [
-  { name: 'Teboho Mokoena', teamCode: 'RSA', yellow: 1, red: 0 },
+  { name: 'Teboho Mokoena', teamCode: 'RSA', yellow: 2, red: 0 },
   { name: 'Brian Gutiérrez', teamCode: 'MEX', yellow: 1, red: 0 },
   { name: 'Nkosinathi Sibisi', teamCode: 'RSA', yellow: 1, red: 0 },
   { name: 'Sphephelo Sithole', teamCode: 'RSA', yellow: 0, red: 1 },
@@ -174,5 +177,7 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'César Blackman', teamCode: 'PAN', yellow: 1, red: 0 },
   { name: 'Carlos Harvey', teamCode: 'PAN', yellow: 1, red: 0 },
   { name: 'Johan Mojica', teamCode: 'COL', yellow: 1, red: 0 },
-  { name: 'Abdukodir Khusanov', teamCode: 'UZB', yellow: 1, red: 0 }
+  { name: 'Abdukodir Khusanov', teamCode: 'UZB', yellow: 1, red: 0 },
+  { name: 'Thalente Mbatha', teamCode: 'RSA', yellow: 1, red: 0 },
+  { name: 'Ladislav Krejci', teamCode: 'CZE', yellow: 1, red: 0 }
 ]

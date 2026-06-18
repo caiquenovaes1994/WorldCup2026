@@ -25,6 +25,13 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "67'", type: "goal", team: "home", player: "Hwang Inbeom", secondaryPlayer: "Lee Kang-in", description: "1 - 1" },
     { time: "59'", type: "goal", team: "away", player: "Ladislav Krejčí", secondaryPlayer: "Vladimír Coufal", description: "0 - 1" }
   ],
+  4: [
+    { time: "83'", type: "goal", team: "away", player: "Teboho Mokoena (P)", description: "1 - 1" },
+    { time: "75'", type: "yellow", team: "home", player: "Ladislav Krejci" },
+    { time: "40'", type: "yellow", team: "away", player: "Thalente Mbatha" },
+    { time: "33'", type: "yellow", team: "away", player: "Teboho Mokoena" },
+    { time: "6'", type: "goal", team: "home", player: "Michal Sadilek", secondaryPlayer: "Alexsandr Sojka", description: "1 - 0" }
+  ],
   7: [
     { time: "90'+3", type: "yellow", team: "away", player: "Nikola Katic" },
     { time: "78'", type: "goal", team: "home", player: "Cyle Larin", secondaryPlayer: "Promise David", description: "1 - 1" },
