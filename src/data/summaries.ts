@@ -108,6 +108,17 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "75'", type: "goal", team: "home", player: "Connor Metcalfe", description: "2 - 0" },
     { time: "27'", type: "goal", team: "home", player: "Nestory Irankuda", secondaryPlayer: "Paul Okon-Engstler", description: "1 - 0" }
   ],
+  21: [
+    { time: "90'+2", type: "yellow", team: "home", player: "Chris Richards" },
+    { time: "89'", type: "yellow", team: "away", player: "Harry Souttar" },
+    { time: "89'", type: "yellow", team: "away", player: "Jacob Italiano" },
+    { time: "89'", type: "yellow", team: "home", player: "Folarin Balogun" },
+    { time: "56'", type: "yellow", team: "home", player: "Antonee Robinson" },
+    { time: "44'", type: "goal", team: "home", player: "Alexsander Freeman", description: "2 - 0" },
+    { time: "32'", type: "yellow", team: "away", player: "Alessandro Circati" },
+    { time: "16'", type: "yellow", team: "away", player: "Jordan Bos" },
+    { time: "11'", type: "goal", team: "home", player: "Cameron Burgess (GC)", description: "1 - 0" }
+  ],
   25: [
     { time: "88'", type: "goal", team: "home", player: "Kai Havertz", secondaryPlayer: "Deniz Undav", description: "7 - 1" },
     { time: "78'", type: "goal", team: "home", player: "Deniz Undav", secondaryPlayer: "Joshua Kimmich", description: "6 - 1" },

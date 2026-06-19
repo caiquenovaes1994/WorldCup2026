@@ -74,7 +74,8 @@ export const topScorers: PlayerStat[] = [
   { name: 'Granit Xhaka', teamCode: 'SUI', count: 1 },
   { name: 'Jonathan David', teamCode: 'CAN', count: 3 },
   { name: 'Nathan-Dylan Saliba', teamCode: 'CAN', count: 1 },
-  { name: 'Luis Romo', teamCode: 'MEX', count: 1 }
+  { name: 'Luis Romo', teamCode: 'MEX', count: 1 },
+  { name: 'Alexsander Freeman', teamCode: 'USA', count: 1 },
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -199,5 +200,12 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Homan Al-Amin', teamCode: 'QAT', yellow: 0, red: 1 },
   { name: 'Assim Madibo', teamCode: 'QAT', yellow: 0, red: 1 },
   { name: 'Kang-in Lee', teamCode: 'KOR', yellow: 1, red: 0 },
-  { name: 'Seung Ho Paik', teamCode: 'KOR', yellow: 1, red: 0 }
+  { name: 'Seung Ho Paik', teamCode: 'KOR', yellow: 1, red: 0 },
+  { name: 'Jordan Bos', teamCode: 'AUS', yellow: 1, red: 0 },
+  { name: 'Alessandro Circati', teamCode: 'AUS', yellow: 1, red: 0 },
+  { name: 'Antonee Robinson', teamCode: 'USA', yellow: 1, red: 0 },
+  { name: 'Harry Souttar', teamCode: 'AUS', yellow: 1, red: 0 },
+  { name: 'Jacob Italiano', teamCode: 'AUS', yellow: 1, red: 0 },
+  { name: 'Folarin Balogun', teamCode: 'USA', yellow: 1, red: 0 },
+  { name: 'Chris Richards', teamCode: 'USA', yellow: 1, red: 0 }
 ]
