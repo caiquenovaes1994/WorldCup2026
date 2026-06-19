@@ -25,6 +25,11 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "67'", type: "goal", team: "home", player: "Hwang Inbeom", secondaryPlayer: "Lee Kang-in", description: "1 - 1" },
     { time: "59'", type: "goal", team: "away", player: "Ladislav Krejčí", secondaryPlayer: "Vladimír Coufal", description: "0 - 1" }
   ],
+  3: [
+    { time: "58'", type: "yellow", team: "away", player: "Seung Ho Paik" },
+    { time: "50'", type: "goal", team: "home", player: "Luis Romo", description: "1 - 0" },
+    { time: "4'", type: "yellow", team: "away", player: "Kang-in Lee" }
+  ],
   4: [
     { time: "83'", type: "goal", team: "away", player: "Teboho Mokoena (P)", description: "1 - 1" },
     { time: "75'", type: "yellow", team: "home", player: "Ladislav Krejci" },
@@ -49,16 +54,29 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "16'", type: "yellow", team: "home", player: "Mahmud Abunada" }
   ],
   9: [
-    { time: "90'+7", type: "goal", team: "home", player: "Granit Xhaka (P)", description: "4 - 1" },
-    { time: "90'+3", type: "goal", team: "away", player: "Ermin Mahmic", description: "3 - 1" },
-    { time: "90'", type: "goal", team: "home", player: "Johan Manzambi", secondaryPlayer: "Ruben Vargas", description: "3 - 0" },
-    { time: "84'", type: "goal", team: "home", player: "Ruben Vargas", secondaryPlayer: "Breel Embolo", description: "2 - 0" },
-    { time: "80'", type: "red", team: "away", player: "Tarik Muharemovic" },
-    { time: "74'", type: "goal", team: "home", player: "Johan Manzambi", description: "1 - 0" },
-    { time: "65'", type: "yellow", team: "home", player: "Nico Elvedi" },
-    { time: "61'", type: "yellow", team: "away", player: "Edin Dzeko" },
-    { time: "59'", type: "yellow", team: "away", player: "Amar Dedic" }
+    { time: "85'", type: "goal", team: "home", player: "Johan Manzambi", secondaryPlayer: "Ruben Vargas", description: "4 - 1" },
+    { time: "80'", type: "yellow", team: "away", player: "Edin Dzeko" },
+    { time: "71'", type: "goal", team: "home", player: "Ruben Vargas", description: "3 - 1" },
+    { time: "66'", type: "yellow", team: "away", player: "Amar Dedic" },
+    { time: "48'", type: "red", team: "away", player: "Tarik Muharemovic" },
+    { time: "41'", type: "goal", team: "home", player: "Johan Manzambi", description: "2 - 1" },
+    { time: "23'", type: "goal", team: "away", player: "Ermin Mahmic", description: "1 - 1" },
+    { time: "11'", type: "goal", team: "home", player: "Granit Xhaka", description: "1 - 0" },
+    { time: "5'", type: "yellow", team: "home", player: "Nico Elvedi" }
   ],
+  10: [
+    { time: "90'+2", type: "goal", team: "home", player: "Jonathan David", secondaryPlayer: "Nathan-Dylan Saliba", description: "6 - 0" },
+    { time: "75'", type: "goal", team: "home", player: "Mohamed Naceur Almanai (GC)", description: "5 - 0" },
+    { time: "64'", type: "goal", team: "home", player: "Nathan-Dylan Saliba", description: "4 - 0" },
+    { time: "62'", type: "yellow", team: "away", player: "Ahmed Fathi" },
+    { time: "53'", type: "red", team: "away", player: "Assim Madibo" },
+    { time: "45'+3", type: "goal", team: "home", player: "Jonathan David", description: "3 - 0" },
+    { time: "33'", type: "red", team: "away", player: "Homan Al-Amin" },
+    { time: "29'", type: "goal", team: "home", player: "Jonathan David", description: "2 - 0" },
+    { time: "16'", type: "goal", team: "home", player: "Cyle Larin", description: "1 - 0" },
+    { time: "9'", type: "yellow", team: "home", player: "Derek Cornelius" }
+  ],
+
   13: [
     { time: "43'", type: "yellow", team: "home", player: "Roger Ibañez" },
     { time: "37'", type: "yellow", team: "home", player: "Casemiro" },

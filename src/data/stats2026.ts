@@ -11,7 +11,7 @@ export const topScorers: PlayerStat[] = [
   { name: 'Hwang Inbeom', teamCode: 'KOR', count: 1 },
   { name: 'Oh Hyeongyu', teamCode: 'KOR', count: 1 },
   { name: 'Jovo Lukic', teamCode: 'BIH', count: 1 },
-  { name: 'Cyle Larin', teamCode: 'CAN', count: 1 },
+  { name: 'Cyle Larin', teamCode: 'CAN', count: 2 },
   { name: 'Folarin Balogun', teamCode: 'USA', count: 2 },
   { name: 'Mauricio', teamCode: 'PAR', count: 1 },
   { name: 'Giovanni Reyna', teamCode: 'USA', count: 1 },
@@ -71,7 +71,10 @@ export const topScorers: PlayerStat[] = [
   { name: 'Johan Manzambi', teamCode: 'SUI', count: 2 },
   { name: 'Ruben Vargas', teamCode: 'SUI', count: 1 },
   { name: 'Ermin Mahmic', teamCode: 'BIH', count: 1 },
-  { name: 'Granit Xhaka', teamCode: 'SUI', count: 1 }
+  { name: 'Granit Xhaka', teamCode: 'SUI', count: 1 },
+  { name: 'Jonathan David', teamCode: 'CAN', count: 3 },
+  { name: 'Nathan-Dylan Saliba', teamCode: 'CAN', count: 1 },
+  { name: 'Luis Romo', teamCode: 'MEX', count: 1 }
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -125,7 +128,8 @@ export const topAssists: PlayerStat[] = [
   { name: 'Cucho Hernández', teamCode: 'COL', count: 1 },
   { name: 'Alexsandr Sojka', teamCode: 'CZE', count: 1 },
   { name: 'Breel Embolo', teamCode: 'SUI', count: 1 },
-  { name: 'Ruben Vargas', teamCode: 'SUI', count: 1 }
+  { name: 'Ruben Vargas', teamCode: 'SUI', count: 1 },
+  { name: 'Nathan-Dylan Saliba', teamCode: 'CAN', count: 1 }
 ]
 
 export const cards: { name: string, teamCode: string, yellow: number, red: number }[] = [
@@ -189,5 +193,11 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Amar Dedic', teamCode: 'BIH', yellow: 1, red: 0 },
   { name: 'Edin Dzeko', teamCode: 'BIH', yellow: 1, red: 0 },
   { name: 'Nico Elvedi', teamCode: 'SUI', yellow: 1, red: 0 },
-  { name: 'Tarik Muharemovic', teamCode: 'BIH', yellow: 0, red: 1 }
+  { name: 'Tarik Muharemovic', teamCode: 'BIH', yellow: 0, red: 1 },
+  { name: 'Derek Cornelius', teamCode: 'CAN', yellow: 1, red: 0 },
+  { name: 'Ahmed Fathi', teamCode: 'QAT', yellow: 1, red: 0 },
+  { name: 'Homan Al-Amin', teamCode: 'QAT', yellow: 0, red: 1 },
+  { name: 'Assim Madibo', teamCode: 'QAT', yellow: 0, red: 1 },
+  { name: 'Kang-in Lee', teamCode: 'KOR', yellow: 1, red: 0 },
+  { name: 'Seung Ho Paik', teamCode: 'KOR', yellow: 1, red: 0 }
 ]
