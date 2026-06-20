@@ -175,7 +175,8 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "7'", type: "goal", team: "home", player: "Yasin Ayari", description: "1 - 0" }
   ],
   33: [
-    { time: "89'", type: "goal", team: "home", player: "Crysencio Summerville", secondaryPlayer: "Memphis Depay", description: "5 - 1"},
+    { time: "89'", type: "goal", team: "home", player: "Crysencio Summerville", secondaryPlayer: "Memphis Depay", description: "5 - 1" },
+    { time: "80'", type: "yellow", team: "away", player: "Lucas Bergvall" },
     { time: "75'", type: "yellow", team: "away", player: "Yasin Ayari" },
     { time: "59'", type: "goal", team: "away", player: "Anthony Elanga", secondaryPlayer: "Alexsander Isak", description: "4 - 1" },
     { time: "54'", type: "goal", team: "home", player: "Cody Gakpo", secondaryPlayer: "Crysencio Summerville", description: "4 - 0" },

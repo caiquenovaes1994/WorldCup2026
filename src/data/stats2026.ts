@@ -204,6 +204,7 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Ladislav Krejci', teamCode: 'CZE', yellow: 1, red: 0 },
   { name: 'Lee Kihyuk', teamCode: 'KOR', yellow: 1, red: 0 },
   { name: 'Luc De Fougerolles', teamCode: 'CAN', yellow: 1, red: 0 },
+  { name: 'Lucas Bergvall', teamCode: 'SWE', yellow: 1, red: 0 },
   { name: 'Mahmud Abunada', teamCode: 'QAT', yellow: 1, red: 0 },
   { name: 'Marcel Sabitzer', teamCode: 'AUT', yellow: 1, red: 0 },
   { name: 'Marwan Attia', teamCode: 'EGY', yellow: 1, red: 0 },
