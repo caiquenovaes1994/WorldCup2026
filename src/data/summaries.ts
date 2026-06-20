@@ -174,6 +174,16 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "30'", type: "goal", team: "home", player: "Alexsander Isak", secondaryPlayer: "Viktor Gyokeres", description: "2 - 0" },
     { time: "7'", type: "goal", team: "home", player: "Yasin Ayari", description: "1 - 0" }
   ],
+  33: [
+    { time: "89'", type: "goal", team: "home", player: "Crysencio Summerville", secondaryPlayer: "Memphis Depay", description: "5 - 1"},
+    { time: "75'", type: "yellow", team: "away", player: "Yasin Ayari" },
+    { time: "59'", type: "goal", team: "away", player: "Anthony Elanga", secondaryPlayer: "Alexsander Isak", description: "4 - 1" },
+    { time: "54'", type: "goal", team: "home", player: "Cody Gakpo", secondaryPlayer: "Crysencio Summerville", description: "4 - 0" },
+    { time: "53'", type: "yellow", team: "away", player: "Gabriel Gudmundsson" },
+    { time: "47'", type: "goal", team: "home", player: "Cody Gakpo", secondaryPlayer: "Denzel Dumfries", description: "3 - 0" },
+    { time: "17'", type: "goal", team: "home", player: "Brian Brobbey", secondaryPlayer: "Denzel Dumfries", description: "2 - 0" },    
+    { time: "6'", type: "goal", team: "home", player: "Brian Brobbey", secondaryPlayer: "Cody Gakpo", description: "1 - 0" }    
+  ],
   43: [
     { time: "90'+33", type: "yellow", team: "home", player: "Pedri" },
     { time: "16'", type: "yellow", team: "away", player: "Sidny Lopes Cabral" }
