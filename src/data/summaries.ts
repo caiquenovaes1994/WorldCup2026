@@ -133,6 +133,12 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "16'", type: "yellow", team: "away", player: "Jordan Bos" },
     { time: "11'", type: "goal", team: "home", player: "Cameron Burgess (GC)", description: "1 - 0" }
   ],
+  22: [
+    { time: "71'", type: "yellow", team: "home", player: "Eren Elmali" },
+    { time: "45'+3", type: "red", team: "away", player: "Miguel Almirón" },
+    { time: "4'", type: "yellow", team: "away", player: "Matias Galarza" },
+    { time: "2'", type: "goal", team: "away", player: "Matias Galarza", secondaryPlayer: "Julio Enciso", description: "0 - 1" }
+  ],
   25: [
     { time: "88'", type: "goal", team: "home", player: "Kai Havertz", secondaryPlayer: "Deniz Undav", description: "7 - 1" },
     { time: "78'", type: "goal", team: "home", player: "Deniz Undav", secondaryPlayer: "Joshua Kimmich", description: "6 - 1" },

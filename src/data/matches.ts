@@ -33,7 +33,7 @@ export const groupMatches: GroupMatch[] = [
   { id: 13, group: 'C', homeTeam: 'BRA', awayTeam: 'MAR', date: '2026-06-13', time: '19:00', venueId: 'metlife', homeScore: 1, awayScore: 1, referee: 'Slavko Vincic', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=t39QZJ0SmKg' },
   { id: 14, group: 'C', homeTeam: 'HAI', awayTeam: 'SCO', date: '2026-06-13', time: '22:00', venueId: 'gillette', homeScore: 0, awayScore: 1, referee: 'Mustapha Ghorbal', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=zgpYvZsnQ9o' },
   // Matchday 2
-  { id: 15, group: 'C', homeTeam: 'BRA', awayTeam: 'HAI', date: '2026-06-19', time: '21:30', venueId: 'lincoln', homeScore: 3, awayScore: 0, referee: 'Alejandro Hernandez', matchday: 2 },
+  { id: 15, group: 'C', homeTeam: 'BRA', awayTeam: 'HAI', date: '2026-06-19', time: '21:30', venueId: 'lincoln', homeScore: 3, awayScore: 0, referee: 'Alejandro Hernandez', matchday: 2, highlightsUrl: "https://www.youtube.com/watch?v=klEtq83CchQ" },
   { id: 16, group: 'C', homeTeam: 'SCO', awayTeam: 'MAR', date: '2026-06-19', time: '19:00', venueId: 'gillette', homeScore: 0, awayScore: 1, referee: 'Ilgiz Tantashev', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=lleabQ1DIm8' },
   // Matchday 3
   { id: 17, group: 'C', homeTeam: 'SCO', awayTeam: 'BRA', date: '2026-06-24', time: '19:00', venueId: 'hardrock', homeScore: null, awayScore: null, referee: null, matchday: 3 },
@@ -45,7 +45,7 @@ export const groupMatches: GroupMatch[] = [
   { id: 20, group: 'D', homeTeam: 'AUS', awayTeam: 'TUR', date: '2026-06-14', time: '01:00', venueId: 'bcplace', homeScore: 2, awayScore: 0, referee: 'Jesus Valenzuela', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=W72qFYh1cdY' },
   // Matchday 2
   { id: 21, group: 'D', homeTeam: 'USA', awayTeam: 'AUS', date: '2026-06-19', time: '16:00', venueId: 'lumen', homeScore: 2, awayScore: 0, referee: 'Felix Zwayer', matchday: 2, highlightsUrl: "https://www.youtube.com/watch?v=Zm3GCCP04Es" },
-  { id: 22, group: 'D', homeTeam: 'TUR', awayTeam: 'PAR', date: '2026-06-20', time: '00:00', venueId: 'levis', homeScore: null, awayScore: null, referee: 'Ivan Barton', matchday: 2 },
+  { id: 22, group: 'D', homeTeam: 'TUR', awayTeam: 'PAR', date: '2026-06-20', time: '00:00', venueId: 'levis', homeScore: 0, awayScore: 1, referee: 'Ivan Barton', matchday: 2, highlightsUrl: "https://www.youtube.com/watch?v=dAkr_yuPUMQ" },
   // Matchday 3
   { id: 23, group: 'D', homeTeam: 'TUR', awayTeam: 'USA', date: '2026-06-25', time: '23:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: null, matchday: 3 },
   { id: 24, group: 'D', homeTeam: 'PAR', awayTeam: 'AUS', date: '2026-06-25', time: '23:00', venueId: 'levis', homeScore: null, awayScore: null, referee: null, matchday: 3 },
