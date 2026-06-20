@@ -66,7 +66,7 @@ export const groupMatches: GroupMatch[] = [
   { id: 31, group: 'F', homeTeam: 'NED', awayTeam: 'JPN', date: '2026-06-14', time: '17:00', venueId: 'att', homeScore: 2, awayScore: 2, referee: 'Ismail Elfath', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=4GalIYEMjZQ' },
   { id: 32, group: 'F', homeTeam: 'SWE', awayTeam: 'TUN', date: '2026-06-14', time: '23:00', venueId: 'bbva', homeScore: 5, awayScore: 1, referee: 'Yael Falcon Perez', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=XiQ2ZoR-BgY&list=PLsFWLnYCEXEVNzCnkQE-xOuMc8oLxSleC&index=1&pp=iAQB' },
   // Matchday 2
-  { id: 33, group: 'F', homeTeam: 'NED', awayTeam: 'SWE', date: '2026-06-20', time: '14:00', venueId: 'nrg', homeScore: 4, awayScore: 1, referee: 'Michael Oliver', matchday: 2 },
+  { id: 33, group: 'F', homeTeam: 'NED', awayTeam: 'SWE', date: '2026-06-20', time: '14:00', venueId: 'nrg', homeScore: 5, awayScore: 1, referee: 'Michael Oliver', matchday: 2 },
   { id: 34, group: 'F', homeTeam: 'TUN', awayTeam: 'JPN', date: '2026-06-21', time: '01:00', venueId: 'att', homeScore: null, awayScore: null, referee: 'Istvan Kovacs', matchday: 2 },
   // Matchday 3
   { id: 35, group: 'F', homeTeam: 'TUN', awayTeam: 'NED', date: '2026-06-25', time: '20:00', venueId: 'geha', homeScore: null, awayScore: null, referee: null, matchday: 3 },
