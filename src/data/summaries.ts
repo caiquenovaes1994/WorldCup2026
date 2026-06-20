@@ -90,6 +90,20 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "39'", type: "yellow", team: "home", player: "Jean-Ricner Bellegarde" },
     { time: "28'", type: "goal", team: "away", player: "John McGinn", description: "0 - 1" }
   ],
+  15: [
+    { time: "72'", type: "yellow", team: "away", player: "Danley Jean Jacques" },
+    { time: "66'", type: "yellow", team: "home", player: "Douglas Santos" },
+    { time: "45'+4", type: "yellow", team: "away", player: "Frantzdy Pierrot" },
+    { time: "45'+3", type: "goal", team: "home", player: "Vinicius Jr", secondaryPlayer: "Lucas Paquetá", description: "3 - 0" },
+    { time: "36'", type: "goal", team: "home", player: "Matheus Cunha", secondaryPlayer: "Vinicius Jr", description: "2 - 0" },
+    { time: "24'", type: "goal", team: "home", player: "Matheus Cunha", description: "1 - 0" },
+    { time: "4'", type: "yellow", team: "away", player: "Carlens Arcus" }       
+  ],
+  16: [
+    { time: "90'+5", type: "yellow", team: "home", player: "Andy Robertson" },
+    { time: "23'", type: "yellow", team: "away", player: "Issa Diop" },
+    { time: "2'", type: "goal", team: "away", player: "Ismael Saibari", secondaryPlayer: "Brahím Diaz", description: "0 - 1" }
+  ],
   19: [
     { time: "90'+8", type: "goal", team: "home", player: "Giovanni Reyna", secondaryPlayer: "Alexander Freeman", description: "4 - 1" },
     { time: "90'+3", type: "yellow", team: "away", player: "Junior Alonso" },

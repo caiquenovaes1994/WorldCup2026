@@ -16,8 +16,8 @@ export const topScorers: PlayerStat[] = [
   { name: 'Mauricio', teamCode: 'PAR', count: 1 },
   { name: 'Giovanni Reyna', teamCode: 'USA', count: 1 },
   { name: 'Breel Embolo', teamCode: 'SUI', count: 1 },
-  { name: 'Ismael Saibari', teamCode: 'MAR', count: 1 },
-  { name: 'Vinicius Jr', teamCode: 'BRA', count: 1 },
+  { name: 'Ismael Saibari', teamCode: 'MAR', count: 2 },
+  { name: 'Vinicius Jr', teamCode: 'BRA', count: 2 },
   { name: 'John McGinn', teamCode: 'SCO', count: 1 },
   { name: 'Nestory Irankuda', teamCode: 'AUS', count: 1 },
   { name: 'Connor Metcalfe', teamCode: 'AUS', count: 1 },
@@ -76,6 +76,7 @@ export const topScorers: PlayerStat[] = [
   { name: 'Nathan-Dylan Saliba', teamCode: 'CAN', count: 1 },
   { name: 'Luis Romo', teamCode: 'MEX', count: 1 },
   { name: 'Alexsander Freeman', teamCode: 'USA', count: 1 },
+  { name: 'Matheus Cunha', teamCode: 'BRA', count: 2 },
 ]
 
 export const topAssists: PlayerStat[] = [
@@ -90,7 +91,7 @@ export const topAssists: PlayerStat[] = [
   { name: 'Malik Tillman', teamCode: 'USA', count: 1 },
   { name: 'Julio Enciso', teamCode: 'PAR', count: 1 },
   { name: 'Alexander Freeman', teamCode: 'USA', count: 1 },
-  { name: 'Brahím Diaz', teamCode: 'MAR', count: 1 },
+  { name: 'Brahím Diaz', teamCode: 'MAR', count: 2 },
   { name: 'Bruno Guimarães', teamCode: 'BRA', count: 1 },
   { name: 'Paul Okon-Engstler', teamCode: 'AUS', count: 1 },
   { name: 'Deniz Undav', teamCode: 'GER', count: 2 },
@@ -130,7 +131,9 @@ export const topAssists: PlayerStat[] = [
   { name: 'Alexsandr Sojka', teamCode: 'CZE', count: 1 },
   { name: 'Breel Embolo', teamCode: 'SUI', count: 1 },
   { name: 'Ruben Vargas', teamCode: 'SUI', count: 1 },
-  { name: 'Nathan-Dylan Saliba', teamCode: 'CAN', count: 1 }
+  { name: 'Nathan-Dylan Saliba', teamCode: 'CAN', count: 1 },
+  { name: 'Vinicius Jr', teamCode: 'BRA', count: 1 },
+  { name: 'Lucas Paquetá', teamCode: 'BRA', count: 1 }  
 ]
 
 export const cards: { name: string, teamCode: string, yellow: number, red: number }[] = [
@@ -207,5 +210,11 @@ export const cards: { name: string, teamCode: string, yellow: number, red: numbe
   { name: 'Harry Souttar', teamCode: 'AUS', yellow: 1, red: 0 },
   { name: 'Jacob Italiano', teamCode: 'AUS', yellow: 1, red: 0 },
   { name: 'Folarin Balogun', teamCode: 'USA', yellow: 1, red: 0 },
-  { name: 'Chris Richards', teamCode: 'USA', yellow: 1, red: 0 }
+  { name: 'Chris Richards', teamCode: 'USA', yellow: 1, red: 0 },
+  { name: 'Issa Diop', teamCode: 'MAR', yellow: 1, red: 0 },
+  { name: 'Andy Robertson', teamCode: 'SCO', yellow: 1, red: 0 },
+  { name: 'Carlens Arcus', teamCode: 'HAI', yellow: 1, red: 0 },
+  { name: 'Frantzdy Pierrot', teamCode: 'HAI', yellow: 1, red: 0 },
+  { name: 'Douglas Santos', teamCode: 'BRA', yellow: 1, red: 0 },
+  { name: 'Danley Jean Jacques', teamCode: 'HAI', yellow: 1, red: 0 }
 ]
