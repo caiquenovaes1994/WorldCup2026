@@ -198,6 +198,12 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "17'", type: "goal", team: "home", player: "Brian Brobbey", secondaryPlayer: "Denzel Dumfries", description: "2 - 0" },    
     { time: "6'", type: "goal", team: "home", player: "Brian Brobbey", secondaryPlayer: "Cody Gakpo", description: "1 - 0" }    
   ],
+  34: [
+    { time: "83'", type: "goal", team: "away", player: "Ayase Ueda", secondaryPlayer: "Kaishu Sano", description: "0 - 4" },
+    { time: "69'", type: "goal", team: "away", player: "Junya Ito", secondaryPlayer: "Ayase Ueda", description: "0 - 3" },
+    { time: "31'", type: "goal", team: "away", player: "Ayase Ueda", secondaryPlayer: "Ko Itakura", description: "0 - 2" },
+    { time: "4'", type: "goal", team: "away", player: "Daichi Kamada", secondaryPlayer: "Keito Nakamura", description: "0 - 1" }
+  ],
   43: [
     { time: "90'+33", type: "yellow", team: "home", player: "Pedri" },
     { time: "16'", type: "yellow", team: "away", player: "Sidny Lopes Cabral" }
