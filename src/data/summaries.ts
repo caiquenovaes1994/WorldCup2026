@@ -204,11 +204,7 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "31'", type: "goal", team: "away", player: "Ayase Ueda", secondaryPlayer: "Ko Itakura", description: "0 - 2" },
     { time: "4'", type: "goal", team: "away", player: "Daichi Kamada", secondaryPlayer: "Keito Nakamura", description: "0 - 1" }
   ],
-  43: [
-    { time: "90'+33", type: "yellow", team: "home", player: "Pedri" },
-    { time: "16'", type: "yellow", team: "away", player: "Sidny Lopes Cabral" }
-  ],
-  37: [
+ 37: [
     { time: "75'", type: "yellow", team: "home", player: "Maxim De Cuyper" },
     { time: "67'", type: "goal", team: "home", player: "Mohamed Hany (GC)", description: "1 - 1" },
     { time: "34'", type: "yellow", team: "away", player: "Ahmed Fatouh" },
@@ -216,17 +212,29 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "14'", type: "yellow", team: "home", player: "Timothy Castagne" },
     { time: "13'", type: "yellow", team: "away", player: "Marwan Attia" }
   ],
-  44: [
-    { time: "80'", type: "goal", team: "away", player: "Maximiliano Araujo", description: "1 - 1" },
-    { time: "44'", type: "yellow", team: "home", player: "Abdulaleh Al-Amri" },
-    { time: "41'", type: "goal", team: "home", player: "Abdulaleh Al-Amri", description: "1 - 0" }
-  ],
   38: [
     { time: "89'", type: "yellow", team: "home", player: "Ehsan Hajsafi" },
     { time: "64'", type: "goal", team: "home", player: "Mohammad Mohebi", secondaryPlayer: "Ramin Rezaeian", description: "2 - 2" },
     { time: "54'", type: "goal", team: "away", player: "Elijah Just", secondaryPlayer: "Chris Wood", description: "1 - 2" },
     { time: "32'", type: "goal", team: "home", player: "Ramin Rezaeian", description: "1 - 1" },
     { time: "7'", type: "goal", team: "away", player: "Elijah Just", secondaryPlayer: "Chris Wood", description: "0 - 1" }
+  ],
+   43: [
+    { time: "90'+33", type: "yellow", team: "home", player: "Pedri" },
+    { time: "16'", type: "yellow", team: "away", player: "Sidny Lopes Cabral" }
+  ],
+  44: [
+    { time: "80'", type: "goal", team: "away", player: "Maximiliano Araujo", description: "1 - 1" },
+    { time: "44'", type: "yellow", team: "home", player: "Abdulaleh Al-Amri" },
+    { time: "41'", type: "goal", team: "home", player: "Abdulaleh Al-Amri", description: "1 - 0" }
+  ],
+  45: [
+    { time: "60'", type: "yellow", team: "away", player: "Mohamed Kanno" },
+    { time: "49'", type: "goal", team: "home", player: "Hassan Tambakti (GC)", description: "4 - 0" },
+    { time: "30'", type: "yellow", team: "away", player: "Salem Al-Dawsari", },
+    { time: "24'", type: "goal", team: "home", player: "Mikel Oyarzabal", secondaryPlayer: "Dani Olmo",  description: "3 - 0" },
+    { time: "21'", type: "goal", team: "home", player: "Mikel Oyarzabal", secondaryPlayer: "Aymeric Laporte",  description: "2 - 0" },
+    { time: "10'", type: "goal", team: "home", player: "Lamine Yamal", secondaryPlayer: "Mikel Oyarzabal",  description: "1 - 0" }
   ],
   49: [
     { time: "90'+6", type: "goal", team: "home", player: "Kylian Mbappé", description: "3 - 1" },
