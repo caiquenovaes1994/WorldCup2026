@@ -165,6 +165,11 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "38'", type: "yellow", team: "home", player: "Franck Kessié" },
     { time: "28'", type: "yellow", team: "home", player: "Seko Fofana" }
   ],
+  27: [
+    { time: "90'+4", type: "goal", team: "home", player: "Deniz Undav", secondaryPlayer: "Felix Nmecha", description: "2 - 1" },
+    { time: "68'", type: "goal", team: "home", player: "Deniz Undav", secondaryPlayer: "Nadiem Amiri", description: "1 - 1" },
+    { time: "30'", type: "goal", team: "away", player: "Franck Kessié", description: "0 - 1" }
+  ],
   32: [
     { time: "90'+6", type: "goal", team: "home", player: "Yasin Ayari", secondaryPlayer: "Lucas Bergvall", description: "5 - 1" },
     { time: "84'", type: "goal", team: "home", player: "Mattias Svanberg", secondaryPlayer: "Alexsander Isak", description: "4 - 1" },
