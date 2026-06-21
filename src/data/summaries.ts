@@ -170,6 +170,14 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "68'", type: "goal", team: "home", player: "Deniz Undav", secondaryPlayer: "Nadiem Amiri", description: "1 - 1" },
     { time: "30'", type: "goal", team: "away", player: "Franck Kessié", description: "0 - 1" }
   ],
+  28: [
+    { time: "90'+1", type: "yellow", team: "away", player: "Gervane Kastaneer" },
+    { time: "75'", type: "yellow", team: "away", player: "Jurien Gaari" },
+    { time: "56'", type: "yellow", team: "away", player: "Livano Comenencia" },
+    { time: "53'", type: "yellow", team: "away", player: "Juninho Bacuna" },
+    { time: "39'", type: "yellow", team: "away", player: "Leandro Bacuna" },
+    { time: "38'", type: "yellow", team: "home", player: "Jordy Alcivar" }
+  ],
   32: [
     { time: "90'+6", type: "goal", team: "home", player: "Yasin Ayari", secondaryPlayer: "Lucas Bergvall", description: "5 - 1" },
     { time: "84'", type: "goal", team: "home", player: "Mattias Svanberg", secondaryPlayer: "Alexsander Isak", description: "4 - 1" },
