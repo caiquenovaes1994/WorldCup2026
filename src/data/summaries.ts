@@ -219,6 +219,11 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "32'", type: "goal", team: "home", player: "Ramin Rezaeian", description: "1 - 1" },
     { time: "7'", type: "goal", team: "away", player: "Elijah Just", secondaryPlayer: "Chris Wood", description: "0 - 1" }
   ],
+  39: [
+    { time: "66'", type: "red", team: "home", player: "Nathan Ngoy" },
+    { time: "33'", type: "yellow", team: "away", player: "Saeid Ezatolahi", },
+    { time: "3'", type: "yellow", team: "home", player: "Romelu Lukaku"}
+  ],
    43: [
     { time: "90'+33", type: "yellow", team: "home", player: "Pedri" },
     { time: "16'", type: "yellow", team: "away", player: "Sidny Lopes Cabral" }
