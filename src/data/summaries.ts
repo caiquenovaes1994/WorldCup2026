@@ -224,7 +224,7 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "33'", type: "yellow", team: "away", player: "Saeid Ezatolahi", },
     { time: "3'", type: "yellow", team: "home", player: "Romelu Lukaku"}
   ],
-   43: [
+  43: [
     { time: "90'+33", type: "yellow", team: "home", player: "Pedri" },
     { time: "16'", type: "yellow", team: "away", player: "Sidny Lopes Cabral" }
   ],
@@ -240,6 +240,16 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "24'", type: "goal", team: "home", player: "Mikel Oyarzabal", secondaryPlayer: "Dani Olmo",  description: "3 - 0" },
     { time: "21'", type: "goal", team: "home", player: "Mikel Oyarzabal", secondaryPlayer: "Aymeric Laporte",  description: "2 - 0" },
     { time: "10'", type: "goal", team: "home", player: "Lamine Yamal", secondaryPlayer: "Mikel Oyarzabal",  description: "1 - 0" }
+  ],
+  46: [
+    { time: "90'+3", type: "yellow", team: "away", player: "Diney Borges" },
+    { time: "61'", type: "goal", team: "away", player: "Hélio Varela", description: "2 - 2" },
+    { time: "58", type: "yellow", team: "home", player: "Mathías Oliveira" },
+    { time: "45'+6", type: "goal", team: "home", player: "Agustín Canobbio", secondaryPlayer: "Maximiliano Araújo", description: "2 - 1" },
+    { time: "44'", type: "goal", team: "home", player: "Maximiliano Araújo", description: "1 - 1" },
+    { time: "21'", type: "goal", team: "away", player: "Kevin Lenini", description: "0 - 1" },
+    { time: "20'", type: "yellow", team: "home", player: "Rodrigo Bentancur" },
+    { time: "5'", type: "yellow", team: "away", player: "Sidny Lopes Cabral" }
   ],
   49: [
     { time: "90'+6", type: "goal", team: "home", player: "Kylian Mbappé", description: "3 - 1" },
