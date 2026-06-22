@@ -224,6 +224,15 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "33'", type: "yellow", team: "away", player: "Saeid Ezatolahi", },
     { time: "3'", type: "yellow", team: "home", player: "Romelu Lukaku"}
   ],
+  40: [
+    { time: "82'", type: "goal", team: "away", player: "Mahmoud Trezeguet", secondaryPlayer: "Mohamed Salah", description: "1 - 3" },
+    { time: "67'", type: "goal", team: "away", player: "Mohamed Salah", secondaryPlayer: "Mostafa Zico", description: "1 - 2" },
+    { time: "59'", type: "goal", team: "away", player: "Mostafa Zico", secondaryPlayer: "Mohamed Hany", description: "1 - 1" },
+    { time: "34'", type: "yellow", team: "home", player: "Callum McCowatt" },
+    { time: "20'", type: "yellow", team: "home", player: "Sarpreet Singh" },
+    { time: "17'", type: "yellow", team: "away", player: "Mohanad Lasheen" },
+    { time: "15'", type: "goal", team: "home", player: "Finn Surman", secondaryPlayer: "Tim Payne", description: "1 - 0" }
+  ],
   43: [
     { time: "90'+33", type: "yellow", team: "home", player: "Pedri" },
     { time: "16'", type: "yellow", team: "away", player: "Sidny Lopes Cabral" }

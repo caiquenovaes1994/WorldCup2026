@@ -78,7 +78,7 @@ export const groupMatches: GroupMatch[] = [
   { id: 38, group: 'G', homeTeam: 'IRN', awayTeam: 'NZL', date: '2026-06-15', time: '22:00', venueId: 'sofi', homeScore: 2, awayScore: 2, referee: 'Cesar Ramos', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=X1BWWzJ1_ZI' },
   // Matchday 2
   { id: 39, group: 'G', homeTeam: 'BEL', awayTeam: 'IRN', date: '2026-06-21', time: '16:00', venueId: 'sofi', homeScore: 0, awayScore: 0, referee: 'Dario Herrera', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=Vt0unn5w22A&pp=0gcJCT8LAYcqIYzv' },
-  { id: 40, group: 'G', homeTeam: 'NZL', awayTeam: 'EGY', date: '2026-06-21', time: '22:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: 'Omar Mohamed Al Ali', matchday: 2 },
+  { id: 40, group: 'G', homeTeam: 'NZL', awayTeam: 'EGY', date: '2026-06-21', time: '22:00', venueId: 'bcplace', homeScore: 1, awayScore: 3, referee: 'Omar Mohamed Al Ali', matchday: 2 },
   // Matchday 3
   { id: 41, group: 'G', homeTeam: 'NZL', awayTeam: 'BEL', date: '2026-06-27', time: '00:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: null, matchday: 3 },
   { id: 42, group: 'G', homeTeam: 'EGY', awayTeam: 'IRN', date: '2026-06-27', time: '00:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: null, matchday: 3 },
