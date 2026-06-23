@@ -4,18 +4,6 @@ Abaixo estão listados todos os jogos da fase de grupos da Copa do Mundo de 2026
 
 | ID | Grupo | Confronto | Data |
 | ---- | ------- | ----------- | ------ |
-| 5 | A | CZE x MEX | 2026-06-24 |
-| 6 | A | RSA x KOR | 2026-06-24 |
-| 11 | B | SUI x CAN | 2026-06-24 |
-| 12 | B | BIH x QAT | 2026-06-24 |
-| 17 | C | SCO x BRA | 2026-06-24 |
-| 18 | C | MAR x HAI | 2026-06-24 |
-| 23 | D | TUR x USA | 2026-06-25 |
-| 24 | D | PAR x AUS | 2026-06-25 |
-| 29 | E | CUW x CIV | 2026-06-25 |
-| 30 | E | ECU x GER | 2026-06-25 |
-| 35 | F | TUN x NED | 2026-06-25 |
-| 36 | F | JPN x SWE | 2026-06-25 |
 | 41 | G | NZL x BEL | 2026-06-26 |
 | 42 | G | EGY x IRN | 2026-06-26 |
 | 47 | H | URU x ESP | 2026-06-26 |
