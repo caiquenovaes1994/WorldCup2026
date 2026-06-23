@@ -330,6 +330,15 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "34'", type: "yellow", team: "home", player: "Abdukodir Khusanov" },
     { time: "7'", type: "yellow", team: "away", player: "Johan Mojica" }
   ],
+  63: [
+    { time: "87'", type: "goal", team: "home", player: "Rafael Leão", description: "5 - 0" },
+    { time: "68'", type: "yellow", team: "home", player: "Renato Veiga" },
+    { time: "60'", type: "goal", team: "home", player: "Abduvokhid Nematov (GC)", description: "4 - 0" },
+    { time: "39'", type: "goal", team: "home", player: "Cristiano Ronaldo", secondaryPlayer: "Bruno Fernandes", description: "3 - 0" },
+    { time: "17'", type: "goal", team: "home", player: "Nuno Mendes", description: "2 - 0" },
+    { time: "14'", type: "yellow", team: "away", player: "Odijon Khamrobekov" },
+    { time: "6'", type: "goal", team: "home", player: "Cristiano Ronaldo", secondaryPlayer: "João Cancelo", description: "1 - 0" }
+  ],
   67: [
     { time: "85'", type: "goal", team: "home", player: "Marcus Rashford", secondaryPlayer: "Bukayo Saka", description: "4 - 2" },
     { time: "47'", type: "goal", team: "home", player: "Jude Bellingham", secondaryPlayer: "Elliot Anderson", description: "3 - 2" },

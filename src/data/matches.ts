@@ -121,7 +121,7 @@ export const groupMatches: GroupMatch[] = [
   { id: 61, group: 'K', homeTeam: 'POR', awayTeam: 'COD', date: '2026-06-17', time: '14:00', venueId: 'nrg', homeScore: 1, awayScore: 1, referee: 'Abdulrahman Al Jassim', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=XGXliymXzG0&pp=0gcJCT4LAYcqIYzv' },
   { id: 62, group: 'K', homeTeam: 'UZB', awayTeam: 'COL', date: '2026-06-17', time: '23:00', venueId: 'azteca', homeScore: 1, awayScore: 3, referee: 'Anthony Taylor', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=YL5EZzCQee4' },
   // Matchday 2
-  { id: 63, group: 'K', homeTeam: 'POR', awayTeam: 'UZB', date: '2026-06-23', time: '14:00', venueId: 'nrg', homeScore: null, awayScore: null, referee: 'Jalal Jayed', matchday: 2 },
+  { id: 63, group: 'K', homeTeam: 'POR', awayTeam: 'UZB', date: '2026-06-23', time: '14:00', venueId: 'nrg', homeScore: 5, awayScore: 0, referee: 'Jalal Jayed', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=aJva_fZEpRc' },
   { id: 64, group: 'K', homeTeam: 'COL', awayTeam: 'COD', date: '2026-06-23', time: '23:00', venueId: 'bbva', homeScore: null, awayScore: null, referee: 'Maurizio Mariani', matchday: 2 },
   // Matchday 3
   { id: 65, group: 'K', homeTeam: 'COL', awayTeam: 'POR', date: '2026-06-27', time: '20:30', venueId: 'hardrock', homeScore: null, awayScore: null, referee: null, matchday: 3 },
