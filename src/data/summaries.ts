@@ -274,6 +274,19 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "39'", type: "goal", team: "home", player: "Aymen Hussein", secondaryPlayer: "Amir Al-Ammari", description: "1 - 1" },
     { time: "29'", type: "goal", team: "away", player: "Erling Haaland", secondaryPlayer: "David Moller Wolffe", description: "0 - 1" }
   ],
+  51: [
+    { time: "66'", type: "goal", team: "home", player: "Ousmane Dembélé", secondaryPlayer: "Michael Olise", description: "3 - 0" },
+    { time: "54'", type: "goal", team: "home", player: "Kylian Mbappé", secondaryPlayer: "Ousmane Dembélé", description: "2 - 0" },
+    { time: "14'", type: "goal", team: "home", player: "Kylian Mbappé", secondaryPlayer: "Michael Olise", description: "1 - 0" },
+    { time: "6'", type: "yellow", team: "away", player: "Amir Al-Ammari" }
+  ],
+  52: [
+    { time: "90'+3", type: "goal", team: "away", player: "Ismaila Sarr", secondaryPlayer: "Nicolas Jackson", description: "3 - 2" },
+    { time: "58'", type: "goal", team: "home", player: "Erling Haaland", secondaryPlayer: "Patrick Berg", description: "3 - 1" },
+    { time: "53'", type: "goal", team: "away", player: "Ismaila Sarr", secondaryPlayer: "Sadio Mané", description: "2 - 1" },
+    { time: "48'", type: "goal", team: "home", player: "Erling Haaland", secondaryPlayer: "Martin Odegaard", description: "2 - 0" },
+    { time: "43'", type: "goal", team: "home", player: "Marcus Pedersen", description: "1 - 0" },
+  ],
   55: [
     { time: "76'", type: "goal", team: "home", player: "Lionel Messi", secondaryPlayer: "Nicolás González", description: "3 - 0" },
     { time: "60'", type: "goal", team: "home", player: "Lionel Messi", description: "2 - 0" },
@@ -291,7 +304,7 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "90'+2", type: "yellow", team: "home", player: "Leandro Paredes" },
     { time: "76'", type: "yellow", team: "away", player: "Konrad Laimer" },
     { time: "76'", type: "yellow", team: "home", player: "Facundo Medina" },
-    { time: "411", type: "yellow", team: "away", player: "Stefan Posch" },
+    { time: "41'", type: "yellow", team: "away", player: "Stefan Posch" },
     { time: "38'", type: "goal", team: "home", player: "Lionel Messi", secondaryPlayer: "Facundo Medina", description: "1 - 0" }
 
   ],
