@@ -26,7 +26,7 @@ export const groupMatches: GroupMatch[] = [
   { id: 10, group: 'B', homeTeam: 'CAN', awayTeam: 'QAT', date: '2026-06-18', time: '19:00', venueId: 'bcplace', homeScore: 6, awayScore: 0, referee: 'Cristian Garay', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=IBiGl8eMiRg' },
   // Matchday 3
   { id: 11, group: 'B', homeTeam: 'SUI', awayTeam: 'CAN', date: '2026-06-24', time: '16:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: 'Ramon Abatti', matchday: 3 },
-  { id: 12, group: 'B', homeTeam: 'BIH', awayTeam: 'QAT', date: '2026-06-24', time: '16:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: 'Jesús Valenzuela', matchday: 3 },
+  { id: 12, group: 'B', homeTeam: 'BIH', awayTeam: 'QAT', date: '2026-06-24', time: '16:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: 'Jesus Valenzuela', matchday: 3 },
 
   // ========== GROUP C ==========
   // Matchday 1
@@ -111,7 +111,7 @@ export const groupMatches: GroupMatch[] = [
   { id: 56, group: 'J', homeTeam: 'AUT', awayTeam: 'JOR', date: '2026-06-17', time: '01:00', venueId: 'levis', homeScore: 3, awayScore: 1, referee: 'Dahane Beida', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=DJbXSHFjFLA' },
   // Matchday 2
   { id: 57, group: 'J', homeTeam: 'ARG', awayTeam: 'AUT', date: '2026-06-22', time: '14:00', venueId: 'att', homeScore: 2, awayScore: 0, referee: 'Amin Mohamed Omar', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=BlSDq1MDQ4Q&pp=0gcJCT8LAYcqIYzv' },
-  { id: 58, group: 'J', homeTeam: 'JOR', awayTeam: 'ALG', date: '2026-06-23', time: '00:00', venueId: 'levis', homeScore: null, awayScore: null, referee: 'Slavko Vincic', matchday: 2 },
+  { id: 58, group: 'J', homeTeam: 'JOR', awayTeam: 'ALG', date: '2026-06-23', time: '00:00', venueId: 'levis', homeScore: 1, awayScore: 2, referee: 'Slavko Vincic', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=nkkfN-kx9_o' },
   // Matchday 3
   { id: 59, group: 'J', homeTeam: 'ALG', awayTeam: 'AUT', date: '2026-06-27', time: '23:00', venueId: 'geha', homeScore: null, awayScore: null, referee: null, matchday: 3 },
   { id: 60, group: 'J', homeTeam: 'JOR', awayTeam: 'ARG', date: '2026-06-27', time: '23:00', venueId: 'att', homeScore: null, awayScore: null, referee: null, matchday: 3 },

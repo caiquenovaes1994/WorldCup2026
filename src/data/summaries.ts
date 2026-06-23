@@ -306,7 +306,13 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "76'", type: "yellow", team: "home", player: "Facundo Medina" },
     { time: "41'", type: "yellow", team: "away", player: "Stefan Posch" },
     { time: "38'", type: "goal", team: "home", player: "Lionel Messi", secondaryPlayer: "Facundo Medina", description: "1 - 0" }
-
+  ],
+  58: [
+    { time: "82'", type: "goal", team: "away", player: "Amine Gouiri", description: "1 - 2" },
+    { time: "69'", type: "goal", team: "away", player: "Ahmed Nadhir Benbouali", secondaryPlayer: "Riyad Mahrez", description: "1 - 1" },
+    { time: "64'", type: "yellow", team: "home", player: "Husam Al Mohammad Abudahb" },
+    { time: "44'", type: "yellow", team: "away", player: "Ramiz Zerrouki" },
+    { time: "36'", type: "goal", team: "home", player: "Nizar Al-Rashdan", secondaryPlayer: "Mousa Tamari", description: "1 - 0" }
   ],
   61: [
     { time: "90'+2", type: "yellow", team: "home", player: "Tomás Araújo" },
