@@ -25,8 +25,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 9, group: 'B', homeTeam: 'SUI', awayTeam: 'BIH', date: '2026-06-18', time: '16:00', venueId: 'sofi', homeScore: 4, awayScore: 1, referee: 'Joao Pinheiro', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=P9ogWhz09D8&pp=0gcJCT8LAYcqIYzv' },
   { id: 10, group: 'B', homeTeam: 'CAN', awayTeam: 'QAT', date: '2026-06-18', time: '19:00', venueId: 'bcplace', homeScore: 6, awayScore: 0, referee: 'Cristian Garay', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=IBiGl8eMiRg' },
   // Matchday 3
-  { id: 11, group: 'B', homeTeam: 'SUI', awayTeam: 'CAN', date: '2026-06-24', time: '16:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: 'Ramon Abatti', matchday: 3 },
-  { id: 12, group: 'B', homeTeam: 'BIH', awayTeam: 'QAT', date: '2026-06-24', time: '16:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: 'Jesus Valenzuela', matchday: 3 },
+  { id: 11, group: 'B', homeTeam: 'SUI', awayTeam: 'CAN', date: '2026-06-24', time: '16:00', venueId: 'bcplace', homeScore: 2, awayScore: 1, referee: 'Ramon Abatti', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=G09pynGiSYs' },
+  { id: 12, group: 'B', homeTeam: 'BIH', awayTeam: 'QAT', date: '2026-06-24', time: '16:00', venueId: 'lumen', homeScore: 3, awayScore: 1, referee: 'Jesus Valenzuela', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=8FpGHwzZa9c' },
 
   // ========== GROUP C ==========
   // Matchday 1

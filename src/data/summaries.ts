@@ -76,6 +76,22 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "16'", type: "goal", team: "home", player: "Cyle Larin", description: "1 - 0" },
     { time: "9'", type: "yellow", team: "home", player: "Derek Cornelius" }
   ],
+  11: [
+    { time: "87'", type: "yellow", team: "away", player: "Liam Millar" },
+    { time: "76'", type: "goal", team: "away", player: "Promise David", secondaryPlayer: "Nathan-Dylan Saliba", description: "2 - 1" },
+    { time: "57'", type: "goal", team: "home", player: "Johan Manzambi", secondaryPlayer: "Breel Embolo", description: "2 - 0" },
+    { time: "46'", type: "goal", team: "home", player: "Ruben Vargas", secondaryPlayer: "Johan Manzambi", description: "1 - 0" },
+    { time: "32'", type: "yellow", team: "home", player: "Granit Xhaka" },
+    { time: "32'", type: "yellow", team: "away", player: "Cyle Larin" }
+  ],
+  12: [
+    { time: "81'", type: "yellow", team: "home", player: "Ermin Mahmic" },
+    { time: "80'", type: "goal", team: "home", player: "Ermin Mahmic", secondaryPlayer: "Dennis Hadzikadunic", description: "3 - 1" },
+    { time: "78'", type: "yellow", team: "away", player: "Ahmed Fathi" },
+    { time: "42'", type: "goal", team: "away", player: "Hassan Al-Haydos", secondaryPlayer: "Edmilson Jr", description: "2 - 1" },
+    { time: "34'", type: "goal", team: "home", player: "Sultan Al-Brake (GC)", description: "2 - 0" },
+    { time: "29'", type: "goal", team: "home", player: "Kerim Alajbegovic", secondaryPlayer: "Ivan Basic", description: "1 - 0" }
+  ],
 
   13: [
     { time: "43'", type: "yellow", team: "home", player: "Roger Ibañez" },
