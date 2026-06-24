@@ -339,6 +339,12 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "14'", type: "yellow", team: "away", player: "Odijon Khamrobekov" },
     { time: "6'", type: "goal", team: "home", player: "Cristiano Ronaldo", secondaryPlayer: "João Cancelo", description: "1 - 0" }
   ],
+  64: [
+    { time: "90'+4", type: "yellow", team: "home", player: "Jefferson Lerma" },
+    { time: "90'+3", type: "yellow", team: "away", player: "Charles Pickel" },
+    { time: "76'", type: "goal", team: "home", player: "Daniel Muñoz", secondaryPlayer: "Juan Quintero", description: "1 - 0" },
+    { time: "56'", type: "yellow", team: "home", player: "Jhon Lucumi" }
+  ],
   67: [
     { time: "85'", type: "goal", team: "home", player: "Marcus Rashford", secondaryPlayer: "Bukayo Saka", description: "4 - 2" },
     { time: "47'", type: "goal", team: "home", player: "Jude Bellingham", secondaryPlayer: "Elliot Anderson", description: "3 - 2" },
@@ -352,6 +358,15 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "90'+5", type: "goal", team: "home", player: "Caleb Yirenkyi", description: "1 - 0" },
     { time: "72'", type: "yellow", team: "away", player: "César Blackman" },
     { time: "16'", type: "yellow", team: "home", player: "Caleb Yirenkyi" }
+  ],
+  69: [
+    { time: "60'", type: "yellow", team: "away", player: "Iñaki Williams" },
+    { time: "41'", type: "yellow", team: "home", player: "Declan Rice" }
+  ],
+  70: [
+    { time: "90'+2", type: "yellow", team: "away", player: "Petar Sucic" },
+    { time: "61'", type: "yellow", team: "home", player: "Yoel Barcenas" },
+    { time: "54'", type: "goal", team: "away", player: "Ante Budimir", secondaryPlayer: "Josip Stanisic", description: "0 - 1" }
   ]
 }
 
