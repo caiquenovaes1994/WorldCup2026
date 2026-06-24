@@ -80,8 +80,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 39, group: 'G', homeTeam: 'BEL', awayTeam: 'IRN', date: '2026-06-21', time: '16:00', venueId: 'sofi', homeScore: 0, awayScore: 0, referee: 'Dario Herrera', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=Vt0unn5w22A&pp=0gcJCT8LAYcqIYzv' },
   { id: 40, group: 'G', homeTeam: 'NZL', awayTeam: 'EGY', date: '2026-06-21', time: '22:00', venueId: 'bcplace', homeScore: 1, awayScore: 3, referee: 'Omar Mohamed Al Ali', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=0eXERByejAI' },
   // Matchday 3
-  { id: 41, group: 'G', homeTeam: 'NZL', awayTeam: 'BEL', date: '2026-06-27', time: '00:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: null, matchday: 3 },
-  { id: 42, group: 'G', homeTeam: 'EGY', awayTeam: 'IRN', date: '2026-06-27', time: '00:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 41, group: 'G', homeTeam: 'NZL', awayTeam: 'BEL', date: '2026-06-27', time: '00:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: 'Adham Makhadmeh', matchday: 3 },
+  { id: 42, group: 'G', homeTeam: 'EGY', awayTeam: 'IRN', date: '2026-06-27', time: '00:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: 'Szymon Marciniak', matchday: 3 },
 
   // ========== GROUP H ==========
   // Matchday 1
@@ -91,8 +91,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 45, group: 'H', homeTeam: 'ESP', awayTeam: 'KSA', date: '2026-06-21', time: '13:00', venueId: 'mercedesbenz', homeScore: 4, awayScore: 0, referee: 'Raphael Claus', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=v3jMVm8u_Sg&pp=0gcJCT8LAYcqIYzv' },
   { id: 46, group: 'H', homeTeam: 'URU', awayTeam: 'CPV', date: '2026-06-21', time: '19:00', venueId: 'hardrock', homeScore: 2, awayScore: 2, referee: 'Espen Eskas', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=X2ApOuNYmI0' },
   // Matchday 3
-  { id: 47, group: 'H', homeTeam: 'URU', awayTeam: 'ESP', date: '2026-06-26', time: '21:00', venueId: 'akron', homeScore: null, awayScore: null, referee: null, matchday: 3 },
-  { id: 48, group: 'H', homeTeam: 'CPV', awayTeam: 'KSA', date: '2026-06-26', time: '21:00', venueId: 'nrg', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 47, group: 'H', homeTeam: 'URU', awayTeam: 'ESP', date: '2026-06-26', time: '21:00', venueId: 'akron', homeScore: null, awayScore: null, referee: 'Ismail Elfath', matchday: 3 },
+  { id: 48, group: 'H', homeTeam: 'CPV', awayTeam: 'KSA', date: '2026-06-26', time: '21:00', venueId: 'nrg', homeScore: null, awayScore: null, referee: 'Francois Letexier', matchday: 3 },
 
   // ========== GROUP I ==========
   // Matchday 1
@@ -102,8 +102,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 51, group: 'I', homeTeam: 'FRA', awayTeam: 'IRQ', date: '2026-06-22', time: '18:00', venueId: 'lincoln', homeScore: 3, awayScore: 0, referee: 'Drew Fischer', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=zE4W8SI8yns' },
   { id: 52, group: 'I', homeTeam: 'NOR', awayTeam: 'SEN', date: '2026-06-22', time: '21:00', venueId: 'metlife', homeScore: 3, awayScore: 2, referee: 'Wilton Sampaio', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=yOATeOOg0Sw' },
   // Matchday 3
-  { id: 53, group: 'I', homeTeam: 'NOR', awayTeam: 'FRA', date: '2026-06-26', time: '16:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: null, matchday: 3 },
-  { id: 54, group: 'I', homeTeam: 'SEN', awayTeam: 'IRQ', date: '2026-06-26', time: '16:00', venueId: 'bmo', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 53, group: 'I', homeTeam: 'NOR', awayTeam: 'FRA', date: '2026-06-26', time: '16:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: 'Michael Oliver', matchday: 3 },
+  { id: 54, group: 'I', homeTeam: 'SEN', awayTeam: 'IRQ', date: '2026-06-26', time: '16:00', venueId: 'bmo', homeScore: null, awayScore: null, referee: 'Anthony Taylor', matchday: 3 },
 
   // ========== GROUP J ==========
   // Matchday 1
