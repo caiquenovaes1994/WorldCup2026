@@ -120,6 +120,25 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "23'", type: "yellow", team: "away", player: "Issa Diop" },
     { time: "2'", type: "goal", team: "away", player: "Ismael Saibari", secondaryPlayer: "Brahím Diaz", description: "0 - 1" }
   ],
+  17: [
+    { time: "89'", type: "yellow", team: "home", player: "Ryan Christie" },
+    { time: "83'", type: "yellow", team: "away", player: "Fabinho" },
+    { time: "63'", type: "yellow", team: "away", player: "Danilo" },
+    { time: "61'", type: "goal", team: "away", player: "Matheus Cunha", secondaryPlayer: "Bruno Guimarães", description: "0 - 3" },
+    { time: "45'+3", type: "goal", team: "away", player: "Vinicius Jr", secondaryPlayer: "Bruno Guimarães", description: "0 - 2" },
+    { time: "7'", type: "goal", team: "away", player: "Vinicius Jr", secondaryPlayer: "Rayan", description: "0 - 1" }
+  ],
+  18: [
+    { time: "90'+4", type: "yellow", team: "away", player: "Josué Casimir" },
+    { time: "89'", type: "goal", team: "home", player: "Gessime Yassine", secondaryPlayer: "Soufiane Rahimi", description: "4 - 2"},
+    { time: "79'", type: "yellow", team: "away", player: "Johny Placide" },
+    { time: "79'", type: "yellow", team: "away", player: "Duckens Nazon" },
+    { time: "78'", type: "goal", team: "home", player: "Soufiane Rahimi", secondaryPlayer: "Chadi Riad", description: "3 - 2"},
+    { time: "45'+1", type: "goal", team: "home", player: "Ismael Saibari", secondaryPlayer: "Achraf Hakimi", description: "2 - 2" },
+    { time: "43'", type: "goal", team: "away", player: "Wilson Isidor", secondaryPlayer: "Jean-Kévin Duverne", description: "1 - 2" },
+    { time: "39'", type: "goal", team: "home", player: "Achraf Hakimi", description: "1 - 1" },
+    { time: "23'", type: "goal", team: "away", player: "Yassine Bonou (GC)", description: "0 - 1" }
+  ],
   19: [
     { time: "90'+8", type: "goal", team: "home", player: "Giovanni Reyna", secondaryPlayer: "Alexander Freeman", description: "4 - 1" },
     { time: "90'+3", type: "yellow", team: "away", player: "Junior Alonso" },

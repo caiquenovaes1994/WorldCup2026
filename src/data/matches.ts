@@ -36,8 +36,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 15, group: 'C', homeTeam: 'BRA', awayTeam: 'HAI', date: '2026-06-19', time: '21:30', venueId: 'lincoln', homeScore: 3, awayScore: 0, referee: 'Alejandro Hernandez', matchday: 2, highlightsUrl: "https://www.youtube.com/watch?v=klEtq83CchQ" },
   { id: 16, group: 'C', homeTeam: 'SCO', awayTeam: 'MAR', date: '2026-06-19', time: '19:00', venueId: 'gillette', homeScore: 0, awayScore: 1, referee: 'Ilgiz Tantashev', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=lleabQ1DIm8' },
   // Matchday 3
-  { id: 17, group: 'C', homeTeam: 'SCO', awayTeam: 'BRA', date: '2026-06-24', time: '19:00', venueId: 'hardrock', homeScore: null, awayScore: null, referee: 'Cesar Ramos', matchday: 3 },
-  { id: 18, group: 'C', homeTeam: 'MAR', awayTeam: 'HAI', date: '2026-06-24', time: '19:00', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: 'Danny Makkelie', matchday: 3 },
+  { id: 17, group: 'C', homeTeam: 'SCO', awayTeam: 'BRA', date: '2026-06-24', time: '19:00', venueId: 'hardrock', homeScore: 0, awayScore: 3, referee: 'Cesar Ramos', matchday: 3 },
+  { id: 18, group: 'C', homeTeam: 'MAR', awayTeam: 'HAI', date: '2026-06-24', time: '19:00', venueId: 'mercedesbenz', homeScore: 4, awayScore: 2, referee: 'Danny Makkelie', matchday: 3 },
 
   // ========== GROUP D ==========
   // Matchday 1
