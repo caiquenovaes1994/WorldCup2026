@@ -14,8 +14,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 3, group: 'A', homeTeam: 'MEX', awayTeam: 'KOR', date: '2026-06-18', time: '22:00', venueId: 'akron', homeScore: 1, awayScore: 0, referee: 'Gustavo Tejera', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=ntouCePny7Q&pp=0gcJCT8LAYcqIYzv' },
   { id: 4, group: 'A', homeTeam: 'CZE', awayTeam: 'RSA', date: '2026-06-18', time: '13:00', venueId: 'mercedesbenz', homeScore: 1, awayScore: 1, referee: 'Tori Penso', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=r53ImtCSNog' },
   // Matchday 3
-  { id: 5, group: 'A', homeTeam: 'CZE', awayTeam: 'MEX', date: '2026-06-24', time: '22:00', venueId: 'azteca', homeScore: null, awayScore: null, referee: 'Yael Falcon Perez', matchday: 3 },
-  { id: 6, group: 'A', homeTeam: 'RSA', awayTeam: 'KOR', date: '2026-06-24', time: '22:00', venueId: 'bbva', homeScore: null, awayScore: null, referee: 'Facundo Tello', matchday: 3 },
+  { id: 5, group: 'A', homeTeam: 'CZE', awayTeam: 'MEX', date: '2026-06-24', time: '22:00', venueId: 'azteca', homeScore: 0, awayScore: 3, referee: 'Yael Falcon Perez', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=bETsbanbRMY' },
+  { id: 6, group: 'A', homeTeam: 'RSA', awayTeam: 'KOR', date: '2026-06-24', time: '22:00', venueId: 'bbva', homeScore: 1, awayScore: 0, referee: 'Facundo Tello', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=6wI3m58Scm8' },
 
   // ========== GROUP B ==========
   // Matchday 1
@@ -36,8 +36,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 15, group: 'C', homeTeam: 'BRA', awayTeam: 'HAI', date: '2026-06-19', time: '21:30', venueId: 'lincoln', homeScore: 3, awayScore: 0, referee: 'Alejandro Hernandez', matchday: 2, highlightsUrl: "https://www.youtube.com/watch?v=klEtq83CchQ" },
   { id: 16, group: 'C', homeTeam: 'SCO', awayTeam: 'MAR', date: '2026-06-19', time: '19:00', venueId: 'gillette', homeScore: 0, awayScore: 1, referee: 'Ilgiz Tantashev', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=lleabQ1DIm8' },
   // Matchday 3
-  { id: 17, group: 'C', homeTeam: 'SCO', awayTeam: 'BRA', date: '2026-06-24', time: '19:00', venueId: 'hardrock', homeScore: 0, awayScore: 3, referee: 'Cesar Ramos', matchday: 3 },
-  { id: 18, group: 'C', homeTeam: 'MAR', awayTeam: 'HAI', date: '2026-06-24', time: '19:00', venueId: 'mercedesbenz', homeScore: 4, awayScore: 2, referee: 'Danny Makkelie', matchday: 3 },
+  { id: 17, group: 'C', homeTeam: 'SCO', awayTeam: 'BRA', date: '2026-06-24', time: '19:00', venueId: 'hardrock', homeScore: 0, awayScore: 3, referee: 'Cesar Ramos', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=LPqex2LP--k&pp=0gcJCUELAYcqIYzv' },
+  { id: 18, group: 'C', homeTeam: 'MAR', awayTeam: 'HAI', date: '2026-06-24', time: '19:00', venueId: 'mercedesbenz', homeScore: 4, awayScore: 2, referee: 'Danny Makkelie', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=WEEEJzNWonQ' },
 
   // ========== GROUP D ==========
   // Matchday 1

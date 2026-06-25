@@ -37,6 +37,17 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "33'", type: "yellow", team: "away", player: "Teboho Mokoena" },
     { time: "6'", type: "goal", team: "home", player: "Michal Sadilek", secondaryPlayer: "Alexsandr Sojka", description: "1 - 0" }
   ],
+  5: [
+    { time: "90'+4", type: "goal", team: "away", player: "Álvaro Fidalgo", secondaryPlayer: 'Roberto Alvarado', description: "0 - 3" },
+    { time: "64'", type: "yellow", team: "away", player: "Edson Álvarez" },
+    { time: "61'", type: "goal", team: "away", player: "Julián Quiñones", secondaryPlayer: "Jorge Sánchez", description: "0 - 2" },
+    { time: "55'", type: "goal", team: "away", player: "Mateo Chávez", secondaryPlayer: "Luis Romo", description: "0 - 1" }
+  ],
+  6: [
+    { time: "79'", type: "yellow", team: "away", player: "Gue-sung Cho" },
+    { time: "73'", type: "yellow", team: "home", player: "Aubrey Modiba" },
+    { time: "63'", type: "goal", team: "home", player: "Thapelo Maseko", secondaryPlayer: "Tshepang Moremi", description: "0 - 1" },
+  ],
   7: [
     { time: "90'+3", type: "yellow", team: "away", player: "Nikola Katic" },
     { time: "78'", type: "goal", team: "home", player: "Cyle Larin", secondaryPlayer: "Promise David", description: "1 - 1" },
