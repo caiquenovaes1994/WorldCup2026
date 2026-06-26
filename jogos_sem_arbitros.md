@@ -1,11 +1,6 @@
 # Jogos sem Árbitros Atribuídos
 
-Abaixo estão listados todos os jogos da fase de grupos da Copa do Mundo de 2026 que ainda não possuem um árbitro definido (`referee: null`), conforme consta no arquivo `src/data/matches.ts`.
-
-| ID | Grupo | Confronto | Data |
-| ---- | ------- | ----------- | ------ |
-| 71 | L | PAN x ENG | 2026-06-27 |
-| 72 | L | CRO x GHA | 2026-06-27 |
+> ✅ **Fase de grupos concluída!** Todos os 72 jogos da fase de grupos já possuem árbitro atribuído.
 
 ## Fase Eliminatória (Mata-mata)
 
