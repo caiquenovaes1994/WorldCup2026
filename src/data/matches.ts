@@ -47,8 +47,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 21, group: 'D', homeTeam: 'USA', awayTeam: 'AUS', date: '2026-06-19', time: '16:00', venueId: 'lumen', homeScore: 2, awayScore: 0, referee: 'Felix Zwayer', matchday: 2, highlightsUrl: "https://www.youtube.com/watch?v=Zm3GCCP04Es" },
   { id: 22, group: 'D', homeTeam: 'TUR', awayTeam: 'PAR', date: '2026-06-20', time: '00:00', venueId: 'levis', homeScore: 0, awayScore: 1, referee: 'Ivan Barton', matchday: 2, highlightsUrl: "https://www.youtube.com/watch?v=dAkr_yuPUMQ" },
   // Matchday 3
-  { id: 23, group: 'D', homeTeam: 'TUR', awayTeam: 'USA', date: '2026-06-25', time: '23:00', venueId: 'sofi', homeScore: null, awayScore: null, referee: 'Mustapha Ghorbal', matchday: 3 },
-  { id: 24, group: 'D', homeTeam: 'PAR', awayTeam: 'AUS', date: '2026-06-25', time: '23:00', venueId: 'levis', homeScore: null, awayScore: null, referee: 'Clement Turpin', matchday: 3 },
+  { id: 23, group: 'D', homeTeam: 'TUR', awayTeam: 'USA', date: '2026-06-25', time: '23:00', venueId: 'sofi', homeScore: 3, awayScore: 2, referee: 'Mustapha Ghorbal', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=e4RL7SMawVQ' },
+  { id: 24, group: 'D', homeTeam: 'PAR', awayTeam: 'AUS', date: '2026-06-25', time: '23:00', venueId: 'levis', homeScore: 0, awayScore: 0, referee: 'Clement Turpin', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=D-sjsINJ528' },
 
   // ========== GROUP E ==========
   // Matchday 1
@@ -58,8 +58,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 27, group: 'E', homeTeam: 'GER', awayTeam: 'CIV', date: '2026-06-20', time: '17:00', venueId: 'bmo', homeScore: 2, awayScore: 1, referee: 'Juan Gabriel Benitez', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=c0GaKyhyYXo' },
   { id: 28, group: 'E', homeTeam: 'ECU', awayTeam: 'CUW', date: '2026-06-20', time: '21:00', venueId: 'gillette', homeScore: 0, awayScore: 0, referee: 'Ma Ning', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=6UM4jgWrjH8' },
   // Matchday 3
-  { id: 29, group: 'E', homeTeam: 'CUW', awayTeam: 'CIV', date: '2026-06-25', time: '17:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: 'Glenn Nyberg', matchday: 3 },
-  { id: 30, group: 'E', homeTeam: 'ECU', awayTeam: 'GER', date: '2026-06-25', time: '17:00', venueId: 'metlife', homeScore: null, awayScore: null, referee: 'Tori Penso', matchday: 3 },
+  { id: 29, group: 'E', homeTeam: 'CUW', awayTeam: 'CIV', date: '2026-06-25', time: '17:00', venueId: 'lincoln', homeScore: 0, awayScore: 2, referee: 'Glenn Nyberg', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=CcUSyWZPXNA' },
+  { id: 30, group: 'E', homeTeam: 'ECU', awayTeam: 'GER', date: '2026-06-25', time: '17:00', venueId: 'metlife', homeScore: 2, awayScore: 1, referee: 'Tori Penso', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=H1CgNuhJA0A' },
 
   // ========== GROUP F ==========
   // Matchday 1
@@ -69,8 +69,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 33, group: 'F', homeTeam: 'NED', awayTeam: 'SWE', date: '2026-06-20', time: '14:00', venueId: 'nrg', homeScore: 5, awayScore: 1, referee: 'Michael Oliver', matchday: 2, highlightsUrl: "https://www.youtube.com/watch?v=ZZbQm7WtMa4" },
   { id: 34, group: 'F', homeTeam: 'TUN', awayTeam: 'JPN', date: '2026-06-21', time: '01:00', venueId: 'att', homeScore: 0, awayScore: 4, referee: 'Istvan Kovacs', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=_uoVQ5xPZTs' },
   // Matchday 3
-  { id: 35, group: 'F', homeTeam: 'TUN', awayTeam: 'NED', date: '2026-06-25', time: '20:00', venueId: 'geha', homeScore: null, awayScore: null, referee: 'Katia Garcia', matchday: 3 },
-  { id: 36, group: 'F', homeTeam: 'JPN', awayTeam: 'SWE', date: '2026-06-25', time: '20:00', venueId: 'att', homeScore: null, awayScore: null, referee: 'Ivan Barton', matchday: 3 },
+  { id: 35, group: 'F', homeTeam: 'TUN', awayTeam: 'NED', date: '2026-06-25', time: '20:00', venueId: 'geha', homeScore: 1, awayScore: 3, referee: 'Katia Garcia', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=lfndi__kyns' },
+  { id: 36, group: 'F', homeTeam: 'JPN', awayTeam: 'SWE', date: '2026-06-25', time: '20:00', venueId: 'att', homeScore: 1, awayScore: 1, referee: 'Ivan Barton', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=yxMB95BgxDk' },
 
   // ========== GROUP G ==========
   // Matchday 1
@@ -113,8 +113,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 57, group: 'J', homeTeam: 'ARG', awayTeam: 'AUT', date: '2026-06-22', time: '14:00', venueId: 'att', homeScore: 2, awayScore: 0, referee: 'Amin Mohamed Omar', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=BlSDq1MDQ4Q&pp=0gcJCT8LAYcqIYzv' },
   { id: 58, group: 'J', homeTeam: 'JOR', awayTeam: 'ALG', date: '2026-06-23', time: '00:00', venueId: 'levis', homeScore: 1, awayScore: 2, referee: 'Slavko Vincic', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=nkkfN-kx9_o' },
   // Matchday 3
-  { id: 59, group: 'J', homeTeam: 'ALG', awayTeam: 'AUT', date: '2026-06-27', time: '23:00', venueId: 'geha', homeScore: null, awayScore: null, referee: null, matchday: 3 },
-  { id: 60, group: 'J', homeTeam: 'JOR', awayTeam: 'ARG', date: '2026-06-27', time: '23:00', venueId: 'att', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 59, group: 'J', homeTeam: 'ALG', awayTeam: 'AUT', date: '2026-06-27', time: '23:00', venueId: 'geha', homeScore: null, awayScore: null, referee: 'Ilgiz Tantashev', matchday: 3 },
+  { id: 60, group: 'J', homeTeam: 'JOR', awayTeam: 'ARG', date: '2026-06-27', time: '23:00', venueId: 'att', homeScore: null, awayScore: null, referee: 'Istvan Kovacs', matchday: 3 },
 
   // ========== GROUP K ==========
   // Matchday 1
@@ -124,8 +124,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 63, group: 'K', homeTeam: 'POR', awayTeam: 'UZB', date: '2026-06-23', time: '14:00', venueId: 'nrg', homeScore: 5, awayScore: 0, referee: 'Jalal Jayed', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=aJva_fZEpRc' },
   { id: 64, group: 'K', homeTeam: 'COL', awayTeam: 'COD', date: '2026-06-23', time: '23:00', venueId: 'bbva', homeScore: 1, awayScore: 0, referee: 'Maurizio Mariani', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=CnEFPgTbIB0' },
   // Matchday 3
-  { id: 65, group: 'K', homeTeam: 'COL', awayTeam: 'POR', date: '2026-06-27', time: '20:30', venueId: 'hardrock', homeScore: null, awayScore: null, referee: null, matchday: 3 },
-  { id: 66, group: 'K', homeTeam: 'COD', awayTeam: 'UZB', date: '2026-06-27', time: '20:30', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 65, group: 'K', homeTeam: 'COL', awayTeam: 'POR', date: '2026-06-27', time: '20:30', venueId: 'hardrock', homeScore: null, awayScore: null, referee: 'Alireza Faghani', matchday: 3 },
+  { id: 66, group: 'K', homeTeam: 'COD', awayTeam: 'UZB', date: '2026-06-27', time: '20:30', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: 'Felix Zwayer', matchday: 3 },
 
   // ========== GROUP L ==========
   // Matchday 1
@@ -135,8 +135,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 69, group: 'L', homeTeam: 'ENG', awayTeam: 'GHA', date: '2026-06-23', time: '17:00', venueId: 'gillette', homeScore: 0, awayScore: 0, referee: 'Hector Said Martinez', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=wuon0XQBvM0' },
   { id: 70, group: 'L', homeTeam: 'PAN', awayTeam: 'CRO', date: '2026-06-23', time: '20:00', venueId: 'lincoln', homeScore: 0, awayScore: 1, referee: 'Pierre Atcho', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=8o--4qAesow' },
   // Matchday 3
-  { id: 71, group: 'L', homeTeam: 'PAN', awayTeam: 'ENG', date: '2026-06-27', time: '18:00', venueId: 'metlife', homeScore: null, awayScore: null, referee: null, matchday: 3 },
-  { id: 72, group: 'L', homeTeam: 'CRO', awayTeam: 'GHA', date: '2026-06-27', time: '18:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: null, matchday: 3 },
+  { id: 71, group: 'L', homeTeam: 'PAN', awayTeam: 'ENG', date: '2026-06-27', time: '18:00', venueId: 'metlife', homeScore: null, awayScore: null, referee: 'Abdulrahman Al Jassim', matchday: 3 },
+  { id: 72, group: 'L', homeTeam: 'CRO', awayTeam: 'GHA', date: '2026-06-27', time: '18:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: 'Drew Fischer', matchday: 3 },
 ]
 
 export function getMatchesByGroup(group: string): GroupMatch[] {

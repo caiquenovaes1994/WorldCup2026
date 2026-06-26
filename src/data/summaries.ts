@@ -185,6 +185,18 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "4'", type: "yellow", team: "away", player: "Matias Galarza" },
     { time: "2'", type: "goal", team: "away", player: "Matias Galarza", secondaryPlayer: "Julio Enciso", description: "0 - 1" }
   ],
+  23: [
+    { time: "90'+8", type: "goal", team: "home", player: "Kaan Ayhan", description: "3 - 2" },
+    { time: "49'", type: "goal", team: "away", player: "Sebastian Berhalter", description: "2 - 2" },
+    { time: "31'", type: "goal", team: "home", player: "Baris Alper Yilmaz", secondaryPlayer: "Orkun Kokçu", description: "2 - 1" },
+    { time: "19'", type: "yellow", team: "away", player: "Sebastian Berhalter" },
+    { time: "10'", type: "goal", team: "home", player: "Arda Guler", secondaryPlayer: "Baris Alper Yilmaz", description: "1 - 1" },
+    { time: "3'", type: "goal", team: "away", player: "Auston Trusty", secondaryPlayer: "Sebastian Berhalter", description: "0 - 1" }
+  ],
+  24: [
+    { time: "77'", type: "yellow", team: "home", player: "Diego Gómez" },
+    { time: "46'", type: "yellow", team: "away", player: "Jackson Irvine" }
+  ],
   25: [
     { time: "88'", type: "goal", team: "home", player: "Kai Havertz", secondaryPlayer: "Deniz Undav", description: "7 - 1" },
     { time: "78'", type: "goal", team: "home", player: "Deniz Undav", secondaryPlayer: "Joshua Kimmich", description: "6 - 1" },
@@ -224,6 +236,22 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "39'", type: "yellow", team: "away", player: "Leandro Bacuna" },
     { time: "38'", type: "yellow", team: "home", player: "Jordy Alcivar" }
   ],
+  29: [
+    { time: "83'", type: "yellow", team: "home", player: "Gervane Kastaneer" },
+    { time: "75'", type: "yellow", team: "home", player: "Juninho Bacuna" },
+    { time: "64'", type: "goal", team: "away", player: "Nicolas Pépé", secondaryPlayer: "Ibrahim Sangaré", description: "0 - 2" },
+    { time: "35'", type: "yellow", team: "away", player: "Nicolas Pépé" },
+    { time: "7'", type: "goal", team: "away", player: "Nicolas Pépé", secondaryPlayer: "Yan Diomandé", description: "0 - 1" }
+  ],
+  30: [
+    { time: "89'", type: "yellow", team: "home", player: "Gonzalo Plata" },
+    { time: "77'", type: "goal", team: "home", player: "Gonzalo Plata", secondaryPlayer: "Kevin Rodríguez", description: "2 - 1" },
+    { time: "50'", type: "yellow", team: "home", player: "Alan Franco" },
+    { time: "44'", type: "yellow", team: "away", player: "Aleksander Pavlovic" },
+    { time: "43'", type: "yellow", team: "home", player: "Piero Hincapié" },
+    { time: "9'", type: "goal", team: "home", player: "Nilson Angulo", secondaryPlayer: "Pedro Vite", description: "1 - 1" },
+    { time: "2'", type: "goal", team: "away", player: "Leroy Sané", secondaryPlayer: "Kai Havertz", description: "0 - 1" }
+  ],
   32: [
     { time: "90'+6", type: "goal", team: "home", player: "Yasin Ayari", secondaryPlayer: "Lucas Bergvall", description: "5 - 1" },
     { time: "84'", type: "goal", team: "home", player: "Mattias Svanberg", secondaryPlayer: "Alexsander Isak", description: "4 - 1" },
@@ -249,6 +277,19 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "69'", type: "goal", team: "away", player: "Junya Ito", secondaryPlayer: "Ayase Ueda", description: "0 - 3" },
     { time: "31'", type: "goal", team: "away", player: "Ayase Ueda", secondaryPlayer: "Ko Itakura", description: "0 - 2" },
     { time: "4'", type: "goal", team: "away", player: "Daichi Kamada", secondaryPlayer: "Keito Nakamura", description: "0 - 1" }
+  ],
+  35: [
+    { time: "62'", type: "goal", team: "away", player: "Jan Paul Van Hecke", secondaryPlayer: "Tijani Rejinders", description: "1 - 3" },
+    { time: "54'", type: "goal", team: "home", player: "Hazem Mastouri", secondaryPlayer: "Hannibal Mejbri", description: "1 - 2" },
+    { time: "7'", type: "goal", team: "away", player: "Brian Brobbey", secondaryPlayer: "Virgil van Dijk", description: "1 - 1" },
+    { time: "3'", type: "goal", team: "home", player: "Ellyes Skhiri (GC)", description: "1 - 0" }
+  ],
+  36: [
+    { time: "85'", type: "yellow", team: "away", player: "Viktor Gyokeres" },
+    { time: "77'", type: "yellow", team: "home", player: "Shogo Taniguchi" },
+    { time: "62'", type: "goal", team: "away", player: "Anthony Elanga", secondaryPlayer: "Viktor Gyokeres", description: "1 - 1" },
+    { time: "56'", type: "goal", team: "home", player: "Daizen Maeda", secondaryPlayer: "Ritsu Doan", description: "1 - 0" },
+    { time: "32'", type: "yellow", team: "away", player: "Isak Hien" }
   ],
  37: [
     { time: "75'", type: "yellow", team: "home", player: "Maxim De Cuyper" },
