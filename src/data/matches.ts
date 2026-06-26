@@ -78,7 +78,7 @@ export const groupMatches: GroupMatch[] = [
   { id: 38, group: 'G', homeTeam: 'IRN', awayTeam: 'NZL', date: '2026-06-15', time: '22:00', venueId: 'sofi', homeScore: 2, awayScore: 2, referee: 'Cesar Ramos', matchday: 1, highlightsUrl: 'https://www.youtube.com/watch?v=X1BWWzJ1_ZI' },
   // Matchday 2
   { id: 39, group: 'G', homeTeam: 'BEL', awayTeam: 'IRN', date: '2026-06-21', time: '16:00', venueId: 'sofi', homeScore: 0, awayScore: 0, referee: 'Dario Herrera', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=Vt0unn5w22A&pp=0gcJCT8LAYcqIYzv' },
-  { id: 40, group: 'G', homeTeam: 'NZL', awayTeam: 'EGY', date: '2026-06-21', time: '22:00', venueId: 'bcplace', homeScore: 1, awayScore: 3, referee: 'Omar Mohamed Al Ali', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=0eXERByejAI' },
+  { id: 40, group: 'G', homeTeam: 'NZL', awayTeam: 'EGY', date: '2026-06-21', time: '22:00', venueId: 'bcplace', homeScore: 1, awayScore: 3, referee: 'Omar Al Ali', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=0eXERByejAI' },
   // Matchday 3
   { id: 41, group: 'G', homeTeam: 'NZL', awayTeam: 'BEL', date: '2026-06-27', time: '00:00', venueId: 'bcplace', homeScore: null, awayScore: null, referee: 'Adham Makhadmeh', matchday: 3 },
   { id: 42, group: 'G', homeTeam: 'EGY', awayTeam: 'IRN', date: '2026-06-27', time: '00:00', venueId: 'lumen', homeScore: null, awayScore: null, referee: 'Szymon Marciniak', matchday: 3 },
@@ -102,8 +102,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 51, group: 'I', homeTeam: 'FRA', awayTeam: 'IRQ', date: '2026-06-22', time: '18:00', venueId: 'lincoln', homeScore: 3, awayScore: 0, referee: 'Drew Fischer', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=zE4W8SI8yns' },
   { id: 52, group: 'I', homeTeam: 'NOR', awayTeam: 'SEN', date: '2026-06-22', time: '21:00', venueId: 'metlife', homeScore: 3, awayScore: 2, referee: 'Wilton Sampaio', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=yOATeOOg0Sw' },
   // Matchday 3
-  { id: 53, group: 'I', homeTeam: 'NOR', awayTeam: 'FRA', date: '2026-06-26', time: '16:00', venueId: 'gillette', homeScore: null, awayScore: null, referee: 'Michael Oliver', matchday: 3 },
-  { id: 54, group: 'I', homeTeam: 'SEN', awayTeam: 'IRQ', date: '2026-06-26', time: '16:00', venueId: 'bmo', homeScore: null, awayScore: null, referee: 'Anthony Taylor', matchday: 3 },
+  { id: 53, group: 'I', homeTeam: 'NOR', awayTeam: 'FRA', date: '2026-06-26', time: '16:00', venueId: 'gillette', homeScore: 1, awayScore: 4, referee: 'Michael Oliver', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=Vh6BU0rAtnE' },
+  { id: 54, group: 'I', homeTeam: 'SEN', awayTeam: 'IRQ', date: '2026-06-26', time: '16:00', venueId: 'bmo', homeScore: 5, awayScore: 0, referee: 'Anthony Taylor', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=Rf9AgsBO_3Y&pp=0gcJCUELAYcqIYzv' },
 
   // ========== GROUP J ==========
   // Matchday 1

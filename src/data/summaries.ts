@@ -374,6 +374,27 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "48'", type: "goal", team: "home", player: "Erling Haaland", secondaryPlayer: "Martin Odegaard", description: "2 - 0" },
     { time: "43'", type: "goal", team: "home", player: "Marcus Pedersen", description: "1 - 0" },
   ],
+  53: [
+    { time: "90'+4", type: "goal", team: "away", player: "Désiré Doué", secondaryPlayer: "Bradley Barcola", description: "1 - 4"},
+    { time: "74'", type: "yellow", team: "away", player: "Aurélien Tchouaméni" },
+    { time: "32'", type: "goal", team: "away", player: "Ousmane Dembélé", secondaryPlayer: "Aurélien Tchouaméni", description: "1 - 3" },
+    { time: "21'", type: "goal", team: "home", player: "Thelo Aasgard", secondaryPlayer: "Andreas Schjelderup", description: "1 - 2" },
+    { time: "20'", type: "goal", team: "away", player: "Ousmane Dembélé", secondaryPlayer: "Kylian Mbappé", description: "0 - 2" },
+    { time: "10'", type: "yellow", team: "home", player: "Patrick Berg" },
+    { time: "7'", type: "goal", team: "away", player: "Ousmane Dembélé", secondaryPlayer: "Kylian Mbappé", description: "0 - 1" },
+  ],
+  54: [
+    { time: "90'", type: "yellow", team: "away", player: "Merchas Doski" },
+    { time: "82'", type: "goal", team: "home", player: "Iliman Ndiaye", secondaryPlayer: "Pape Gueye", description: "5 - 0" },
+    { time: "81'", type: "yellow", team: "home", player: "Pape Gueye" },
+    { time: "76'", type: "yellow", team: "away", player: "Amir Al-Ammari" },
+    { time: "72'", type: "goal", team: "home", player: "Pape Gueye", secondaryPlayer: "Iliman Ndiaye", description: "4 - 0" },
+    { time: "59'", type: "goal", team: "home", player: "Pape Gueye", secondaryPlayer: "Ismaila Sarr", description: "3 - 0" },
+    { time: "56'", type: "goal", team: "home", player: "Ismaila Sarr", secondaryPlayer: "Lamine Camara", description: "2 - 0" },
+    { time: "17'", type: "yellow", team: "home", player: "Abdoulaye Seck" },
+    { time: "13'", type: "red", team: "away", player: "Rebin Sulaka" },
+    { time: "4'", type: "goal", team: "home", player: "Habib Diarra", secondaryPlayer: "Abdoulaye Seck", description: "1 - 0" }
+  ],
   55: [
     { time: "76'", type: "goal", team: "home", player: "Lionel Messi", secondaryPlayer: "Nicolás González", description: "3 - 0" },
     { time: "60'", type: "goal", team: "home", player: "Lionel Messi", description: "2 - 0" },
