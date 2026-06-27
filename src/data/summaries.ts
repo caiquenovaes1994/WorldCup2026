@@ -347,6 +347,20 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "20'", type: "yellow", team: "home", player: "Rodrigo Bentancur" },
     { time: "5'", type: "yellow", team: "away", player: "Sidny Lopes Cabral" }
   ],
+  47: [
+    { time: "90'+5", type: "red", team: "home", player: "Agustín Canobbio"},
+    { time: "90'+3", type: "yellow", team: "home", player: "Nicolás De La Cruz"},
+    { time: "58'", type: "yellow", team: "home", player: "Guillermo Varela"},
+    { time: "54'", type: "yellow", team: "home", player: "Juan Sanabria"},
+    { time: "46'", type: "yellow", team: "away", player: "Alex Baena"},
+    { time: "42'", type: "goal", team: "away", player: "Alex Baena", secondaryPlayer: "Marcos Llorente", description: "0 - 1" }
+  ],
+  48: [
+    { time: "90'+3", type: "yellow", team: "away", player: "Firas Al-Buraikan" },
+    { time: "67'", type: "yellow", team: "away", player: "Nasser Al-Dawsari" },
+    { time: "9'", type: "yellow", team: "home", player: "Wagner Pina" },
+    { time: "4'", type: "yellow", team: "away", player: "Saud Abdulhamid" }
+  ],
   49: [
     { time: "90'+6", type: "goal", team: "home", player: "Kylian Mbappé", description: "3 - 1" },
     { time: "90'+5", type: "goal", team: "away", player: "Ibrahim Mbaye", secondaryPlayer: "Iliman Ndiaye", description: "2 - 1" },
