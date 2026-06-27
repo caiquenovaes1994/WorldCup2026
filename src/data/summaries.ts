@@ -320,6 +320,28 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "17'", type: "yellow", team: "away", player: "Mohanad Lasheen" },
     { time: "15'", type: "goal", team: "home", player: "Finn Surman", secondaryPlayer: "Tim Payne", description: "1 - 0" }
   ],
+  41: [
+    { time: "90'+4", type: "goal", team: "away", player: "Alexis Saelemaekers", secondaryPlayer: "Romelu Lukaku", description: "1 - 5" },
+    { time: "86", type: "goal", team: "away", player: "Romelu Lukaku", secondaryPlayer: "Nicolas Raskin", description: "1 - 4" },
+    { time: "84'", type: "goal", team: "home", player: "Elijah Just", description: "1 - 3" },
+    { time: "66'", type: "goal", team: "away", player: "Kevin De Bruyne", description: "0 - 3"},
+    { time: "56'", type: "yellow", team: "home", player: "Elijah Just" },
+    { time: "50'", type: "goal", team: "away", player: "Leandro Trossard", secondaryPlayer: "Hans Vanaken", description: "0 - 2" },
+    { time: "46'", type: "yellow", team: "home", player: "Marko Stamenic" },
+    { time: "28'", type: "goal", team: "away", player: "Leandro Trossard", description: "0 - 1"}
+  ],
+  42: [
+    { time: "90'+4", type: "yellow", team: "away", player: "Shoja Khalilzadeh" },
+    { time: "90'+2", type: "yellow", team: "home", player: "Mohanad Lasheen" },
+    { time: "79'", type: "yellow", team: "away", player: "Saeid Ezatolahi" },
+    { time: "43'", type: "yellow", team: "away", player: "Ali Nemati" },
+    { time: "42'", type: "yellow", team: "home", player: "Yasser Ibrahim" },
+    { time: "20'", type: "yellow", team: "home", player: "Mahmoud Saber" },
+    { time: "19'", type: "yellow", team: "away", player: "Hossein Kanaani" },
+    { time: "14'", type: "goal", team: "away", player: "Ramin Rezaeian", description: "1 - 1" },
+    { time: "5'", type: "goal", team: "home", player: "Mahmoud Saber", secondaryPlayer: "Mahmoud Trézéguet", description: "1 - 0" }
+    
+  ],
   43: [
     { time: "90'+33", type: "yellow", team: "home", player: "Pedri" },
     { time: "16'", type: "yellow", team: "away", player: "Sidny Lopes Cabral" }
