@@ -113,8 +113,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 57, group: 'J', homeTeam: 'ARG', awayTeam: 'AUT', date: '2026-06-22', time: '14:00', venueId: 'att', homeScore: 2, awayScore: 0, referee: 'Amin Mohamed Omar', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=BlSDq1MDQ4Q&pp=0gcJCT8LAYcqIYzv' },
   { id: 58, group: 'J', homeTeam: 'JOR', awayTeam: 'ALG', date: '2026-06-23', time: '00:00', venueId: 'levis', homeScore: 1, awayScore: 2, referee: 'Slavko Vincic', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=nkkfN-kx9_o' },
   // Matchday 3
-  { id: 59, group: 'J', homeTeam: 'ALG', awayTeam: 'AUT', date: '2026-06-27', time: '23:00', venueId: 'geha', homeScore: null, awayScore: null, referee: 'Ilgiz Tantashev', matchday: 3 },
-  { id: 60, group: 'J', homeTeam: 'JOR', awayTeam: 'ARG', date: '2026-06-27', time: '23:00', venueId: 'att', homeScore: null, awayScore: null, referee: 'Istvan Kovacs', matchday: 3 },
+  { id: 59, group: 'J', homeTeam: 'ALG', awayTeam: 'AUT', date: '2026-06-27', time: '23:00', venueId: 'geha', homeScore: 3, awayScore: 3, referee: 'Ilgiz Tantashev', matchday: 3 },
+  { id: 60, group: 'J', homeTeam: 'JOR', awayTeam: 'ARG', date: '2026-06-27', time: '23:00', venueId: 'att', homeScore: 1, awayScore: 3, referee: 'Istvan Kovacs', matchday: 3 },
 
   // ========== GROUP K ==========
   // Matchday 1
@@ -124,8 +124,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 63, group: 'K', homeTeam: 'POR', awayTeam: 'UZB', date: '2026-06-23', time: '14:00', venueId: 'nrg', homeScore: 5, awayScore: 0, referee: 'Jalal Jayed', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=aJva_fZEpRc' },
   { id: 64, group: 'K', homeTeam: 'COL', awayTeam: 'COD', date: '2026-06-23', time: '23:00', venueId: 'bbva', homeScore: 1, awayScore: 0, referee: 'Maurizio Mariani', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=CnEFPgTbIB0' },
   // Matchday 3
-  { id: 65, group: 'K', homeTeam: 'COL', awayTeam: 'POR', date: '2026-06-27', time: '20:30', venueId: 'hardrock', homeScore: 0, awayScore: 0, referee: 'Alireza Faghani', matchday: 3 },
-  { id: 66, group: 'K', homeTeam: 'COD', awayTeam: 'UZB', date: '2026-06-27', time: '20:30', venueId: 'mercedesbenz', homeScore: 3, awayScore: 1, referee: 'Felix Zwayer', matchday: 3 },
+  { id: 65, group: 'K', homeTeam: 'COL', awayTeam: 'POR', date: '2026-06-27', time: '20:30', venueId: 'hardrock', homeScore: 0, awayScore: 0, referee: 'Alireza Faghani', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=Tm4oOgF3NUo&pp=ygUUcG9ydHVnYWwgZSBjb2zDtG1iaWE%3D' },
+  { id: 66, group: 'K', homeTeam: 'COD', awayTeam: 'UZB', date: '2026-06-27', time: '20:30', venueId: 'mercedesbenz', homeScore: 3, awayScore: 1, referee: 'Felix Zwayer', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=1R9zmne-RL4&list=PLsFWLnYCEXEVNzCnkQE-xOuMc8oLxSleC&index=1&pp=iAQB' },
 
   // ========== GROUP L ==========
   // Matchday 1

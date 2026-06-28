@@ -458,6 +458,24 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "44'", type: "yellow", team: "away", player: "Ramiz Zerrouki" },
     { time: "36'", type: "goal", team: "home", player: "Nizar Al-Rashdan", secondaryPlayer: "Mousa Tamari", description: "1 - 0" }
   ],
+  59: [
+    { time: "90'+6", type: "goal", team: "away", player: "Sasa Kalajdzic", secondaryPlayer: "Michael Gregoritsch", description: "3 - 3" },
+    { time: "90'+3", type: "goal", team: "home", player: "Riyad Mahrez", secondaryPlayer: "Houssem Aouar", description: "3 - 2" },
+    { time: "60'", type: "goal", team: "home", player: "Riyad Mahrez", secondaryPlayer: "Houssem Aouar", description: "2 - 2" },
+    { time: "55'", type: "goal", team: "away", player: "Marcel Sabitzer", secondaryPlayer: "Konrad Laimer", description: "1 - 2" },
+    { time: "45'", type: "goal", team: "home", player: "Rafik Belghali", description: "1 - 1"},
+    { time: "28'", type: "goal", team: "away", player: "Marko Arnautovic", secondaryPlayer: "David Alaba", description: "0 - 1" },
+    { time: "11'", type: "yellow", team: "away", player: "Marko Arnautovic" }
+  ],
+  60: [
+    { time: "90'+4", type: "yellow", team: "home", player: "Mohammad Abu Zrayq" },
+    { time: "80'", type: "goal", team: "away", player: "Lionel Messi", description: "1 - 3" },
+    { time: "64'", type: "yellow", team: "home", player: "Yazan Al-Arab"},
+    { time: "55'", type: "goal", team: "home", player: "Mousa Tamari", secondaryPlayer: "Ehsan Haddad", description: "1 - 2"},
+    { time: "31'", type: "goal", team: "away", player: "Lautaro Martínez (P)", description: "0 - 2" },
+    { time: "19'", type: "goal", team: "away", player: "Giovanni Lo Celso", description: "0 - 1" },
+    { time: "17'", type: "yellow", team: "home", player: "Mohannad Abu Taha" }
+  ],
   61: [
     { time: "90'+2", type: "yellow", team: "home", player: "Tomás Araújo" },
     { time: "88'", type: "yellow", team: "home", player: "Nelson Semedo" },
