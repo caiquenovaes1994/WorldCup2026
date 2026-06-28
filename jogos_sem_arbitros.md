@@ -8,22 +8,18 @@ Todos os jogos da fase eliminatória (`knockoutRules.ts`) estão atualmente sem 
 
 | ID | Fase | Confronto | Data |
 | ---- | ------- | ----------- | ------ |
-| R32-1 | 16-avos | 1A x 3C/E/F/H/I | 2026-06-28 |
-| R32-2 | 16-avos | 1H x 2J | 2026-06-28 |
-| R32-3 | 16-avos | 1E x 3A/B/C/D/F | 2026-06-28 |
-| R32-4 | 16-avos | 2A x 2B | 2026-06-29 |
-| R32-5 | 16-avos | 1G x 3A/E/H/I/J | 2026-06-29 |
-| R32-6 | 16-avos | 2E x 2I | 2026-06-29 |
-| R32-7 | 16-avos | 1K x 3D/E/I/J/L | 2026-06-30 |
-| R32-8 | 16-avos | 2D x 2G | 2026-06-30 |
-| R32-9 | 16-avos | 1B x 3E/F/G/I/J | 2026-06-30 |
-| R32-10 | 16-avos | 1C x 2F | 2026-07-01 |
-| R32-11 | 16-avos | 1I x 3C/D/F/G/H | 2026-07-01 |
-| R32-12 | 16-avos | 2K x 2L | 2026-07-01 |
-| R32-13 | 16-avos | 1L x 3E/H/I/J/K | 2026-07-02 |
-| R32-14 | 16-avos | 1F x 2C | 2026-07-02 |
-| R32-15 | 16-avos | 1D x 3B/E/F/I/J | 2026-07-03 |
-| R32-16 | 16-avos | 1J x 2H | 2026-07-03 |
+| R32-5 | 16-avos | CIV x NOR | 2026-06-30 |
+| R32-6 | 16-avos | FRA x SWE | 2026-06-30 |
+| R32-7 | 16-avos | MEX x ECU | 2026-06-30 |
+| R32-8 | 16-avos | ENG x COD | 2026-07-01 |
+| R32-9 | 16-avos | BEL x SEN | 2026-07-01 |
+| R32-10 | 16-avos | USA x BIH | 2026-07-01 |
+| R32-11 | 16-avos | ESP x AUT | 2026-07-02 |
+| R32-12 | 16-avos | POR x CRO | 2026-07-02 |
+| R32-13 | 16-avos | SUI x ALG | 2026-07-03 |
+| R32-14 | 16-avos | AUS x EGY | 2026-07-03 |
+| R32-15 | 16-avos | ARG x CPV | 2026-07-03 |
+| R32-16 | 16-avos | COL x GHA | 2026-07-03 |
 | R16-1 | Oitavas | W-R32-1 x W-R32-2 | 2026-07-04 |
 | R16-2 | Oitavas | W-R32-3 x W-R32-4 | 2026-07-04 |
 | R16-3 | Oitavas | W-R32-5 x W-R32-6 | 2026-07-05 |

@@ -18,6 +18,9 @@ export const useKnockoutStore = defineStore('knockout', () => {
             m.referee = original.referee
             m.time = original.time
             m.date = original.date
+            // Allow overriding teams if they are hardcoded in the template
+            if (original.homeTeam) m.homeTeam = original.homeTeam
+            if (original.awayTeam) m.awayTeam = original.awayTeam
           }
         })
         return parsed
@@ -99,6 +102,10 @@ export const useKnockoutStore = defineStore('knockout', () => {
 
   // Populate R32 teams from group results
   function populateFromGroups() {
+    // If the template has hardcoded teams for R32, skip dynamic generation
+    const hasHardcodedTeams = knockoutTemplate.some(m => m.round === 'R32' && m.homeTeam)
+    if (hasHardcodedTeams) return
+
     const matchStore = useMatchStore()
 
     // Find all third place slots in the current bracket

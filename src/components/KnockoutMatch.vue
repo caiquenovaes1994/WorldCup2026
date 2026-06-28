@@ -94,107 +94,116 @@ function getSourceLabel(source: string): string {
 </script>
 
 <template>
-  <div class="knockout-match" :class="{ 'is-finished-card': isFinished }" @click="handleCardClick">
-    <div class="knockout-match-info">
-      {{ dateFormatted }} · {{ match.time }} · {{ venue?.city }}
+  <div class="match-card" :class="{ 'is-finished-card': isFinished }" @click="handleCardClick">
+    <div class="match-card-header">
+      <span class="match-date">{{ dateFormatted }} · {{ match.time }}</span>
+      <span class="match-venue" :title="venue?.name + ', ' + venue?.city">📍 {{ venue?.city }}</span>
     </div>
-
-    <!-- Home team -->
-    <div :class="['knockout-team-row', getWinnerClass('home')]">
-      <div class="team-info">
+    
+    <div class="match-body">
+      <div class="match-team home" :class="getWinnerClass('home')">
         <template v-if="match.homeTeam">
-          <TeamBadge :code="match.homeTeam" size="sm" />
+          <TeamBadge :code="match.homeTeam" size="md" />
         </template>
         <span v-else class="source-label">{{ getSourceLabel(match.homeSource) }}</span>
       </div>
-      <template v-if="!isFinished">
-        <input
-          v-model="homeScore"
-          @input="onScoreChange"
-          type="number"
-          min="0"
-          max="99"
-          class="knockout-score-input"
-          placeholder="–"
-          :disabled="!match.homeTeam || !match.awayTeam"
-        />
-      </template>
-      <template v-else>
-        <span class="score-display">{{ match.homeScore }}</span>
-      </template>
-      <input
-        v-if="isDraw || (match.homeScore !== null && match.awayScore !== null && match.homeScore === match.awayScore)"
-        v-model="homePen"
-        @input="onPenaltyChange"
-        type="number"
-        min="0"
-        max="99"
-        class="penalty-input"
-        placeholder="P"
-        title="Pênaltis"
-        :disabled="isFinished"
-      />
-    </div>
+      
+      <div class="match-score-area">
+        <template v-if="!isFinished">
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+            <input
+              v-model="homeScore"
+              @input="onScoreChange"
+              type="number"
+              min="0"
+              max="99"
+              class="score-input"
+              placeholder="–"
+              :disabled="!match.homeTeam || !match.awayTeam"
+            />
+            <input
+              v-if="isDraw || (match.homeScore !== null && match.awayScore !== null && match.homeScore === match.awayScore)"
+              v-model="homePen"
+              @input="onPenaltyChange"
+              type="number"
+              min="0"
+              max="99"
+              class="penalty-input"
+              placeholder="P"
+              title="Pênaltis"
+              :disabled="isFinished"
+            />
+          </div>
+          
+          <span class="score-separator">×</span>
+          
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+            <input
+              v-model="awayScore"
+              @input="onScoreChange"
+              type="number"
+              min="0"
+              max="99"
+              class="score-input"
+              placeholder="–"
+              :disabled="!match.homeTeam || !match.awayTeam"
+            />
+            <input
+              v-if="isDraw || (match.homeScore !== null && match.awayScore !== null && match.homeScore === match.awayScore)"
+              v-model="awayPen"
+              @input="onPenaltyChange"
+              type="number"
+              min="0"
+              max="99"
+              class="penalty-input"
+              placeholder="P"
+              title="Pênaltis"
+              :disabled="isFinished"
+            />
+          </div>
+        </template>
+        <template v-else>
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 2px;">
+            <span class="score-display">{{ match.homeScore }}</span>
+            <span v-if="match.homePenalties !== null" style="font-size: 0.8rem; color: var(--accent-gold); font-weight: 700;">({{ match.homePenalties }})</span>
+          </div>
+          <span class="score-separator">×</span>
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 2px;">
+            <span class="score-display">{{ match.awayScore }}</span>
+            <span v-if="match.awayPenalties !== null" style="font-size: 0.8rem; color: var(--accent-gold); font-weight: 700;">({{ match.awayPenalties }})</span>
+          </div>
+        </template>
+      </div>
 
-    <!-- Away team -->
-    <div :class="['knockout-team-row', getWinnerClass('away')]">
-      <div class="team-info">
+      <div class="match-team away" :class="getWinnerClass('away')">
         <template v-if="match.awayTeam">
-          <TeamBadge :code="match.awayTeam" size="sm" />
+          <TeamBadge :code="match.awayTeam" size="md" />
         </template>
         <span v-else class="source-label">{{ getSourceLabel(match.awaySource) }}</span>
       </div>
-      <template v-if="!isFinished">
-        <input
-          v-model="awayScore"
-          @input="onScoreChange"
-          type="number"
-          min="0"
-          max="99"
-          class="knockout-score-input"
-          placeholder="–"
-          :disabled="!match.homeTeam || !match.awayTeam"
-        />
-      </template>
-      <template v-else>
-        <span class="score-display">{{ match.awayScore }}</span>
-      </template>
-      <input
-        v-if="isDraw || (match.homeScore !== null && match.awayScore !== null && match.homeScore === match.awayScore)"
-        v-model="awayPen"
-        @input="onPenaltyChange"
-        type="number"
-        min="0"
-        max="99"
-        class="penalty-input"
-        placeholder="P"
-        title="Pênaltis"
-        :disabled="isFinished"
-      />
     </div>
 
-    <!-- Referee -->
-    <div class="match-referee" style="font-size: 10px; margin-top: 6px; padding-top: 6px; display: flex; align-items: center; justify-content: center;">
-      <span class="referee-label">🏁</span>
-      <span class="referee-name" style="font-size: 10px; margin-left: 4px; color: var(--text-primary);">{{ match.referee || 'TDB' }}</span>
-      <img v-if="getRefereeFlag(match.referee)" :src="getRefereeFlag(match.referee)" :title="getRefereeCountry(match.referee) || ''" :alt="getRefereeCountry(match.referee) || ''" class="referee-flag" style="height: 10px; margin-left: 4px; border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.3); cursor: help;" />
+    <div class="match-referee" style="display: flex; align-items: center;">
+      <span class="referee-label">🏁 Árbitro:</span>
+      <span class="referee-name" style="margin-left: 4px;">{{ match.referee || 'TDB' }}</span>
+      <img v-if="getRefereeFlag(match.referee)" :src="getRefereeFlag(match.referee)" :title="getRefereeCountry(match.referee) || ''" :alt="getRefereeCountry(match.referee) || ''" class="referee-flag" style="height: 12px; margin-left: 6px; border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.3); cursor: help;" />
     </div>
 
     <!-- Broadcasters or Highlights -->
-    <div class="match-broadcasters" style="margin-top: 6px; padding-top: 6px;">
-      <div class="broadcasters-list" style="justify-content: center; align-items: center; gap: 12px;">
-        <template v-if="isFinished && match.highlightsUrl">
-          <a :href="match.highlightsUrl" target="_blank" rel="noopener noreferrer" class="broadcaster-link highlights-link" style="text-decoration: none;" @click.stop>
-            <span class="broadcasters-icon" style="font-size: 10px; color: #ef4444;" title="Melhores Momentos">▶ Melhores Momentos</span>
-          </a>
-        </template>
-        <template v-else>
-          <span class="broadcasters-icon" style="font-size: 10px;" title="Transmissão">📺</span>
+    <div class="match-broadcasters">
+      <template v-if="isFinished && match.highlightsUrl">
+        <a :href="match.highlightsUrl" target="_blank" rel="noopener noreferrer" class="broadcaster-link highlights-link" @click.stop>
+          <span class="broadcasters-label" title="Melhores Momentos" style="color: #ef4444;">▶ Melhores Momentos</span>
+        </a>
+      </template>
+      <template v-else>
+        <span class="broadcasters-label" title="Transmissão">📺</span>
+        <div class="broadcasters-list">
           <a v-for="b in broadcasters" :key="b" :href="broadcasterUrls[b]" target="_blank" rel="noopener noreferrer" class="broadcaster-link" @click.stop>
-            <img :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" style="height: 12px;" />
+            <img :src="`/broadcasters/${b}.png`" :alt="b" class="broadcaster-logo" :title="b.toUpperCase()" />
           </a>
-        </template>
-      </div>
+        </div>
+      </template>
     </div>
     <Teleport to="body">
       <MatchSummaryModal v-if="showModal" :match="match" @close="showModal = false" />
@@ -213,10 +222,40 @@ function getSourceLabel(source: string): string {
   border-color: var(--accent-blue);
 }
 .score-display {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-primary);
-  width: 30px;
+  width: 40px;
   text-align: center;
+}
+
+.match-team.home.winner, .match-team.away.winner {
+  /* You can add winner styles here if you want to highlight the winner team */
+}
+.match-team.home.loser, .match-team.away.loser {
+  opacity: 0.5;
+}
+
+.source-label {
+  font-size: var(--font-xs);
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.match-broadcasters {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.broadcasters-list {
+  display: flex;
+  gap: 6px;
+}
+
+.broadcaster-logo {
+  height: 16px;
+  border-radius: 2px;
 }
 </style>

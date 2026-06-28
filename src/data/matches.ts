@@ -113,8 +113,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 57, group: 'J', homeTeam: 'ARG', awayTeam: 'AUT', date: '2026-06-22', time: '14:00', venueId: 'att', homeScore: 2, awayScore: 0, referee: 'Amin Mohamed Omar', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=BlSDq1MDQ4Q&pp=0gcJCT8LAYcqIYzv' },
   { id: 58, group: 'J', homeTeam: 'JOR', awayTeam: 'ALG', date: '2026-06-23', time: '00:00', venueId: 'levis', homeScore: 1, awayScore: 2, referee: 'Slavko Vincic', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=nkkfN-kx9_o' },
   // Matchday 3
-  { id: 59, group: 'J', homeTeam: 'ALG', awayTeam: 'AUT', date: '2026-06-27', time: '23:00', venueId: 'geha', homeScore: 3, awayScore: 3, referee: 'Ilgiz Tantashev', matchday: 3 },
-  { id: 60, group: 'J', homeTeam: 'JOR', awayTeam: 'ARG', date: '2026-06-27', time: '23:00', venueId: 'att', homeScore: 1, awayScore: 3, referee: 'Istvan Kovacs', matchday: 3 },
+  { id: 59, group: 'J', homeTeam: 'ALG', awayTeam: 'AUT', date: '2026-06-27', time: '23:00', venueId: 'geha', homeScore: 3, awayScore: 3, referee: 'Ilgiz Tantashev', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=_Ofw-a4UGjI' },
+  { id: 60, group: 'J', homeTeam: 'JOR', awayTeam: 'ARG', date: '2026-06-27', time: '23:00', venueId: 'att', homeScore: 1, awayScore: 3, referee: 'Istvan Kovacs', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=QARSfRxvPVI' },
 
   // ========== GROUP K ==========
   // Matchday 1
