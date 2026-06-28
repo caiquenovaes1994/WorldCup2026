@@ -489,6 +489,20 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "76'", type: "goal", team: "home", player: "Daniel Muñoz", secondaryPlayer: "Juan Quintero", description: "1 - 0" },
     { time: "56'", type: "yellow", team: "home", player: "Jhon Lucumi" }
   ],
+  65: [
+    { time: "86'", type: "yellow", team: "home", player: "Gustavo Puerta" }
+  ],
+  66: [
+    { time: "90'+1", type: "goal", team: "home", player: "Yoane Wissa", secondaryPlayer: "Meshack Elanga", description: "3 - 1" },
+    { time: "78'", type: "goal", team: "home", player: "Fiston Mayele", description: "2 - 1" },
+    { time: "68'", type: "goal", team: "home", player: "Yoane Wissa", description: "1 - 1" },
+    { time: "62'", type: "yellow", team: "home", player: "Samuel Moutoussamy" },
+    { time: "48'", type: "yellow", team: "away", player: "Sherzod Nasrulloev" },
+    { time: "45'+5'", type: "yellow", team: "home", player: "Nathanael Mbuku" },
+    { time: "43'", type: "yellow", team: "away", player: "Abdukodir Khusanov" },
+    { time: "21'", type: "yellow", team: "home", player: "Noah Sadiki" },
+    { time: "10'", type: "goal", team: "away", player: "Eldor Shomurodov", secondaryPlayer: "Akmal Mozgovoy", description: "0 - 1" }
+  ],
   67: [
     { time: "85'", type: "goal", team: "home", player: "Marcus Rashford", secondaryPlayer: "Bukayo Saka", description: "4 - 2" },
     { time: "47'", type: "goal", team: "home", player: "Jude Bellingham", secondaryPlayer: "Elliot Anderson", description: "3 - 2" },

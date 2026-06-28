@@ -124,8 +124,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 63, group: 'K', homeTeam: 'POR', awayTeam: 'UZB', date: '2026-06-23', time: '14:00', venueId: 'nrg', homeScore: 5, awayScore: 0, referee: 'Jalal Jayed', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=aJva_fZEpRc' },
   { id: 64, group: 'K', homeTeam: 'COL', awayTeam: 'COD', date: '2026-06-23', time: '23:00', venueId: 'bbva', homeScore: 1, awayScore: 0, referee: 'Maurizio Mariani', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=CnEFPgTbIB0' },
   // Matchday 3
-  { id: 65, group: 'K', homeTeam: 'COL', awayTeam: 'POR', date: '2026-06-27', time: '20:30', venueId: 'hardrock', homeScore: null, awayScore: null, referee: 'Alireza Faghani', matchday: 3 },
-  { id: 66, group: 'K', homeTeam: 'COD', awayTeam: 'UZB', date: '2026-06-27', time: '20:30', venueId: 'mercedesbenz', homeScore: null, awayScore: null, referee: 'Felix Zwayer', matchday: 3 },
+  { id: 65, group: 'K', homeTeam: 'COL', awayTeam: 'POR', date: '2026-06-27', time: '20:30', venueId: 'hardrock', homeScore: 0, awayScore: 0, referee: 'Alireza Faghani', matchday: 3 },
+  { id: 66, group: 'K', homeTeam: 'COD', awayTeam: 'UZB', date: '2026-06-27', time: '20:30', venueId: 'mercedesbenz', homeScore: 3, awayScore: 1, referee: 'Felix Zwayer', matchday: 3 },
 
   // ========== GROUP L ==========
   // Matchday 1
