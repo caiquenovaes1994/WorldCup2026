@@ -511,7 +511,20 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "90'+2", type: "yellow", team: "away", player: "Petar Sucic" },
     { time: "61'", type: "yellow", team: "home", player: "Yoel Barcenas" },
     { time: "54'", type: "goal", team: "away", player: "Ante Budimir", secondaryPlayer: "Josip Stanisic", description: "0 - 1" }
+  ],
+  71: [
+    { time: "84'", type: "yellow", team: "home", player: "Andrés Andrade" },
+    { time: "67'", type: "goal", team: "away", player: "Harry Kane", secondaryPlayer: "Jude Bellingham", description: "0 - 2" },
+    { time: "62'", type: "goal", team: "away", player: "Jude Bellingham", secondaryPlayer: "Bukayo Saka", description: "0 - 1" },
+    { time: "60'", type: "yellow", team: "away", player: "Jarell Quansah" },
+    { time: "53'", type: "yellow", team: "home", player: "José Fajardo" }
+  ],
+  72: [
+    { time: "90'+4", type: "yellow", team: "away", player: "Kojo Peprah Oppong" },
+    { time: "83'", type: "goal", team: "home", player: "Nikola Vlasic", secondaryPlayer: "Luka Modric", description: "2 - 1" },
+    { time: "73'", type: "goal", team: "away", player: "Derrick Luckassen", secondaryPlayer: "Ernest Nuamah", description: "1 - 1" },
+    { time: "68'", type: "yellow", team: "home", player: "Ivan Perisic" },
+    { time: "31'", type: "goal", team: "home", player: "Petar Sucic", secondaryPlayer: "Mateo Kovacic", description: "1 - 0" }
   ]
 }
-
 // force hmr

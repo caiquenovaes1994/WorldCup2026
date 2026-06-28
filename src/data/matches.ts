@@ -135,8 +135,8 @@ export const groupMatches: GroupMatch[] = [
   { id: 69, group: 'L', homeTeam: 'ENG', awayTeam: 'GHA', date: '2026-06-23', time: '17:00', venueId: 'gillette', homeScore: 0, awayScore: 0, referee: 'Hector Said Martinez', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=wuon0XQBvM0' },
   { id: 70, group: 'L', homeTeam: 'PAN', awayTeam: 'CRO', date: '2026-06-23', time: '20:00', venueId: 'lincoln', homeScore: 0, awayScore: 1, referee: 'Pierre Atcho', matchday: 2, highlightsUrl: 'https://www.youtube.com/watch?v=8o--4qAesow' },
   // Matchday 3
-  { id: 71, group: 'L', homeTeam: 'PAN', awayTeam: 'ENG', date: '2026-06-27', time: '18:00', venueId: 'metlife', homeScore: null, awayScore: null, referee: 'Abdulrahman Al Jassim', matchday: 3 },
-  { id: 72, group: 'L', homeTeam: 'CRO', awayTeam: 'GHA', date: '2026-06-27', time: '18:00', venueId: 'lincoln', homeScore: null, awayScore: null, referee: 'Drew Fischer', matchday: 3 },
+  { id: 71, group: 'L', homeTeam: 'PAN', awayTeam: 'ENG', date: '2026-06-27', time: '18:00', venueId: 'metlife', homeScore: 0, awayScore: 2, referee: 'Abdulrahman Al Jassim', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=NKITPXe5Z74&pp=ygUZcGFuYW3DoSBjb250cmEgaW5nbGF0ZXJyYQ%3D%3D' },
+  { id: 72, group: 'L', homeTeam: 'CRO', awayTeam: 'GHA', date: '2026-06-27', time: '18:00', venueId: 'lincoln', homeScore: 2, awayScore: 1, referee: 'Drew Fischer', matchday: 3, highlightsUrl: 'https://www.youtube.com/watch?v=ZL8KefzFDhc' },
 ]
 
 export function getMatchesByGroup(group: string): GroupMatch[] {
