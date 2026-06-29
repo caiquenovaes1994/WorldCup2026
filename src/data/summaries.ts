@@ -558,10 +558,20 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "68'", type: "yellow", team: "home", player: "Ivan Perisic" },
     { time: "31'", type: "goal", team: "home", player: "Petar Sucic", secondaryPlayer: "Mateo Kovacic", description: "1 - 0" }
   ],
-    'R32-1': [
+  'R32-1': [
     { time: "90'+2", type: "goal", team: "away", player: "Stephen Eustáquio", description: "0 - 1" },
     { time: "67'", type: "yellow", team: "away", player: "Niko Sigur" },
     { time: "54'", type: "yellow", team: "away", player: "Nathan-Dylan Saliba" }
   ],
+  'R32-2': [
+    { time: "90'+5", type: "goal", team: "home", player: "Gabriel Martinelli", secondaryPlayer: "Bruno Guimarães", description: "2 - 1" },
+    { time: "84'", type: "yellow", team: "away", player: "Junnosuke Suzuki" },
+    { time: "56'", type: "goal", team: "home", player: "Casemiro", secondaryPlayer: "Gabriel Magalhães", description: "1 - 1" },
+    { time: "48'", type: "yellow", team: "home", player: "Danilo", },
+    { time: "45'", type: "yellow", team: "away", player: "Daichi Kamada" },
+    { time: "29'", type: "goal", team: "away", player: "Kaishu Sano", description: "0 - 1" },
+    { time: "14'", type: "yellow", team: "home", player: "Casemiro" },
+    { time: "12'", type: "yellow", team: "away", player: "Kaishu Sano" }    
+  ]
 }
 // force hmr
