@@ -566,6 +566,11 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "54'", type: "goal", team: "home", player: "Kai Havertz", secondaryPlayer: "Florian Wirtz", description: "1 - 1" },
     { time: "42'", type: "goal", team: "away", player: "Julio Enciso", secondaryPlayer: "Matias Galarza", description: "0 - 1" }
   ],
+  'R32-2': [
+    { time: "74'", type: "goal", team: "home", player: "Kylian Mbappé", secondaryPlayer: "Michael Olise", description: "3 - 0" },
+    { time: "53'", type: "goal", team: "home", player: "Bradley Barcola", secondaryPlayer: "Michael Olise", description: "2 - 0" },
+    { time: "45'", type: "goal", team: "home", player: "Kylian Mbappé", secondaryPlayer: "Ousmane Dembélé", description: "1 - 0" }
+  ],
   'R32-3': [
     { time: "90'+2", type: "goal", team: "away", player: "Stephen Eustáquio", description: "0 - 1" },
     { time: "67'", type: "yellow", team: "away", player: "Niko Sigur" },
