@@ -8,26 +8,19 @@ export const useKnockoutStore = defineStore('knockout', () => {
   const knockoutMatches = ref<KnockoutMatch[]>(loadKnockout())
 
   function loadKnockout(): KnockoutMatch[] {
-    const saved = localStorage.getItem('wc2026-knockout')
-    if (saved) {
-      try {
-        const parsed = JSON.parse(saved) as KnockoutMatch[]
-        parsed.forEach(m => {
-          const original = knockoutTemplate.find(kt => kt.id === m.id)
-          if (original) {
-            m.referee = original.referee
-            m.time = original.time
-            m.date = original.date
-            // Allow overriding teams if they are hardcoded in the template
-            if (original.homeTeam) m.homeTeam = original.homeTeam
-            if (original.awayTeam) m.awayTeam = original.awayTeam
-          }
-        })
-        return parsed
-      } catch { /* fallthrough */ }
-    }
     return JSON.parse(JSON.stringify(knockoutTemplate))
   }
+
+  function propagateAll() {
+    knockoutMatches.value.forEach(m => {
+      if (m.homeScore !== null && m.awayScore !== null) {
+        propagateWinner(m.id)
+      }
+    })
+  }
+
+  // Ensure initial data with scores propagates to the next rounds
+  propagateAll()
 
   function saveKnockout() {
     localStorage.setItem('wc2026-knockout', JSON.stringify(knockoutMatches.value))
@@ -150,6 +143,7 @@ export const useKnockoutStore = defineStore('knockout', () => {
 
   function resetKnockout() {
     knockoutMatches.value = JSON.parse(JSON.stringify(knockoutTemplate))
+    propagateAll()
     localStorage.removeItem('wc2026-knockout')
   }
 

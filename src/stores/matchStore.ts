@@ -8,30 +8,6 @@ export const useMatchStore = defineStore('matches', () => {
   const matches = ref<GroupMatch[]>(loadMatches())
 
   function loadMatches(): GroupMatch[] {
-    const saved = localStorage.getItem('wc2026-matches')
-    if (saved) {
-      try {
-        const parsed = JSON.parse(saved) as GroupMatch[]
-        parsed.forEach(m => {
-          const original = groupMatches.find(gm => gm.id === m.id)
-          if (original) {
-            m.referee = original.referee
-            m.time = original.time
-            m.date = original.date
-            m.highlightsUrl = original.highlightsUrl
-            if (m.homeScore === null && original.homeScore !== null) {
-              m.homeScore = original.homeScore
-            }
-            if (m.awayScore === null && original.awayScore !== null) {
-              m.awayScore = original.awayScore
-            }
-          }
-        })
-        return parsed
-      } catch {
-        return JSON.parse(JSON.stringify(groupMatches))
-      }
-    }
     return JSON.parse(JSON.stringify(groupMatches))
   }
 
