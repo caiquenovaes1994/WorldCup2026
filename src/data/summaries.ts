@@ -585,6 +585,12 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "29'", type: "goal", team: "away", player: "Kaishu Sano", description: "0 - 1" },
     { time: "14'", type: "yellow", team: "home", player: "Casemiro" },
     { time: "12'", type: "yellow", team: "away", player: "Kaishu Sano" }    
+  ],
+  'R32-10': [
+    { time: "86'", type: "goal", team: "away", player: "Erling Haaland", secondaryPlayer: "Patrick Berg", description: "1 - 2" },
+    { time: "74'", type: "goal", team: "home", player: "Amad Diallo", secondaryPlayer: "Nicolas Pépé", description: "1 - 1" },
+    { time: "45'+1", type: "yellow", team: "away", player: "Antonio Nusa" },
+    { time: "39'", type: "goal", team: "away", player: "Antonio Nusa", secondaryPlayer: "Martin Odegaard", description: "0 - 1" }
   ]
 }
 // force hmr
