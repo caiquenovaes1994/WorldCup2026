@@ -581,6 +581,15 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "72'", type: "goal", team: "home", player: "Cody Gakpo", secondaryPlayer: "Crysencio Summerville", description: "1 - 0" },
     { time: "47'", type: "yellow", team: "away", player: "Issa Diop" }
   ],
+  'R32-8': [
+    { time: "120'+5", type: "goal", team: "home", player: "Yuri Tielemans (P)", description: "3 - 2" },
+    { time: "89'", type: "goal", team: "home", player: "Yuri Tielemans", secondaryPlayer: "Leandro Trossard", description: "2 - 2" },
+    { time: "86'", type: "goal", team: "home", player: "Romelu Lukaku", secondaryPlayer: "Thomas Meunier", description: "1 - 2" },
+    { time: "67'", type: "yellow", team: "away", player: "Lamine Camara" },
+    { time: "64'", type: "yellow", team: "home", player: "Brandon Mechele" },
+    { time: "51'", type: "goal", team: "away", player: "Ismaila Sarr", secondaryPlayer: "Moussa Niakhaté", description: "0 - 2" },
+    { time: "25'", type: "goal", team: "away", player: "Habib Diarra", description: "0 - 1" }
+  ],
   'R32-9': [
     { time: "90'+5", type: "goal", team: "home", player: "Gabriel Martinelli", secondaryPlayer: "Bruno Guimarães", description: "2 - 1" },
     { time: "84'", type: "yellow", team: "away", player: "Junnosuke Suzuki" },
