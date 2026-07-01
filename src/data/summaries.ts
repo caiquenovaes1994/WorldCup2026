@@ -604,6 +604,13 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "45'+1", type: "yellow", team: "away", player: "Alan Franco" },
     { time: "31'", type: "goal", team: "home", player: "Raúl Jiménez", secondaryPlayer: "Julián Quiñones", description: "2 - 0" },
     { time: "22'", type: "goal", team: "home", player: "Julián Quiñones", secondaryPlayer: "Roberto Alvarado", description: "1 - 0" }
+  ],
+  'R32-12': [
+    { time: "86", type: "goal", team: "home", player: "Harry Kane", secondaryPlayer: "Anthony Gordon", description: "2 - 1" },
+    { time: "75'", type: "goal", team: "home", player: "Harry Kane", secondaryPlayer: "Anthony Gordon", description: "1 - 1" },
+    { time: "28'", type: "yellow", team: "away", player: "Noah Sadiki" },
+    { time: "19'", type: "yellow", team: "home", player: "Jude Bellingham" },
+    { time: "7'", type: "goal", team: "away", player: "Brian Cipenga", secondaryPlayer: "Chancel Mbemba", description: "0 - 1" }
   ]
 }
 // force hmr
