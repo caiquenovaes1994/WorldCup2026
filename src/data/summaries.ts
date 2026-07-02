@@ -581,6 +581,12 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "72'", type: "goal", team: "home", player: "Cody Gakpo", secondaryPlayer: "Crysencio Summerville", description: "1 - 0" },
     { time: "47'", type: "yellow", team: "away", player: "Issa Diop" }
   ],
+  'R32-6': [
+    { time: "89'", type: "goal", team: "home", player: "Mikel Oyarzabal", secondaryPlayer: "Marc Cucurella", description: "3 - 0" },
+    { time: "83'", type: "yellow", team: "away", player: "Stefan Posch" },
+    { time: "66'", type: "goal", team: "home", player: "Pedro Porro", secondaryPlayer: "Alex Baena", description: "2 - 0" },
+    { time: "36'", type: "goal", team: "home", player: "Mikel Oyarzabal", secondaryPlayer: "Marc Cucurella", description: "1 - 0" }
+  ],
   'R32-7': [
     { time: "82'", type: "goal", team: "home", player: "Malik Tillman", description: "2 - 0" },
     { time: "80'", type: "yellow", team: "away", player: "Stjepan Redeljic" },

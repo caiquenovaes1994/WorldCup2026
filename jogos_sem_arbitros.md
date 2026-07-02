@@ -10,7 +10,7 @@ Todos os jogos da fase eliminatória listados abaixo estão atualmente sem árbi
 | ---- | ------- | ----------- | ------ |
 | R16-1 | Oitavas | PAR x FRA | 2026-07-04 |
 | R16-2 | Oitavas | CAN x MAR | 2026-07-04 |
-| R16-3 | Oitavas | W-R32-5 x W-R32-6 | 2026-07-05 |
+| R16-3 | Oitavas | W-R32-5 x ESP | 2026-07-05 |
 | R16-4 | Oitavas | USA x BEL | 2026-07-05 |
 | R16-5 | Oitavas | BRA x NOR | 2026-07-06 |
 | R16-6 | Oitavas | MEX x ENG | 2026-07-06 |
