@@ -640,6 +640,12 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "19'", type: "yellow", team: "home", player: "Jude Bellingham" },
     { time: "7'", type: "goal", team: "away", player: "Brian Cipenga", secondaryPlayer: "Chancel Mbemba", description: "0 - 1" }
   ],
+  'R32-14': [
+    { time: "120'", type: "yellow", team: "away", player: "Yasser Ibrahim" },
+    { time: "105'", type: "yellow", team: "away", player: "Haissem Hassan" },
+    { time: "55'", type: "goal", team: "home", player: "Mohamed Hany (GC)", description: "1 - 1" },
+    { time: "13'", type: "goal", team: "away", player: "Eman Ashour", secondaryPlayer: "Karim Hafez", description: "0 - 1" }
+  ],
   'R32-15': [
     {time: "72'", type: "yellow", team: "away", player: "Hicham Boudaoui" },
     {time: "46'", type: "goal", team: "home", player: "Dan Ndoye", description: "2 - 0" },
