@@ -581,6 +581,13 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "72'", type: "goal", team: "home", player: "Cody Gakpo", secondaryPlayer: "Crysencio Summerville", description: "1 - 0" },
     { time: "47'", type: "yellow", team: "away", player: "Issa Diop" }
   ],
+  'R32-5': [
+    { time: "90'+8", type: "yellow", team: "away", player: "Ivan Perisic" },
+    { time: "90'+4", type: "goal", team: "home", player: "Gonçalo Ramos", secondaryPlayer: "Rafael Leão", description: "2 - 1" },
+    { time: "68'", type: "goal", team: "home", player: "Cristiano Ronaldo (P)", description: "1 - 1" },
+    { time: "59'", type: "yellow", team: "away", player: "Luka Modric" },
+    { time: "53'", type: "goal", team: "away", player: "Ivan Perisic" }    
+  ],
   'R32-6': [
     { time: "89'", type: "goal", team: "home", player: "Mikel Oyarzabal", secondaryPlayer: "Marc Cucurella", description: "3 - 0" },
     { time: "83'", type: "yellow", team: "away", player: "Stefan Posch" },
@@ -632,6 +639,12 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "28'", type: "yellow", team: "away", player: "Noah Sadiki" },
     { time: "19'", type: "yellow", team: "home", player: "Jude Bellingham" },
     { time: "7'", type: "goal", team: "away", player: "Brian Cipenga", secondaryPlayer: "Chancel Mbemba", description: "0 - 1" }
+  ],
+  'R32-15': [
+    {time: "72'", type: "yellow", team: "away", player: "Hicham Boudaoui" },
+    {time: "46'", type: "goal", team: "home", player: "Dan Ndoye", description: "2 - 0" },
+    {time: "36'", type: "yellow", team: "away", player: "Fares Chaibi" },
+    {time: "10'", type: "goal", team: "home", player: "Breel Embolo", secondaryPlayer: "Johan Manzambi", description: "1 - 0" }
   ]
 }
 // force hmr
