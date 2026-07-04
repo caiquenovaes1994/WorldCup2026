@@ -34,7 +34,7 @@ export const knockoutTemplate: KnockoutMatch[] = [
   { id: 'R16-4', round: 'R16', position: 4, homeTeam: 'USA', awayTeam: 'BEL', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-06', time: '21:00', venueId: 'lumen', homeSource: 'W-R32-7', awaySource: 'W-R32-8' },
   { id: 'R16-5', round: 'R16', position: 5, homeTeam: 'BRA', awayTeam: 'NOR', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-05', time: '17:00', venueId: 'metlife', homeSource: 'W-R32-9', awaySource: 'W-R32-10' },
   { id: 'R16-6', round: 'R16', position: 6, homeTeam: 'MEX', awayTeam: 'ENG', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-05', time: '21:00', venueId: 'azteca', homeSource: 'W-R32-11', awaySource: 'W-R32-12' },
-  { id: 'R16-7', round: 'R16', position: 7, homeTeam: null, awayTeam: 'EGY', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-07', time: '13:00', venueId: 'mercedesbenz', homeSource: 'W-R32-13', awaySource: 'W-R32-14' },
+  { id: 'R16-7', round: 'R16', position: 7, homeTeam: 'ARG', awayTeam: 'EGY', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-07', time: '13:00', venueId: 'mercedesbenz', homeSource: 'W-R32-13', awaySource: 'W-R32-14' },
   { id: 'R16-8', round: 'R16', position: 8, homeTeam: 'SUI', awayTeam: null, homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-07', time: '17:00', venueId: 'bcplace', homeSource: 'W-R32-15', awaySource: 'W-R32-16' },
 
   // ========== QUARTERFINALS (4 matches) ==========
