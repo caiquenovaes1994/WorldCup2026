@@ -5,7 +5,6 @@ export const referees: Referee[] = [
   { name: 'Abdulrahman Al Jassim', country: 'Catar', confederation: 'AFC', link: 'https://www.transfermarkt.com.br/abdulrahman-ibrahim-al-jassim/profil/schiedsrichter/8734' },
   { name: 'Khalid Al Turais', country: 'Arábia Saudita', confederation: 'AFC', link: 'https://www.transfermarkt.com.br/khalid-saleh-al-turais/profil/schiedsrichter/15131' },
   { name: 'Yusuke Araki', country: 'Japão', confederation: 'AFC', link: 'https://www.transfermarkt.com.br/yusuke-araki/profil/schiedsrichter/8975' },
-  { name: 'Alireza Faghani', country: 'Irã', confederation: 'AFC', link: 'https://www.transfermarkt.com.br/alireza-faghani/profil/schiedsrichter/5510' },
   { name: 'Ma Ning', country: 'China', confederation: 'AFC', link: 'https://www.transfermarkt.com.br/ning-ma/profil/schiedsrichter/6445' },
   { name: 'Adham Makhadmeh', country: 'Jordânia', confederation: 'AFC', link: 'https://www.transfermarkt.com.br/adham-makhadmeh/profil/schiedsrichter/8592' },
   { name: 'Ilgiz Tantashev', country: 'Uzbequistão', confederation: 'AFC', link: 'https://www.transfermarkt.com.br/ilgiz-tantashev/profil/schiedsrichter/16683' },
@@ -45,6 +44,7 @@ export const referees: Referee[] = [
   { name: 'Jesus Valenzuela', country: 'Venezuela', confederation: 'CONMEBOL', link: 'https://www.transfermarkt.com.br/jesus-valenzuela/profil/schiedsrichter/14346' },
 
   // OFC
+  { name: 'Alireza Faghani', country: 'Austrália', confederation: 'OFC', link: 'https://www.transfermarkt.com.br/alireza-faghani/profil/schiedsrichter/5510' },
   { name: 'Campbell-Kirk Kawana-Waugh', country: 'Nova Zelândia', confederation: 'OFC', link: 'https://www.transfermarkt.com.br/campbell-kirk-kawana-waugh/profil/schiedsrichter/4326' },
 
   // UEFA
