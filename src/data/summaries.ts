@@ -660,6 +660,32 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     {time: "46'", type: "goal", team: "home", player: "Dan Ndoye", description: "2 - 0" },
     {time: "36'", type: "yellow", team: "away", player: "Fares Chaibi" },
     {time: "10'", type: "goal", team: "home", player: "Breel Embolo", secondaryPlayer: "Johan Manzambi", description: "1 - 0" }
+  ],
+  'R32-16': [
+    { time: "78'", type: "yellow", team: "home", player: "Richard Rios" },
+    { time: "76'", type: "yellow", team: "away", player: "Alidu Seidu" },
+    { time: "66'", type: "yellow", team: "away", player: "Abdul Fatawu Issahaku" },
+    { time: "49'", type: "yellow", team: "away", player: "Caleb Yirenkyi" },
+    { time: "14'", type: "goal", team: "home", player: "Jhon Arias", secondaryPlayer: "Luis Suárez", description: "1 - 0" },
+    { time: "12'", type: "yellow", team: "home", player: "Jhon Arias" }
+  ],
+  'R16-1': [
+    { time: "90'+7", type: "yellow", team: "away", player: "Michael Olise" },
+    { time: "81'", type: "yellow", team: "away", player: "Manu Koné" },
+    { time: "70'", type: "goal", team: "away", player: "Kylian Mbappé (P)", description: "0 - 1" }
+  ],
+  'R16-2': [
+    { time: "90'+8", type: "goal", team: "away", player: "Soufiane Rahimi", secondaryPlayer: "Brahím Diaz", description: "0 - 3" },
+    { time: "82'", type: "goal", team: "away", player: "Azzedine Ounahi", secondaryPlayer: "Brahím Diaz", description: "0 - 2" },
+    { time: "67'", type: "yellow", team: "home", player: "Cyle Larin" },
+    { time: "50'", type: "goal", team: "away", player: "Azzedine Ounahi", secondaryPlayer: "Achraf Hakimi", description: "0 - 1" },
+    { time: "49'", type: "yellow", team: "home", player: "Luc De Fougerolles" },
+    { time: "45'+6", type: "yellow", team: "away", player: "Bilal El Khannouss" },
+    { time: "45'", type: "yellow", team: "away", player: "Azzedine Ounahi" },
+    { time: "43'", type: "yellow", team: "home", player: "Jonathan David" },
+    { time: "40'", type: "yellow", team: "home", player: "Richie Laryea" },
+    { time: "40'", type: "yellow", team: "away", player: "Achraf Hakimi" },
+    { time: "20'", type: "yellow", team: "away", player: "Redouane Halhal" }
   ]
 }
 // force hmr

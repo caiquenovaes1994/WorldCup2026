@@ -8,15 +8,11 @@ Todos os jogos da fase eliminatória listados abaixo estão atualmente sem árbi
 
 | ID | Fase | Confronto | Data |
 | ---- | ------- | ----------- | ------ |
-| R16-3 | Oitavas | POR x ESP | 2026-07-05 |
-| R16-4 | Oitavas | USA x BEL | 2026-07-05 |
-| R16-5 | Oitavas | BRA x NOR | 2026-07-06 |
-| R16-6 | Oitavas | MEX x ENG | 2026-07-06 |
 | R16-7 | Oitavas | ARG x EGY | 2026-07-07 |
-| R16-8 | Oitavas | SUI x W-R32-16 | 2026-07-07 |
-| QF-1 | Quartas | W-R16-1 x W-R16-2 | 2026-07-09 |
+| R16-8 | Oitavas | SUI x COL | 2026-07-07 |
+| QF-1 | Quartas | FRA x MAR | 2026-07-09 |
 | QF-2 | Quartas | W-R16-3 x W-R16-4 | 2026-07-10 |
-| QF-3 | Quartas | W-R16-5 x W-R16-6 | 2026-07-10 |
+| QF-3 | Quartas | W-R16-5 x W-R16-6 | 2026-07-11 |
 | QF-4 | Quartas | W-R16-7 x W-R16-8 | 2026-07-11 |
 | SF-1 | Semis | W-QF-1 x W-QF-2 | 2026-07-14 |
 | SF-2 | Semis | W-QF-3 x W-QF-4 | 2026-07-15 |
