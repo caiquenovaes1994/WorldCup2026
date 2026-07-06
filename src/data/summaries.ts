@@ -686,6 +686,25 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "40'", type: "yellow", team: "home", player: "Richie Laryea" },
     { time: "40'", type: "yellow", team: "away", player: "Achraf Hakimi" },
     { time: "20'", type: "yellow", team: "away", player: "Redouane Halhal" }
-  ]
+  ],
+  'R16-5': [
+    { time: "90'+10", type: "goal", team: "home", player: "Neymar Jr (P)", description: "1 - 2" },
+    { time: "90'+6", type: "yellow", team: "home", player: "Neymar Jr" },
+    { time: "90'", type: "goal", team: "away", player: "Erling Haaland", secondaryPlayer: "Andreas Schjelderup", description: "0 - 2" },
+    { time: "79'", type: "goal", team: "away", player: "Erling Haaland", secondaryPlayer: "Andreas Schjelderup", description: "0 - 1" }
+  ],
+  'R16-6': [
+    { time: "90'+8", type: "yellow", team: "home", player: "Johan Vásquez" },
+    { time: "85'", type: "yellow", team: "away", player: "Jordan Henderson" },
+    { time: "72'", type: "yellow", team: "away", player: "Nico O'Reilly" },
+    { time: "71'", type: "yellow", team: "home", player: "Jorge Sánchez" },
+    { time: "68'", type: "yellow", team: "away", player: "Marc Guéhi" },
+    { time: "60'", type: "goal", team: "away", player: "Harry Kane (P)" },
+    { time: "54'", type: "red", team: "away", player: "Jarell Quansah" },
+    { time: "42'", type: "goal", team: "home", player: "Julián Quiñones" },
+    { time: "38'", type: "goal", team: "away", player: "Jude Bellingham", secondaryPlayer: "Harry Kane" },
+    { time: "36'", type: "goal", team: "away", player: "Jude Bellingham", secondaryPlayer: "Bukayo Saka" },
+    { time: "1'", type: "yellow", team: "away", player: "Declan Rice" }
+  ],
 }
 // force hmr
