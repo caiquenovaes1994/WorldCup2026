@@ -1,3 +1,5 @@
+
+
 export interface MatchEvent {
   time: string;
   type: 'goal' | 'yellow' | 'red' | 'sub' | 'var' | 'info';
@@ -721,5 +723,15 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "36'", type: "goal", team: "away", player: "Jude Bellingham", secondaryPlayer: "Bukayo Saka" },
     { time: "1'", type: "yellow", team: "away", player: "Declan Rice" }
   ],
+  'R16-7': [
+    { time: "90'+8", type: "yellow", team: "away", player: "Marwan Attia" },
+    { time: "90'+4", type: "yellow", team: "away", player: "Hamdy Fathy" },
+    { time: "90'+3", type: "yellow", team: "away", player: "Mostafa Shobeir" },
+    { time: "90'+2", type: "goal", team: "home", player: "Enzo Fernández", secondaryPlayer: "Lautaro Martinez", description: "3 - 2" },
+    { time: "84'", type: "goal", team: "home", player: "Lionel Messi", secondaryPlayer: "Gonzalo Montiel", description: "2 - 2" },
+    { time: "79'", type: "goal", team: "home", player: "Cristian Romero", secondaryPlayer: "Lionel Messi", description: "1 - 2" },
+    { time: "67'", type: "goal", team: "away", player: "Mostafa Ziko", secondaryPlayer: "Haissem Hassan", description: "0 - 2" },
+    { time: "15'", type: "goal", team: "away", player: "Yasser Ibrahim", secondaryPlayer: "Marwan Attia", description: "0 - 1" }
+  ]
 }
 // force hmr
