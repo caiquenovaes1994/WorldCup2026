@@ -687,6 +687,21 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "40'", type: "yellow", team: "away", player: "Achraf Hakimi" },
     { time: "20'", type: "yellow", team: "away", player: "Redouane Halhal" }
   ],
+  'R16-3': [
+    { time: "90'+8", type: "yellow", team: "away", player: "Ferran Torres" },
+    { time: "90'+4", type: "yellow", team: "home", player: "Renato Veiga" },
+    { time: "90'+1", type: "goal", team: "away", player: "Mikel Merino", secondaryPlayer: "Ferran Torres", description: "0 - 1" },
+    { time: "89'", type: "yellow", team: "home", player: "Bernardo Silva" }
+  ],
+  'R16-4': [
+    { time: "90'+3", type: "goal", team: "away", player: "Romelu Lukaku", secondaryPlayer: "Hans Vanaken", description: "1 - 4" },
+    { time: "69'", type: "yellow", team: "home", player: "Malik Tillman" },
+    { time: "57'", type: "goal", team: "away", player: "Hans Vanaken", secondaryPlayer: "Charles De Ketalaere", description: "1 - 3" },
+    { time: "35'", type: "yellow", team: "home", player: "Weston McKennie" },
+    { time: "33'", type: "goal", team: "away", player: "Charles De Ketalaere", secondaryPlayer: "Leandro Trossard", description: "1 - 2" },
+    { time: "31'", type: "goal", team: "home", player: "Malik Tillman", description: "1 - 1" },
+    { time: "9'", type: "goal", team: "away", player: "Charles De Ketalaere", secondaryPlayer: "Nicolas Raskin", description: "0 - 1" }
+  ],
   'R16-5': [
     { time: "90'+10", type: "goal", team: "home", player: "Neymar Jr (P)", description: "1 - 2" },
     { time: "90'+6", type: "yellow", team: "home", player: "Neymar Jr" },
