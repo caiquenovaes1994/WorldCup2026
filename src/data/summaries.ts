@@ -732,6 +732,13 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "79'", type: "goal", team: "home", player: "Cristian Romero", secondaryPlayer: "Lionel Messi", description: "1 - 2" },
     { time: "67'", type: "goal", team: "away", player: "Mostafa Ziko", secondaryPlayer: "Haissem Hassan", description: "0 - 2" },
     { time: "15'", type: "goal", team: "away", player: "Yasser Ibrahim", secondaryPlayer: "Marwan Attia", description: "0 - 1" }
+  ],
+  'R16-8': [
+    { time: "105'", type: "yellow", team: "home", player: "Miro Muheim" },
+    { time: "95'", type: "yellow", team: "away", player: "Davinson Sánchez" },
+    { time: "60'", type: "yellow", team: "away", player: "Luis Suárez" },
+    { time: "59'", type: "yellow", team: "home", player: "Denis Zakaria" },
+    { time: "51'", type: "yellow", team: "home", player: "Granit Xhaka" }
   ]
 }
 // force hmr
