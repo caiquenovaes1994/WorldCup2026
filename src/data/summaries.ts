@@ -744,6 +744,15 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "66'", type: "goal", team: "home", player: "Ousmane Dembélé", secondaryPlayer: "Kylian Mbappé", description: "2 - 0" },
     { time: "63'", type: "yellow", team: "away", player: "Issa Diop" },
     { time: "60'", type: "goal", team: "home", player: "Kylian Mbappé", secondaryPlayer: "Désiré Doué", description: "1 - 0" }
+  ],
+  'QF-2': [
+    { time: "90'+5", type: "yellow", team: "away", player: "Axel Witsel" },
+    { time: "90'+3", type: "yellow", team: "home", player: "Aymeric Laporte" },
+    { time: "88'", type: "goal", team: "home", player: "Mikel Merino", description: "2 - 1" },
+    { time: "85'", type: "yellow", team: "away", player: "Charles De Ketelaere" },
+    { time: "43'", type: "yellow", team: "home", player: "Pau Cubarsí" },
+    { time: "41'", type: "goal", team: "away", player: "Charles De Ketelaere", secondaryPlayer: "Timothy Castagne", description: "1 - 1" },
+    { time: "30'", type: "goal", team: "home", player: "Fabián Ruiz", description: "1 - 0" }
   ]
 }
 // force hmr
