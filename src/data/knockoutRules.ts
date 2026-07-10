@@ -38,13 +38,13 @@ export const knockoutTemplate: KnockoutMatch[] = [
   { id: 'R16-8', round: 'R16', position: 8, homeTeam: 'SUI', awayTeam: 'COL', homeScore: 0, awayScore: 0, homePenalties: 4, awayPenalties: 3, referee: 'Ivan Barton', date: '2026-07-07', time: '17:00', venueId: 'bcplace', homeSource: 'W-R32-15', awaySource: 'W-R32-16', highlightsUrl: 'https://www.youtube.com/watch?v=DEwL1BAANFI' },
 
   // ========== QUARTERFINALS (4 matches) ==========
-  { id: 'QF-1', round: 'QF', position: 1, homeTeam: 'FRA', awayTeam: 'MAR', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: 'Facundo Tello', date: '2026-07-09', time: '17:00', venueId: 'gillette', homeSource: 'W-R16-1', awaySource: 'W-R16-2' },
-  { id: 'QF-2', round: 'QF', position: 2, homeTeam: 'ESP', awayTeam: 'BEL', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: 'Michael Oliver', date: '2026-07-10', time: '16:00', venueId: 'sofi', homeSource: 'W-R16-3', awaySource: 'W-R16-4' },
-  { id: 'QF-3', round: 'QF', position: 3, homeTeam: 'NOR', awayTeam: 'ENG', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-11', time: '18:00', venueId: 'hardrock', homeSource: 'W-R16-5', awaySource: 'W-R16-6' },
-  { id: 'QF-4', round: 'QF', position: 4, homeTeam: 'ARG', awayTeam: 'SUI', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-11', time: '22:00', venueId: 'geha', homeSource: 'W-R16-7', awaySource: 'W-R16-8' },
+  { id: 'QF-1', round: 'QF', position: 1, homeTeam: 'FRA', awayTeam: 'MAR', homeScore: 2, awayScore: 0, homePenalties: null, awayPenalties: null, referee: 'Facundo Tello', date: '2026-07-09', time: '17:00', venueId: 'gillette', homeSource: 'W-R16-1', awaySource: 'W-R16-2', highlightsUrl: 'https://www.youtube.com/watch?v=q2y2ySuvTDQ' },
+  { id: 'QF-2', round: 'QF', position: 2, homeTeam: 'POR', awayTeam: 'BEL', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: 'Michael Oliver', date: '2026-07-10', time: '16:00', venueId: 'sofi', homeSource: 'W-R16-3', awaySource: 'W-R16-4' },
+  { id: 'QF-3', round: 'QF', position: 3, homeTeam: 'NOR', awayTeam: 'ENG', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: 'Clement Turpin', date: '2026-07-11', time: '18:00', venueId: 'hardrock', homeSource: 'W-R16-5', awaySource: 'W-R16-6' },
+  { id: 'QF-4', round: 'QF', position: 4, homeTeam: 'ARG', awayTeam: 'SUI', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: 'Joao Pinheiro', date: '2026-07-11', time: '22:00', venueId: 'geha', homeSource: 'W-R16-7', awaySource: 'W-R16-8' },
 
   // ========== SEMIFINALS (2 matches) ==========
-  { id: 'SF-1', round: 'SF', position: 1, homeTeam: null, awayTeam: null, homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-14', time: '16:00', venueId: 'att', homeSource: 'W-QF-1', awaySource: 'W-QF-2' },
+  { id: 'SF-1', round: 'SF', position: 1, homeTeam: 'FRA', awayTeam: null, homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-14', time: '16:00', venueId: 'att', homeSource: 'W-QF-1', awaySource: 'W-QF-2' },
   { id: 'SF-2', round: 'SF', position: 2, homeTeam: null, awayTeam: null, homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-15', time: '16:00', venueId: 'mercedesbenz', homeSource: 'W-QF-3', awaySource: 'W-QF-4' },
 
   // ========== 3RD PLACE ==========
