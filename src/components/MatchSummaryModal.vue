@@ -60,6 +60,7 @@ onMounted(() => {
                 <span v-if="event.type === 'goal'" title="Gol"><img src="/ball.png" style="width: 1em; height: 1em; vertical-align: middle;" alt="⚽" /></span>
                 <span v-else-if="event.type === 'yellow'" class="card-icon yellow" title="Cartão Amarelo"></span>
                 <span v-else-if="event.type === 'red'" class="card-icon red" title="Cartão Vermelho"></span>
+                <span v-else-if="event.type === 'yellowred'" class="card-icon yellowred" title="Segundo Cartão Amarelo (Vermelho)"></span>
                 <span v-else-if="event.type === 'sub'" title="Substituição">🔄</span>
                 <span v-else-if="event.type === 'var'" title="VAR">🖥️</span>
               </div>
@@ -82,6 +83,7 @@ onMounted(() => {
                 <span v-if="event.type === 'goal'" title="Gol"><img src="/ball.png" style="width: 1em; height: 1em; vertical-align: middle;" alt="⚽" /></span>
                 <span v-else-if="event.type === 'yellow'" class="card-icon yellow" title="Cartão Amarelo"></span>
                 <span v-else-if="event.type === 'red'" class="card-icon red" title="Cartão Vermelho"></span>
+                <span v-else-if="event.type === 'yellowred'" class="card-icon yellowred" title="Segundo Cartão Amarelo (Vermelho)"></span>
                 <span v-else-if="event.type === 'sub'" title="Substituição">🔄</span>
                 <span v-else-if="event.type === 'var'" title="VAR">🖥️</span>
               </div>
@@ -314,5 +316,24 @@ onMounted(() => {
 
 .card-icon.red {
   background-color: #ef4444;
+}
+
+.card-icon.yellowred {
+  background-color: #facc15;
+  position: relative;
+  margin-right: 4px;
+}
+
+.card-icon.yellowred::after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 4px;
+  width: 12px;
+  height: 18px;
+  background-color: #ef4444;
+  border-radius: 2px;
+  box-shadow: -1px 1px 2px rgba(0,0,0,0.3);
+  z-index: 1;
 }
 </style>

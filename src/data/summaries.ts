@@ -2,7 +2,7 @@
 
 export interface MatchEvent {
   time: string;
-  type: 'goal' | 'yellow' | 'red' | 'sub' | 'var' | 'info';
+  type: 'goal' | 'yellow' | 'red' | 'yellowred' | 'sub' | 'var' | 'info';
   team: 'home' | 'away' | 'none';
   player: string;
   secondaryPlayer?: string;
@@ -759,6 +759,17 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "93'", type: "goal", team: "away", player: "Jude Bellingham", description: "1 - 2" },
     { time: "45'+2", type: "goal", team: "away", player: "Jude Bellingham", secondaryPlayer: "Anthony Gordon", description: "1 - 1" },
     { time: "36'", type: "goal", team: "home", player: "Andreas Schjelderup", secondaryPlayer: "Martin Odegaard", description: "1 - 0" }
+  ],
+  'QF-4': [
+    { time: "120'+1", type: "goal", team: "home", player: "Lautaro Martínez", description: "3 - 1" },
+    { time: "114'", type: "yellow", team: "home", player: "José López" },
+    { time: "112'", type: "goal", team: "home", player: "Julian Alvarez", secondaryPlayer: "José López", description: "2 - 1" },
+    { time: "98'", type: "yellow", team: "home", player: "Lautaro Martínez" },
+    { time: "97'", type: "yellow", team: "home", player: "Thiago Almada" },
+    { time: "72'", type: "yellowred", team: "away", player: "Breel Embolo" },
+    { time: "67'", type: "goal", team: "away", player: "Dan Ndoye", secondaryPlayer: "Ricardo Rodríguez", description: "1 - 1" },
+    { time: "44'", type: "yellow", team: "away", player: "Breel Embolo" },
+    { time: "10'", type: "goal", team: "home", player: "Alexis Mac Allister", secondaryPlayer: "Lionel Messi", description: "1 - 0" }
   ]
 }
 // force hmr
