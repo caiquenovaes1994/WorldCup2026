@@ -753,6 +753,12 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "43'", type: "yellow", team: "home", player: "Pau Cubarsí" },
     { time: "41'", type: "goal", team: "away", player: "Charles De Ketelaere", secondaryPlayer: "Timothy Castagne", description: "1 - 1" },
     { time: "30'", type: "goal", team: "home", player: "Fabián Ruiz", description: "1 - 0" }
+  ],
+  'QF-3': [
+    { time: "117'", type: "yellow", team: "home", player: "Kristoffer Ajer" },
+    { time: "93'", type: "goal", team: "away", player: "Jude Bellingham", description: "1 - 2" },
+    { time: "45'+2", type: "goal", team: "away", player: "Jude Bellingham", secondaryPlayer: "Anthony Gordon", description: "1 - 1" },
+    { time: "36'", type: "goal", team: "home", player: "Andreas Schjelderup", secondaryPlayer: "Martin Odegaard", description: "1 - 0" }
   ]
 }
 // force hmr
