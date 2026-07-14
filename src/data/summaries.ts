@@ -770,6 +770,13 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "67'", type: "goal", team: "away", player: "Dan Ndoye", secondaryPlayer: "Ricardo Rodríguez", description: "1 - 1" },
     { time: "44'", type: "yellow", team: "away", player: "Breel Embolo" },
     { time: "10'", type: "goal", team: "home", player: "Alexis Mac Allister", secondaryPlayer: "Lionel Messi", description: "1 - 0" }
+  ],
+  'SF-1': [
+    { time: "86'", type: "yellow", team: "home", player: "Kylian Mbappé" },
+    { time: "58'", type: "goal", team: "away", player: "Pedro Porro", secondaryPlayer: "Dani Olmo", description: "0 - 2" },
+    { time: "31'", type: "yellow", team: "away", player: "Marc Cucurella" },
+    { time: "22'", type: "goal", team: "away", player: "Mikel Oyarzabal (P)", description: "0 - 1" },
+    { time: "9'", type: "yellow", team: "home", player: "Adrien Rabiot" }
   ]
 }
 // force hmr

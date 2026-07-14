@@ -44,14 +44,14 @@ export const knockoutTemplate: KnockoutMatch[] = [
   { id: 'QF-4', round: 'QF', position: 4, homeTeam: 'ARG', awayTeam: 'SUI', homeScore: 3, awayScore: 1, homePenalties: null, awayPenalties: null, referee: 'Joao Pinheiro', date: '2026-07-11', time: '22:00', venueId: 'geha', homeSource: 'W-R16-7', awaySource: 'W-R16-8' },
 
   // ========== SEMIFINALS (2 matches) ==========
-  { id: 'SF-1', round: 'SF', position: 1, homeTeam: 'FRA', awayTeam: 'ESP', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-14', time: '16:00', venueId: 'att', homeSource: 'W-QF-1', awaySource: 'W-QF-2' },
-  { id: 'SF-2', round: 'SF', position: 2, homeTeam: 'ENG', awayTeam: 'ARG', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-15', time: '16:00', venueId: 'mercedesbenz', homeSource: 'W-QF-3', awaySource: 'W-QF-4' },
+  { id: 'SF-1', round: 'SF', position: 1, homeTeam: 'FRA', awayTeam: 'ESP', homeScore: 0, awayScore: 2, homePenalties: null, awayPenalties: null, referee: 'Ivan Barton', date: '2026-07-14', time: '16:00', venueId: 'att', homeSource: 'W-QF-1', awaySource: 'W-QF-2' },
+  { id: 'SF-2', round: 'SF', position: 2, homeTeam: 'ENG', awayTeam: 'ARG', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: 'Ismail Elfath', date: '2026-07-15', time: '16:00', venueId: 'mercedesbenz', homeSource: 'W-QF-3', awaySource: 'W-QF-4' },
 
   // ========== 3RD PLACE ==========
-  { id: '3RD', round: '3RD', position: 1, homeTeam: null, awayTeam: null, homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-18', time: '18:00', venueId: 'hardrock', homeSource: 'L-SF-1', awaySource: 'L-SF-2' },
+  { id: '3RD', round: '3RD', position: 1, homeTeam: 'FRA', awayTeam: null, homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-18', time: '18:00', venueId: 'hardrock', homeSource: 'L-SF-1', awaySource: 'L-SF-2' },
 
   // ========== FINAL ==========
-  { id: 'FINAL', round: 'FINAL', position: 1, homeTeam: null, awayTeam: null, homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-19', time: '16:00', venueId: 'metlife', homeSource: 'W-SF-1', awaySource: 'W-SF-2' },
+  { id: 'FINAL', round: 'FINAL', position: 1, homeTeam: 'ESP', awayTeam: null, homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: null, date: '2026-07-19', time: '16:00', venueId: 'metlife', homeSource: 'W-SF-1', awaySource: 'W-SF-2' },
 ]
 
 export const roundNames: Record<string, string> = {
