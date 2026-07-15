@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted } from 'vue'
+import { onMounted, onUnmounted, computed } from 'vue'
 import type { GroupMatch, KnockoutMatch } from '../types'
 import TeamBadge from './TeamBadge.vue'
 import { matchEvents } from '../data/summaries'
@@ -21,6 +21,44 @@ onMounted(() => {
   }
   window.addEventListener('keydown', handleKeydown)
   onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
+})
+
+const processedEvents = computed(() => {
+  const events = matchEvents[props.match.id]
+  if (!events || events.length === 0) return []
+  
+  const result: any[] = []
+  let htInserted = false
+  let ftInserted = false
+  
+  for (let i = 0; i < events.length; i++) {
+    const event = events[i]
+    
+    if (!ftInserted && parseInt(event.time) <= 90) {
+      if (i > 0 && parseInt(events[i-1].time) > 90) {
+        result.push({ isDivider: true, team: 'none', label: 'FT' })
+        ftInserted = true
+      }
+    }
+    
+    if (!htInserted && parseInt(event.time) <= 45) {
+      if (i > 0 && parseInt(events[i-1].time) > 45) {
+        result.push({ isDivider: true, team: 'none', label: 'HT' })
+        htInserted = true
+      }
+    }
+    
+    result.push(event)
+  }
+  
+  if (!ftInserted && events.some(e => parseInt(e.time) > 90)) {
+    result.push({ isDivider: true, team: 'none', label: 'FT' })
+  }
+  if (!htInserted && events.some(e => parseInt(e.time) > 45)) {
+    result.push({ isDivider: true, team: 'none', label: 'HT' })
+  }
+  
+  return result
 })
 </script>
 
@@ -50,11 +88,17 @@ onMounted(() => {
         </div>
       </div>
 
-      <div class="timeline-container" v-if="matchEvents[match.id] && matchEvents[match.id].length > 0">
+      <div class="timeline-container" v-if="processedEvents.length > 0">
         <div class="timeline">
-          <div v-for="(event, idx) in matchEvents[match.id]" :key="idx" class="timeline-row" :class="event.team">
+          <div v-for="(event, idx) in processedEvents" :key="idx" class="timeline-row" :class="event.team">
             
-            <template v-if="event.team === 'home'">
+            <template v-if="event.isDivider">
+              <div class="ht-divider">
+                <span>{{ event.label }}</span>
+              </div>
+            </template>
+
+            <template v-else-if="event.team === 'home'">
               <div class="time">{{ event.time }}</div>
               <div class="icon">
                 <span v-if="event.type === 'goal'" title="Gol"><img src="/ball.png" style="width: 1em; height: 1em; vertical-align: middle;" alt="⚽" /></span>
@@ -299,6 +343,30 @@ onMounted(() => {
   border-radius: 16px;
   font-size: 0.85rem;
   color: var(--text-secondary);
+}
+
+.ht-divider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: var(--text-secondary, #94a3b8);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.ht-divider::before,
+.ht-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ht-divider::before {
+  margin-right: 1rem;
+}
+
+.ht-divider::after {
+  margin-left: 1rem;
 }
 
 .card-icon {

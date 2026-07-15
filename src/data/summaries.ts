@@ -2,7 +2,7 @@
 
 export interface MatchEvent {
   time: string;
-  type: 'goal' | 'yellow' | 'red' | 'yellowred' | 'sub' | 'var' | 'info';
+  type: 'goal' | 'yellow' | 'red' | 'yellowred' | 'sub';
   team: 'home' | 'away' | 'none';
   player: string;
   secondaryPlayer?: string;
@@ -13,7 +13,6 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
   1: [
     { time: "90'+2", type: "red", team: "home", player: "C. Montes" },
     { time: "84'", type: "red", team: "away", player: "T. Zwane" },
-    { time: "82'", type: "var", team: "away", player: "T. Zwane", description: "Cartão modificado" },
     { time: "74'", type: "yellow", team: "away", player: "N. Sibisi" },
     { time: "67'", type: "goal", team: "home", player: "R. Jiménez", secondaryPlayer: "R. Alvarado", description: "2 - 0" },
     { time: "49'", type: "red", team: "away", player: "S. Sithole" },
@@ -777,6 +776,15 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "31'", type: "yellow", team: "away", player: "Marc Cucurella" },
     { time: "22'", type: "goal", team: "away", player: "Mikel Oyarzabal (P)", description: "0 - 1" },
     { time: "9'", type: "yellow", team: "home", player: "Adrien Rabiot" }
+  ],
+  'SF-2': [
+    { time: "90'+4", type: "yellow", team: "away", player: "Rodrigo De Paul" },
+    { time: "90'+2", type: "goal", team: "away", player: "Lautaro Martínez", secondaryPlayer: "Lionel Messi", description: "1 - 2" },
+    { time: "86'", type: "goal", team: "away", player: "Enzo Fernández", secondaryPlayer: "Lionel Messi", description: "1 - 1" },
+    { time: "55'", type: "goal", team: "home", player: "Anthony Gordon", secondaryPlayer: "Morgan Rogers", description: "1 - 0" },
+    { time: "51'", type: "yellow", team: "away", player: "Cristian Romero" },
+	  { time: "42'", type: "yellow", team: "away", player: "Lisandro Martínez" },
+    { time: "37'", type: "yellow", team: "home", player: "Elliot Anderson" }
   ]
 }
 // force hmr
