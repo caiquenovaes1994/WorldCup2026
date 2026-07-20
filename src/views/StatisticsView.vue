@@ -212,7 +212,7 @@ const performances: Record<number, { first: string; second: string; third: strin
   2014: { first: 'GER', second: 'ARG', third: 'NED', hosts: ['BRA'] },
   2018: { first: 'FRA', second: 'CRO', third: 'BEL', hosts: ['RUS'] },
   2022: { first: 'ARG', second: 'FRA', third: 'CRO', hosts: ['QAT'] },
-  2026: { first: '', second: '', third: '', hosts: ['CAN', 'MEX', 'USA'] }
+  2026: { first: 'ESP', second: 'ARG', third: 'ENG', hosts: ['CAN', 'MEX', 'USA'] }
 }
 
 const getMedal = (year: number, teamCode: string) => {
@@ -349,7 +349,7 @@ const dynamicAllTimeTopScorers = computed(() => {
       <!-- Appearances -->
       <section class="stats-section">
         <h2 class="section-title">
-          <span class="emoji">🏆</span> Participações em Copas (inc. 2026)
+          <span class="emoji">🏆</span> Participações em Copas
         </h2>
         <div class="stats-card">
           <div class="stats-list">

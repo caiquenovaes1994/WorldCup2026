@@ -785,6 +785,27 @@ export const matchEvents: Record<number | string, MatchEvent[]> = {
     { time: "51'", type: "yellow", team: "away", player: "Cristian Romero" },
 	  { time: "42'", type: "yellow", team: "away", player: "Lisandro Martínez" },
     { time: "37'", type: "yellow", team: "home", player: "Elliot Anderson" }
+  ],
+  '3RD': [
+    { time: "90'+8", type: "goal", team: "away", player: "Jude Bellingham", description: "4 - 6" },
+    { time: "90'+6", type: "goal", team: "home", player: "Ousmane Dembélé", secondaryPlayer: "Dayot Upamecano", description: "4 - 5" },
+    { time: "87'", type: "goal", team: "away", player: "Bukayo Saka", description: "3 - 5" },
+    { time: "66'", type: "goal", team: "home", player: "Kylian Mbappé", secondaryPlayer: "Michael Olise", description: "3 - 4" },
+    { time: "54'", type: "goal", team: "home", player: "Bradley Barcola", secondaryPlayer: "Kylian Mbappé", description: "2 - 4" },
+    { time: "48'", type: "goal", team: "home", player: "Kylian Mbappé", secondaryPlayer: "Michael Olise", description: "1 - 4" },
+    { time: "45'+1", type: "goal", team: "away", player: "Bukayo Saka", secondaryPlayer: "Eberechi Eze", description: "0 - 4" },
+    { time: "37'", type: "goal", team: "away", player: "Bukayo Saka", secondaryPlayer: "Marcus Rashford", description: "0 - 3" },
+    { time: "18'", type: "goal", team: "away", player: "Ezri Konsa", secondaryPlayer: "Declan Rice", description: "0 - 2" },
+    { time: "3'", type: "goal", team: "away", player: "Declan Rice", description: "0 - 1" }
+  ],
+  'FINAL': [
+    { time: "111'", type: "yellow", team: "away", player: "Alexis Mac Allister" },
+    { time: "106'", type: "goal", team: "home", player: "Ferran Torres", secondaryPlayer: "Nico Williams", description: "1 - 0" },
+    { time: "90'+3", type: "yellowred", team: "away", player: "Enzo Fernández" },
+    { time: "90'+1", type: "yellow", team: "away", player: "Cristian Romero" },
+    { time: "82'", type: "yellow", team: "away", player: "Enzo Fernández" },
+    { time: "52'", type: "yellow", team: "away", player: "Leandro Paredes" },
+    { time: "41'", type: "yellow", team: "away", player: "Lisandro Martínez" }
   ]
 }
 // force hmr

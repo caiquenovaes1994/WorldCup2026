@@ -48,10 +48,10 @@ export const knockoutTemplate: KnockoutMatch[] = [
   { id: 'SF-2', round: 'SF', position: 2, homeTeam: 'ENG', awayTeam: 'ARG', homeScore: 1, awayScore: 2, homePenalties: null, awayPenalties: null, referee: 'Ismail Elfath', date: '2026-07-15', time: '16:00', venueId: 'mercedesbenz', homeSource: 'W-QF-3', awaySource: 'W-QF-4', highlightsUrl: 'https://www.youtube.com/watch?v=IFE9IoNeDUg' },
 
   // ========== 3RD PLACE ==========
-  { id: '3RD', round: '3RD', position: 1, homeTeam: 'FRA', awayTeam: 'ENG', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: 'Jesus Valenzuela', date: '2026-07-18', time: '18:00', venueId: 'hardrock', homeSource: 'L-SF-1', awaySource: 'L-SF-2' },
+  { id: '3RD', round: '3RD', position: 1, homeTeam: 'FRA', awayTeam: 'ENG', homeScore: 4, awayScore: 6, homePenalties: null, awayPenalties: null, referee: 'Jesus Valenzuela', date: '2026-07-18', time: '18:00', venueId: 'hardrock', homeSource: 'L-SF-1', awaySource: 'L-SF-2', highlightsUrl: 'https://www.youtube.com/watch?v=ewJg4VMt020&pp=0gcJCZkLAYcqIYzv' },
 
   // ========== FINAL ==========
-  { id: 'FINAL', round: 'FINAL', position: 1, homeTeam: 'ESP', awayTeam: 'ARG', homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null, referee: 'Slavko Vincic', date: '2026-07-19', time: '16:00', venueId: 'metlife', homeSource: 'W-SF-1', awaySource: 'W-SF-2' },
+  { id: 'FINAL', round: 'FINAL', position: 1, homeTeam: 'ESP', awayTeam: 'ARG', homeScore: 1, awayScore: 0, homePenalties: null, awayPenalties: null, referee: 'Slavko Vincic', date: '2026-07-19', time: '16:00', venueId: 'metlife', homeSource: 'W-SF-1', awaySource: 'W-SF-2', highlightsUrl: 'https://www.youtube.com/watch?v=gWDQ36Gb7is' },
 ]
 
 export const roundNames: Record<string, string> = {
